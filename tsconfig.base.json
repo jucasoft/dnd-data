@@ -14,7 +14,26 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@components/*": [
+        "apps/dnd-data/src/app/main/components/*"
+      ],
+      "@services/*": [
+        "apps/dnd-data/src/app/main/services/*"
+      ],
+      "@models/*": [
+        "apps/dnd-data/src/app/main/models/*"
+      ],
+      "@views/*": [
+        "apps/dnd-data/src/app/main/views/*"
+      ],
+      "@core/*": [
+        "apps/dnd-data/src/app/core/*"
+      ],
+      "@root-store/*": [
+        "apps/dnd-data/src/app/root-store/*"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

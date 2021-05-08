@@ -12,9 +12,17 @@
   "npmScope": "dnd-data",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "ODZkODFmY2EtZTExMi00ZTQ3LWFmNWMtODY0MjE5MzJhZjJkfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -24,7 +32,9 @@
     },
     "dnd-data-e2e": {
       "tags": [],
-      "implicitDependencies": ["dnd-data"]
+      "implicitDependencies": [
+        "dnd-data"
+      ]
     }
   }
 }
