@@ -8,7 +8,7 @@
     "nx": "nx",
     "start": "ng serve",
     "start:nest": "nx serve dnd-be",
-    "build": "ng build",
+    "build": "npm run build && ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
