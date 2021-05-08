@@ -2,6 +2,7 @@
 #ENV
 .env
 /apps/dnd-data/src/environments/environment.base.ts
+/apps/dnd-be/src/environments/environment.base.ts
 
 # compiled output
 /dist

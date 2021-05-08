@@ -157,6 +157,56 @@
           }
         }
       }
+    },
+    "dnd-be": {
+      "root": "apps/dnd-be",
+      "sourceRoot": "apps/dnd-be/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/node:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/dnd-be",
+            "main": "apps/dnd-be/src/main.ts",
+            "tsConfig": "apps/dnd-be/tsconfig.app.json",
+            "assets": ["apps/dnd-be/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/dnd-be/src/environments/environment.ts",
+                  "with": "apps/dnd-be/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@nrwl/node:execute",
+          "options": {
+            "buildTarget": "dnd-be:build"
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/dnd-be/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/dnd-be"],
+          "options": {
+            "jestConfig": "apps/dnd-be/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }
