@@ -9,20 +9,11 @@ import {RootStoreState} from '@root-store/index';
 })
 export class HomeMainComponent implements OnInit {
 
-  title = 'ngrx-dnd';
-
   constructor(private readonly store$: Store<RootStoreState.State>) {
   }
 
   ngOnInit(): void {
   }
 
-
-  renderData(clazzName: string): string {
-    let result = '';
-    result += `ng generate ngrx-entity-crud:crud-store --name=${clazzName} --clazz=${clazzName}\n`;
-    result += `ng generate ngrx-entity-crud:crud-section --clazz=${clazzName}`;
-    return result;
-  }
 }
 

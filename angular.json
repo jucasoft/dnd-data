@@ -51,7 +51,19 @@
               "apps/dnd-data/src/favicon.ico",
               "apps/dnd-data/src/assets"
             ],
-            "styles": ["apps/dnd-data/src/styles.scss"],
+            "styles": [
+              "apps/dnd-data/src/styles.scss",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/primeng/resources/themes/vela-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "apps/dnd-data/src/css/layout.scss",
+              "apps/dnd-data/src/css/sizing.css",
+              "apps/dnd-data/src/css/colors.scss",
+              "apps/dnd-data/src/css/text.css",
+              "apps/dnd-data/src/css/text-align.css",
+              "apps/dnd-data/src/css/validator.css"
+            ],
             "scripts": []
           },
           "configurations": {
