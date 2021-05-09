@@ -3,6 +3,7 @@ import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
 
 export class Spell {
+  public _id: string = undefined;
   public id: string = undefined;
   public name: string = undefined;
   public source: Rulebook = undefined;
@@ -25,6 +26,10 @@ export class Spell {
    * metodo statico utilizzato per recuperare l'id dell'entita.
    * @param item
    */
-  static selectId: (item: Spell) => string = item => item.id;
+  static selectId: (item: Spell) => string = item => item._id;
+  static plantId: (item: Spell, id: any) => Spell = (item, id) => {
+    item._id = id;
+    return item;
+  }
 }
 

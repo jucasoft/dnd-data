@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
 import {Observable} from 'rxjs';
-import {SpellStoreActions, SpellStoreSelectors, RootStoreState} from '@root-store/index';
+import {RootStoreState, SpellStoreActions, SpellStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 
 @Component({
@@ -32,8 +32,8 @@ export class ButtonCreateManyTestSpellComponent implements OnInit {
     const items = values.map(value => {
       const keys = Object.keys(value);
       const result = {...value};
+      Spell.plantId(result, undefined);
       keys.forEach(key => {
-        result.id = null;
         if (key !== 'id' && typeof result[key] === 'string') {
           result[key] = 'edited ' + new Date().getSeconds();
         }

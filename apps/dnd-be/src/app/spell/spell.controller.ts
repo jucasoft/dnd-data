@@ -1,16 +1,34 @@
-import {Controller} from '@nestjs/common';
-import {Crud, CrudController} from '@nestjsx/crud';
+import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { SpellService } from './spell.service';
+import { CreateSpellDto } from './dto/create-spell.dto';
+import { UpdateSpellDto } from './dto/update-spell.dto';
 
-import {Spell} from './entities/spell.entity';
-import {SpellService} from './spell.service';
-
-@Crud({
-  model: {
-    type: Spell,
-  },
-})
 @Controller('spell')
-export class SpellController implements CrudController<Spell> {
-  constructor(public service: SpellService) {
+export class SpellController {
+  constructor(private readonly spellService: SpellService) {}
+
+  @Post()
+  create(@Body() item: CreateSpellDto) {
+    return this.spellService.create(item);
+  }
+
+  @Get()
+  findAll() {
+    return this.spellService.findAll()
+  }
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.spellService.findOne(+id);
+  }
+
+  @Patch(':id')
+  update(@Param('id') id: string, @Body() updateSpellDto: UpdateSpellDto) {
+    return this.spellService.update(+id, updateSpellDto);
+  }
+
+  @Delete(':id')
+  remove(@Param('id') id: string) {
+    return this.spellService.remove(+id);
   }
 }

@@ -1,11 +1,11 @@
-import { Document, Model, Types } from 'mongoose';
-import { InjectModel } from '@nestjs/mongoose';
-import { IBaseService } from './IBase-repository.service';
-
-import { HttpException } from '@nestjs/common';
+import {Document, Model, Types} from 'mongoose';
+import {InjectModel} from '@nestjs/mongoose';
+import {IBaseService} from './IBase-repository.service';
+import {HttpException} from '@nestjs/common';
 
 export class BaseRepositoryService<T extends Document> implements IBaseService<T> {
-  constructor(@InjectModel('') private model: Model<T>) {}
+  constructor(@InjectModel('') private model: Model<T>) {
+  }
 
   create(payload: any, ...args: any[]): Promise<any> {
     try {
@@ -32,7 +32,7 @@ export class BaseRepositoryService<T extends Document> implements IBaseService<T
     if (item) {
       await item.remove();
     }
-    return { message: 'success' };
+    return {message: 'success'};
   }
 
   async findOne(id: any, ...args: any[]): Promise<T> {

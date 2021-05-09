@@ -10,7 +10,12 @@ export class SpellService {
   constructor(@InjectModel(Spell.name) private model: Model<SpellDocument>) {}
 
   create(createSpellDto: CreateSpellDto) {
-    return 'This action adds a new spell';
+    try {
+      const createdItem = new this.model(createSpellDto);
+      return createdItem.save();
+    } catch (e) {
+      throw new HttpException(e.message || e, e.status || 500);
+    }
   }
 
   findAll(): Promise<Spell[]> {

@@ -23,7 +23,7 @@ export class SpellEditComponent extends PopUpBaseComponent<Spell> {
   }
 
   acceptPerform(item: Spell): void {
-    if (item.id) {
+    if (Spell.selectId(item)) {
       this.store$.dispatch(SpellStoreActions.EditRequest({
         item, onResult: [
           // azione che verrà invocata al result della chiamata all'interno dell'effect.

@@ -56,6 +56,7 @@
               "node_modules/primeflex/primeflex.css",
               "node_modules/primeng/resources/themes/vela-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "apps/dnd-data/src/css/layout.scss",
               "apps/dnd-data/src/css/sizing.css",
