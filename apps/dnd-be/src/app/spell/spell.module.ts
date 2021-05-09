@@ -1,14 +1,13 @@
 import {Module} from '@nestjs/common';
 import {SpellService} from './spell.service';
 import {SpellController} from './spell.controller';
-import {TypeOrmModule} from '@nestjs/typeorm';
-import {Spell} from './entities/spell.entity';
+import {MongooseModule} from '@nestjs/mongoose';
+import {Spell, SpellSchema} from './entities/spell.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Spell])],
+  imports: [MongooseModule.forFeature([{name: Spell.name, schema: SpellSchema}])],
   controllers: [SpellController],
-  providers: [SpellService],
-  exports: [TypeOrmModule],
+  providers: [SpellService]
 })
 export class SpellModule {
 }

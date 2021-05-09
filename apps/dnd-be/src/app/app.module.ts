@@ -1,23 +1,24 @@
 import {Module} from '@nestjs/common';
 import {AppController} from './app.controller';
 import {AppService} from './app.service';
-import {SpellModule} from './spell/spell.module';
-import {TypeOrmModule} from '@nestjs/typeorm';
-import {Spell} from './spell/entities/spell.entity';
 import {environment} from '../environments/environment';
+import {SpellModule} from './spell/spell.module';
+import {MongooseModule} from '@nestjs/mongoose';
+import {APP_INTERCEPTOR} from '@nestjs/core';
+import {TransformInterceptor} from './core/interceptors/transform.interceptor';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(
-    {
-      type: 'mongodb',
-      url: environment.MONGO_DB_SRV,
-      entities: [Spell],
-      useUnifiedTopology: true,
-      useNewUrlParser: true
-    }
-  ), SpellModule],
+  imports: [
+    MongooseModule.forRoot(environment.MONGO_DB_SRV),
+    SpellModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: TransformInterceptor,
+    },
+    AppService
+  ],
 })
 export class AppModule {
 }

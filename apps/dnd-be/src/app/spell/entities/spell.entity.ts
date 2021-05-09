@@ -1,31 +1,17 @@
-import {Column, Entity, PrimaryGeneratedColumn} from 'typeorm';
-import {Rulebook} from '@models/vo/rulebook';
-import {ClassLevel} from '@models/vo/class-level';
-import {DomainLevel} from '@models/vo/domain-level';
+import {Prop, Schema, SchemaFactory} from '@nestjs/mongoose';
 
-@Entity('spell')
+export type SpellDocument = any & Spell & Document;
+
+@Schema()
 export class Spell {
-  @PrimaryGeneratedColumn('uuid') public id: number = undefined;
-  @Column() public name: string = undefined;
-  @Column() public source: Rulebook = undefined;
-  @Column() public schools: string[] = undefined; // 'Enchantment'
-  @Column() public subschools: string[] = undefined; // 'Compulsion'
-  @Column() public descriptors: string[] = undefined; // 'Mind-Affecting'
-  @Column() public classLevels: ClassLevel[] = undefined;
-  @Column() public domainLevels: DomainLevel[] = undefined;
-  @Column() public components: string[] = undefined; // 'Verbal','Somatic','Divine Focus'
-  @Column() public castingTime: string = undefined;
-  @Column() public range: string = undefined;
-  @Column() public area: string = undefined;
-  @Column() public target: string = undefined;
-  @Column() public effect: string = undefined;
-  @Column() public duration: string = undefined;
-  @Column() public savingThrow: string = undefined;
-  @Column() public spellResistance: string = undefined;
-  @Column() public description: string = undefined;
+  @Prop()
+  name: string;
 
-  constructor(pet?: Partial<Spell>) {
-    Object.assign(this, pet);
-  }
+  @Prop()
+  age: number;
 
+  @Prop()
+  breed: string;
 }
+
+export const SpellSchema = SchemaFactory.createForClass(Spell);

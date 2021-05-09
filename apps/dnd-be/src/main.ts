@@ -12,7 +12,7 @@ console.log('process.env.PORT', process.env.PORT);
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const globalPrefix = 'api';
+  const globalPrefix = 'api/v1';
   app.setGlobalPrefix(globalPrefix);
   const port = process.env.PORT;
   await app.listen(port, () => {
