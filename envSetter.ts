@@ -9,7 +9,8 @@ const environmentFileContent = `export const environmentBase = {
   PORT: ${process.env.PORT},
   AUDIENCE: '${process.env.AUDIENCE}',
   CLIENT_ID: '${process.env.CLIENT_ID}',
-  DOMAIN: '${process.env.DOMAIN}'
+  DOMAIN: '${process.env.DOMAIN}',
+  MONGO_DB_SRV: '${process.env.MONGO_DB_SRV}'
 };`;
 console.log('environmentFileContent', environmentFileContent);
 // write the content to the respective file

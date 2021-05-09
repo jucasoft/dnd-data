@@ -8,7 +8,7 @@ import {Spell} from './entities/spell.entity';
   imports: [TypeOrmModule.forFeature([Spell])],
   controllers: [SpellController],
   providers: [SpellService],
-  exports: [SpellService],
+  exports: [TypeOrmModule],
 })
 export class SpellModule {
 }

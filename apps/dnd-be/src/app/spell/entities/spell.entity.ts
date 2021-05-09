@@ -1,11 +1,11 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
+import {Column, Entity, PrimaryGeneratedColumn} from 'typeorm';
 import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
 
-@Entity()
+@Entity('spell')
 export class Spell {
-  @PrimaryGeneratedColumn() public id: string = undefined;
+  @PrimaryGeneratedColumn('uuid') public id: number = undefined;
   @Column() public name: string = undefined;
   @Column() public source: Rulebook = undefined;
   @Column() public schools: string[] = undefined; // 'Enchantment'
@@ -23,4 +23,9 @@ export class Spell {
   @Column() public savingThrow: string = undefined;
   @Column() public spellResistance: string = undefined;
   @Column() public description: string = undefined;
+
+  constructor(pet?: Partial<Spell>) {
+    Object.assign(this, pet);
+  }
+
 }
