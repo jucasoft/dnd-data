@@ -1,4 +1,6 @@
+ng generate @nestjs/schematics:resource --name=spell --path=src/app --sourceRoot=apps/dnd-be  --dry-run
 
+DOC CRUD
 
 # DndData
 
