@@ -40,8 +40,8 @@ import {environment} from '../environments/environment';
     AuthModule.forRoot({
       domain: environment.DOMAIN,
       clientId: environment.CLIENT_ID,
-      redirectUri: window.location.origin,
-      // The AuthHttpInterceptor configuration
+      // The domain and clientId were configured in the previous chapter
+      audience: `https://${environment.DOMAIN}/api/v2/`,
       httpInterceptor: {
         allowedList: [
           '/api',
@@ -52,7 +52,7 @@ import {environment} from '../environments/environment';
   ],
   providers: [
     ConfirmationService,
-    { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true },
+    {provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true},
   ],
   bootstrap: [AppComponent]
 })

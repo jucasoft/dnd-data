@@ -6,7 +6,6 @@ import {Spell} from '@models/vo/spell';
 import {Observable} from 'rxjs';
 import {parseQueryString} from '@core/utils/j-utils';
 import {Dictionary} from '@ngrx/entity';
-import {spelsss} from '../../../../../../../../db';
 
 @Component({
   selector: 'app-spell-main',
