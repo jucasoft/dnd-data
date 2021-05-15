@@ -1,17 +1,22 @@
 import {HttpException, Injectable} from '@nestjs/common';
-import { CreateSpellDto } from './dto/create-spell.dto';
-import { UpdateSpellDto } from './dto/update-spell.dto';
+import {CreateSpellDto} from './dto/create-spell.dto';
+import {UpdateSpellDto} from './dto/update-spell.dto';
 import {InjectModel} from '@nestjs/mongoose';
 import {Spell, SpellDocument} from './entities/spell.entity';
 import {Model} from 'mongoose';
+import {SpellsInventory, SpellsInventoryDocument} from '../model/spells-inventory';
 
 @Injectable()
 export class SpellService {
-  constructor(@InjectModel(Spell.name) private model: Model<SpellDocument>) {}
+  constructor(
+    @InjectModel(Spell.name) private modelSpell: Model<SpellDocument>,
+    @InjectModel(SpellsInventory.name) private modelSpellsInventory: Model<SpellsInventoryDocument>
+  ) {
+  }
 
   create(createSpellDto: CreateSpellDto) {
     try {
-      const createdItem = new this.model(createSpellDto);
+      const createdItem = new this.modelSpell(createSpellDto);
       return createdItem.save();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
@@ -30,7 +35,7 @@ export class SpellService {
       //     .limit(paginateOpts.limit)
       //     .exec();
       // }
-      return this.model.find().exec();
+      return this.modelSpell.find().exec();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
     }

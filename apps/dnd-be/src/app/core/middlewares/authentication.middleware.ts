@@ -6,8 +6,6 @@ import {environment} from '../../../environments/environment';
 export class AuthenticationMiddleware implements NestMiddleware {
 
   use(req, res, next) {
-    const token = req.body.token || req.query.token || req.headers[ "x-access-token" ];
-    console.log('token', token);
     jwt({
       // secret: expressJwtSecret({
       secret: jwks.expressJwtSecret({

@@ -14,6 +14,7 @@ export class SpellController {
 
   @Get()
   findAll() {
+    console.log('SpellController.findAll()');
     return this.spellService.findAll()
   }
 
