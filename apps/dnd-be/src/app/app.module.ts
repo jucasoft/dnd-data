@@ -8,6 +8,7 @@ import {APP_INTERCEPTOR} from '@nestjs/core';
 import {TransformInterceptor} from './core/interceptors/transform.interceptor';
 import {ServeStaticModule} from '@nestjs/serve-static';
 import {AuthzModule} from './core/authz/authz-module';
+import { SpellsInventoryModule } from './spells-inventory/spells-inventory.module';
 
 console.log('__dirname', __dirname);
 
@@ -18,7 +19,8 @@ console.log('__dirname', __dirname);
       rootPath: (__dirname + '/../' + 'dnd-data'),
     }),
     MongooseModule.forRoot(environment.MONGO_DB_SRV),
-    SpellModule],
+    SpellModule,
+    SpellsInventoryModule],
   controllers: [AppController],
   providers: [
     {

@@ -4,24 +4,16 @@ import {UpdateSpellDto} from './dto/update-spell.dto';
 import {InjectModel} from '@nestjs/mongoose';
 import {Spell, SpellDocument} from './entities/spell.entity';
 import {Model} from 'mongoose';
-import {SpellsInventory, SpellsInventoryDocument} from '../model/spells-inventory';
 
 @Injectable()
 export class SpellService {
   constructor(
-    @InjectModel(Spell.name) private modelSpell: Model<SpellDocument>,
-    @InjectModel(SpellsInventory.name) private modelSpellsInventory: Model<SpellsInventoryDocument>
+    @InjectModel(Spell.name) private model: Model<SpellDocument>
   ) {
   }
 
   create(item: CreateSpellDto, user: string) {
-    try {
-      const itemB = {...item.spells}
-      const createdItem = new this.modelSpellsInventory(itemB);
-      return createdItem.save();
-    } catch (e) {
-      throw new HttpException(e.message || e, e.status || 500);
-    }
+    return 'This action adds a new CreateSpellDto';
   }
 
   findAll(user: string): Promise<Spell[]> {
@@ -36,7 +28,7 @@ export class SpellService {
       //     .limit(paginateOpts.limit)
       //     .exec();
       // }
-      return this.modelSpell.find().exec();
+      return this.model.find().exec();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
     }
@@ -47,32 +39,10 @@ export class SpellService {
   }
 
   update(id: string, value: UpdateSpellDto) {
-    try {
-      const item = {...value.spells}
-      if (item._id) {
-        const updated: any = this.modelSpellsInventory.findByIdAndUpdate(item._id, item, {
-          upsert: true
-        });
-        return updated;
-      } else {
-        const createdItem = new this.modelSpellsInventory(item);
-        return createdItem.save();
-      }
-    } catch (e) {
-      throw new HttpException(e.message || e, e.status || 500);
-    }
+    return `This action updates a #${id} UpdateSpellDto`;
   }
 
   remove(id: number) {
     return `This action removes a #${id} spell`;
   }
 }
-
-// async create(createCatDto: CreateCatDto): Promise<Cat> {
-//   const createdCat = new this.catModel(createCatDto);
-//   return createdCat.save();
-// }
-//
-// async findAll(): Promise<Cat[]> {
-//   return this.catModel.find().exec();
-// }
