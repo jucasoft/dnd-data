@@ -1,0 +1,7 @@
+{
+  "pathApp": "apps/dnd-data/src/app",
+  "pathView": "apps/dnd-data/src/app/main/views",
+  "pathStore": "apps/dnd-data/src/app/root-store",
+  "pathService": "apps/dnd-data/src/app/main/services",
+  "pathVo": "apps/dnd-data/src/app/main/models/vo"
+}
