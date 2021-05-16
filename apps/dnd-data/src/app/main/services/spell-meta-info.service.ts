@@ -4,8 +4,8 @@ import {environment} from '../../../environments/environment';
 import {BaseCrudService} from 'ngrx-entity-crud';
 
 @Injectable({
-	providedIn: 'root'
+  providedIn: 'root'
 })
 export class SpellMetaInfoService extends BaseCrudService<SpellMetaInfo> {
-	public service = environment.webServiceUri + 'spell-meta-info';
+  public service = environment.webServiceUri + 'spell-meta-info';
 }

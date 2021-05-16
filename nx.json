@@ -1,15 +1,25 @@
 {
   "implicitDependencies": {
-    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
     ".eslintrc.json": "*"
   },
-  "affected": { "defaultBase": "master" },
+  "affected": {
+    "defaultBase": "master"
+  },
   "npmScope": "dnd-data",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
         "accessToken": "ODZkODFmY2EtZTExMi00ZTQ3LWFmNWMtODY0MjE5MzJhZjJkfHJlYWQtd3JpdGU=",
         "canTrackAnalytics": false,
         "showUsageWarnings": true
@@ -17,8 +27,17 @@
     }
   },
   "projects": {
-    "dnd-data": { "tags": [] },
-    "dnd-data-e2e": { "tags": [], "implicitDependencies": ["dnd-data"] },
-    "dnd-be": { "tags": [] }
+    "dnd-data": {
+      "tags": []
+    },
+    "dnd-data-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "dnd-data"
+      ]
+    },
+    "dnd-be": {
+      "tags": []
+    }
   }
 }

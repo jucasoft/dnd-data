@@ -22,14 +22,14 @@ export class FblClickDirective implements OnDestroy, OnInit {
   observable$: Subject<any>;
   subscription: Subscription;
 
+  constructor() {
+    console.log('FblClickDirective.constructor()');
+  }
+
   @Input('fblClick')
   set fblClick(observable$: Subject<any>) {
     console.log('FblClickDirective.fblClick()');
     this.observable$ = observable$;
-  }
-
-  constructor() {
-    console.log('FblClickDirective.constructor()');
   }
 
   ngOnDestroy(): void {

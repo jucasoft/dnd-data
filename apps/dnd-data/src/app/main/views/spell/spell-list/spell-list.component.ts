@@ -16,28 +16,30 @@ import {Dictionary} from '@ngrx/entity';
 })
 export class SpellListComponent implements OnInit {
 
+  constructor(private store$: Store<RootStoreState.State>,
+              private confirmationService: ConfirmationService) {
+    console.log('SpellListComponent.constructor()');
+  }
+
+  public _collection: Spell[];
+
   @Input()
   set collection(value: Spell[]) {
     this._collection = value;
   }
+
+  public _itemsSelected: Spell[];
 
   @Input()
   set itemsSelected(value: Spell[]) {
     this._itemsSelected = value;
   }
 
+  public _entitiesSelected: Dictionary<Spell>;
+
   @Input()
   set entitiesSelected(value: Dictionary<Spell>) {
     this._entitiesSelected = value;
-  }
-
-  public _collection: Spell[];
-  public _itemsSelected: Spell[];
-  public _entitiesSelected: Dictionary<Spell>;
-
-  constructor(private store$: Store<RootStoreState.State>,
-              private confirmationService: ConfirmationService) {
-    console.log('SpellListComponent.constructor()');
   }
 
   ngOnInit(): void {

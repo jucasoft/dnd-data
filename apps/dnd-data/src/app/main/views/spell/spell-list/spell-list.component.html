@@ -1,20 +1,20 @@
 <p-table #dt
-         [value]="_collection"
-         [selection]="_itemsSelected"
          (selectionChange)="onSelectionChange($event)"
-         [paginator]="true" [rows]="10"
-         [showCurrentPageReport]="true"
          [globalFilterFields]="['name']"
-         styleClass="p-datatable-customers"
+         [paginator]="true"
+         [rowsPerPageOptions]="[10,25,50]" [rows]="10"
+         [selection]="_itemsSelected"
+         [showCurrentPageReport]="true"
+         [value]="_collection"
          currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
-         stateStorage="local" stateKey="statedemo-local"
-         [rowsPerPageOptions]="[10,25,50]">
+         stateKey="statedemo-local" stateStorage="local"
+         styleClass="p-datatable-customers">
   <ng-template pTemplate="caption">
     <div class="p-d-flex">
-      <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear(dt); inputElementFilter.value = ''"></button>
+      <button (click)="clear(dt); inputElementFilter.value = ''" class="p-button-outlined" icon="pi pi-filter-slash" label="Clear" pButton></button>
       <span class="p-input-icon-left p-ml-auto">
           <i class="pi pi-search"></i>
-          <input #inputElementFilter pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search keyword"/>
+          <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
       </span>
     </div>
   </ng-template>
@@ -45,37 +45,37 @@
       <th>
       </th>
       <th>
-        <p-columnFilter type="text" field="name"></p-columnFilter>
+        <p-columnFilter field="name" type="text"></p-columnFilter>
       </th>
       <th>
-        <p-columnFilter type="text" field="schools"></p-columnFilter>
+        <p-columnFilter field="schools" type="text"></p-columnFilter>
       </th>
       <th>
-        <p-columnFilter type="text" field="castingTime"></p-columnFilter>
+        <p-columnFilter field="castingTime" type="text"></p-columnFilter>
       </th>
       <th>
-        <p-columnFilter type="text" field="range"></p-columnFilter>
+        <p-columnFilter field="range" type="text"></p-columnFilter>
       </th>
       <th></th>
     </tr>
   </ng-template>
-  <ng-template pTemplate="body" let-item>
+  <ng-template let-item pTemplate="body">
     <tr>
       <td>
-<!--        <p-tableCheckbox [value]="item"></p-tableCheckbox>-->
-        <p-checkbox [value]="!!_entitiesSelected[item.id]" (onChange)="onChange(item)"></p-checkbox>
+        <!--        <p-tableCheckbox [value]="item"></p-tableCheckbox>-->
+        <p-checkbox (onChange)="onChange(item)" [value]="!!_entitiesSelected[item.id]"></p-checkbox>
       </td>
       <td>
-        <p-inputNumber [showButtons]="true"
+        <p-inputNumber (onInput)="onInput($event, item)"
+                       [showButtons]="true"
                        buttonLayout="horizontal"
-                       spinnerMode="horizontal"
-                       size="1"
                        decrementButtonClass="p-button-danger"
+                       decrementButtonIcon="pi pi-minus"
                        incrementButtonClass="p-button-success"
                        incrementButtonIcon="pi pi-plus"
-                       decrementButtonIcon="pi pi-minus"
-                       (onInput)="onInput($event, item)"
-                       mode="decimal">
+                       mode="decimal"
+                       size="1"
+                       spinnerMode="horizontal">
         </p-inputNumber>
       </td>
       <td>
@@ -93,7 +93,7 @@
       <td>
 
         <!--        <button pButton pRipple type="button" icon="pi pi-copy" class="p-button-rounded p-button-outlined p-mr-1" (click)="onCopy(item)"></button>-->
-        <button pButton pRipple type="button" icon="pi pi-pencil" class="p-button-rounded p-button-success p-button-outlined p-mr-1" (click)="onEdit(item)"></button>
+        <button (click)="onEdit(item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
         <!--        <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger p-button-outlined" (click)="onDelete(item)"></button>-->
 
       </td>

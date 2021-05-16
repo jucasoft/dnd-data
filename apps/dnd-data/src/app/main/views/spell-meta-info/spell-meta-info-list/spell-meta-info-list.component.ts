@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
-import {SpellMetaInfoStoreActions, SpellMetaInfoStoreSelectors, RootStoreState} from '@root-store/index';
+import {RootStoreState, SpellMetaInfoStoreActions, SpellMetaInfoStoreSelectors} from '@root-store/index';
 import {Observable} from 'rxjs';
 import {SpellMetaInfo} from '@models/vo/spell-meta-info';
 import {RouterStoreActions} from '@root-store/router-store/index';

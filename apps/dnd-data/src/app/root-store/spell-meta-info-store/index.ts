@@ -3,11 +3,11 @@ import * as SpellMetaInfoStoreSelectors from './selectors';
 import * as SpellMetaInfoStoreState from './state';
 
 export {
-	SpellMetaInfoStoreModule
+  SpellMetaInfoStoreModule
 } from './spell-meta-info-store.module';
 
 export {
-	SpellMetaInfoStoreActions,
-	SpellMetaInfoStoreSelectors,
-	SpellMetaInfoStoreState
+  SpellMetaInfoStoreActions,
+  SpellMetaInfoStoreSelectors,
+  SpellMetaInfoStoreState
 };

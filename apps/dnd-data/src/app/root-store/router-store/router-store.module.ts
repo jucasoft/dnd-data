@@ -4,7 +4,7 @@ import {EffectsModule} from '@ngrx/effects';
 import {RouterEffects} from './effects';
 import {State} from './state';
 import {ActionReducer, StoreModule} from '@ngrx/store';
-import {routerReducer, StoreRouterConnectingModule} from '@ngrx/router-store';
+import {StoreRouterConnectingModule} from '@ngrx/router-store';
 import {featureReducer} from './reducer';
 
 export const INJECTION_TOKEN = new InjectionToken<ActionReducer<State>>(`router-store Reducers`);

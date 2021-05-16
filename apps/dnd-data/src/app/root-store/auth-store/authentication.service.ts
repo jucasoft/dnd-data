@@ -14,12 +14,12 @@ export class AuthenticationService {
     return this.authService.isAuthenticated$;
   }
 
-  getToken$(): Observable<string> {
-    return this.authService.getAccessTokenSilently();
-  }
-
   get user$(): Observable<any> {
     return this.authService.user$;
+  }
+
+  getToken$(): Observable<string> {
+    return this.authService.getAccessTokenSilently();
   }
 
   login(): void {

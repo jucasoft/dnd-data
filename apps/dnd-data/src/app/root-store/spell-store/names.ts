@@ -1,3 +1,3 @@
 export class Names {
-	static NAME = 'spell';
+  static NAME = 'spell';
 }

@@ -29,21 +29,21 @@ import {DropdownModule} from 'primeng/dropdown';
     ButtonEditManyTestSpellBoardComponent,
     ButtonCreateManyTestSpellBoardComponent
   ],
-    imports: [
-        CommonModule,
-        FormsModule,
-        ReactiveFormsModule,
-        SpellBoardRoutingModule,
-        TableModule,
-        DialogModule,
-        ButtonModule,
-        InputTextModule,
-        PipesModule,
-        SearchModule,
-        NgLetModule,
-        ToolbarModule,
-        DropdownModule
-    ],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    SpellBoardRoutingModule,
+    TableModule,
+    DialogModule,
+    ButtonModule,
+    InputTextModule,
+    PipesModule,
+    SearchModule,
+    NgLetModule,
+    ToolbarModule,
+    DropdownModule
+  ],
   providers: [],
   entryComponents: []
 })

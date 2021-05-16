@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, Param, Patch, Post, Put, Req, UseGuards} from '@nestjs/common';
+import {Body, Controller, Delete, Get, Param, Post, Put, Req, UseGuards} from '@nestjs/common';
 import {SpellService} from './spell.service';
 import {CreateSpellDto} from './dto/create-spell.dto';
 import {UpdateSpellDto} from './dto/update-spell.dto';

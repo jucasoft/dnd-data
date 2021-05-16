@@ -33,10 +33,10 @@ import {menuItemsDecorator} from '@root-store/slide-menu-store/operators';
 })
 export class SlideMenuComponent implements OnInit, OnDestroy {
 
+  items$: Observable<MenuItem[]>;
+
   constructor(private readonly store$: Store<RootStoreState.State>) {
   }
-
-  items$: Observable<MenuItem[]>;
 
   ngOnDestroy(): void {
   }

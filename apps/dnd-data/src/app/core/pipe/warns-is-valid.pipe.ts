@@ -12,7 +12,7 @@ export class WarnsIsValidPipe implements PipeTransform {
     }
 
     // questa pipe serve ad evitare che venga disabilitato il tasto salva se esistono solo errori di tipo "warn"
-    for (const key  in form.controls) {
+    for (const key in form.controls) {
       if (form.controls[key].errors && form.controls[key].errors.level === 'error') {
         return form.valid;
       }

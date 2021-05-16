@@ -71,7 +71,7 @@
     "json-server": "^0.16.3",
     "jwks-rsa": "^2.0.3",
     "mongoose": "^5.12.7",
-    "ngrx-entity-crud": "^11.8.2",
+    "ngrx-entity-crud": "^11.8.4",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "primeflex": "^2.0.0",

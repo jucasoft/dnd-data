@@ -1,5 +1,3 @@
-import {Prop} from '@nestjs/mongoose';
-
 export class SpellsInventory {
   public _id: any = undefined;
   public spellsDictionaryId: string = undefined;

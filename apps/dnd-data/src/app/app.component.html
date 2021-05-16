@@ -2,14 +2,14 @@
 <p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
 <router-outlet name="popUp"></router-outlet>
 <div *ngLet="(open$|async) as open" class="layout-container">
-  <div class="layout-menu" [ngClass]="open ? 'layout-menu-inactive':''"
-       (clickOutside)="onClickOutside($event,open, layoutMain)">
+  <div (clickOutside)="onClickOutside($event,open, layoutMain)" [ngClass]="open ? 'layout-menu-inactive':''"
+       class="layout-menu">
     <app-slide-menu></app-slide-menu>
   </div>
-  <div class="layout-header" [ngClass]="open?'layout-main-menu-opened':''">
+  <div [ngClass]="open?'layout-main-menu-opened':''" class="layout-header">
     <app-header></app-header>
   </div>
-  <div #layoutMain class="layout-main" [ngClass]="open?'layout-main-menu-opened':''">
+  <div #layoutMain [ngClass]="open?'layout-main-menu-opened':''" class="layout-main">
     <div class="p-shadow-1 p-p-2 p-m-2">
       <app-breadcrumb></app-breadcrumb>
     </div>

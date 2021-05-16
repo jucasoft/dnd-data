@@ -13,10 +13,10 @@ import {Observable} from 'rxjs';
 })
 export class ProgressComponent implements OnInit {
 
+  isLoading$: Observable<boolean>;
+
   constructor(private readonly store$: Store<RootStoreState.State>) {
   }
-
-  isLoading$: Observable<boolean>;
 
   ngOnInit() {
     this.isLoading$ = this.store$.select(RootStoreSelectors.selectIsLoading);

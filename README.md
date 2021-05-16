@@ -1,4 +1,4 @@
-ng generate @nestjs/schematics:resource --name=spell --path=src/app --sourceRoot=apps/dnd-be  --dry-run
+ng generate @nestjs/schematics:resource --name=spell --path=src/app --sourceRoot=apps/dnd-be --dry-run
 
 DOC CRUD
 
@@ -89,11 +89,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
-
-
-
-
-
 ## ☁ Nx Cloud
 
 ### Computation Memoization in the Cloud
@@ -106,35 +101,13 @@ Teams using Nx gain the advantage of building full-stack applications with their
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
 
-
-import {Column, Entity, PrimaryGeneratedColumn} from 'typeorm';
-import {Rulebook} from '@models/vo/rulebook';
-import {ClassLevel} from '@models/vo/class-level';
-import {DomainLevel} from '@models/vo/domain-level';
+import {Column, Entity, PrimaryGeneratedColumn} from 'typeorm'; import {Rulebook} from '@models/vo/rulebook'; import {ClassLevel} from '@models/vo/class-level'; import {DomainLevel} from '@models/vo/domain-level';
 
 @Entity('spell')
-export class Spell {
-@PrimaryGeneratedColumn('uuid') public id: number = undefined;
-@Column() public name: string = undefined;
-@Column() public source: Rulebook = undefined;
-@Column() public schools: string[] = undefined; // 'Enchantment'
-@Column() public subschools: string[] = undefined; // 'Compulsion'
-@Column() public descriptors: string[] = undefined; // 'Mind-Affecting'
-@Column() public classLevels: ClassLevel[] = undefined;
-@Column() public domainLevels: DomainLevel[] = undefined;
-@Column() public components: string[] = undefined; // 'Verbal','Somatic','Divine Focus'
-@Column() public castingTime: string = undefined;
-@Column() public range: string = undefined;
-@Column() public area: string = undefined;
-@Column() public target: string = undefined;
-@Column() public effect: string = undefined;
-@Column() public duration: string = undefined;
-@Column() public savingThrow: string = undefined;
-@Column() public spellResistance: string = undefined;
-@Column() public description: string = undefined;
+export class Spell { @PrimaryGeneratedColumn('uuid') public id: number = undefined; @Column() public name: string = undefined; @Column() public source: Rulebook = undefined; @Column() public schools: string[] = undefined; // 'Enchantment' @Column() public subschools: string[] = undefined; // 'Compulsion' @Column() public descriptors: string[] = undefined; // 'Mind-Affecting' @Column() public classLevels: ClassLevel[] = undefined; @Column() public domainLevels: DomainLevel[] = undefined;
+@Column() public components: string[] = undefined; // 'Verbal','Somatic','Divine Focus' @Column() public castingTime: string = undefined; @Column() public range: string = undefined; @Column() public area: string = undefined; @Column() public target: string = undefined; @Column() public effect: string = undefined; @Column() public duration: string = undefined; @Column() public savingThrow: string = undefined; @Column() public spellResistance: string = undefined; @Column() public description:
+string = undefined;
 
-constructor(pet?: Partial<Spell>) {
-Object.assign(this, pet);
-}
+constructor(pet?: Partial<Spell>) { Object.assign(this, pet); }
 
 }

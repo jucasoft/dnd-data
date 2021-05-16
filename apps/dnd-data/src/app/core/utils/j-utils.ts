@@ -31,7 +31,7 @@ export function getFlattenInObject<T, R>(propertyName, inputArray: T[], distinct
 
 export function getDuplicateInObject<T>(propertyName, inputArray: T[]): T[] {
 
-  var sorted_arr = [...inputArray].sort(function(a, b) {
+  var sorted_arr = [...inputArray].sort(function (a, b) {
     return ('' + a[propertyName]).localeCompare(b[propertyName]);
   });
 
@@ -49,9 +49,9 @@ export function getDuplicateInObject<T>(propertyName, inputArray: T[]): T[] {
 
 export function debounce(func, wait, immediate) {
   let timeout;
-  return function() {
+  return function () {
     let context = this, args = arguments;
-    let later = function() {
+    let later = function () {
       timeout = null;
       if (!immediate) {
         func.apply(context, args);

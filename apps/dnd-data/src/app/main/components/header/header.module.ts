@@ -8,7 +8,7 @@ import {LoginModule} from '@root-store/auth-store/login.component';
 
 @NgModule({
   declarations: [HeaderComponent],
-    imports: [CommonModule, HamburgerButtonModule, OverlayPanelModule, LoginModule],
+  imports: [CommonModule, HamburgerButtonModule, OverlayPanelModule, LoginModule],
   exports: [HeaderComponent]
 })
 export class HeaderModule {

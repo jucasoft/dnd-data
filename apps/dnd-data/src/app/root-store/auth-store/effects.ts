@@ -9,10 +9,6 @@ import {afterLogoutUri} from './conf';
 
 @Injectable()
 export class AuthStoreEffects {
-  constructor(private actions$: Actions,
-              private authService: AuthenticationService) {
-  }
-
   login$ = createEffect(
     () =>
       this.actions$.pipe(
@@ -21,7 +17,6 @@ export class AuthStoreEffects {
       ),
     {dispatch: false}
   );
-
   checkAuth$ = createEffect(() =>
     this.actions$.pipe(
       // If an action with the type 'checkAuth' occurs in the actions$ stream...
@@ -40,7 +35,6 @@ export class AuthStoreEffects {
       })
     )
   );
-
   logout$ = createEffect(() =>
     this.actions$.pipe(
       ofType(actions.LogoutRequest),
@@ -48,12 +42,15 @@ export class AuthStoreEffects {
       switchMap(() => of(actions.LogoutResult()))
     )
   );
-
   goToLogin$ = createEffect(() =>
     this.actions$.pipe(
       ofType(actions.GoToLogin),
       switchMap(() => [RouterGo({path: [afterLogoutUri]})])
     )
   );
+
+  constructor(private actions$: Actions,
+              private authService: AuthenticationService) {
+  }
 
 }

@@ -1,6 +1,6 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { SpellController } from './spell.controller';
-import { SpellService } from './spell.service';
+import {Test, TestingModule} from '@nestjs/testing';
+import {SpellController} from './spell.controller';
+import {SpellService} from './spell.service';
 
 describe('SpellController', () => {
   let controller: SpellController;

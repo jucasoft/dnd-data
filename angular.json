@@ -125,7 +125,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/dnd-data"],
+          "outputs": [
+            "coverage/apps/dnd-data"
+          ],
           "options": {
             "jestConfig": "apps/dnd-data/jest.config.js",
             "passWithNoTests": true
@@ -154,7 +156,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/dnd-data-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": [
+              "apps/dnd-data-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
@@ -166,12 +170,16 @@
       "architect": {
         "build": {
           "builder": "@nrwl/node:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/apps/dnd-be",
             "main": "apps/dnd-be/src/main.ts",
             "tsConfig": "apps/dnd-be/tsconfig.app.json",
-            "assets": ["apps/dnd-be/src/assets"]
+            "assets": [
+              "apps/dnd-be/src/assets"
+            ]
           },
           "configurations": {
             "production": {
@@ -196,12 +204,16 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/dnd-be/**/*.ts"]
+            "lintFilePatterns": [
+              "apps/dnd-be/**/*.ts"
+            ]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/dnd-be"],
+          "outputs": [
+            "coverage/apps/dnd-be"
+          ],
           "options": {
             "jestConfig": "apps/dnd-be/jest.config.js",
             "passWithNoTests": true

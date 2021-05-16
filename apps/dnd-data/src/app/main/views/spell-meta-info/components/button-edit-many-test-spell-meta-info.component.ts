@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
 import {Observable} from 'rxjs';
-import {SpellMetaInfoStoreActions, SpellMetaInfoStoreSelectors, RootStoreState} from '@root-store/index';
+import {RootStoreState, SpellMetaInfoStoreActions, SpellMetaInfoStoreSelectors} from '@root-store/index';
 import {SpellMetaInfo} from '@models/vo/spell-meta-info';
 
 @Component({

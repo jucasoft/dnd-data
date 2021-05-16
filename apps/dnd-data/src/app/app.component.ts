@@ -10,10 +10,10 @@ import {Observable} from 'rxjs';
 })
 export class AppComponent implements OnInit {
 
+  open$: Observable<boolean>;
+
   constructor(private readonly store$: Store<RootStoreState.State>) {
   }
-
-  open$: Observable<boolean>;
 
   @HostListener('document:keydown.escape', ['$event'])
   onMouseup(event: KeyboardEvent): void {

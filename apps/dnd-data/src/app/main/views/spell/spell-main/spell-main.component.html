@@ -1,6 +1,6 @@
 <p-toolbar styleClass="p-mb-4">
   <ng-template pTemplate="left">
-    <p-dropdown [options]="['Cleric','Paladin','Savant']" (onChange)="onSearch($event.value)"></p-dropdown>
+    <p-dropdown (onChange)="onSearch($event.value)" [options]="['Cleric','Paladin','Savant']"></p-dropdown>
   </ng-template>
   <!--  <ng-template pTemplate="right">-->
   <!--    <app-button-new-spell class="p-mr-2"></app-button-new-spell>-->
@@ -9,4 +9,4 @@
   <!--    <app-button-create-many-test-spell></app-button-create-many-test-spell>-->
   <!--  </ng-template>-->
 </p-toolbar>
-<app-spell-list [collection]="collection$|async" [itemsSelected]="itemsSelected$|async" [entitiesSelected]="entitiesSelected$|async"></app-spell-list>
+<app-spell-list [collection]="collection$|async" [entitiesSelected]="entitiesSelected$|async" [itemsSelected]="itemsSelected$|async"></app-spell-list>

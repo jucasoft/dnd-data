@@ -3,11 +3,11 @@ import * as SpellBoardStoreSelectors from './selectors';
 import * as SpellBoardStoreState from './state';
 
 export {
-	SpellBoardStoreModule
+  SpellBoardStoreModule
 } from './spell-board-store.module';
 
 export {
-	SpellBoardStoreActions,
-	SpellBoardStoreSelectors,
-	SpellBoardStoreState
+  SpellBoardStoreActions,
+  SpellBoardStoreSelectors,
+  SpellBoardStoreState
 };

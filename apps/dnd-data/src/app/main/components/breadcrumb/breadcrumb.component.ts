@@ -13,10 +13,10 @@ import {Observable} from 'rxjs';
 })
 export class BreadcrumbComponent implements OnInit {
 
+  item$: Observable<string>;
+
   constructor(private readonly store$: Store<RootStoreState.State>) {
   }
-
-  item$: Observable<string>;
 
   ngOnInit() {
 

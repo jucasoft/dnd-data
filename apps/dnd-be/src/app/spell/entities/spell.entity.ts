@@ -6,10 +6,10 @@ import {SpellsInventory} from '../../model/spells-inventory';
 
 export type SpellDocument = any & Spell & Document;
 
-@Schema({ collection: 'spellsView' })
+@Schema({collection: 'spellsView'})
 export class Spell {
-   public _id: any = undefined;
-   public __v: number = undefined;
+  public _id: any = undefined;
+  public __v: number = undefined;
   @Prop() public area: string = undefined;
   @Prop() public castingTime: string = undefined;
   @Prop() public classLevels: ClassLevel = undefined;

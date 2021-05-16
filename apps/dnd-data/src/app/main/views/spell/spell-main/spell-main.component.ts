@@ -17,12 +17,11 @@ export class SpellMainComponent implements OnInit {
   collection$: Observable<Spell[]>;
   itemsSelected$: Observable<Spell[]>;
   entitiesSelected$: Observable<Dictionary<Spell>>;
+  actions: Actions<Spell> = SpellStoreActions.actions;
 
   constructor(private readonly store$: Store<RootStoreState.State>) {
 
   }
-
-  actions: Actions<Spell> = SpellStoreActions.actions;
 
   ngOnInit(): void {
     this.itemsSelected$ = this.store$.pipe(

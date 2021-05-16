@@ -2,7 +2,7 @@ import {createCrudEntityAdapter, EntityCrudAdapter, EntityCrudState} from 'ngrx-
 import {Spell} from '@models/vo/spell';
 
 export const adapter: EntityCrudAdapter<Spell> = createCrudEntityAdapter<Spell>({
-	selectId: model => Spell.selectId(model),
+  selectId: model => Spell.selectId(model),
 });
 
 export interface State extends EntityCrudState<Spell> {

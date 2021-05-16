@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
 import {Observable} from 'rxjs';
-import {SpellStoreActions, SpellStoreSelectors, RootStoreState} from '@root-store/index';
+import {RootStoreState, SpellStoreActions, SpellStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 
 @Component({

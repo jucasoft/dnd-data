@@ -1,4 +1,4 @@
-<p-table [value]="collection$ | async" [selection]="itemsSelected$ | async" (selectionChange)="onSelectionChange($event)">
+<p-table (selectionChange)="onSelectionChange($event)" [selection]="itemsSelected$ | async" [value]="collection$ | async">
   <ng-template pTemplate="header">
     <tr>
       <th style="width: 3rem">
@@ -10,7 +10,7 @@
       <th style="width: 10em">actions</th>
     </tr>
   </ng-template>
-  <ng-template pTemplate="body" let-item>
+  <ng-template let-item pTemplate="body">
     <tr>
       <td>
         <p-tableCheckbox [value]="item"></p-tableCheckbox>
@@ -20,9 +20,9 @@
       </td>
       <td>
 
-        <button pButton pRipple type="button" icon="pi pi-copy" class="p-button-rounded p-button-outlined p-mr-1" (click)="onCopy(item)"></button>
-        <button pButton pRipple type="button" icon="pi pi-pencil" class="p-button-rounded p-button-success p-button-outlined p-mr-1" (click)="onEdit(item)"></button>
-        <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger p-button-outlined" (click)="onDelete(item)"></button>
+        <button (click)="onCopy(item)" class="p-button-rounded p-button-outlined p-mr-1" icon="pi pi-copy" pButton pRipple type="button"></button>
+        <button (click)="onEdit(item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
+        <button (click)="onDelete(item)" class="p-button-rounded p-button-danger p-button-outlined" icon="pi pi-times" pButton pRipple type="button"></button>
 
       </td>
     </tr>
