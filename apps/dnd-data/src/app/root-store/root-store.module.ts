@@ -11,6 +11,7 @@ import {SpellStoreModule} from '@root-store/spell-store';
 import {SpellBoardStoreModule} from '@root-store/spell-board-store';
 import {AuthStoreModule} from '@root-store/auth-store';
 import {SpellMetaInfoStoreModule} from '@root-store/spell-meta-info-store';
+import { SpellsInventoryStoreModule } from '@root-store/spells-inventory-store';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import {SpellMetaInfoStoreModule} from '@root-store/spell-meta-info-store';
     SpellBoardStoreModule,
     AuthStoreModule,
     SpellMetaInfoStoreModule,
+    SpellsInventoryStoreModule,
   ],
   declarations: []
 })

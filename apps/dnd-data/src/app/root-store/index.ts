@@ -11,3 +11,4 @@ export * from './spell-store';
 export * from './spell-board-store';
 export * from './auth-store';
 export * from './spell-meta-info-store';
+export * from './spells-inventory-store';

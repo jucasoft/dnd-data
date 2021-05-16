@@ -1,3 +1,4 @@
+import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store';
 import {SpellMetaInfoStoreSelectors} from '@root-store/spell-meta-info-store';
 import {SpellBoardStoreSelectors} from '@root-store/spell-board-store';
 import {SpellStoreSelectors} from '@root-store/spell-store';
@@ -6,6 +7,7 @@ import {createSelectorFactory, defaultMemoize} from '@ngrx/store';
 const customMemoizer = (aFn) => defaultMemoize(aFn, (a: any, b: any) => a === b);
 
 export const selectError = createSelectorFactory(customMemoizer)(
+SpellsInventoryStoreSelectors.selectError,
   SpellMetaInfoStoreSelectors.selectError,
   SpellBoardStoreSelectors.selectError,
   SpellStoreSelectors.selectError,
@@ -16,6 +18,7 @@ export const selectError = createSelectorFactory(customMemoizer)(
 );
 
 export const selectIsLoading = createSelectorFactory(customMemoizer)(
+SpellsInventoryStoreSelectors.selectIsLoading,
   SpellMetaInfoStoreSelectors.selectIsLoading,
   SpellBoardStoreSelectors.selectIsLoading,
   SpellStoreSelectors.selectIsLoading,

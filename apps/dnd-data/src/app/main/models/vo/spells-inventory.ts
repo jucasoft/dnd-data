@@ -5,4 +5,5 @@ export class SpellsInventory {
   public user: number = undefined;
   public note: string = undefined;
   public stars: number = undefined;
+  static selectId: (item: SpellsInventory) => string = item => item._id;
 }
