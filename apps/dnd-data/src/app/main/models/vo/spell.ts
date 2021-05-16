@@ -1,6 +1,7 @@
 import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
+import {SpellsInventory} from '@models/vo/spells-inventory';
 
 export class Spell {
   public _id: string = undefined;
@@ -22,11 +23,13 @@ export class Spell {
   public savingThrow: string = undefined;
   public spellResistance: string = undefined;
   public description: string = undefined;
+  public spells: SpellsInventory = undefined;
   /**
    * metodo statico utilizzato per recuperare l'id dell'entita.
    * @param item
    */
   static selectId: (item: Spell) => string = item => item._id;
+
   static plantId: (item: Spell, id: any) => Spell = (item, id) => {
     item._id = id;
     return item;

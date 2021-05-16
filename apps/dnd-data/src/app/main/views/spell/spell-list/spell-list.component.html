@@ -74,6 +74,7 @@
                        incrementButtonClass="p-button-success"
                        incrementButtonIcon="pi pi-plus"
                        decrementButtonIcon="pi pi-minus"
+                       (onInput)="onInput($event, item)"
                        mode="decimal">
         </p-inputNumber>
       </td>

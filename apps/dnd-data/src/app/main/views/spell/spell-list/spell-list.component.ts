@@ -44,6 +44,18 @@ export class SpellListComponent implements OnInit {
     console.log('SpellListComponent.ngOnInit()');
   }
 
+  onInput(ev: any, spell: Spell): void {
+    console.log('SpellListComponent.onSpellChange()');
+    console.log('value', ev);
+    const item = {...spell, spells: {...spell.spells}}
+    item.spells.qt = ev.value;
+    if (!spell.spells._id) {
+      this.store$.dispatch(SpellStoreActions.CreateRequest({item}));
+    } else {
+      this.store$.dispatch(SpellStoreActions.EditRequest({item}));
+    }
+  }
+
   onEdit(item): void {
     console.log('SpellListComponent.onEdit()');
 

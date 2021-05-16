@@ -2,14 +2,15 @@ import {Injectable} from '@angular/core';
 import {Spell} from '@models/vo/spell';
 import {environment} from '../../../environments/environment';
 import {BaseCrudService, OptManyRequest, OptRequest, Response} from 'ngrx-entity-crud';
-import {from, Observable, of} from 'rxjs';
-import {concatMap, delay, map, mergeMap, toArray} from 'rxjs/operators';
+import {from, Observable} from 'rxjs';
+import {concatMap, map} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SpellService extends BaseCrudService<Spell> {
   public service = environment.webServiceUri + 'spell';
+  getId = Spell.selectId;
 
   createMany(opt: OptManyRequest<Spell>): Observable<Response<Spell[]>> {
     const result = opt.items.map(item => {
