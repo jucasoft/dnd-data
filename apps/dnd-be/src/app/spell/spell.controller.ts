@@ -1,21 +1,28 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { SpellService } from './spell.service';
-import { CreateSpellDto } from './dto/create-spell.dto';
-import { UpdateSpellDto } from './dto/update-spell.dto';
+import {Body, Controller, Delete, Get, Param, Patch, Post, Put, Req, UseGuards} from '@nestjs/common';
+import {SpellService} from './spell.service';
+import {CreateSpellDto} from './dto/create-spell.dto';
+import {UpdateSpellDto} from './dto/update-spell.dto';
+import {AuthGuard} from '@nestjs/passport';
 
 @Controller('spell')
 export class SpellController {
-  constructor(private readonly spellService: SpellService) {}
+  constructor(private readonly spellService: SpellService) {
+  }
 
   @Post()
-  create(@Body() item: CreateSpellDto) {
-    return this.spellService.create(item);
+  @UseGuards(AuthGuard('jwt'))
+  create(@Body() item: CreateSpellDto, @Req() req) {
+    console.log('SpellController.create()');
+    console.log('req.user', req.user.sub);
+    return this.spellService.create(item, req.user.sub);
   }
 
   @Get()
-  findAll() {
+  @UseGuards(AuthGuard('jwt'))
+  findAll(@Req() req) {
     console.log('SpellController.findAll()');
-    return this.spellService.findAll()
+    console.log('req.user', req.user.sub);
+    return this.spellService.findAll(req.user.sub);
   }
 
   @Get(':id')
@@ -23,9 +30,9 @@ export class SpellController {
     return this.spellService.findOne(+id);
   }
 
-  @Patch(':id')
+  @Put(':id')
   update(@Param('id') id: string, @Body() updateSpellDto: UpdateSpellDto) {
-    return this.spellService.update(+id, updateSpellDto);
+    return this.spellService.update(id, updateSpellDto);
   }
 
   @Delete(':id')

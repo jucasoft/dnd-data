@@ -7,12 +7,13 @@ import {MongooseModule} from '@nestjs/mongoose';
 import {APP_INTERCEPTOR} from '@nestjs/core';
 import {TransformInterceptor} from './core/interceptors/transform.interceptor';
 import {ServeStaticModule} from '@nestjs/serve-static';
-import {AuthenticationMiddleware} from './core/middlewares/authentication.middleware';
+import {AuthzModule} from './core/authz/authz-module';
 
 console.log('__dirname', __dirname);
 
 @Module({
   imports: [
+    AuthzModule,
     ServeStaticModule.forRoot({
       rootPath: (__dirname + '/../' + 'dnd-data'),
     }),
@@ -28,9 +29,4 @@ console.log('__dirname', __dirname);
   ],
 })
 export class AppModule {
-  public configure(consumer: MiddlewareConsumer) {
-    consumer
-      .apply(AuthenticationMiddleware)
-      .forRoutes({ path: 'spell', method: RequestMethod.ALL });
-  }
 }

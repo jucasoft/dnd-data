@@ -14,16 +14,17 @@ export class SpellService {
   ) {
   }
 
-  create(createSpellDto: CreateSpellDto) {
+  create(item: CreateSpellDto, user: string) {
     try {
-      const createdItem = new this.modelSpell(createSpellDto);
+      const itemB = {...item.spells}
+      const createdItem = new this.modelSpellsInventory(itemB);
       return createdItem.save();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
     }
   }
 
-  findAll(): Promise<Spell[]> {
+  findAll(user: string): Promise<Spell[]> {
     // return this.model.find().exec();
     try {
       // if (paginateOpts && paginateOpts.limit && paginateOpts.page) {
@@ -45,8 +46,21 @@ export class SpellService {
     return `This action returns a #${id} spell`;
   }
 
-  update(id: number, updateSpellDto: UpdateSpellDto) {
-    return `This action updates a #${id} spell`;
+  update(id: string, value: UpdateSpellDto) {
+    try {
+      const item = {...value.spells}
+      if (item._id) {
+        const updated: any = this.modelSpellsInventory.findByIdAndUpdate(item._id, item, {
+          upsert: true
+        });
+        return updated;
+      } else {
+        const createdItem = new this.modelSpellsInventory(item);
+        return createdItem.save();
+      }
+    } catch (e) {
+      throw new HttpException(e.message || e, e.status || 500);
+    }
   }
 
   remove(id: number) {
