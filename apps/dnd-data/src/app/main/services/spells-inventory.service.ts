@@ -4,8 +4,9 @@ import {environment} from '../../../environments/environment';
 import {BaseCrudService} from 'ngrx-entity-crud';
 
 @Injectable({
-	providedIn: 'root'
+  providedIn: 'root'
 })
 export class SpellsInventoryService extends BaseCrudService<SpellsInventory> {
-	public service = environment.webServiceUri + 'spells-inventory';
+  public service = environment.webServiceUri + 'spells-inventory';
+  getId = SpellsInventory.selectId
 }

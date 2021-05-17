@@ -3,11 +3,11 @@ import * as SpellsInventoryStoreSelectors from './selectors';
 import * as SpellsInventoryStoreState from './state';
 
 export {
-SpellsInventoryStoreModule
+  SpellsInventoryStoreModule
 } from './spells-inventory-store.module';
 
 export {
   SpellsInventoryStoreActions,
-	SpellsInventoryStoreSelectors,
-	SpellsInventoryStoreState
+  SpellsInventoryStoreSelectors,
+  SpellsInventoryStoreState
 };

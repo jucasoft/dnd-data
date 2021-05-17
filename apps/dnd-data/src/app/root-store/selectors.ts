@@ -7,7 +7,7 @@ import {createSelectorFactory, defaultMemoize} from '@ngrx/store';
 const customMemoizer = (aFn) => defaultMemoize(aFn, (a: any, b: any) => a === b);
 
 export const selectError = createSelectorFactory(customMemoizer)(
-SpellsInventoryStoreSelectors.selectError,
+  SpellsInventoryStoreSelectors.selectError,
   SpellMetaInfoStoreSelectors.selectError,
   SpellBoardStoreSelectors.selectError,
   SpellStoreSelectors.selectError,
@@ -18,7 +18,7 @@ SpellsInventoryStoreSelectors.selectError,
 );
 
 export const selectIsLoading = createSelectorFactory(customMemoizer)(
-SpellsInventoryStoreSelectors.selectIsLoading,
+  SpellsInventoryStoreSelectors.selectIsLoading,
   SpellMetaInfoStoreSelectors.selectIsLoading,
   SpellBoardStoreSelectors.selectIsLoading,
   SpellStoreSelectors.selectIsLoading,

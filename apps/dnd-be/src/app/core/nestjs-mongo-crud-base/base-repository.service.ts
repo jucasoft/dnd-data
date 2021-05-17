@@ -19,7 +19,7 @@ export class BaseRepositoryService<T extends Document> implements IBaseService<T
   update(id: Types.ObjectId, updates: any, ...args: any[]): Promise<T> {
     try {
       const updated: any = this.model.findByIdAndUpdate(id, updates, {
-        upsert: true
+        new: true
       });
       return updated;
     } catch (e) {

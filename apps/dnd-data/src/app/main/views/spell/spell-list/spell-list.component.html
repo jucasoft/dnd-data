@@ -66,17 +66,9 @@
         <p-checkbox (onChange)="onChange(item)" [value]="!!_entitiesSelected[item.id]"></p-checkbox>
       </td>
       <td>
-        <p-inputNumber (onInput)="onInput($event, item)"
-                       [showButtons]="true"
-                       buttonLayout="horizontal"
-                       decrementButtonClass="p-button-danger"
-                       decrementButtonIcon="pi pi-minus"
-                       incrementButtonClass="p-button-success"
-                       incrementButtonIcon="pi pi-plus"
-                       mode="decimal"
-                       size="1"
-                       spinnerMode="horizontal">
-        </p-inputNumber>
+        <button (click)="onInput(item?.spells?.qt-1, item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
+        {{item?.spells?.qt}}
+        <button (click)="onInput(item?.spells?.qt+1, item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
       </td>
       <td>
         {{item.name}}

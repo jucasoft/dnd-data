@@ -6,7 +6,7 @@ import {SlideMenuStoreState} from '@root-store/slide-menu-store';
 import {AuthStoreState} from '@root-store/auth-store';
 
 export interface State {
-spells_inventory:SpellsInventoryStoreState.State;
+  spells_inventory: SpellsInventoryStoreState.State;
   spell_meta_info: SpellMetaInfoStoreState.State;
   auth: AuthStoreState.State;
   spell_board: SpellBoardStoreState.State;

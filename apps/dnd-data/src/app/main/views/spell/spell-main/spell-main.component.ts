@@ -33,7 +33,7 @@ export class SpellMainComponent implements OnInit {
     );
 
     this.collection$ = this.store$.select(
-      SpellStoreSelectors.selectAll
+      SpellStoreSelectors.selectAllMerged
     );
 
     this.store$.dispatch(

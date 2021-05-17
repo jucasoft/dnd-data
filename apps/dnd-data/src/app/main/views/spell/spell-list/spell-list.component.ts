@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, Input, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {RootStoreState, SpellStoreActions} from '@root-store/index';
+import {RootStoreState, SpellsInventoryStoreActions, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
@@ -46,15 +46,13 @@ export class SpellListComponent implements OnInit {
     console.log('SpellListComponent.ngOnInit()');
   }
 
-  onInput(ev: any, spell: Spell): void {
+  onInput(qt: number, spell: Spell): void {
     console.log('SpellListComponent.onSpellChange()');
-    console.log('value', ev);
-    const item = {...spell, spells: {...spell.spells}}
-    item.spells.qt = ev.value;
-    if (!spell.spells._id) {
-      this.store$.dispatch(SpellStoreActions.CreateRequest({item}));
+    const item = {...spell.spells, qt};
+    if (!item._id) {
+      this.store$.dispatch(SpellsInventoryStoreActions.CreateRequest({item}));
     } else {
-      this.store$.dispatch(SpellStoreActions.EditRequest({item}));
+      this.store$.dispatch(SpellsInventoryStoreActions.EditRequest({item}));
     }
   }
 
