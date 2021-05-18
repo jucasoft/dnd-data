@@ -20,10 +20,9 @@
   </ng-template>
   <ng-template pTemplate="header">
     <tr>
-      <th style="width: 10rem">
+      <th style="width: 3rem">
       </th>
-      <th>
-        qt
+      <th style="width: 11rem">
       </th>
       <th>
         name
@@ -66,9 +65,29 @@
         <p-checkbox (onChange)="onChange(item)" [value]="!!_entitiesSelected[item.id]"></p-checkbox>
       </td>
       <td>
-        <button (click)="onInput(item?.spells?.qt-1, item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
-        {{item?.spells?.qt}}
-        <button (click)="onInput(item?.spells?.qt+1, item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
+        <div class="p-formgroup-inline">
+          <button (click)="onInput(item?.spells?.qt-1, item)"
+                  pButton
+                  type="button"
+                  icon="pi pi-minus"
+                  class="p-button-sm p-mr-2"
+                  iconPos="left">
+          </button>
+          <button (click)="onInput(item?.spells?.qt-1, item)"
+                  pButton
+                  type="button"
+                  class="p-button-sm p-mr-2"
+                  [label]="item?.spells?.qt"
+                  iconPos="left">
+          </button>
+          <button (click)="onInput(item?.spells?.qt+1, item)"
+                  pButton
+                  type="button"
+                  icon="pi pi-plus"
+                  class="p-button-sm"
+                  iconPos="left">
+          </button>
+        </div>
       </td>
       <td>
         {{item.name}}

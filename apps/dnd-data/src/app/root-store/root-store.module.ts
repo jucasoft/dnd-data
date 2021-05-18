@@ -8,9 +8,7 @@ import {environment} from '../../environments/environment';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {SlideMenuStoreModule} from '@root-store/slide-menu-store';
 import {SpellStoreModule} from '@root-store/spell-store';
-import {SpellBoardStoreModule} from '@root-store/spell-board-store';
 import {AuthStoreModule} from '@root-store/auth-store';
-import {SpellMetaInfoStoreModule} from '@root-store/spell-meta-info-store';
 import {SpellsInventoryStoreModule} from '@root-store/spells-inventory-store';
 
 @NgModule({
@@ -28,9 +26,7 @@ import {SpellsInventoryStoreModule} from '@root-store/spells-inventory-store';
       logOnly: environment.production, // Restrict extension to log-only mode
     }),
     SpellStoreModule,
-    SpellBoardStoreModule,
     AuthStoreModule,
-    SpellMetaInfoStoreModule,
     SpellsInventoryStoreModule,
   ],
   declarations: []
