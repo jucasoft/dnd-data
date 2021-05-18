@@ -16,7 +16,7 @@
     <div class="p-grid">
       <div class="p-col">
         <label for="id"><strong>id</strong></label><br>
-        <input id="id" name="id" type="text" class="form-control" pInputText [formControl]="id"/>
+        <input id="id" name="id" type="text" class="form-control" pInputText [formControl]="_id"/>
       </div>
     </div>
 
@@ -32,7 +32,7 @@
         <label for="class"><strong>Class</strong></label><br>
         <p-dropdown id="class"
                     name="class"
-                    [options]="['Cleric','Paladin','Savant']"
+                    [options]="['','Cleric','Paladin','Savant']"
                     class="form-control"
                     appendTo="body"
                     [formControl]="class">

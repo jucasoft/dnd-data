@@ -2,7 +2,7 @@ import {Prop, Schema, SchemaFactory} from '@nestjs/mongoose';
 import {ClassLevel} from '../../model/class-level';
 import {DomainLevel} from '../../model/domain-level';
 import {Source} from '../../model/source';
-import {SpellsInventory} from '../../model/spells-inventory';
+import {SpellsInventory} from '../../spells-inventory/entities/spells-inventory.entity';
 
 export type SpellDocument = any & Spell & Document;
 

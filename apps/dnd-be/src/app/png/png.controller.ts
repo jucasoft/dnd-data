@@ -1,34 +1,38 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { PngService } from './png.service';
-import { CreatePngDto } from './dto/create-png.dto';
-import { UpdatePngDto } from './dto/update-png.dto';
+import {Body, Controller, Delete, Get, Param, Patch, Post, Put, Req, UseGuards} from '@nestjs/common';
+import {PngService} from './png.service';
+import {CreatePngDto} from './dto/create-png.dto';
+import {UpdatePngDto} from './dto/update-png.dto';
+import {AuthGuard} from '@nestjs/passport';
 
 @Controller('png')
 export class PngController {
-  constructor(private readonly pngService: PngService) {}
+  constructor(private readonly service: PngService) {
+  }
 
   @Post()
-  create(@Body() createPngDto: CreatePngDto) {
-    return this.pngService.create(createPngDto);
+  @UseGuards(AuthGuard('jwt'))
+  create(@Body() dto: CreatePngDto, @Req() req) {
+    return this.service.create(dto, req.user.sub);
   }
 
   @Get()
-  findAll() {
-    return this.pngService.findAll();
+  @UseGuards(AuthGuard('jwt'))
+  findAll(@Req() req) {
+    return this.service.findAll(req.user.sub);
   }
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.pngService.findOne(+id);
+    return this.service.findOne(+id);
   }
 
-  @Patch(':id')
+  @Put(':id')
   update(@Param('id') id: string, @Body() updatePngDto: UpdatePngDto) {
-    return this.pngService.update(+id, updatePngDto);
+    return this.service.update(+id, updatePngDto);
   }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.pngService.remove(+id);
+    return this.service.remove(+id);
   }
 }

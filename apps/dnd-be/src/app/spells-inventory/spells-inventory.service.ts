@@ -2,8 +2,8 @@ import {HttpException, Injectable} from '@nestjs/common';
 import {CreateSpellsInventoryDto} from './dto/create-spells-inventory.dto';
 import {UpdateSpellsInventoryDto} from './dto/update-spells-inventory.dto';
 import {InjectModel} from '@nestjs/mongoose';
-import {SpellsInventory, SpellsInventoryDocument} from '../model/spells-inventory';
 import {Model, Types} from 'mongoose';
+import {SpellsInventory, SpellsInventoryDocument} from './entities/spells-inventory.entity';
 
 @Injectable()
 export class SpellsInventoryService {

@@ -6,37 +6,33 @@ import {AuthGuard} from '@nestjs/passport';
 
 @Controller('spell')
 export class SpellController {
-  constructor(private readonly spellService: SpellService) {
+  constructor(private readonly service: SpellService) {
   }
 
   @Post()
   @UseGuards(AuthGuard('jwt'))
-  create(@Body() item: CreateSpellDto, @Req() req) {
-    console.log('SpellController.create()');
-    console.log('req.user', req.user.sub);
-    return this.spellService.create(item, req.user.sub);
+  create(@Body() dto: CreateSpellDto, @Req() req) {
+    return this.service.create(dto, req.user.sub);
   }
 
   @Get()
   @UseGuards(AuthGuard('jwt'))
   findAll(@Req() req) {
-    console.log('SpellController.findAll()');
-    console.log('req.user', req.user.sub);
-    return this.spellService.findAll(req.user.sub);
+    return this.service.findAll(req.user.sub);
   }
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.spellService.findOne(+id);
+    return this.service.findOne(+id);
   }
 
   @Put(':id')
   update(@Param('id') id: string, @Body() updateSpellDto: UpdateSpellDto) {
-    return this.spellService.update(id, updateSpellDto);
+    return this.service.update(id, updateSpellDto);
   }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.spellService.remove(+id);
+    return this.service.remove(+id);
   }
 }

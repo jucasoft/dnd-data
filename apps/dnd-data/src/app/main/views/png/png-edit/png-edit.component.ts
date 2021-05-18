@@ -12,7 +12,7 @@ import {PngStoreActions} from '@root-store/png-store';
 export class PngEditComponent extends PopUpBaseComponent<Png> {
 
   form: FormGroup;
-  id: FormControl;
+  _id: FormControl;
   name: FormControl;
   class: FormControl;
   keys: string[];
@@ -23,19 +23,19 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
   }
 
   makeFrom(): void {
-    this.id = this.fb.control({value: '', disabled: true});
+    this._id = this.fb.control({value: '', disabled: true});
     this.name = this.fb.control('', Validators.required);
     this.class = this.fb.control('', Validators.required);
 
     this.form = this.fb.group({ // form
-      id: this.id, // attributo
+      _id: this._id, // attributo
       name: this.name, // attributo
-      calss: this.class // attributo
+      class: this.class // attributo
     });
   }
 
   acceptPerform(item: Png): void {
-    if (item.id) {
+    if (item._id) {
       this.store$.dispatch(PngStoreActions.EditRequest({
         item, onResult: [
           // azione che verrà invocata al result della chiamata all'interno dell'effect.
