@@ -4,7 +4,6 @@ import {PngStoreActions, PngStoreSelectors, RootStoreState} from '@root-store/in
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
 import {RouterStoreActions} from '@root-store/router-store/index';
-import {tap} from 'rxjs/operators';
 import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 
@@ -16,9 +15,7 @@ import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 })
 export class PngListComponent implements OnInit {
 
-
   collection$: Observable<Png[]>;
-  cols: any;
   itemsSelected$: Observable<Png[]>;
 
   constructor(private store$: Store<RootStoreState.State>,
@@ -35,12 +32,6 @@ export class PngListComponent implements OnInit {
 
     this.collection$ = this.store$.select(
       PngStoreSelectors.selectAll
-    ).pipe(
-      tap(values => {
-        if (values && values.length > 0) {
-          this.cols = Object.keys(values[0]);
-        }
-      })
     );
 
     this.store$.dispatch(

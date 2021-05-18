@@ -4,8 +4,11 @@
       <th style="width: 3rem">
         <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
       </th>
-      <th *ngFor="let col of cols">
-        {{col}}
+      <th>
+        name
+      </th>
+      <th>
+        class
       </th>
       <th style="width: 10em">actions</th>
     </tr>
@@ -15,8 +18,11 @@
       <td>
         <p-tableCheckbox [value]="item"></p-tableCheckbox>
       </td>
-      <td *ngFor="let col of cols">
-        {{item[col]}}
+      <td>
+        {{item.name}}
+      </td>
+      <td>
+        {{item.class}}
       </td>
       <td>
 

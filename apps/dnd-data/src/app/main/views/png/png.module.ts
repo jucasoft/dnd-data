@@ -17,6 +17,7 @@ import {ButtonEditManyTestPngComponent} from './components/button-edit-many-test
 import {ButtonCreateManyTestPngComponent} from './components/button-create-many-test-png.component';
 import {NgLetModule} from '@core/directive/ng-let.directive';
 import {ToolbarModule} from 'primeng/toolbar';
+import {DropdownModule} from 'primeng/dropdown';
 
 @NgModule({
   declarations: [
@@ -28,20 +29,21 @@ import {ToolbarModule} from 'primeng/toolbar';
     ButtonEditManyTestPngComponent,
     ButtonCreateManyTestPngComponent
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    PngRoutingModule,
-    TableModule,
-    DialogModule,
-    ButtonModule,
-    InputTextModule,
-    PipesModule,
-    SearchModule,
-    NgLetModule,
-    ToolbarModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        PngRoutingModule,
+        TableModule,
+        DialogModule,
+        ButtonModule,
+        InputTextModule,
+        PipesModule,
+        SearchModule,
+        NgLetModule,
+        ToolbarModule,
+        DropdownModule
+    ],
   providers: [],
   entryComponents: []
 })
