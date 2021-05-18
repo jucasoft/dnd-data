@@ -14,6 +14,22 @@ export const initialState: State = {
   item: {breadcrumb: [], data: null},
   items: [
     {
+      label: 'PNG',
+      icon: 'fas fa-hand-sparkles',
+      command: (event$) => {
+        // invoco il router per cambiare pagina
+        event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['png']}));
+
+        // salvo nello store del menù l'elemento selezionato.
+        event$.item.store$.dispatch(SlideMenuStoreActions.Select({
+          item: {
+            data: {},
+            breadcrumb: ['Sezione ', 'PNG']
+          }
+        }));
+      }
+    },
+    {
       label: 'Spell',
       icon: 'fas fa-magic',
       command: (event$) => {
@@ -25,22 +41,6 @@ export const initialState: State = {
           item: {
             data: {},
             breadcrumb: ['Sezione ', 'Spell']
-          }
-        }));
-      }
-    },
-    {
-      label: 'Spell Board',
-      icon: 'fas fa-hand-sparkles',
-      command: (event$) => {
-        // invoco il router per cambiare pagina
-        event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell-board']}));
-
-        // salvo nello store del menù l'elemento selezionato.
-        event$.item.store$.dispatch(SlideMenuStoreActions.Select({
-          item: {
-            data: {},
-            breadcrumb: ['Sezione ', 'Spell Board']
           }
         }));
       }

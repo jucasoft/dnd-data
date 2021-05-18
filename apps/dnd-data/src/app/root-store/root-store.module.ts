@@ -10,6 +10,7 @@ import {SlideMenuStoreModule} from '@root-store/slide-menu-store';
 import {SpellStoreModule} from '@root-store/spell-store';
 import {AuthStoreModule} from '@root-store/auth-store';
 import {SpellsInventoryStoreModule} from '@root-store/spells-inventory-store';
+import { PngStoreModule } from '@root-store/png-store';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import {SpellsInventoryStoreModule} from '@root-store/spells-inventory-store';
     SpellStoreModule,
     AuthStoreModule,
     SpellsInventoryStoreModule,
+    PngStoreModule,
   ],
   declarations: []
 })
