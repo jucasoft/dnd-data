@@ -9,7 +9,7 @@
     "start": "ng serve",
     "start:fe:dev": "npm run env && ng serve --proxy-config proxy.conf.js",
     "start:be": "nx serve dnd-be",
-    "build": "npm run build && ng build",
+    "build": "ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
