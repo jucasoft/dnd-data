@@ -39,11 +39,15 @@ export class PngService {
     }
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} png`;
+  findOne(id: string) {
+    try {
+      return this.model.findById(id);
+    } catch (e) {
+      throw new HttpException(e.message || e, e.status || 500);
+    }
   }
 
-  update(id: number, dto: UpdatePngDto) {
+  update(id: string, dto: UpdatePngDto) {
     try {
       const updated: any = this.model.findByIdAndUpdate(id, dto, {
         upsert: true,
@@ -55,7 +59,11 @@ export class PngService {
     }
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} png`;
+  remove(id: string) {
+    try {
+      return this.model.findByIdAndDelete(id);
+    } catch (e) {
+      throw new HttpException(e.message || e, e.status || 500);
+    }
   }
 }

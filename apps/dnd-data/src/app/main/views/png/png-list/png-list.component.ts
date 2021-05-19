@@ -59,7 +59,7 @@ export class PngListComponent implements OnInit {
   onCopy(value): void {
     console.log('PngListComponent.onCopy()');
 
-    const item = {...{}, ...value, ...{id: null}};
+    const item = Png.newItem(value);
     const data: PopUpData<Png> = {
       item,
       props: {title: 'Copy Png', route: 'png'}

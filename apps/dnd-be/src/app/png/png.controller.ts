@@ -23,16 +23,16 @@ export class PngController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.service.findOne(+id);
+    return this.service.findOne(id);
   }
 
   @Put(':id')
   update(@Param('id') id: string, @Body() updatePngDto: UpdatePngDto) {
-    return this.service.update(+id, updatePngDto);
+    return this.service.update(id, updatePngDto);
   }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.service.remove(+id);
+    return this.service.remove(id);
   }
 }

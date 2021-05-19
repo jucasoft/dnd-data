@@ -1,7 +1,7 @@
 export class Png {
-    public _id: string = undefined;
+    public _id?: string = undefined;
     public name: string = undefined;
-    public class: string = undefined;
+    public clazz: string = undefined;
     public user: string = undefined;
 
     /**
@@ -9,4 +9,5 @@ export class Png {
      * @param item
      */
     static selectId: (item: Png) => string = item => item._id;
+    static newItem: (item: Png) => Png = ({name, clazz, user}) => ({name, clazz, user});
 }

@@ -29,17 +29,7 @@ export class ButtonCreateManyTestPngComponent implements OnInit {
   }
 
   onCreateMany(values: Png[]): void {
-    const items = values.map(value => {
-      const keys = Object.keys(value);
-      const result = {...value};
-      keys.forEach(key => {
-        result._id = null;
-        if (key !== 'id' && typeof result[key] === 'string') {
-          result[key] = 'edited ' + new Date().getSeconds();
-        }
-      });
-      return result;
-    });
+    const items = values.map(Png.newItem);
     this.store$.dispatch(PngStoreActions.CreateManyRequest({items}));
   }
 

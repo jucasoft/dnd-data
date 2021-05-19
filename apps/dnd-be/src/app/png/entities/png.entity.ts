@@ -7,7 +7,7 @@ export class Png {
   public _id: any = undefined;
   public __v: number = undefined;
   @Prop() public name: string = undefined;
-  @Prop() public class: string = undefined;
+  @Prop() public clazz: string = undefined;
 }
 
 export const PngSchema = SchemaFactory.createForClass(Png);

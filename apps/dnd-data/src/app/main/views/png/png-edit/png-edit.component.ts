@@ -14,7 +14,7 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
   form: FormGroup;
   _id: FormControl;
   name: FormControl;
-  class: FormControl;
+  clazz: FormControl;
   keys: string[];
 
   setItemPerform(value: Png): void {
@@ -25,17 +25,17 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
   makeFrom(): void {
     this._id = this.fb.control({value: '', disabled: true});
     this.name = this.fb.control('', Validators.required);
-    this.class = this.fb.control('', Validators.required);
+    this.clazz = this.fb.control('', Validators.required);
 
     this.form = this.fb.group({ // form
       _id: this._id, // attributo
       name: this.name, // attributo
-      class: this.class // attributo
+      clazz: this.clazz // attributo
     });
   }
 
   acceptPerform(item: Png): void {
-    if (item._id) {
+    if (Png.selectId(item)) {
       this.store$.dispatch(PngStoreActions.EditRequest({
         item, onResult: [
           // azione che verrà invocata al result della chiamata all'interno dell'effect.
@@ -46,7 +46,7 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
       }));
     } else {
       this.store$.dispatch(PngStoreActions.CreateRequest({
-        item, onResult: [
+        item: Png.newItem(item), onResult: [
           // azione che verrà invocata al result della chiamata all'interno dell'effect.
           // chiude la popUP.
           // closePopUpAction: metodo per la creazione dell'azione di chiusura della popUP

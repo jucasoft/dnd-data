@@ -29,16 +29,7 @@ export class ButtonEditManyTestPngComponent implements OnInit {
   }
 
   onEditMany(values: Png[]): void {
-    const items = values.map(value => {
-      const keys = Object.keys(value);
-      const result = {...value};
-      keys.forEach(key => {
-        if (key !== 'id' && typeof result[key] === 'string') {
-          result[key] = result[key] + ' edited' + new Date().getSeconds();
-        }
-      });
-      return result;
-    });
+    const items = values.map(Png.newItem);
     this.store$.dispatch(PngStoreActions.EditManyRequest({items}));
   }
 
