@@ -7,6 +7,7 @@ import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
 import {Dictionary} from '@ngrx/entity';
+import {SpellsInventory} from '@models/vo/spells-inventory';
 
 @Component({
   selector: 'app-spell-list',
@@ -28,19 +29,19 @@ export class SpellListComponent implements OnInit {
     this._collection = value;
   }
 
-  public _itemsSelected: Spell[];
-
-  @Input()
-  set itemsSelected(value: Spell[]) {
-    this._itemsSelected = value;
-  }
-
-  public _entitiesSelected: Dictionary<Spell>;
-
-  @Input()
-  set entitiesSelected(value: Dictionary<Spell>) {
-    this._entitiesSelected = value;
-  }
+  // public _itemsSelected: Spell[];
+  //
+  // @Input()
+  // set itemsSelected(value: Spell[]) {
+  //   this._itemsSelected = value;
+  // }
+  //
+  // public _entitiesSelected: Dictionary<Spell>;
+  //
+  // @Input()
+  // set entitiesSelected(value: Dictionary<Spell>) {
+  //   this._entitiesSelected = value;
+  // }
 
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
@@ -48,7 +49,8 @@ export class SpellListComponent implements OnInit {
 
   onInput(qt: number, spell: Spell): void {
     console.log('SpellListComponent.onSpellChange()');
-    const item = {...spell.spells, qt};
+    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id}
+    const item = {...spells, qt};
     if (!item._id) {
       this.store$.dispatch(SpellsInventoryStoreActions.CreateRequest({item}));
     } else {

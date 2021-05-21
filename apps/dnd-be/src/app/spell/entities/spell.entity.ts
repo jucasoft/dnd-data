@@ -6,7 +6,7 @@ import {SpellsInventory} from '../../spells-inventory/entities/spells-inventory.
 
 export type SpellDocument = any & Spell & Document;
 
-@Schema({collection: 'spellsView'})
+@Schema({collection: 'spellsDictionary'})
 export class Spell {
   public _id: any = undefined;
   public __v: number = undefined;

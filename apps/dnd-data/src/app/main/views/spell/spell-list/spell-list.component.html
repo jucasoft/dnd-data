@@ -3,7 +3,6 @@
          [globalFilterFields]="['name']"
          [paginator]="true"
          [rowsPerPageOptions]="[10,25,50]" [rows]="10"
-         [selection]="_itemsSelected"
          [showCurrentPageReport]="true"
          [value]="_collection"
          currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
@@ -20,8 +19,6 @@
   </ng-template>
   <ng-template pTemplate="header">
     <tr>
-      <th style="width: 3rem">
-      </th>
       <th style="width: 11rem">
       </th>
       <th>
@@ -42,8 +39,6 @@
       <th>
       </th>
       <th>
-      </th>
-      <th>
         <p-columnFilter field="name" type="text"></p-columnFilter>
       </th>
       <th>
@@ -61,10 +56,6 @@
   <ng-template let-item pTemplate="body">
     <tr>
       <td>
-        <!--        <p-tableCheckbox [value]="item"></p-tableCheckbox>-->
-        <p-checkbox (onChange)="onChange(item)" [value]="!!_entitiesSelected[item.id]"></p-checkbox>
-      </td>
-      <td>
         <div class="p-formgroup-inline">
           <button (click)="onInput(item?.spells?.qt-1, item)"
                   pButton
@@ -73,7 +64,7 @@
                   class="p-button-sm p-mr-2"
                   iconPos="left">
           </button>
-          <button (click)="onInput(item?.spells?.qt-1, item)"
+          <button (click)="onInput(0, item)"
                   pButton
                   type="button"
                   class="p-button-sm p-mr-2"

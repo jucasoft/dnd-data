@@ -21,8 +21,21 @@ export class SpellsInventoryService {
     }
   }
 
-  findAll() {
-    return `This action returns all spellsInventory`;
+  findAll(user: string) {
+    try {
+      // if (paginateOpts && paginateOpts.limit && paginateOpts.page) {
+      //   const skips = paginateOpts.limit * (paginateOpts.page - 1);
+      //   paginateOpts.limit = +paginateOpts.limit;
+      //   return this.model
+      //     .find()
+      //     .skip(skips)
+      //     .limit(paginateOpts.limit)
+      //     .exec();
+      // }
+      return this.model.find().exec();
+    } catch (e) {
+      throw new HttpException(e.message || e, e.status || 500);
+    }
   }
 
   findOne(id: number) {

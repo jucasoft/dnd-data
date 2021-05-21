@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {closePopUpAction, PopUpBaseComponent} from '@root-store/router-store/pop-up-base.component';
 import {Png} from '@models/vo/png';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
@@ -7,7 +7,8 @@ import {PngStoreActions} from '@root-store/png-store';
 @Component({
   selector: 'app-png-edit',
   templateUrl: './png-edit.component.html',
-  styles: [``]
+  styles: [``],
+  changeDetection:ChangeDetectionStrategy.OnPush
 })
 export class PngEditComponent extends PopUpBaseComponent<Png> {
 

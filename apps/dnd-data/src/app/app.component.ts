@@ -1,12 +1,13 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, HostListener, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {RootStoreState, SlideMenuStoreActions, SlideMenuStoreSelectors} from '@root-store/index';
+import {RootStoreState, SlideMenuStoreActions, SlideMenuStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  changeDetection:ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
 
@@ -27,6 +28,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.store$.dispatch(
+      SpellStoreActions.SearchRequest({queryParams: {}})
+    );
     this.open$ = this.store$.select(SlideMenuStoreSelectors.selectOpen);
   }
 

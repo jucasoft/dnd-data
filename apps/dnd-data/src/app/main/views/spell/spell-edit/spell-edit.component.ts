@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {closePopUpAction, PopUpBaseComponent} from '@root-store/router-store/pop-up-base.component';
 import {Spell} from '@models/vo/spell';
 import {FormGroup} from '@angular/forms';
@@ -8,7 +8,8 @@ import {SpellStoreActions} from '@root-store/spell-store';
 @Component({
   selector: 'app-spell-edit',
   templateUrl: './spell-edit.component.html',
-  styles: [``]
+  styles: [``],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SpellEditComponent extends PopUpBaseComponent<Spell> {
 
