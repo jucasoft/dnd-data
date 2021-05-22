@@ -1,9 +1,11 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {PngStoreSelectors, RootStoreState, SpellsInventoryStoreActions, SpellStoreSelectors} from '@root-store/index';
+import {PngStoreSelectors, RootStoreState, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
+import {SpellsInventory} from '@models/vo/spells-inventory';
+import {scan} from 'rxjs/operators';
 
 @Component({
   selector: 'app-spell-main',
@@ -15,6 +17,7 @@ export class SpellMainComponent implements OnInit {
 
   collection$: Observable<Spell[]>;
   pngCollection$: Observable<Png[]>
+  spellsInventory$: Observable<SpellsInventory[]>
 
   constructor(private readonly store$: Store<RootStoreState.State>) {
 
@@ -23,16 +26,24 @@ export class SpellMainComponent implements OnInit {
   ngOnInit(): void {
 
     this.collection$ = this.store$.select(
-      SpellStoreSelectors.selectAllMerged
+      SpellStoreSelectors.selectAllDenorm
     );
 
     this.pngCollection$ = this.store$.select(
       PngStoreSelectors.selectAll
     );
 
-    // this.store$.dispatch(
-    //   SpellsInventoryStoreActions.SearchRequest({queryParams: {}})
-    // );
+    this.spellsInventory$ = this.store$.select(
+      SpellsInventoryStoreSelectors.selectAll,
+      scan((acc, value: SpellsInventory) => {
+        acc[value.spellsDictionaryId] = value;
+        return acc;
+      }, {})
+    );
+
+    this.store$.dispatch(
+      SpellsInventoryStoreActions.SearchRequest({queryParams: {}})
+    );
 
   }
 

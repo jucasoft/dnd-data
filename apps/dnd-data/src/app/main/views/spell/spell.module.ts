@@ -20,6 +20,7 @@ import {ToolbarModule} from 'primeng/toolbar';
 import {DropdownModule} from 'primeng/dropdown';
 import {InputNumberModule} from 'primeng/inputnumber';
 import {CheckboxModule} from 'primeng/checkbox';
+import { QtStepperComponent } from './components/qt-stepper.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {CheckboxModule} from 'primeng/checkbox';
     ButtonNewSpellComponent,
     ButtonDeleteSpellComponent,
     ButtonEditManyTestSpellComponent,
-    ButtonCreateManyTestSpellComponent
+    ButtonCreateManyTestSpellComponent,
+    QtStepperComponent
   ],
   imports: [
     CommonModule,

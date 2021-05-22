@@ -56,29 +56,7 @@
   <ng-template let-item pTemplate="body">
     <tr>
       <td>
-        <div class="p-formgroup-inline">
-          <button (click)="onInput(item?.spells?.qt-1, item)"
-                  pButton
-                  type="button"
-                  icon="pi pi-minus"
-                  class="p-button-sm p-mr-2"
-                  iconPos="left">
-          </button>
-          <button (click)="onInput(0, item)"
-                  pButton
-                  type="button"
-                  class="p-button-sm p-mr-2"
-                  [label]="item?.spells?.qt"
-                  iconPos="left">
-          </button>
-          <button (click)="onInput(item?.spells?.qt+1, item)"
-                  pButton
-                  type="button"
-                  icon="pi pi-plus"
-                  class="p-button-sm"
-                  iconPos="left">
-          </button>
-        </div>
+        <dnd-data-qt-stepper [spellsInventory]="_spellsInventory[item.id] || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
       </td>
       <td>
         {{item.name}}

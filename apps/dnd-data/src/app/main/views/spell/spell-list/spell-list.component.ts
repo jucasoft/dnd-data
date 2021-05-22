@@ -6,8 +6,8 @@ import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
-import {Dictionary} from '@ngrx/entity';
 import {SpellsInventory} from '@models/vo/spells-inventory';
+import {Dictionary} from '@ngrx/entity';
 
 @Component({
   selector: 'app-spell-list',
@@ -27,6 +27,14 @@ export class SpellListComponent implements OnInit {
   @Input()
   set collection(value: Spell[]) {
     this._collection = value;
+  }
+
+  public _spellsInventory: Dictionary<SpellsInventory>;
+  public EMPTY = {qt: 0} as SpellsInventory
+
+  @Input()
+  set spellsInventory(value: Dictionary<SpellsInventory>) {
+    this._spellsInventory = value;
   }
 
   // public _itemsSelected: Spell[];
