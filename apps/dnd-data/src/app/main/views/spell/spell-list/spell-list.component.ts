@@ -9,7 +9,6 @@ import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
-import {Platform} from '@angular/cdk/platform';
 
 @Component({
   selector: 'app-spell-list',

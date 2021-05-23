@@ -5,6 +5,11 @@ import {SpellEditComponent} from '@views/spell/spell-edit/spell-edit.component';
 
 const routes: Routes = [
   {
+    path: 'main/:calss/:name/:user/:_id',
+    component: SpellMainComponent,
+    pathMatch: 'full'
+  },
+  {
     path: 'main',
     component: SpellMainComponent,
     pathMatch: 'full'

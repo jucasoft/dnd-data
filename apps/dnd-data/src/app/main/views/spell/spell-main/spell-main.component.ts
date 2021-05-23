@@ -1,11 +1,11 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {Store} from '@ngrx/store';
-import {PngStoreSelectors, RootStoreState, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors} from '@root-store/index';
+import {select, Store} from '@ngrx/store';
+import {PngStoreSelectors, RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
 import {SpellsInventory} from '@models/vo/spells-inventory';
-import {scan} from 'rxjs/operators';
+import {scan, tap} from 'rxjs/operators';
 import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 
 @Component({
@@ -17,22 +17,26 @@ import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 export class SpellMainComponent implements OnInit {
 
   collection$: Observable<Spell[]>;
-  pngCollection$: Observable<Png[]>
+  pngSelected$: Observable<Png>;
   spellsInventory$: Observable<SpellsInventory[]>
 
   constructor(private readonly store$: Store<RootStoreState.State>) {
-
   }
 
   ngOnInit(): void {
 
+    this.store$.pipe(
+      select(RouterStoreSelectors.selectRouteParams),
+      tap(value => console.log('value', value)),
+    ).subscribe();
+
+    this.pngSelected$ = this.store$.pipe(
+      select(PngStoreSelectors.selectItemSelectedOrigin)
+    );
+
     this.collection$ = this.store$.pipe(
       // SpellStoreSelectors.selectAllDenorm
       selectAllDenorm$()
-    );
-
-    this.pngCollection$ = this.store$.select(
-      PngStoreSelectors.selectAll
     );
 
     this.spellsInventory$ = this.store$.select(
@@ -47,14 +51,6 @@ export class SpellMainComponent implements OnInit {
       SpellsInventoryStoreActions.SearchRequest({queryParams: {}})
     );
 
-  }
-
-  onSearch(valueA: string): void {
-    const value = `classLevels.class=${valueA}`;
-    this.store$.dispatch(
-      SpellsInventoryStoreActions.SearchRequest({queryParams: {}})
-    );
-    // this.store$.dispatch(this.actions.SearchRequest({queryParams: parseQueryString(value)}));
   }
 
 }
