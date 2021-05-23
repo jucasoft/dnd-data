@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, Param, Patch, Post, Put, Req, UseGuards} from '@nestjs/common';
+import {Body, Controller, Delete, Get, Param, Post, Put, Req, UseGuards} from '@nestjs/common';
 import {PngService} from './png.service';
 import {CreatePngDto} from './dto/create-png.dto';
 import {UpdatePngDto} from './dto/update-png.dto';
@@ -12,6 +12,7 @@ export class PngController {
   @Post()
   @UseGuards(AuthGuard('jwt'))
   create(@Body() dto: CreatePngDto, @Req() req) {
+    dto.user = req.user.sub;
     return this.service.create(dto, req.user.sub);
   }
 
