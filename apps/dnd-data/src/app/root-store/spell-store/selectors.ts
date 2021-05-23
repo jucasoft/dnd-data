@@ -6,7 +6,7 @@ import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store/
 import {Spell} from '@models/vo/spell';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {pipe} from 'rxjs';
-import {map, scan} from 'rxjs/operators';
+import {map, scan, withLatestFrom} from 'rxjs/operators';
 import {Dictionary} from '@ngrx/entity';
 import {evalData} from '@core/utils/j-utils';
 

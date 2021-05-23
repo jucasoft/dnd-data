@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {PngStoreSelectors, RootStoreState, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreSelectors} from '@root-store/index';
+import {PngStoreSelectors, RootStoreState, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';

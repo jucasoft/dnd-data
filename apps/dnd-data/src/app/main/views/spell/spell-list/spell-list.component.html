@@ -1,4 +1,5 @@
 <p-table #dt
+         dataKey="_id"
          (selectionChange)="onSelectionChange($event)"
          [columns]="selectedColumns"
          [globalFilterFields]="['name']"
@@ -22,36 +23,72 @@
   </ng-template>
   <ng-template pTemplate="header">
     <tr>
+      <th style="width: 3rem"></th>
       <th style="width: 11rem">quantity</th>
       <th *ngFor="let col of _selectedColumns">
         {{col.header}}
       </th>
     </tr>
-<!--    <tr>-->
-<!--      <th>-->
-<!--      </th>-->
-<!--      <th>-->
-<!--        <p-columnFilter field="name" type="text"></p-columnFilter>-->
-<!--      </th>-->
-<!--      <th>-->
-<!--        <p-columnFilter field="schools" type="text"></p-columnFilter>-->
-<!--      </th>-->
-<!--      <th>-->
-<!--        <p-columnFilter field="castingTime" type="text"></p-columnFilter>-->
-<!--      </th>-->
-<!--      <th>-->
-<!--        <p-columnFilter field="range" type="text"></p-columnFilter>-->
-<!--      </th>-->
-<!--    </tr>-->
+    <!--    <tr>-->
+    <!--      <th>-->
+    <!--      </th>-->
+    <!--      <th>-->
+    <!--        <p-columnFilter field="name" type="text"></p-columnFilter>-->
+    <!--      </th>-->
+    <!--      <th>-->
+    <!--        <p-columnFilter field="schools" type="text"></p-columnFilter>-->
+    <!--      </th>-->
+    <!--      <th>-->
+    <!--        <p-columnFilter field="castingTime" type="text"></p-columnFilter>-->
+    <!--      </th>-->
+    <!--      <th>-->
+    <!--        <p-columnFilter field="range" type="text"></p-columnFilter>-->
+    <!--      </th>-->
+    <!--    </tr>-->
   </ng-template>
-  <ng-template let-item pTemplate="body">
+  <ng-template let-item pTemplate="body" let-expanded="expanded">
     <tr>
+      <td style="width: 3rem">
+        <button type="button" pButton pRipple [pRowToggler]="item" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
+      </td>
       <td>
         <dnd-data-qt-stepper [spellsInventory]="item.spells || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
       </td>
       <th *ngFor="let col of _selectedColumns">
         {{item[col.field]}}
       </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="rowexpansion" let-item>
+    <tr>
+      <td [colSpan]="selectedColumns.length+2">
+        <div class="p-grid">
+          <div class="p-col-12 p-lg-4 p-pt-0 p-pb-0">
+            <div>Uame : {{item.name}}</div>
+            <div>Range : {{item.range}}</div>
+            <div>Subschools : {{item.subschools}}</div>
+            <div>Area : {{item.area}}</div>
+            <div>Saving Throw : {{item.savingThrow}}</div>
+          </div>
+          <div class="p-col-12 p-lg-4 p-pt-0 p-pb-0">
+            <div>Target : {{item.target}}</div>
+            <div>Casting Time : {{item.castingTime}}</div>
+            <div>Schools : {{item.schools}}</div>
+            <div>Class Levels : {{classLevelRenderer(item.classLevels)}}</div>
+            <div>Source : {{renderSource(item.source)}}</div>
+          </div>
+          <div class="p-col-12 p-lg-4 p-pt-0 p-pb-0">
+            <div>Components : {{item.components}}</div>
+            <div>Spell Resistance : {{item.spellResistance}}</div>
+            <div>Domain Levels : {{item.domainLevels}}</div>
+            <div>Duration : {{item.duration}}</div>
+            <div>Effect : {{item.effect}}</div>
+          </div>
+        </div>
+
+        <div class="p-d-flex">Description:</div>
+        <div class="p-d-flex p-flex-column p-pl-2" [innerHTML]="item.description"></div>
+      </td>
     </tr>
   </ng-template>
 </p-table>

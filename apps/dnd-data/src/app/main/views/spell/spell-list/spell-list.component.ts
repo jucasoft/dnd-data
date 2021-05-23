@@ -7,6 +7,8 @@ import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
+import {Rulebook} from '@models/vo/rulebook';
+import {ClassLevel} from '@models/vo/class-level';
 
 @Component({
   selector: 'app-spell-list',
@@ -38,23 +40,8 @@ export class SpellListComponent implements OnInit {
   }
 
   set selectedColumns(val: any[]) {
-    //restore original order
     this._selectedColumns = this.cols.filter(col => val.includes(col));
   }
-
-  // public _itemsSelected: Spell[];
-  //
-  // @Input()
-  // set itemsSelected(value: Spell[]) {
-  //   this._itemsSelected = value;
-  // }
-  //
-  // public _entitiesSelected: Dictionary<Spell>;
-  //
-  // @Input()
-  // set entitiesSelected(value: Dictionary<Spell>) {
-  //   this._entitiesSelected = value;
-  // }
 
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
@@ -133,5 +120,13 @@ export class SpellListComponent implements OnInit {
 
   onChange(item: any): void {
     this.store$.dispatch(SpellStoreActions.AddManySelected({items: [item]}));
+  }
+
+  renderSource(source: Rulebook): string {
+    return `${source.rulebook}, page ${source.page}`
+  }
+
+  classLevelRenderer(classLevels: ClassLevel[]): string {
+    return classLevels.map((value: ClassLevel) =>`${value.class} (${value.level})`).join(', ')
   }
 }
