@@ -17,7 +17,7 @@
           <i class="pi pi-search"></i>
           <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
       </span>
-      <p-multiSelect [options]="cols" [(ngModel)]="selectedColumns" optionLabel="header"
+      <p-multiSelect [options]="cols" [(ngModel)]="selectedColumns" optionLabel="header" optionDisabled="disabled"
                      selectedItemsLabel="{0} columns selected" [style]="{minWidth: '200px'}" placeholder="Choose Columns"></p-multiSelect>
     </div>
   </ng-template>
@@ -29,22 +29,6 @@
         {{col.header}}
       </th>
     </tr>
-    <!--    <tr>-->
-    <!--      <th>-->
-    <!--      </th>-->
-    <!--      <th>-->
-    <!--        <p-columnFilter field="name" type="text"></p-columnFilter>-->
-    <!--      </th>-->
-    <!--      <th>-->
-    <!--        <p-columnFilter field="schools" type="text"></p-columnFilter>-->
-    <!--      </th>-->
-    <!--      <th>-->
-    <!--        <p-columnFilter field="castingTime" type="text"></p-columnFilter>-->
-    <!--      </th>-->
-    <!--      <th>-->
-    <!--        <p-columnFilter field="range" type="text"></p-columnFilter>-->
-    <!--      </th>-->
-    <!--    </tr>-->
   </ng-template>
   <ng-template let-item pTemplate="body" let-expanded="expanded">
     <tr>
@@ -55,7 +39,7 @@
         <dnd-data-qt-stepper [spellsInventory]="item.spells || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
       </td>
       <th *ngFor="let col of _selectedColumns">
-        {{item[col.field]}}
+        {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}
       </th>
     </tr>
   </ng-template>

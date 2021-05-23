@@ -46,12 +46,28 @@ export class SpellListComponent implements OnInit {
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
     this.cols = [
-      {field: 'name', header: 'name', ngClass: ''},
-      {field: 'schools', header: 'schools', ngClass: ''},
-      {field: 'castingTime', header: 'castingTime', ngClass: ''},
-      {field: 'range', header: 'range', ngClass: ''},
+      {field: 'name', header: 'name', ngClass: '', renderer: null},
+      {field: 'schools', header: 'schools', ngClass: '', renderer: null},
+      {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
+      {field: 'range', header: 'range', ngClass: '', renderer: null},
+
+      {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
+      {field: 'area', header: 'area', ngClass: '', renderer: null},
+      {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
+      {field: 'target', header: 'target', ngClass: '', renderer: null},
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
+      {field: 'source', header: 'source', ngClass: '', renderer: this.renderSource},
+      {field: 'components', header: 'components', ngClass: '', renderer: null},
+      {field: 'spellResistance', header: 'spellResistance', ngClass: '', renderer: null},
+      {field: 'description', header: 'description', ngClass: '', renderer: null},
+      {field: 'descriptors', header: 'descriptors', ngClass: '', renderer: null},
+      {field: 'domainLevels', header: 'domainLevels', ngClass: '', renderer: null},
+      {field: 'duration', header: 'duration', ngClass: '', renderer: null},
+      {field: 'effect', header: 'effect', ngClass: '', renderer: null},
+      {field: 'id', header: 'id', ngClass: '', renderer: null},
     ];
-    this._selectedColumns = this.cols;
+
+    this._selectedColumns = this.cols.slice(0, 4);
   }
 
   onInput(qt: number, spell: Spell): void {
@@ -127,6 +143,6 @@ export class SpellListComponent implements OnInit {
   }
 
   classLevelRenderer(classLevels: ClassLevel[]): string {
-    return classLevels.map((value: ClassLevel) =>`${value.class} (${value.level})`).join(', ')
+    return classLevels.map((value: ClassLevel) => `${value.class} (${value.level})`).join(', ')
   }
 }
