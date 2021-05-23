@@ -16,6 +16,7 @@ import {SpellsInventory} from '@models/vo/spells-inventory';
       <button *ngIf="loading" pButton type="button" class="p-button-sm p-mr-1" icon="fas fa-spinner fa-pulse" iconPos="left"></button>
       <button (click)="onInput(0)"
               *ngIf="!loading"
+              [disabled]="spellsInventory.qt<1"
               pButton
               type="button"
               class="p-button-sm p-mr-1"

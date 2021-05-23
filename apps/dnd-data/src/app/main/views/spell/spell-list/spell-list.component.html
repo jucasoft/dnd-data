@@ -2,9 +2,9 @@
          dataKey="_id"
          (selectionChange)="onSelectionChange($event)"
          [columns]="selectedColumns"
-         [globalFilterFields]="['name']"
+         [globalFilterFields]="['name','schools','castingTime','range']"
          [paginator]="true"
-         [rowsPerPageOptions]="[10,25,50]" [rows]="10"
+         [rowsPerPageOptions]="[25,50,100]" [rows]="25"
          [showCurrentPageReport]="true"
          [value]="_collection"
          currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
@@ -27,6 +27,7 @@
       <th style="width: 11rem">quantity</th>
       <th *ngFor="let col of _selectedColumns">
         {{col.header}}
+        <p-columnFilter type="text" [field]="col.field" display="menu"></p-columnFilter>
       </th>
     </tr>
   </ng-template>
