@@ -1,5 +1,6 @@
 <p-table #dt
          (selectionChange)="onSelectionChange($event)"
+         [columns]="selectedColumns"
          [globalFilterFields]="['name']"
          [paginator]="true"
          [rowsPerPageOptions]="[10,25,50]" [rows]="10"
@@ -15,68 +16,42 @@
           <i class="pi pi-search"></i>
           <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
       </span>
+      <p-multiSelect [options]="cols" [(ngModel)]="selectedColumns" optionLabel="header"
+                     selectedItemsLabel="{0} columns selected" [style]="{minWidth: '200px'}" placeholder="Choose Columns"></p-multiSelect>
     </div>
   </ng-template>
   <ng-template pTemplate="header">
     <tr>
-      <th style="width: 11rem">
+      <th style="width: 11rem">quantity</th>
+      <th *ngFor="let col of _selectedColumns">
+        {{col.header}}
       </th>
-      <th>
-        name
-      </th>
-      <th>
-        schools
-      </th>
-      <th>
-        castingTime
-      </th>
-      <th>
-        range
-      </th>
-      <th style="width: 10em">actions</th>
     </tr>
-    <tr>
-      <th>
-      </th>
-      <th>
-        <p-columnFilter field="name" type="text"></p-columnFilter>
-      </th>
-      <th>
-        <p-columnFilter field="schools" type="text"></p-columnFilter>
-      </th>
-      <th>
-        <p-columnFilter field="castingTime" type="text"></p-columnFilter>
-      </th>
-      <th>
-        <p-columnFilter field="range" type="text"></p-columnFilter>
-      </th>
-      <th></th>
-    </tr>
+<!--    <tr>-->
+<!--      <th>-->
+<!--      </th>-->
+<!--      <th>-->
+<!--        <p-columnFilter field="name" type="text"></p-columnFilter>-->
+<!--      </th>-->
+<!--      <th>-->
+<!--        <p-columnFilter field="schools" type="text"></p-columnFilter>-->
+<!--      </th>-->
+<!--      <th>-->
+<!--        <p-columnFilter field="castingTime" type="text"></p-columnFilter>-->
+<!--      </th>-->
+<!--      <th>-->
+<!--        <p-columnFilter field="range" type="text"></p-columnFilter>-->
+<!--      </th>-->
+<!--    </tr>-->
   </ng-template>
   <ng-template let-item pTemplate="body">
     <tr>
       <td>
-        <dnd-data-qt-stepper [spellsInventory]="_spellsInventory[item.id] || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
+        <dnd-data-qt-stepper [spellsInventory]="item.spells || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
       </td>
-      <td>
-        {{item.name}}
-      </td>
-      <td>
-        {{item.schools}}
-      </td>
-      <td>
-        {{item.castingTime}}
-      </td>
-      <td>
-        {{item.range}}
-      </td>
-      <td>
-
-        <!--        <button pButton pRipple type="button" icon="pi pi-copy" class="p-button-rounded p-button-outlined p-mr-1" (click)="onCopy(item)"></button>-->
-        <button (click)="onEdit(item)" class="p-button-rounded p-button-success p-button-outlined p-mr-1" icon="pi pi-pencil" pButton pRipple type="button"></button>
-        <!--        <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger p-button-outlined" (click)="onDelete(item)"></button>-->
-
-      </td>
+      <th *ngFor="let col of _selectedColumns">
+        {{item[col.field]}}
+      </th>
     </tr>
   </ng-template>
 </p-table>

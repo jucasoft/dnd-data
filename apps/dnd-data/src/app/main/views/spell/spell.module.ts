@@ -21,6 +21,7 @@ import {DropdownModule} from 'primeng/dropdown';
 import {InputNumberModule} from 'primeng/inputnumber';
 import {CheckboxModule} from 'primeng/checkbox';
 import { QtStepperComponent } from './components/qt-stepper.component';
+import {MultiSelectModule} from 'primeng/multiselect';
 
 @NgModule({
   declarations: [
@@ -33,23 +34,24 @@ import { QtStepperComponent } from './components/qt-stepper.component';
     ButtonCreateManyTestSpellComponent,
     QtStepperComponent
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    SpellRoutingModule,
-    TableModule,
-    DialogModule,
-    ButtonModule,
-    InputTextModule,
-    PipesModule,
-    SearchModule,
-    NgLetModule,
-    ToolbarModule,
-    DropdownModule,
-    InputNumberModule,
-    CheckboxModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        SpellRoutingModule,
+        TableModule,
+        DialogModule,
+        ButtonModule,
+        InputTextModule,
+        PipesModule,
+        SearchModule,
+        NgLetModule,
+        ToolbarModule,
+        DropdownModule,
+        InputNumberModule,
+        CheckboxModule,
+        MultiSelectModule
+    ],
   providers: [],
   entryComponents: []
 })

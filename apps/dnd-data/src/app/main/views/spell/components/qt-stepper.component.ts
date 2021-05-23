@@ -7,27 +7,35 @@ import {SpellsInventory} from '@models/vo/spells-inventory';
     <div class="p-formgroup-inline">
       <button (click)="onInput(spellsInventory?.qt-1)"
               pButton
+              [disabled]="spellsInventory.qt<1"
               type="button"
               icon="pi pi-minus"
-              class="p-button-sm p-mr-2"
+              class="p-button-sm p-mr-1"
               iconPos="left">
       </button>
+      <button *ngIf="loading" pButton type="button" class="p-button-sm p-mr-1" icon="fas fa-spinner fa-pulse" iconPos="left"></button>
       <button (click)="onInput(0)"
+              *ngIf="!loading"
               pButton
               type="button"
-              class="p-button-sm p-mr-2"
+              class="p-button-sm p-mr-1"
               [label]="spellsInventory.qt+''"
               iconPos="left">
       </button>
       <button (click)="onInput(spellsInventory.qt+1)"
               pButton
+              [disabled]="spellsInventory.qt>8"
               type="button"
               icon="pi pi-plus"
               class="p-button-sm"
               iconPos="left">
       </button>
     </div>  `,
-  styles: []
+  styles: [`
+  button{
+    height: 40px;
+  }
+  `]
 })
 export class QtStepperComponent implements OnInit {
   @Output()
@@ -36,6 +44,8 @@ export class QtStepperComponent implements OnInit {
   @Input()
   spellsInventory: SpellsInventory;
 
+  loading = false;
+
   constructor() {
   }
 
@@ -43,6 +53,7 @@ export class QtStepperComponent implements OnInit {
   }
 
   onInput(qt): void {
+    this.loading = true;
     this.change.emit(qt)
   }
 }

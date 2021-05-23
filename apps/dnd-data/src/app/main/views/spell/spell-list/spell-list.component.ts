@@ -7,7 +7,6 @@ import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
-import {Dictionary} from '@ngrx/entity';
 
 @Component({
   selector: 'app-spell-list',
@@ -29,12 +28,18 @@ export class SpellListComponent implements OnInit {
     this._collection = value;
   }
 
-  public _spellsInventory: Dictionary<SpellsInventory>;
   public EMPTY = {qt: 0} as SpellsInventory
 
-  @Input()
-  set spellsInventory(value: Dictionary<SpellsInventory>) {
-    this._spellsInventory = value;
+  public cols: any[];
+  _selectedColumns: any[];
+
+  @Input() get selectedColumns(): any[] {
+    return this._selectedColumns;
+  }
+
+  set selectedColumns(val: any[]) {
+    //restore original order
+    this._selectedColumns = this.cols.filter(col => val.includes(col));
   }
 
   // public _itemsSelected: Spell[];
@@ -53,6 +58,13 @@ export class SpellListComponent implements OnInit {
 
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
+    this.cols = [
+      {field: 'name', header: 'name', ngClass: ''},
+      {field: 'schools', header: 'schools', ngClass: ''},
+      {field: 'castingTime', header: 'castingTime', ngClass: ''},
+      {field: 'range', header: 'range', ngClass: ''},
+    ];
+    this._selectedColumns = this.cols;
   }
 
   onInput(qt: number, spell: Spell): void {

@@ -20,7 +20,6 @@ PngStoreSelectors.selectIsLoading,
   SpellsInventoryStoreSelectors.selectIsLoading,
   SpellStoreSelectors.selectIsLoading,
   (...args: boolean[]) => {
-    console.log('selectIsLoading.args', args);
     return args.find((value => value));
   }
 );

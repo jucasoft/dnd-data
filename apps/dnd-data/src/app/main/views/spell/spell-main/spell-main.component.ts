@@ -6,6 +6,7 @@ import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {scan} from 'rxjs/operators';
+import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 
 @Component({
   selector: 'app-spell-main',
@@ -25,8 +26,9 @@ export class SpellMainComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.collection$ = this.store$.select(
-      SpellStoreSelectors.selectAllDenorm
+    this.collection$ = this.store$.pipe(
+      // SpellStoreSelectors.selectAllDenorm
+      selectAllDenorm$()
     );
 
     this.pngCollection$ = this.store$.select(
