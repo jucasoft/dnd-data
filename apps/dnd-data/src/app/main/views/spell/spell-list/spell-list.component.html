@@ -6,7 +6,7 @@
          [paginator]="true"
          [rowsPerPageOptions]="[25,50,100]" [rows]="25"
          [showCurrentPageReport]="true"
-         [value]="_collection"
+         [value]="collection$ | async"
          currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
          stateKey="statedemo-local" stateStorage="local"
          styleClass="p-datatable-customers">
@@ -37,7 +37,11 @@
         <button type="button" pButton pRipple [pRowToggler]="item" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
       </td>
       <td>
-        <dnd-data-qt-stepper [spellsInventory]="item.spells || EMPTY" (change)="onInput($event, item)"></dnd-data-qt-stepper>
+        <dnd-data-qt-stepper
+          *ngLet="pngSelected$ | async  as pngSelected"
+          [spellsInventory]="item.spells || EMPTY"
+          (change)="onInput($event, item, pngSelected)">
+        </dnd-data-qt-stepper>
       </td>
       <th *ngFor="let col of _selectedColumns">
         {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}

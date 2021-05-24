@@ -4,6 +4,11 @@ import {State} from './state';
 import {Names} from './names';
 import {SlideMenuItem} from '@models/vo/slide-menu-item';
 import {MenuItem} from 'primeng/api';
+import {PngStoreSelectors} from '@root-store/png-store/index';
+import {Png} from '@models/vo/png';
+import {RouterStoreActions} from '@root-store/router-store/index';
+import {SlideMenuStoreActions} from '@root-store/slide-menu-store/index';
+import {SpellsInventoryStoreActions} from '@root-store/spells-inventory-store/index';
 
 const getOpen = (state: State): boolean => state.open;
 const getItem = (state: State): SlideMenuItem => state.item;
@@ -12,7 +17,7 @@ const getBreadcrumb = (value: SlideMenuItem): string[] => value.breadcrumb;
 
 export const selectState: MemoizedSelector<object, State> = createFeatureSelector<State>(Names.NAME);
 
-export const selectItems: MemoizedSelector<object, MenuItem[]> = createSelector(
+export const selectItemsA: MemoizedSelector<object, MenuItem[]> = createSelector(
   selectState,
   getItems
 );
@@ -37,5 +42,35 @@ export const selectBreadcrumbRenderized: MemoizedSelector<object, string> = crea
   selectBreadcrumb,
   (values: string[]): string => {
     return values.join(' > ');
+  }
+);
+
+export const selectItems: MemoizedSelector<any, MenuItem[]> = createSelector(
+  selectItemsA,
+  PngStoreSelectors.selectAll,
+  (menuItems: MenuItem[], allPng: Png[]): MenuItem[] => {
+    const result = allPng.map((png: Png) => {
+      return {
+        label: png.name,
+        icon: 'fas fa-hat-wizard',
+        command: (event$) => {
+          // invoco il router per cambiare pagina
+          event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell', 'main', png.clazz, png.name, png.user, png._id]}));
+
+          event$.item.store$.dispatch(
+            SpellsInventoryStoreActions.SearchRequest({queryParams: {}})
+          );
+
+          // salvo nello store del menù l'elemento selezionato.
+          event$.item.store$.dispatch(SlideMenuStoreActions.Select({
+            item: {
+              data: {},
+              breadcrumb: ['Spell', png.clazz, png.name]
+            }
+          }));
+        }
+      } as MenuItem;
+    });
+    return [...menuItems, ...result];
   }
 );

@@ -1,6 +1,6 @@
-import {ChangeDetectionStrategy, Component, Input, OnInit} from '@angular/core';
-import {Store} from '@ngrx/store';
-import {RootStoreState, SpellsInventoryStoreActions, SpellStoreActions} from '@root-store/index';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {select, Store} from '@ngrx/store';
+import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
@@ -9,6 +9,10 @@ import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
+import {Observable} from 'rxjs';
+import {Png} from '@models/vo/png';
+import {map} from 'rxjs/operators';
+import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 
 @Component({
   selector: 'app-spell-list',
@@ -23,19 +27,15 @@ export class SpellListComponent implements OnInit {
     console.log('SpellListComponent.constructor()');
   }
 
-  public _collection: Spell[];
-
-  @Input()
-  set collection(value: Spell[]) {
-    this._collection = value;
-  }
+  collection$: Observable<Spell[]>;
+  pngSelected$: Observable<Png>;
 
   public EMPTY = {qt: 0} as SpellsInventory
 
   public cols: any[];
   _selectedColumns: any[];
 
-  @Input() get selectedColumns(): any[] {
+  get selectedColumns(): any[] {
     return this._selectedColumns;
   }
 
@@ -68,11 +68,20 @@ export class SpellListComponent implements OnInit {
     ];
 
     this._selectedColumns = this.cols.slice(0, 4);
+
+    this.pngSelected$ = this.store$.pipe(
+      select(RouterStoreSelectors.selectRouteParams),
+      map(value => ({...new Png(), ...value}))
+    );
+
+    this.collection$ = this.store$.pipe(
+      selectAllDenorm$()
+    );
+
   }
 
-  onInput(qt: number, spell: Spell): void {
-    console.log('SpellListComponent.onSpellChange()');
-    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id}
+  onInput(qt: number, spell: Spell, {_id, name, clazz, user}: Png): void {
+    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, png: _id}
     const item = {...spells, qt};
     if (!item._id) {
       this.store$.dispatch(SpellsInventoryStoreActions.CreateRequest({item}));

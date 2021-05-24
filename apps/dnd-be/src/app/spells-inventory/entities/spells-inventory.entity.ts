@@ -7,7 +7,7 @@ export class SpellsInventory {
   public _id: any = undefined;
   @Prop() public spellsDictionaryId: string = undefined;
   @Prop() public qt: number = undefined;
-  @Prop() public user: number = undefined;
+  @Prop() public user: string = undefined;
   @Prop() public note: string = undefined;
   @Prop() public stars: number = undefined;
 }

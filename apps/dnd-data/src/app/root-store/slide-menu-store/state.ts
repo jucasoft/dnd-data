@@ -29,21 +29,21 @@ export const initialState: State = {
         }));
       }
     },
-    {
-      label: 'Spell',
-      icon: 'fas fa-magic',
-      command: (event$) => {
-        // invoco il router per cambiare pagina
-        event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell']}));
-
-        // salvo nello store del menù l'elemento selezionato.
-        event$.item.store$.dispatch(SlideMenuStoreActions.Select({
-          item: {
-            data: {},
-            breadcrumb: ['Sezione ', 'Spell']
-          }
-        }));
-      }
-    }
+    // {
+    //   label: 'Spell',
+    //   icon: 'fas fa-magic',
+    //   command: (event$) => {
+    //     // invoco il router per cambiare pagina
+    //     event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell']}));
+    //
+    //     // salvo nello store del menù l'elemento selezionato.
+    //     event$.item.store$.dispatch(SlideMenuStoreActions.Select({
+    //       item: {
+    //         data: {},
+    //         breadcrumb: ['Sezione ', 'Spell']
+    //       }
+    //     }));
+    //   }
+    // }
   ]
 };
