@@ -33,7 +33,7 @@ export class PngService {
       //     .limit(paginateOpts.limit)
       //     .exec();
       // }
-      return this.model.find().exec();
+      return this.model.find({user}).exec();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
     }
