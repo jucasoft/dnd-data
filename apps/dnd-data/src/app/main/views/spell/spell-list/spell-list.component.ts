@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
-import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellStoreActions} from '@root-store/index';
+import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
@@ -11,7 +11,7 @@ import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
-import {map} from 'rxjs/operators';
+import {map, tap} from 'rxjs/operators';
 import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 
 @Component({
@@ -29,6 +29,7 @@ export class SpellListComponent implements OnInit {
 
   collection$: Observable<Spell[]>;
   pngSelected$: Observable<Png>;
+  loadingSearch$: Observable<boolean>;
 
   public EMPTY = {qt: 0} as SpellsInventory
 
@@ -71,7 +72,18 @@ export class SpellListComponent implements OnInit {
 
     this.pngSelected$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
-      map(value => ({...new Png(), ...value}))
+      map(value => ({...new Png(), ...value})),
+      tap(png => {
+        console.log('SpellListComponent.()');
+        const pngId = png._id;
+        this.store$.dispatch(
+          SpellsInventoryStoreActions.SearchRequest({queryParams: {pngId}})
+        );
+      }),
+    );
+
+    this.loadingSearch$ = this.store$.pipe(
+      select(SpellsInventoryStoreSelectors.selectLoadingSearch),
     );
 
     this.collection$ = this.store$.pipe(
@@ -80,8 +92,9 @@ export class SpellListComponent implements OnInit {
 
   }
 
-  onInput(qt: number, spell: Spell, {_id, name, clazz, user}: Png): void {
-    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, png: _id}
+  onInput(qt: number, spell: Spell, png: Png): void {
+    const {_id, name, clazz, user} = png;
+    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, pngId: _id}
     const item = {...spells, qt};
     if (!item._id) {
       this.store$.dispatch(SpellsInventoryStoreActions.CreateRequest({item}));

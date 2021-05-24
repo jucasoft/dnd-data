@@ -2,7 +2,7 @@ import {HttpException, Injectable} from '@nestjs/common';
 import {CreateSpellsInventoryDto} from './dto/create-spells-inventory.dto';
 import {UpdateSpellsInventoryDto} from './dto/update-spells-inventory.dto';
 import {InjectModel} from '@nestjs/mongoose';
-import {Model, Types} from 'mongoose';
+import {Model} from 'mongoose';
 import {SpellsInventory, SpellsInventoryDocument} from './entities/spells-inventory.entity';
 
 @Injectable()
@@ -21,7 +21,7 @@ export class SpellsInventoryService {
     }
   }
 
-  findAll(user: string) {
+  findAll(spellsInventory: Partial<SpellsInventory>) {
     try {
       // if (paginateOpts && paginateOpts.limit && paginateOpts.page) {
       //   const skips = paginateOpts.limit * (paginateOpts.page - 1);
@@ -32,7 +32,7 @@ export class SpellsInventoryService {
       //     .limit(paginateOpts.limit)
       //     .exec();
       // }
-      return this.model.find().exec();
+      return this.model.find(spellsInventory).exec();
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);
     }

@@ -1,4 +1,4 @@
-import {createFeatureSelector, MemoizedSelector} from '@ngrx/store';
+import {createFeatureSelector, createSelector, MemoizedSelector} from '@ngrx/store';
 
 import {adapter, State} from './state';
 import {Names} from './names';
@@ -24,3 +24,8 @@ export const {
   selectItemsSelectedOrigin,
   selectResponses,
 } = adapter.getCrudSelectors(selectState);
+
+export const selectLoadingSearch: MemoizedSelector<any, boolean> = createSelector(
+  selectState,
+  (state: State) => state.loadingSearch
+);

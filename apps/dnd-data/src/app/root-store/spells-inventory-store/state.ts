@@ -6,6 +6,9 @@ export const adapter: EntityCrudAdapter<SpellsInventory> = createCrudEntityAdapt
 });
 
 export interface State extends EntityCrudState<SpellsInventory> {
+  loadingSearch: boolean;
 };
 
-export const initialState: State = adapter.getInitialCrudState();
+export const initialState: State = adapter.getInitialCrudState(
+  {loadingSearch: false}
+);
