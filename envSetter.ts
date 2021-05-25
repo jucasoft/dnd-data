@@ -6,7 +6,6 @@ const targetPaths = [`./apps/dnd-data/src/environments/environment.base.ts`, `./
 // we have access to our environment variables
 // in the process.env object thanks to dotenv
 const environmentFileContent = `export const environmentBase = {
-  PORT: ${process.env.PORT},
   CLIENT_ID: '${process.env.CLIENT_ID}',
   DOMAIN: '${process.env.DOMAIN}',
   MONGO_DB_SRV: '${process.env.MONGO_DB_SRV}'
