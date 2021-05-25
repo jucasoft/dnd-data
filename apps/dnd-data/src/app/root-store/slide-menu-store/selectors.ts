@@ -7,8 +7,7 @@ import {MenuItem} from 'primeng/api';
 import {PngStoreSelectors} from '@root-store/png-store/index';
 import {Png} from '@models/vo/png';
 import {RouterStoreActions} from '@root-store/router-store/index';
-import {SlideMenuStoreActions} from '@root-store/slide-menu-store/index';
-import {SpellsInventoryStoreActions} from '@root-store/spells-inventory-store/index';
+import * as SlideMenuStoreActions from './actions';
 
 const getOpen = (state: State): boolean => state.open;
 const getItem = (state: State): SlideMenuItem => state.item;

@@ -9,7 +9,7 @@
     "start": "node dist/apps/dnd-be/main.js",
     "start:fe:dev": "npm run env && ng serve --proxy-config proxy.conf.js",
     "start:be": "nx serve dnd-be",
-    "build": "npm run env && ng build --prod",
+    "build": "npm run env && nx build dnd-be --configuration=production && ng build --prod",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
