@@ -6,7 +6,8 @@
            [columns]="selectedColumns"
            [globalFilterFields]="['name','schools','castingTime','range']"
            [paginator]="true"
-           [rowsPerPageOptions]="[25,50,100]" [rows]="25"
+           [rowsPerPageOptions]="[25,50,100]"
+           [rows]="25"
            [showCurrentPageReport]="true"
            [value]="collection$ | async"
            currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
@@ -14,7 +15,7 @@
            styleClass="p-datatable-customers">
     <ng-template pTemplate="caption">
       <div class="p-d-flex">
-        <button (click)="clear(dt); inputElementFilter.value = ''" class="p-button-outlined" icon="pi pi-filter-slash" label="Clear" pButton></button>
+        <button (click)="clear(dt); inputElementFilter.value = ''" class="p-button-outlined p-mr-2" icon="pi pi-filter-slash" label="Clear" pButton></button>
         <span class="p-input-icon-left p-ml-auto">
           <i class="pi pi-search"></i>
           <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
@@ -26,7 +27,13 @@
     <ng-template pTemplate="header">
       <tr>
         <th style="width: 3rem"></th>
-        <th style="width: 11rem">quantity</th>
+        <th style="width: 10rem">
+          <p-columnFilter field="spells" matchMode="filterDnD" [showMenu]="false" [hideOnClear]="false">
+            <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+              <p-toggleButton (onChange)="filter($event)" [ngModel]="!value" onIcon="pi pi-filter" offIcon="pi pi-filter-slash"></p-toggleButton>
+            </ng-template>
+          </p-columnFilter>
+        </th>
         <th *ngFor="let col of _selectedColumns">
           {{col.header}}
           <p-columnFilter type="text" [field]="col.field" display="menu"></p-columnFilter>
@@ -39,14 +46,14 @@
           <button type="button" pButton pRipple [pRowToggler]="item" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
         </td>
         <td>
-          <p-skeleton *ngIf="loading"></p-skeleton>
+          <p-skeleton *ngIf="loading" width="120px" height="40px"></p-skeleton>
           <dnd-data-qt-stepper
             *ngIf="!loading"
             [spellsInventory]="item.spells || EMPTY"
             (change)="onInput($event, item, pngSelected)">
           </dnd-data-qt-stepper>
         </td>
-        <th *ngFor="let col of _selectedColumns">
+        <th *ngFor="let col of _selectedColumns" class="p-text-left">
           {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}
         </th>
       </tr>

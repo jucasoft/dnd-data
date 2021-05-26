@@ -24,6 +24,9 @@ import { QtStepperComponent } from './components/qt-stepper.component';
 import {MultiSelectModule} from 'primeng/multiselect';
 import {SkeletonModule} from 'primeng/skeleton';
 import {PanelModule} from 'primeng/panel';
+import {ToggleButtonModule} from 'primeng/togglebutton';
+import {InputSwitchModule} from 'primeng/inputswitch';
+import {RippleModule} from 'primeng/ripple';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,10 @@ import {PanelModule} from 'primeng/panel';
     CheckboxModule,
     MultiSelectModule,
     SkeletonModule,
-    PanelModule
+    PanelModule,
+    ToggleButtonModule,
+    InputSwitchModule,
+    RippleModule
   ],
   providers: [],
   entryComponents: []

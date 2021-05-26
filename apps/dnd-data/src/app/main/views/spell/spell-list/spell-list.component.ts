@@ -3,7 +3,7 @@ import {select, Store} from '@ngrx/store';
 import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
-import {ConfirmationService} from 'primeng/api';
+import {ConfirmationService, FilterService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
@@ -23,8 +23,20 @@ import {selectAllDenorm$} from '@root-store/spell-store/selectors';
 export class SpellListComponent implements OnInit {
 
   constructor(private store$: Store<RootStoreState.State>,
+              private filterService: FilterService,
               private confirmationService: ConfirmationService) {
-    console.log('SpellListComponent.constructor()');
+    this.filterService.register('filterDnD', (value, filter): boolean => {
+
+      if (!filter) {
+        return true;
+      }
+
+      if (filter.checked) {
+        return true;
+      }
+
+      return value && value.qt > 0;
+    });
   }
 
   collection$: Observable<Spell[]>;
@@ -46,12 +58,12 @@ export class SpellListComponent implements OnInit {
 
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
+
     this.cols = [
       {field: 'name', header: 'name', ngClass: '', renderer: null},
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
       {field: 'range', header: 'range', ngClass: '', renderer: null},
-
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
@@ -74,10 +86,9 @@ export class SpellListComponent implements OnInit {
       select(RouterStoreSelectors.selectRouteParams),
       map(value => ({...new Png(), ...value})),
       tap(png => {
-        console.log('SpellListComponent.()');
         const pngId = png._id;
         this.store$.dispatch(
-          SpellsInventoryStoreActions.SearchRequest({queryParams: {pngId}})
+          SpellsInventoryStoreActions.SearchRequest({queryParams: {pngId}, mode: 'REFRESH'})
         );
       }),
     );
@@ -166,5 +177,9 @@ export class SpellListComponent implements OnInit {
 
   classLevelRenderer(classLevels: ClassLevel[]): string {
     return classLevels.map((value: ClassLevel) => `${value.class} (${value.level})`).join(', ')
+  }
+
+  toggleOnlySelected(ev): void {
+    console.log('ev', ev);
   }
 }
