@@ -29,14 +29,55 @@
 
     <div class="p-grid">
       <div class="p-col">
-        <label for="class"><strong>Class</strong></label><br>
-        <p-dropdown id="class"
-                    name="class"
-                    [options]="['','Cleric','Paladin','Savant']"
-                    class="form-control"
-                    appendTo="body"
-                    [formControl]="clazz">
-        </p-dropdown>
+        <label for="classLevels"><strong>Class levels</strong></label><br>
+        <p-multiSelect id="classLevels" name="classLevels"
+                       [options]="classLevelsDP$ | async" [formControl]="classLevels" appendTo="body"
+                       [virtualScroll]="true" itemSize="30" optionLabel="class"
+                       defaultLabel="select class levels" scrollHeight="400px" display="chip">
+          <!--          <ng-template let-group pTemplate="">-->
+          <!--          </ng-template>-->
+          <ng-template let-selectedItems pTemplate="selectedItems">
+            <div class="p-d-flex" *ngFor="let item of selectedItems">
+              <span>{{item.level}} - {{item.class}}</span>
+            </div>
+            <div *ngIf="!selectedItems || selectedItems.length === 0" class="country-placeholder">
+              Select class levels
+            </div>
+          </ng-template>
+          <ng-template let-item pTemplate="item">
+            <div class="p-d-flex">
+              <span>{{item.level}} - {{item.class}}</span>
+            </div>
+          </ng-template>
+        </p-multiSelect>
+      </div>
+    </div>
+
+    <div class="p-grid">
+      <div class="p-col">
+        <label for="domainLevels"><strong>Domain levels</strong></label><br>
+
+        <p-multiSelect id="domainLevels" name="domainLevels"
+                       [options]="domainLevelsDP$ | async" [formControl]="domainLevels" appendTo="body"
+                       [virtualScroll]="true" itemSize="30" optionLabel="domain"
+                       defaultLabel="select class levels" scrollHeight="400px" display="chip">
+          <!--          <ng-template let-group pTemplate="">-->
+          <!--          </ng-template>-->
+          <ng-template let-selectedItems pTemplate="selectedItems">
+            <div class="p-d-flex" *ngFor="let item of selectedItems">
+              <span>{{item.level}} - {{item.domain}}</span>
+            </div>
+            <div *ngIf="!selectedItems || selectedItems.length === 0" class="country-placeholder">
+              Select domains levels
+            </div>
+          </ng-template>
+          <ng-template let-item pTemplate="item">
+            <div class="p-d-flex">
+              <span>{{item.level}} - {{item.domain}}</span>
+            </div>
+          </ng-template>
+        </p-multiSelect>
+
       </div>
     </div>
 

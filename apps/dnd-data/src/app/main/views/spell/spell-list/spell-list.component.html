@@ -16,11 +16,14 @@
     <ng-template pTemplate="caption">
       <div class="p-d-flex">
         <button (click)="clear(dt); inputElementFilter.value = ''" class="p-button-outlined p-mr-2" icon="pi pi-filter-slash" label="Clear" pButton></button>
+
+        <button type="button" pButton icon="pi pi-download" label="Export" class="p-button-outlined p-mr-2" (click)="menu.toggle($event)"></button>
+        <p-menu #menu [popup]="true" [model]="items" styleClass="p-button-sm" appendTo="body"></p-menu>
         <span class="p-input-icon-left p-ml-auto">
           <i class="pi pi-search"></i>
           <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
-      </span>
-        <p-multiSelect [options]="cols" [(ngModel)]="selectedColumns" optionLabel="header" optionDisabled="disabled"
+        </span>
+        <p-multiSelect [options]="cols" [(ngModel)]="selectedColumns" optionLabel="header" optionDisabled="disabled" class="p-mr-2"
                        selectedItemsLabel="{0} columns selected" [style]="{minWidth: '200px'}" placeholder="Choose Columns"></p-multiSelect>
       </div>
     </ng-template>

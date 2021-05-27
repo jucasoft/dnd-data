@@ -27,6 +27,6 @@ export class AuthenticationService {
   }
 
   logout(): void {
-    this.authService.logout({returnTo: document.location.origin});
+    this.authService.logout({returnTo: document.location.origin, federated: false});
   }
 }

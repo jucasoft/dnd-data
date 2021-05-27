@@ -18,6 +18,7 @@ import {ButtonCreateManyTestPngComponent} from './components/button-create-many-
 import {NgLetModule} from '@core/directive/ng-let.directive';
 import {ToolbarModule} from 'primeng/toolbar';
 import {DropdownModule} from 'primeng/dropdown';
+import {MultiSelectModule} from 'primeng/multiselect';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {DropdownModule} from 'primeng/dropdown';
         SearchModule,
         NgLetModule,
         ToolbarModule,
-        DropdownModule
+        DropdownModule,
+        MultiSelectModule
     ],
   providers: [],
   entryComponents: []

@@ -27,6 +27,7 @@ import {PanelModule} from 'primeng/panel';
 import {ToggleButtonModule} from 'primeng/togglebutton';
 import {InputSwitchModule} from 'primeng/inputswitch';
 import {RippleModule} from 'primeng/ripple';
+import {MenuModule} from 'primeng/menu';
 
 @NgModule({
   declarations: [
@@ -39,29 +40,30 @@ import {RippleModule} from 'primeng/ripple';
     ButtonCreateManyTestSpellComponent,
     QtStepperComponent
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    SpellRoutingModule,
-    TableModule,
-    DialogModule,
-    ButtonModule,
-    InputTextModule,
-    PipesModule,
-    SearchModule,
-    NgLetModule,
-    ToolbarModule,
-    DropdownModule,
-    InputNumberModule,
-    CheckboxModule,
-    MultiSelectModule,
-    SkeletonModule,
-    PanelModule,
-    ToggleButtonModule,
-    InputSwitchModule,
-    RippleModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        SpellRoutingModule,
+        TableModule,
+        DialogModule,
+        ButtonModule,
+        InputTextModule,
+        PipesModule,
+        SearchModule,
+        NgLetModule,
+        ToolbarModule,
+        DropdownModule,
+        InputNumberModule,
+        CheckboxModule,
+        MultiSelectModule,
+        SkeletonModule,
+        PanelModule,
+        ToggleButtonModule,
+        InputSwitchModule,
+        RippleModule,
+        MenuModule
+    ],
   providers: [],
   entryComponents: []
 })

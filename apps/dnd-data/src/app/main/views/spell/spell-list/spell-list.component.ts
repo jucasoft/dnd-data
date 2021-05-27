@@ -3,7 +3,7 @@ import {select, Store} from '@ngrx/store';
 import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
-import {ConfirmationService, FilterService} from 'primeng/api';
+import {ConfirmationService, FilterService, MenuItem} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {Table} from 'primeng/table';
 import {SpellsInventory} from '@models/vo/spells-inventory';
@@ -11,8 +11,8 @@ import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
-import {map, tap} from 'rxjs/operators';
-import {selectAllDenorm$} from '@root-store/spell-store/selectors';
+import {filter, map, tap} from 'rxjs/operators';
+import {selectAllDenorm} from '@root-store/spell-store/selectors';
 
 @Component({
   selector: 'app-spell-list',
@@ -44,6 +44,8 @@ export class SpellListComponent implements OnInit {
   loadingSearch$: Observable<boolean>;
 
   public EMPTY = {qt: 0} as SpellsInventory
+
+  items: MenuItem[];
 
   public cols: any[];
   _selectedColumns: any[];
@@ -84,7 +86,8 @@ export class SpellListComponent implements OnInit {
 
     this.pngSelected$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
-      map(value => ({...new Png(), ...value})),
+      filter(value => !!value && !!value.png),
+      map(value => ({...JSON.parse(atob(value.png))})),
       tap(png => {
         const pngId = png._id;
         this.store$.dispatch(
@@ -98,13 +101,30 @@ export class SpellListComponent implements OnInit {
     );
 
     this.collection$ = this.store$.pipe(
-      selectAllDenorm$()
+      selectAllDenorm()
     );
+
+    this.items = [
+      {
+        label: 'Copy text ...IN SVILUPPARE...',
+        icon: 'pi pi-copy',
+        command: () => {
+          console.log('SpellListComponent.command()');
+        }
+      },
+      {
+        label: 'Copy JSON ...IN SVILUPPARE...',
+        icon: 'pi pi-copy',
+        command: () => {
+          console.log('SpellListComponent.command()');
+        }
+      },
+    ];
 
   }
 
   onInput(qt: number, spell: Spell, png: Png): void {
-    const {_id, name, clazz, user} = png;
+    const {_id, user} = png;
     const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, pngId: _id}
     const item = {...spells, qt};
     if (!item._id) {

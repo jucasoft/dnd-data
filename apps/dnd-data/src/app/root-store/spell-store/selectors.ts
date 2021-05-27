@@ -6,7 +6,7 @@ import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store/
 import {Spell} from '@models/vo/spell';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {pipe} from 'rxjs';
-import {map, scan, withLatestFrom} from 'rxjs/operators';
+import {map, scan, tap} from 'rxjs/operators';
 import {Dictionary} from '@ngrx/entity';
 import {evalData} from '@core/utils/j-utils';
 
@@ -101,7 +101,7 @@ export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = cr
   }
 );
 
-export const selectAllDenorm$ = () => {
+export const selectAllDenorm = () => {
   return pipe(
     select(selectEntitiesDenorm),
     scan((acc, value) => {
@@ -132,3 +132,60 @@ export const selectAllDenorm$ = () => {
 //     return Object.values(spells)
 //   }
 // );
+
+
+export const selectAllClassLevel = () => pipe(
+  selectAllDenorm(),
+  map(values => {
+    const result = values.reduce((prev, curr) => {
+      const result2 = curr.classLevels.reduce((prev2, curr2) => {
+        return {...prev2, [`${curr2.class}-${curr2.level}`]: curr2}
+      }, {})
+      return {...prev, ...result2}
+    }, {})
+
+    // ordino la lista in ordine alfabetico e numerico.
+    return Object.keys(result).sort((a, b) => {
+      const nameA = a.toUpperCase(); // ignore upper and lowercase
+      const nameB = b.toUpperCase(); // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+
+      // names must be equal
+      return 0;
+    }).map(key => result[key]);
+
+  })
+);
+
+export const selectAllDomainLevels = () => pipe(
+  selectAllDenorm(),
+  map(values => {
+    const result = values.reduce((prev, curr) => {
+      const result2 = curr.domainLevels.reduce((prev2, curr2) => {
+        return {...prev2, [`${curr2.domain}-${curr2.level}`]: curr2}
+      }, {})
+      return {...prev, ...result2}
+    }, {})
+
+    // ordino la lista in ordine alfabetico e numerico.
+    return Object.keys(result).sort((a, b) => {
+      const nameA = a.toUpperCase(); // ignore upper and lowercase
+      const nameB = b.toUpperCase(); // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+
+      // names must be equal
+      return 0;
+    }).map(key => result[key]);
+
+  })
+);

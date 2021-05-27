@@ -54,13 +54,14 @@ export const selectItems: MemoizedSelector<any, MenuItem[]> = createSelector(
         icon: 'fas fa-hat-wizard',
         command: (event$) => {
           // invoco il router per cambiare pagina
-          event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell', 'main', png.clazz, png.name, png.user, png._id]}));
+          const base64Png = btoa(JSON.stringify(png))
+          event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell', 'main', base64Png]}));
 
           // salvo nello store del menù l'elemento selezionato.
           event$.item.store$.dispatch(SlideMenuStoreActions.Select({
             item: {
               data: {},
-              breadcrumb: ['Spell', png.clazz, png.name]
+              breadcrumb: ['Spell', png.name]
             }
           }));
         }

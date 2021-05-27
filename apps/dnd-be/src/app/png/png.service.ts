@@ -3,13 +3,14 @@ import {CreatePngDto} from './dto/create-png.dto';
 import {UpdatePngDto} from './dto/update-png.dto';
 import {InjectModel} from '@nestjs/mongoose';
 import {Model} from 'mongoose';
-import {PngDocument} from './entities/png.entity';
-import {Png} from '@models/vo/png';
+import {Png, PngDocument} from './entities/png.entity';
+import {SpellsInventory, SpellsInventoryDocument} from '../spells-inventory/entities/spells-inventory.entity';
 
 @Injectable()
 export class PngService {
   constructor(
-    @InjectModel(Png.name) private model: Model<PngDocument>
+    @InjectModel(Png.name) private model: Model<PngDocument>,
+    @InjectModel(SpellsInventory.name) private modelSpellsInventory: Model<SpellsInventoryDocument>
   ) {
   }
 
@@ -61,6 +62,7 @@ export class PngService {
 
   remove(id: string) {
     try {
+      this.modelSpellsInventory.deleteMany({pngId: id}).then(value => console.log('deleteMany', value));
       return this.model.findByIdAndDelete(id);
     } catch (e) {
       throw new HttpException(e.message || e, e.status || 500);

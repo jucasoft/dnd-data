@@ -3,20 +3,28 @@ import {closePopUpAction, PopUpBaseComponent} from '@root-store/router-store/pop
 import {Png} from '@models/vo/png';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {PngStoreActions} from '@root-store/png-store';
+import {ClassLevel} from '@models/vo/class-level';
+import {DomainLevel} from '@models/vo/domain-level';
+import {Observable} from 'rxjs';
+import {selectAllClassLevel, selectAllDomainLevels} from '@root-store/spell-store/selectors';
 
 @Component({
   selector: 'app-png-edit',
   templateUrl: './png-edit.component.html',
   styles: [``],
-  changeDetection:ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PngEditComponent extends PopUpBaseComponent<Png> {
 
   form: FormGroup;
   _id: FormControl;
   name: FormControl;
-  clazz: FormControl;
+  classLevels: FormControl;
+  domainLevels: FormControl;
   keys: string[];
+
+  public classLevelsDP$: Observable<ClassLevel[]> = undefined;
+  public domainLevelsDP$: Observable<DomainLevel[]> = undefined;
 
   setItemPerform(value: Png): void {
     this.makeFrom();
@@ -24,14 +32,24 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
   }
 
   makeFrom(): void {
+    this.classLevelsDP$ = this.store$.pipe(
+      selectAllClassLevel()
+    )
+
+    this.domainLevelsDP$ = this.store$.pipe(
+      selectAllDomainLevels()
+    )
+
     this._id = this.fb.control({value: '', disabled: true});
     this.name = this.fb.control('', Validators.required);
-    this.clazz = this.fb.control('', Validators.required);
+    this.classLevels = this.fb.control('', Validators.required);
+    this.domainLevels = this.fb.control('', Validators.required);
 
     this.form = this.fb.group({ // form
-      _id: this._id, // attributo
-      name: this.name, // attributo
-      clazz: this.clazz // attributo
+      _id: this._id,
+      name: this.name,
+      classLevels: this.classLevels,
+      domainLevels: this.domainLevels
     });
   }
 
