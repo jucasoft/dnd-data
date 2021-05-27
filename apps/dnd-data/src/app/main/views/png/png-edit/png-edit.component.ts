@@ -43,7 +43,7 @@ export class PngEditComponent extends PopUpBaseComponent<Png> {
     this._id = this.fb.control({value: '', disabled: true});
     this.name = this.fb.control('', Validators.required);
     this.classLevels = this.fb.control('', Validators.required);
-    this.domainLevels = this.fb.control('', Validators.required);
+    this.domainLevels = this.fb.control({value: '', disabled: true}, Validators.required);
 
     this.form = this.fb.group({ // form
       _id: this._id,

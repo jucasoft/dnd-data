@@ -4,14 +4,12 @@
            dataKey="_id"
            (selectionChange)="onSelectionChange($event)"
            [columns]="selectedColumns"
-           [globalFilterFields]="['name','schools','castingTime','range']"
            [paginator]="true"
-           [rowsPerPageOptions]="[25,50,100]"
-           [rows]="25"
+           [rowsPerPageOptions]="[25,50,100, 2000]"
+           [rows]="2000"
            [showCurrentPageReport]="true"
            [value]="collection$ | async"
            currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
-           stateKey="statedemo-local" stateStorage="local"
            styleClass="p-datatable-customers">
     <ng-template pTemplate="caption">
       <div class="p-d-flex">
@@ -19,6 +17,7 @@
 
         <button type="button" pButton icon="pi pi-download" label="Export" class="p-button-outlined p-mr-2" (click)="menu.toggle($event)"></button>
         <p-menu #menu [popup]="true" [model]="items" styleClass="p-button-sm" appendTo="body"></p-menu>
+
         <span class="p-input-icon-left p-ml-auto">
           <i class="pi pi-search"></i>
           <input #inputElementFilter (input)="dt.filterGlobal($event.target.value, 'contains')" pInputText placeholder="Search keyword" type="text"/>
@@ -29,7 +28,8 @@
     </ng-template>
     <ng-template pTemplate="header">
       <tr>
-        <th style="width: 3rem"></th>
+        <th style="width: 3rem">
+        </th>
         <th style="width: 10rem">
           <p-columnFilter field="spells" matchMode="filterDnD" [showMenu]="false" [hideOnClear]="false">
             <ng-template pTemplate="filter" let-value let-filter="filterCallback">

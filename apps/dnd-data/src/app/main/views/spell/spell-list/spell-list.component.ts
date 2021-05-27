@@ -11,7 +11,7 @@ import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
-import {filter, map, tap} from 'rxjs/operators';
+import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {selectAllDenorm} from '@root-store/spell-store/selectors';
 
 @Component({
@@ -37,6 +37,7 @@ export class SpellListComponent implements OnInit {
 
       return value && value.qt > 0;
     });
+
   }
 
   collection$: Observable<Spell[]>;
@@ -62,6 +63,7 @@ export class SpellListComponent implements OnInit {
     console.log('SpellListComponent.ngOnInit()');
 
     this.cols = [
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'name', header: 'name', ngClass: '', renderer: null},
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
@@ -70,7 +72,6 @@ export class SpellListComponent implements OnInit {
       {field: 'area', header: 'area', ngClass: '', renderer: null},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
       {field: 'target', header: 'target', ngClass: '', renderer: null},
-      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'source', header: 'source', ngClass: '', renderer: this.renderSource},
       {field: 'components', header: 'components', ngClass: '', renderer: null},
       {field: 'spellResistance', header: 'spellResistance', ngClass: '', renderer: null},
@@ -84,10 +85,19 @@ export class SpellListComponent implements OnInit {
 
     this._selectedColumns = this.cols.slice(0, 4);
 
-    this.pngSelected$ = this.store$.pipe(
+    const pngSelectedSource$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
       filter(value => !!value && !!value.png),
       map(value => ({...JSON.parse(atob(value.png))})),
+      map((value: Png) => {
+        const classLevels = value.classLevels;
+        value.classLevelsMap = Png.classLevelsToMap(value.classLevels);
+        value.domainLevelsMap = Png.domainLevelsToMap(value.domainLevels);
+        return value;
+      }),
+    );
+
+    this.pngSelected$ = pngSelectedSource$.pipe(
       tap(png => {
         const pngId = png._id;
         this.store$.dispatch(
@@ -101,7 +111,17 @@ export class SpellListComponent implements OnInit {
     );
 
     this.collection$ = this.store$.pipe(
-      selectAllDenorm()
+      selectAllDenorm(),
+      withLatestFrom(pngSelectedSource$),
+      map(([all, png]) => {
+        return all.filter((item:Spell)=>{
+          const result = item.classLevels.find((clazz: ClassLevel) => {
+            const level = png.classLevelsMap[clazz.class];
+            return level >= clazz.level;
+          })
+          return !!result
+        })
+      })
     );
 
     this.items = [
@@ -199,7 +219,5 @@ export class SpellListComponent implements OnInit {
     return classLevels.map((value: ClassLevel) => `${value.class} (${value.level})`).join(', ')
   }
 
-  toggleOnlySelected(ev): void {
-    console.log('ev', ev);
-  }
+
 }
