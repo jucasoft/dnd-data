@@ -6,6 +6,7 @@ import {Png} from '@models/vo/png';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
+import {ClassLevel} from '@models/vo/class-level';
 
 @Component({
   selector: 'app-png-list',
@@ -14,6 +15,7 @@ import {PopUpData} from '@root-store/router-store/pop-up-base.component';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PngListComponent implements OnInit {
+  public classLevelToString = ClassLevel.toStringList
 
   collection$: Observable<Png[]>;
   itemsSelected$: Observable<Png[]>;
