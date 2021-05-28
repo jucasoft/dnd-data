@@ -77,8 +77,8 @@
               <div>Target : {{item.target}}</div>
               <div>Casting Time : {{item.castingTime}}</div>
               <div>Schools : {{item.schools}}</div>
-              <div>Class Levels : {{classLevelRenderer(item.classLevels)}}</div>
-              <div>Source : {{renderSource(item.source)}}</div>
+              <div>Class Levels : {{classLevelToString(item.classLevels)}}</div>
+              <div>Source : {{rulebookToString(item.source)}}</div>
             </div>
             <div class="p-col-12 p-lg-4 p-pt-0 p-pb-0">
               <div>Components : {{item.components}}</div>

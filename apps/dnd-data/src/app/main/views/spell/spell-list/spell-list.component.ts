@@ -13,6 +13,7 @@ import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
 import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {selectAllDenorm} from '@root-store/spell-store/selectors';
+import {DomainLevel} from '@models/vo/domain-level';
 
 @Component({
   selector: 'app-spell-list',
@@ -21,10 +22,13 @@ import {selectAllDenorm} from '@root-store/spell-store/selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SpellListComponent implements OnInit {
+  public classLevelToString = ClassLevel.toStringList
+  public rulebookToString = Rulebook.toString
 
   constructor(private store$: Store<RootStoreState.State>,
               private filterService: FilterService,
               private confirmationService: ConfirmationService) {
+
     this.filterService.register('filterDnD', (value, filter): boolean => {
 
       if (!filter) {
@@ -67,12 +71,12 @@ export class SpellListComponent implements OnInit {
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
       {field: 'range', header: 'range', ngClass: '', renderer: null},
-      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: ClassLevel.toStringList},
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
       {field: 'target', header: 'target', ngClass: '', renderer: null},
-      {field: 'source', header: 'source', ngClass: '', renderer: this.renderSource},
+      {field: 'source', header: 'source', ngClass: '', renderer: Rulebook.toString},
       {field: 'components', header: 'components', ngClass: '', renderer: null},
       {field: 'spellResistance', header: 'spellResistance', ngClass: '', renderer: null},
       {field: 'description', header: 'description', ngClass: '', renderer: null},
@@ -222,14 +226,5 @@ export class SpellListComponent implements OnInit {
   onChange(item: any): void {
     this.store$.dispatch(SpellStoreActions.AddManySelected({items: [item]}));
   }
-
-  renderSource(source: Rulebook): string {
-    return `${source.rulebook}, page ${source.page}`
-  }
-
-  classLevelRenderer(classLevels: ClassLevel[]): string {
-    return classLevels.map((value: ClassLevel) => `${value.class} (${value.level})`).join(', ')
-  }
-
 
 }
