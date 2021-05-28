@@ -14,15 +14,19 @@ export class Png {
   public domainLevelsMap: Dictionary<number> = undefined;
 
 
-  static classLevelsToMap = (values: ClassLevel[]) => values.reduce((prev, curr: ClassLevel) => {
-    prev[curr.class] = curr.level;
-    return prev
-  }, {})
+  static classLevelsToMap = (values: ClassLevel[]) => {
+    return values ? values.reduce((prev, curr: ClassLevel) => {
+      prev[curr.class] = curr.level;
+      return prev
+    }, {}) : {}
+  }
 
-  static domainLevelsToMap = (values: DomainLevel[]) => values.reduce((prev, curr: DomainLevel) => {
-    prev[curr.domain] = curr.level;
-    return prev
-  }, {})
+  static domainLevelsToMap = (values: DomainLevel[]) => {
+    return values ? values.reduce((prev, curr: DomainLevel) => {
+      prev[curr.domain] = curr.level;
+      return prev
+    }, {}) : {};
+  }
 
   /**
    * metodo statico utilizzato per recuperare l'id dell'entita.

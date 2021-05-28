@@ -63,13 +63,13 @@ export class SpellListComponent implements OnInit {
     console.log('SpellListComponent.ngOnInit()');
 
     this.cols = [
-      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'name', header: 'name', ngClass: '', renderer: null},
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
       {field: 'range', header: 'range', ngClass: '', renderer: null},
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
       {field: 'target', header: 'target', ngClass: '', renderer: null},
       {field: 'source', header: 'source', ngClass: '', renderer: this.renderSource},
