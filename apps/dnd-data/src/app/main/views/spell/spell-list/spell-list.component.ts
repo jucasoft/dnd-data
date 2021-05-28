@@ -67,9 +67,9 @@ export class SpellListComponent implements OnInit {
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
       {field: 'range', header: 'range', ngClass: '', renderer: null},
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
-      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelRenderer},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
       {field: 'target', header: 'target', ngClass: '', renderer: null},
       {field: 'source', header: 'source', ngClass: '', renderer: this.renderSource},
@@ -83,7 +83,7 @@ export class SpellListComponent implements OnInit {
       {field: 'id', header: 'id', ngClass: '', renderer: null},
     ];
 
-    this._selectedColumns = this.cols.slice(0, 4);
+    this._selectedColumns = this.cols.slice(0, 5);
 
     const pngSelectedSource$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
@@ -114,12 +114,24 @@ export class SpellListComponent implements OnInit {
       selectAllDenorm(),
       withLatestFrom(pngSelectedSource$),
       map(([all, png]) => {
-        return all.filter((item:Spell)=>{
+        const spells = all.filter((item: Spell) => {
           const result = item.classLevels.find((clazz: ClassLevel) => {
             const level = png.classLevelsMap[clazz.class];
             return level >= clazz.level;
           })
           return !!result
+        })
+        return {spells, png};
+      }),
+      map(({spells, png}) => {
+        return spells.map((item: Spell) => {
+          const classLevels = item.classLevels.filter(
+            (clazz: ClassLevel) => {
+              const level = png.classLevelsMap[clazz.class];
+              return level >= clazz.level;
+            }
+          )
+          return {...item, classLevels}
         })
       })
     );
