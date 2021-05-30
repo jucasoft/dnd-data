@@ -1,12 +1,11 @@
 import {createFeatureSelector, createSelector, MemoizedSelector, select} from '@ngrx/store';
-
 import {adapter, State} from './state';
 import {Names} from './names';
 import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store/index';
 import {Spell} from '@models/vo/spell';
 import {SpellsInventory} from '@models/vo/spells-inventory';
 import {pipe} from 'rxjs';
-import {map, scan, tap} from 'rxjs/operators';
+import {map, scan} from 'rxjs/operators';
 import {Dictionary} from '@ngrx/entity';
 import {evalData} from '@core/utils/j-utils';
 
@@ -32,53 +31,60 @@ export const {
   selectItemsSelectedOrigin
 } = adapter.getCrudSelectors(selectState);
 
-// export const selectAllDenorm: MemoizedSelector<any, Spell[]> = createSelector(
-//   selectAll,
-//   SpellsInventoryStoreSelectors.selectAll,
-//   (values: Spell[], valuesB: SpellsInventory[]): Spell[] => {
-//     const entities = valuesB.reduce((prev, curr) => {
-//       prev[curr.spellsDictionaryId] = curr;
-//       return prev;
-//     }, {})
-//     return values.map(value => {
-//       const key = value.id;
-//       const spells = entities[key];
-//       if (spells) {
-//         return {...value, spells};
-//       } else {
-//         return value
-//       }
-//     });
+// const createImmutableSelector = createSelectorFactory(projectionFunction => {
+//   const cache = {};
+//
+//   function memoized() {
+//     const hashedArguments = ObjectHash.sha1([...arguments]);
+//     if (cache[hashedArguments] == null) {
+//       cache[hashedArguments] = projectionFunction.apply(null, arguments);
+//     }
+//     return cloneDeep(cache[hashedArguments]);
 //   }
-// );
-// export const selectAllDenorm$ = () => {
-//   return pipe(
-//     select(selectAllDenorm),
-//     scan((acc, value) => {
-//       console.log('.()', acc, value);
-//       return acc;
-//     })
-//   )
+//   return {
+//     memoized,
+//     reset: () => {},
+//     setResult: () => {},
+//     clearResult: () => {}
+//   };
+// });
+//
+// const agf = projectionFunction => {
+//   const cache = {};
+//
+//   function memoized() {
+//     const hashedArguments = ObjectHash.sha1([...arguments]);
+//     if (cache[hashedArguments] == null) {
+//       cache[hashedArguments] = projectionFunction.apply(null, arguments);
+//     }
+//     return cloneDeep(cache[hashedArguments]);
+//   }
+//
+//   return {
+//     memoized,
+//     reset: () => {},
+//     setResult: () => {},
+//     clearResult: () => {}
+//   };
 // };
-
-// export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
-//   selectEntities,
-//   SpellsInventoryStoreSelectors.selectEntities,
-//   (spells: Dictionary<Spell>, spellsInventorys: Dictionary<SpellsInventory>): Dictionary<Spell> => {
-//     const keys = Object.keys(spells);
-//     return keys.reduce((prev, key) => {
-//       const spell = spells[key];
-//       const id = spell.id;
-//       return {
-//         ...prev,
-//         [key]: {
-//           ...spell,
-//           spells: spellsInventorys[id]
-//         }
+//
+// const isArgumentsEqual = (a: any, b: any): boolean => {
+//   return a === b; // this is what is currently isEqualCheck is doing anyway.
+// }
+//
+// const isResultEqual = (a: any, b: any): boolean => {
+//   if (a) {
+//     const keys = Object.keys(a);
+//     keys.forEach((key: string) => {
+//       if (b[key] !== a[key]) {
+//         console.log('diversi');
 //       }
-//     }, {})
+//     })
 //   }
-// );
+//   return a === b; // this is what is currently isEqualCheck is doing anyway.
+// }
+//
+// const customMemoizer = (aFn) => defaultMemoize(aFn, isResultEqual, isArgumentsEqual);
 
 export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
   selectEntities,
