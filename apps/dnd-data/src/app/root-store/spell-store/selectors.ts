@@ -31,23 +31,6 @@ export const {
   selectItemsSelectedOrigin
 } = adapter.getCrudSelectors(selectState);
 
-// const createImmutableSelector = createSelectorFactory(projectionFunction => {
-//   const cache = {};
-//
-//   function memoized() {
-//     const hashedArguments = ObjectHash.sha1([...arguments]);
-//     if (cache[hashedArguments] == null) {
-//       cache[hashedArguments] = projectionFunction.apply(null, arguments);
-//     }
-//     return cloneDeep(cache[hashedArguments]);
-//   }
-//   return {
-//     memoized,
-//     reset: () => {},
-//     setResult: () => {},
-//     clearResult: () => {}
-//   };
-// });
 //
 // const agf = projectionFunction => {
 //   const cache = {};
@@ -85,6 +68,84 @@ export const {
 // }
 //
 // const customMemoizer = (aFn) => defaultMemoize(aFn, isResultEqual, isArgumentsEqual);
+
+// const isEqualCheck = (a: any, b: any): boolean => {
+//   return a === b; // this is what is currently isEqualCheck is doing anyway.
+// }
+//
+// function isArgumentsChanged(
+//   args: IArguments,
+//   lastArguments: IArguments,
+//   comparator: any
+// ) {
+//   for (let i = 0; i < args.length; i++) {
+//     if (!comparator(args[i], lastArguments[i])) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+//
+// export function customMemoize(
+//   projectionFn: any,
+//   isArgumentsEqual = isEqualCheck,
+//   isResultEqual = isEqualCheck
+// ): MemoizedProjection {
+//   let lastArguments: null | IArguments = null;
+//   // tslint:disable-next-line:no-any anything could be the result.
+//   let lastResult: any = null;
+//   let overrideResult: any;
+//
+//   function reset() {
+//     lastArguments = null;
+//     lastResult = null;
+//   }
+//
+//   function setResult(result: any = undefined) {
+//     overrideResult = {result};
+//   }
+//
+//   function clearResult() {
+//     overrideResult = undefined;
+//   }
+//
+//   // tslint:disable-next-line:no-any anything could be the result.
+//   function memoized(): any {
+//     if (overrideResult !== undefined) {
+//       return overrideResult.result;
+//     }
+//
+//     if (!lastArguments) {
+//
+//       // eslint-disable-next-line prefer-spread,prefer-rest-params
+//       lastResult = projectionFn.apply(null, arguments as any);
+//       // eslint-disable-next-line prefer-rest-params
+//       lastArguments = arguments;
+//       return lastResult;
+//     }
+//
+//     // eslint-disable-next-line prefer-rest-params
+//     if (!isArgumentsChanged(arguments, lastArguments, isArgumentsEqual)) {
+//       return lastResult;
+//     }
+//
+//     // eslint-disable-next-line prefer-spread,prefer-rest-params
+//     const newResult = projectionFn.apply(null, arguments as any);
+//     // eslint-disable-next-line prefer-rest-params
+//     lastArguments = arguments;
+//
+//     if (isResultEqual(lastResult, newResult)) {
+//       return lastResult;
+//     }
+//
+//     const keys = Object.keys(newResult)
+//     lastResult = newResult;
+//
+//     return newResult;
+//   }
+//
+//   return {memoized, reset, setResult, clearResult};
+// }
 
 export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
   selectEntities,
@@ -131,14 +192,6 @@ export const selectAllDenorm = () => {
     map(value => Object.values(value) as Spell[])
   )
 };
-
-// export const selectAllDenorm: MemoizedSelector<any, Spell[]> = createSelector(
-//   selectEntitiesDenorm,
-//   (spells: Dictionary<Spell>): Spell[] => {
-//     return Object.values(spells)
-//   }
-// );
-
 
 export const selectAllClassLevel = () => pipe(
   selectAllDenorm(),

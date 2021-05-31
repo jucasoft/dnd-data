@@ -13,12 +13,13 @@ import {Observable} from 'rxjs';
 import {Png} from '@models/vo/png';
 import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {selectAllDenorm} from '@root-store/spell-store/selectors';
-import {DomainLevel} from '@models/vo/domain-level';
+import {DialogService} from 'primeng/dynamicdialog';
 
 @Component({
   selector: 'app-spell-list',
   templateUrl: `spell-list.component.html`,
   styles: [``],
+  providers: [DialogService],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SpellListComponent implements OnInit {
@@ -26,6 +27,7 @@ export class SpellListComponent implements OnInit {
   public rulebookToString = Rulebook.toString
 
   constructor(private store$: Store<RootStoreState.State>,
+              private dialogService: DialogService,
               private filterService: FilterService,
               private confirmationService: ConfirmationService) {
 
@@ -157,6 +159,14 @@ export class SpellListComponent implements OnInit {
       },
     ];
 
+  }
+
+  show(data: SpellsInventory) {
+    // const ref = this.dialogService.open(CommentComponent, {
+    //   header: 'Choose a Car',
+    //   width: '70%',
+    //   data
+    // });
   }
 
   onInput(qt: number, spell: Spell, png: Png): void {

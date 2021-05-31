@@ -20,7 +20,7 @@ import {ToolbarModule} from 'primeng/toolbar';
 import {DropdownModule} from 'primeng/dropdown';
 import {InputNumberModule} from 'primeng/inputnumber';
 import {CheckboxModule} from 'primeng/checkbox';
-import { QtStepperComponent } from './components/qt-stepper.component';
+import {QtStepperComponent} from './components/qt-stepper.component';
 import {MultiSelectModule} from 'primeng/multiselect';
 import {SkeletonModule} from 'primeng/skeleton';
 import {PanelModule} from 'primeng/panel';
@@ -28,6 +28,10 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
 import {InputSwitchModule} from 'primeng/inputswitch';
 import {RippleModule} from 'primeng/ripple';
 import {MenuModule} from 'primeng/menu';
+import {CommentComponent} from './components/comment.component';
+import {RatingModule} from 'primeng/rating';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import {DynamicDialogModule} from 'primeng/dynamicdialog';
 
 @NgModule({
   declarations: [
@@ -38,32 +42,36 @@ import {MenuModule} from 'primeng/menu';
     ButtonDeleteSpellComponent,
     ButtonEditManyTestSpellComponent,
     ButtonCreateManyTestSpellComponent,
-    QtStepperComponent
+    QtStepperComponent,
+    CommentComponent
   ],
-    imports: [
-        CommonModule,
-        FormsModule,
-        ReactiveFormsModule,
-        SpellRoutingModule,
-        TableModule,
-        DialogModule,
-        ButtonModule,
-        InputTextModule,
-        PipesModule,
-        SearchModule,
-        NgLetModule,
-        ToolbarModule,
-        DropdownModule,
-        InputNumberModule,
-        CheckboxModule,
-        MultiSelectModule,
-        SkeletonModule,
-        PanelModule,
-        ToggleButtonModule,
-        InputSwitchModule,
-        RippleModule,
-        MenuModule
-    ],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    SpellRoutingModule,
+    TableModule,
+    DialogModule,
+    ButtonModule,
+    InputTextModule,
+    PipesModule,
+    SearchModule,
+    NgLetModule,
+    ToolbarModule,
+    DropdownModule,
+    InputNumberModule,
+    CheckboxModule,
+    MultiSelectModule,
+    SkeletonModule,
+    PanelModule,
+    ToggleButtonModule,
+    InputSwitchModule,
+    RippleModule,
+    MenuModule,
+    RatingModule,
+    InputTextareaModule,
+    DynamicDialogModule,
+  ],
   providers: [],
   entryComponents: []
 })

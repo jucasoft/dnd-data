@@ -1,18 +1,18 @@
 import {Body, Controller, Delete, Get, Param, Post, Put, Req, UseGuards} from '@nestjs/common';
-import {SpellsInventoryService} from './spells-inventory.service';
-import {CreateSpellsInventoryDto} from './dto/create-spells-inventory.dto';
-import {SpellsInventory} from './entities/spells-inventory.entity';
+import {CommentService} from './comment.service';
+import {CreateCommentDto} from './dto/create-comment.dto';
 import {AuthGuard} from '@nestjs/passport';
-import {UpdateSpellsInventoryDto} from './dto/update-spells-inventory.dto';
+import {UpdateSpellsInventoryDto} from '../spells-inventory/dto/update-spells-inventory.dto';
+import {SpellsInventory} from '../spells-inventory/entities/spells-inventory.entity';
 
-@Controller('spells-inventory')
-export class SpellsInventoryController {
-  constructor(private readonly service: SpellsInventoryService) {
+@Controller('comment')
+export class CommentController {
+  constructor(private readonly service: CommentService) {
   }
 
   @Post()
   @UseGuards(AuthGuard('jwt'))
-  create(@Body() dto: CreateSpellsInventoryDto, @Req() req) {
+  create(@Body() dto: CreateCommentDto, @Req() req) {
     dto.user = req.user.sub;
     return this.service.create(dto);
   }
@@ -20,9 +20,8 @@ export class SpellsInventoryController {
   @Get()
   @UseGuards(AuthGuard('jwt'))
   findAll(@Req() req) {
-    const pngId = req.query.pngId;
     const user = req.user.sub;
-    return this.service.findAll({pngId, user});
+    return this.service.findAll({user});
   }
 
   @Get(':id')
@@ -42,4 +41,5 @@ export class SpellsInventoryController {
   remove(@Param('id') id: string) {
     return this.service.remove(+id);
   }
+
 }

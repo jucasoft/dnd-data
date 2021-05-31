@@ -1,3 +1,4 @@
+import {CommentStoreSelectors} from '@root-store/comment-store';
 import {PngStoreSelectors} from '@root-store/png-store';
 import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store';
 import {SpellStoreSelectors} from '@root-store/spell-store';
@@ -6,6 +7,7 @@ import {createSelectorFactory, defaultMemoize} from '@ngrx/store';
 const customMemoizer = (aFn) => defaultMemoize(aFn, (a: any, b: any) => a === b);
 
 export const selectError = createSelectorFactory(customMemoizer)(
+CommentStoreSelectors.selectError,
 PngStoreSelectors.selectError,
   SpellsInventoryStoreSelectors.selectError,
   SpellStoreSelectors.selectError,
@@ -16,6 +18,7 @@ PngStoreSelectors.selectError,
 );
 
 export const selectIsLoading = createSelectorFactory(customMemoizer)(
+CommentStoreSelectors.selectIsLoading,
 PngStoreSelectors.selectIsLoading,
   SpellsInventoryStoreSelectors.selectIsLoading,
   SpellStoreSelectors.selectIsLoading,

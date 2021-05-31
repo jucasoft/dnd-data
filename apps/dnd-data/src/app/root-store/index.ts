@@ -12,3 +12,4 @@ export * from './auth-store';
 export * from './spells-inventory-store';
 
 export * from './png-store';
+export * from './comment-store';

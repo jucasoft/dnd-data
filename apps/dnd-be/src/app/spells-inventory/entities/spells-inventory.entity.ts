@@ -9,8 +9,6 @@ export class SpellsInventory {
   @Prop() public pngId: string = undefined;
   @Prop() public qt: number = undefined;
   @Prop() public user: string = undefined;
-  @Prop() public note: string = undefined;
-  @Prop() public stars: number = undefined;
 }
 
 export const SpellsInventorySchema = SchemaFactory.createForClass(SpellsInventory);
