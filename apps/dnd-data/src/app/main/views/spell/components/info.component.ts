@@ -3,10 +3,10 @@ import {DynamicDialogConfig, DynamicDialogRef} from 'primeng/dynamicdialog';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import {Store} from '@ngrx/store';
 import {State} from '@root-store/state';
-import {Comment} from '@models/vo/comment';
+import {Info} from '@models/vo/info';
 
 @Component({
-  selector: 'dnd-data-comment',
+  selector: 'dnd-data-info',
   template: `
     <form
       class="dynamic-form"
@@ -36,9 +36,9 @@ import {Comment} from '@models/vo/comment';
   `,
   styles: [``]
 })
-export class CommentComponent implements OnInit {
+export class InfoComponent implements OnInit {
 
-  item: Comment;
+  item: Info;
 
   form: FormGroup;
   note: FormControl;
@@ -66,7 +66,7 @@ export class CommentComponent implements OnInit {
     });
   }
 
-  submit(rawValue: Comment): void {
+  submit(rawValue: Info): void {
     this.ref.close(rawValue)
   }
 

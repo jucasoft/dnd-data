@@ -3,8 +3,8 @@ import {Actions, createEffect, ofType} from '@ngrx/effects';
 import {Observable} from 'rxjs';
 import {Action} from '@ngrx/store';
 import * as actions from './actions';
-import {Comment} from '@models/vo/comment';
-import {CommentService} from '@services/comment.service';
+import {Info} from '@models/vo/info';
+import {InfoService} from '@services/info.service';
 import {
   createCall, createCatchError, createResponse,
   createManyCall, createManyCatchError, createManyResponse,
@@ -18,71 +18,71 @@ import {
 import {repeat} from 'rxjs/operators';
 
 @Injectable()
-export class CommentStoreEffects {
-    constructor(private readonly actions$: Actions, private readonly service: CommentService) {
+export class InfoStoreEffects {
+    constructor(private readonly actions$: Actions, private readonly service: InfoService) {
     }
 
   searchRequestEffect$: Observable<Action> = createEffect(() => this.actions$.pipe(
     ofType(actions.SearchRequest),
-    searchCall<Comment>(this.service),
-    searchResponse<Comment>(actions, {dispatchResponse: false}),
-    searchCatchError<Comment>(actions),
+    searchCall<Info>(this.service),
+    searchResponse<Info>(actions, {dispatchResponse: false}),
+    searchCatchError<Info>(actions),
     repeat()
   ));
 
   deleteRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.DeleteRequest),
-    deleteCall<Comment>(this.service),
-    deleteResponse<Comment>(actions, Comment, {dispatchResponse: false}),
-    deleteCatchError<Comment>(actions),
+    deleteCall<Info>(this.service),
+    deleteResponse<Info>(actions, Info, {dispatchResponse: false}),
+    deleteCatchError<Info>(actions),
     repeat()
   ));
 
   deleteManyRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.DeleteManyRequest),
-    deleteManyCall<Comment>(this.service),
-    deleteManyResponse<Comment>(actions, Comment, {dispatchResponse: false}),
-    deleteManyCatchError<Comment>(actions),
+    deleteManyCall<Info>(this.service),
+    deleteManyResponse<Info>(actions, Info, {dispatchResponse: false}),
+    deleteManyCatchError<Info>(actions),
     repeat()
   ));
 
   createRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.CreateRequest),
-    createCall<Comment>(this.service),
-    createResponse<Comment>(actions, {dispatchResponse: false}),
-    createCatchError<Comment>(actions),
+    createCall<Info>(this.service),
+    createResponse<Info>(actions, {dispatchResponse: false}),
+    createCatchError<Info>(actions),
     repeat()
   ));
 
   createManyRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.CreateManyRequest),
-    createManyCall<Comment>(this.service),
-    createManyResponse<Comment>(actions, {dispatchResponse: false}),
-    createManyCatchError<Comment>(actions),
+    createManyCall<Info>(this.service),
+    createManyResponse<Info>(actions, {dispatchResponse: false}),
+    createManyCatchError<Info>(actions),
     repeat()
   ));
 
   editRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.EditRequest),
-    editCall<Comment>(this.service),
-    editResponse<Comment>(actions, {dispatchResponse: false}),
-    editCatchError<Comment>(actions),
+    editCall<Info>(this.service),
+    editResponse<Info>(actions, {dispatchResponse: false}),
+    editCatchError<Info>(actions),
     repeat()
   ));
 
   editManyRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.EditManyRequest),
-    editManyCall<Comment>(this.service),
-    editManyResponse<Comment>(actions, {dispatchResponse: false}),
-    editManyCatchError<Comment>(actions),
+    editManyCall<Info>(this.service),
+    editManyResponse<Info>(actions, {dispatchResponse: false}),
+    editManyCatchError<Info>(actions),
     repeat()
   ));
 
   selectRequestEffect$: Observable<Action>  = createEffect(() => this.actions$.pipe(
     ofType(actions.SelectRequest),
-    selectCall<Comment>(this.service),
-    selectResponse<Comment>(actions, {dispatchResponse: false}),
-    selectCatchError<Comment>(actions),
+    selectCall<Info>(this.service),
+    selectResponse<Info>(actions, {dispatchResponse: false}),
+    selectCatchError<Info>(actions),
     repeat()
   ));
 

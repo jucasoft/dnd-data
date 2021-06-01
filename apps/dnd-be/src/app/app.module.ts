@@ -11,7 +11,7 @@ import {AuthzModule} from './core/authz/authz-module';
 import {SpellsInventoryModule} from './spells-inventory/spells-inventory.module';
 import {PgModule} from './pg/pg.module';
 import {join} from 'path';
-import {CommentModule} from './comment/comment.module';
+import {InfoModule} from './info/info.module';
 
 console.log('__dirname', __dirname);
 
@@ -25,7 +25,7 @@ console.log('__dirname', __dirname);
     SpellModule,
     SpellsInventoryModule,
     PgModule,
-    CommentModule],
+    InfoModule],
   controllers: [AppController],
   providers: [
     {

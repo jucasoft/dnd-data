@@ -162,7 +162,7 @@ export class SpellListComponent implements OnInit {
   }
 
   show(data: SpellsInventory) {
-    // const ref = this.dialogService.open(CommentComponent, {
+    // const ref = this.dialogService.open(InfoComponent, {
     //   header: 'Choose a Car',
     //   width: '70%',
     //   data

@@ -2,7 +2,7 @@ import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
 import {SpellsInventory} from '@models/vo/spells-inventory';
-import {Comment} from '@models/vo/comment';
+import {Info} from '@models/vo/info';
 
 export class Spell {
   public _id: string = undefined;
@@ -25,7 +25,7 @@ export class Spell {
   public spellResistance: string = undefined;
   public description: string = undefined;
   public spells: SpellsInventory = undefined;
-  public comment: Comment = undefined;
+  public info: Info = undefined;
   /**
    * metodo statico utilizzato per recuperare l'id dell'entita.
    * @param item

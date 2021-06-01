@@ -11,7 +11,7 @@ import {SpellStoreModule} from '@root-store/spell-store';
 import {AuthStoreModule} from '@root-store/auth-store';
 import {SpellsInventoryStoreModule} from '@root-store/spells-inventory-store';
 import { PgStoreModule } from '@root-store/pg-store';
-import { CommentStoreModule } from '@root-store/comment-store';
+import { InfoStoreModule } from '@root-store/info-store';
 
 @NgModule({
   imports: [
@@ -31,7 +31,7 @@ import { CommentStoreModule } from '@root-store/comment-store';
     AuthStoreModule,
     SpellsInventoryStoreModule,
     PgStoreModule,
-    CommentStoreModule,
+    InfoStoreModule,
   ],
   declarations: []
 })

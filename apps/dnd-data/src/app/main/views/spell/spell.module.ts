@@ -28,7 +28,7 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
 import {InputSwitchModule} from 'primeng/inputswitch';
 import {RippleModule} from 'primeng/ripple';
 import {MenuModule} from 'primeng/menu';
-import {CommentComponent} from './components/comment.component';
+import {InfoComponent} from './components/info.component';
 import {RatingModule} from 'primeng/rating';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {DynamicDialogModule} from 'primeng/dynamicdialog';
@@ -43,7 +43,7 @@ import {DynamicDialogModule} from 'primeng/dynamicdialog';
     ButtonEditManyTestSpellComponent,
     ButtonCreateManyTestSpellComponent,
     QtStepperComponent,
-    CommentComponent
+    InfoComponent
   ],
   imports: [
     CommonModule,

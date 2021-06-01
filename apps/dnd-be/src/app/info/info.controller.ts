@@ -1,18 +1,18 @@
 import {Body, Controller, Delete, Get, Param, Post, Put, Req, UseGuards} from '@nestjs/common';
-import {CommentService} from './comment.service';
-import {CreateCommentDto} from './dto/create-comment.dto';
+import {InfoService} from './info.service';
+import {CreateInfoDto} from './dto/create-info.dto';
 import {AuthGuard} from '@nestjs/passport';
 import {UpdateSpellsInventoryDto} from '../spells-inventory/dto/update-spells-inventory.dto';
 import {SpellsInventory} from '../spells-inventory/entities/spells-inventory.entity';
 
-@Controller('comment')
-export class CommentController {
-  constructor(private readonly service: CommentService) {
+@Controller('info')
+export class InfoController {
+  constructor(private readonly service: InfoService) {
   }
 
   @Post()
   @UseGuards(AuthGuard('jwt'))
-  create(@Body() dto: CreateCommentDto, @Req() req) {
+  create(@Body() dto: CreateInfoDto, @Req() req) {
     dto.user = req.user.sub;
     return this.service.create(dto);
   }

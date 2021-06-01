@@ -2,7 +2,7 @@ import {InjectionToken, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ActionReducer, StoreModule} from '@ngrx/store';
 import {EffectsModule} from '@ngrx/effects';
-import {CommentStoreEffects} from './effects';
+import {InfoStoreEffects} from './effects';
 import {featureReducer} from './reducer';
 import {State} from './state';
 import {Names} from './names';
@@ -13,14 +13,14 @@ export const INJECTION_TOKEN = new InjectionToken<ActionReducer<State>>(`${Names
 	imports: [
 		CommonModule,
 		StoreModule.forFeature(Names.NAME, INJECTION_TOKEN),
-		EffectsModule.forFeature([CommentStoreEffects]),
+		EffectsModule.forFeature([InfoStoreEffects]),
 	],
 	declarations: [],
-	providers: [CommentStoreEffects,
+	providers: [InfoStoreEffects,
 		{
 			provide: INJECTION_TOKEN,
 			useFactory: (): ActionReducer<State> => featureReducer
 		}]
 })
-export class CommentStoreModule {
+export class InfoStoreModule {
 }

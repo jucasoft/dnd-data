@@ -1,20 +1,20 @@
 import {HttpException, Injectable} from '@nestjs/common';
-import {CreateCommentDto} from './dto/create-comment.dto';
-import {UpdateCommentDto} from './dto/update-comment.dto';
+import {CreateInfoDto} from './dto/create-info.dto';
+import {UpdateInfoDto} from './dto/update-info.dto';
 import {InjectModel} from '@nestjs/mongoose';
 import {Model} from 'mongoose';
-import {Comment, CommentDocument} from './entities/comment.entity';
+import {Info, InfoDocument} from './entities/info.entity';
 import {UpdateSpellsInventoryDto} from '../spells-inventory/dto/update-spells-inventory.dto';
 import {SpellsInventory} from '../spells-inventory/entities/spells-inventory.entity';
 
 @Injectable()
-export class CommentService {
+export class InfoService {
   constructor(
-    @InjectModel(Comment.name) private model: Model<CommentDocument>
+    @InjectModel(Info.name) private model: Model<InfoDocument>
   ) {
   }
 
-  create(dto: CreateCommentDto) {
+  create(dto: CreateInfoDto) {
     try {
       const createdItem = new this.model(dto);
       return createdItem.save();
@@ -23,7 +23,7 @@ export class CommentService {
     }
   }
 
-  findAll(spellsInventory: Partial<Comment>) {
+  findAll(spellsInventory: Partial<Info>) {
     try {
       return this.model.find(spellsInventory).exec();
     } catch (e) {
@@ -32,7 +32,7 @@ export class CommentService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} comment`;
+    return `This action returns a #${id} info`;
   }
 
   update(id: string, dto: UpdateSpellsInventoryDto): Promise<SpellsInventory> {
@@ -48,6 +48,6 @@ export class CommentService {
   }
 
   remove(id: number) {
-    return `This action removes a #${id} comment`;
+    return `This action removes a #${id} info`;
   }
 }
