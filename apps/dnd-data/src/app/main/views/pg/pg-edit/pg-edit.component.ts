@@ -6,7 +6,8 @@ import {PgStoreActions} from '@root-store/pg-store';
 import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
 import {Observable} from 'rxjs';
-import {selectAllClassLevel, selectAllDomainLevels} from '@root-store/spell-store/selectors';
+import {SpellStoreSelectors} from '@root-store/spell-store/index';
+import {select} from '@ngrx/store';
 
 @Component({
   selector: 'app-pg-edit',
@@ -21,10 +22,12 @@ export class PgEditComponent extends PopUpBaseComponent<Pg> {
   name: FormControl;
   classLevels: FormControl;
   domainLevels: FormControl;
+  rulebooks: FormControl;
   keys: string[];
 
   public classLevelsDP$: Observable<ClassLevel[]> = undefined;
   public domainLevelsDP$: Observable<DomainLevel[]> = undefined;
+  public rulebooksDP$: Observable<string[]> = undefined;
 
   setItemPerform(value: Pg): void {
     this.makeFrom();
@@ -33,23 +36,29 @@ export class PgEditComponent extends PopUpBaseComponent<Pg> {
 
   makeFrom(): void {
     this.classLevelsDP$ = this.store$.pipe(
-      selectAllClassLevel()
+      select(SpellStoreSelectors.selectAllClassLevel)
     )
 
     this.domainLevelsDP$ = this.store$.pipe(
-      selectAllDomainLevels()
+      select(SpellStoreSelectors.selectAllDomainLevels)
+    )
+
+    this.rulebooksDP$ = this.store$.pipe(
+      select(SpellStoreSelectors.selectAllRulebooks)
     )
 
     this._id = this.fb.control({value: '', disabled: true});
     this.name = this.fb.control('', Validators.required);
     this.classLevels = this.fb.control('', Validators.required);
     this.domainLevels = this.fb.control({value: ''}, Validators.required);
+    this.rulebooks = this.fb.control({value: ''});
 
     this.form = this.fb.group({ // form
       _id: this._id,
       name: this.name,
       classLevels: this.classLevels,
-      domainLevels: this.domainLevels
+      domainLevels: this.domainLevels,
+      rulebooks: this.rulebooks
     });
   }
 

@@ -22,14 +22,14 @@
 
     <div class="p-grid">
       <div class="p-col">
-        <label for="name"><strong>name</strong></label><br>
+        <label for="name"><strong>*Name</strong></label><br>
         <input id="name" name="name" type="text" class="form-control" pInputText [formControl]="name"/>
       </div>
     </div>
 
     <div class="p-grid">
       <div class="p-col">
-        <label for="classLevels"><strong>Class levels</strong></label><br>
+        <label for="classLevels"><strong>*Class levels</strong></label><br>
         <p-multiSelect id="classLevels" name="classLevels"
                        [options]="classLevelsDP$ | async" [formControl]="classLevels" appendTo="body"
                        [virtualScroll]="true" itemSize="30" optionLabel="class"
@@ -55,7 +55,7 @@
 
     <div class="p-grid">
       <div class="p-col">
-        <label for="domainLevels"><strong>Domain levels</strong></label><br>
+        <label for="domainLevels"><strong>*Domain levels</strong></label><br>
 
         <p-multiSelect id="domainLevels" name="domainLevels"
                        [options]="domainLevelsDP$ | async" [formControl]="domainLevels" appendTo="body"
@@ -74,6 +74,31 @@
           <ng-template let-item pTemplate="item">
             <div class="p-d-flex">
               <span>{{item.level}} - {{item.domain}}</span>
+            </div>
+          </ng-template>
+        </p-multiSelect>
+
+      </div>
+    </div>
+
+    <div class="p-grid">
+      <div class="p-col">
+        <label for="rulebooks"><strong>Rulebooks</strong></label><br>
+        <p-multiSelect id="rulebooks" name="rulebooks"
+                       [options]="rulebooksDP$ | async" [formControl]="rulebooks" appendTo="body"
+                       [virtualScroll]="true" itemSize="30"
+                       defaultLabel="select class levels" scrollHeight="400px" display="chip">
+          <ng-template let-selectedItems pTemplate="selectedItems">
+            <div class="p-d-flex" *ngFor="let item of selectedItems">
+              <span>{{item}}</span>
+            </div>
+            <div *ngIf="!selectedItems || selectedItems.length === 0" class="country-placeholder">
+              Select rulebooks
+            </div>
+          </ng-template>
+          <ng-template let-selected pTemplate="item">
+            <div class="p-d-flex">
+              <span>{{selected | json}}</span>
             </div>
           </ng-template>
         </p-multiSelect>

@@ -193,9 +193,9 @@ export const selectAllDenorm = () => {
   )
 };
 
-export const selectAllClassLevel = () => pipe(
-  selectAllDenorm(),
-  map(values => {
+export const selectAllClassLevel = createSelector(
+  selectAll,
+  values => {
     const result = values.reduce((prev, curr) => {
       const result2 = curr.classLevels.reduce((prev2, curr2) => {
         return {...prev2, [`${curr2.class}-${curr2.level}`]: curr2}
@@ -218,12 +218,12 @@ export const selectAllClassLevel = () => pipe(
       return 0;
     }).map(key => result[key]);
 
-  })
+  }
 );
 
-export const selectAllDomainLevels = () => pipe(
-  selectAllDenorm(),
-  map(values => {
+export const selectAllDomainLevels = createSelector(
+  selectAll,
+  values => {
     const result = values.reduce((prev, curr) => {
       const result2 = curr.domainLevels.reduce((prev2, curr2) => {
         return {...prev2, [`${curr2.domain}-${curr2.level}`]: curr2}
@@ -246,5 +246,33 @@ export const selectAllDomainLevels = () => pipe(
       return 0;
     }).map(key => result[key]);
 
-  })
+  }
 );
+
+export const selectAllRulebooks = createSelector(
+  selectAll,
+  values => {
+    const result = values.reduce((prev, curr) => {
+      if (curr.source) {
+        prev[curr.source.rulebook] = curr.source.rulebook;
+      }
+      return prev;
+    }, {})
+
+    // ordino la lista in ordine alfabetico e numerico.
+    return Object.keys(result);
+  }
+);
+
+export const selectAllSchools = createSelector(
+  selectAll,
+  (values) => {
+    const result = values.reduce((prev, curr) => {
+      const result2 = curr.schools.reduce((prev2, curr2) => {
+        return {...prev2, [curr2]: curr2}
+      }, {})
+      return {...prev, ...result2}
+    }, {})
+    return Object.keys(result);
+  }
+)

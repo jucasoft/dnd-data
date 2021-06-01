@@ -8,7 +8,7 @@ import {Pg} from '@models/vo/pg';
   selector: 'app-pg-main',
   templateUrl: 'pg-main.component.html',
   styles: [],
-  changeDetection:ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PgMainComponent implements OnInit {
 
