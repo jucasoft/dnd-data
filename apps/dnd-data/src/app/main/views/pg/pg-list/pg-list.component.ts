@@ -7,6 +7,7 @@ import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService} from 'primeng/api';
 import {PopUpData} from '@root-store/router-store/pop-up-base.component';
 import {ClassLevel} from '@models/vo/class-level';
+import {DomainLevel} from '@models/vo/domain-level';
 
 @Component({
   selector: 'app-pg-list',
@@ -15,7 +16,10 @@ import {ClassLevel} from '@models/vo/class-level';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PgListComponent implements OnInit {
-  public classLevelToString = ClassLevel.toStringList
+
+  public classLevelToString = ClassLevel.toStringList;
+  public domainLevelToString = DomainLevel.toStringList;
+  public join = (values: string[]) => values.join(', ');
 
   collection$: Observable<Pg[]>;
   itemsSelected$: Observable<Pg[]>;

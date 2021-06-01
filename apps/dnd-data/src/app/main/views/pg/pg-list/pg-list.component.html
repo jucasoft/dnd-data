@@ -10,6 +10,15 @@
       <th>
         classes
       </th>
+      <th>
+        domains
+      </th>
+      <th>
+        books
+      </th>
+      <th>
+        schools
+      </th>
       <th style="width: 10em">actions</th>
     </tr>
   </ng-template>
@@ -23,6 +32,15 @@
       </td>
       <td>
         {{classLevelToString(item.classLevels)}}
+      </td>
+      <td>
+        {{domainLevelToString(item.domainLevels)}}
+      </td>
+      <td>
+        {{join(item.rulebooks)}}
+      </td>
+      <td>
+        {{join(item.schools)}}
       </td>
       <td>
 

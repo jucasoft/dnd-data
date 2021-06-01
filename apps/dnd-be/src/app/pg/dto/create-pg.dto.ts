@@ -6,4 +6,6 @@ export class CreatePgDto {
   public user: string = undefined;
   public classLevels: ClassLevel[] = undefined;
   public domainLevels: DomainLevel[] = undefined;
+  public rulebooks: string[] = undefined;
+  public schools: string[] = undefined;
 }

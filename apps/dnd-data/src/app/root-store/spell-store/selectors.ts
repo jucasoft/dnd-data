@@ -8,6 +8,8 @@ import {pipe} from 'rxjs';
 import {map, scan} from 'rxjs/operators';
 import {Dictionary} from '@ngrx/entity';
 import {evalData} from '@core/utils/j-utils';
+import {InfoStoreSelectors} from '@root-store/info-store/index';
+import {Info} from '@models/vo/info';
 
 export const selectState: MemoizedSelector<any, State> = createFeatureSelector<State>(Names.NAME);
 export const {
@@ -150,19 +152,45 @@ export const {
 export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
   selectEntities,
   SpellsInventoryStoreSelectors.selectAll,
-  (spells: Dictionary<Spell>, inventorys: SpellsInventory[]): Dictionary<Spell> => {
+  InfoStoreSelectors.selectAll,
+  (
+    spells: Dictionary<Spell>,
+    inventorys: SpellsInventory[],
+    info: Info[]
+  ): Dictionary<Spell> => {
     const keys = Object.keys(spells);
     const spellsInventorys = inventorys.reduce((prev, curr) => {
       prev[curr.spellsDictionaryId] = curr;
       return prev;
     }, {})
+
+    const infInventorys = info.reduce((prev, curr) => {
+      prev[curr.spellsDictionaryId] = curr;
+      return prev;
+    }, {})
+
     return keys.reduce((prev, key) => {
       const spell = spells[key];
       const id = spell.id;
-      prev[key] = {
-        ...spell,
-        spells: spellsInventorys[id]
+
+      if (spellsInventorys[id]) {
+        prev[key] = {
+          ...spell,
+          spells: spellsInventorys[id]
+        }
+      } else {
+        prev[key] = spell;
       }
+
+      if (infInventorys[id]) {
+        prev[key] = {
+          ...spell,
+          info: infInventorys[id]
+        }
+      } else {
+        prev[key] = spell;
+      }
+
       return prev
     }, {})
   }

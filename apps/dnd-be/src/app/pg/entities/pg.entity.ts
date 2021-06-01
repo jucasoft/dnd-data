@@ -12,6 +12,8 @@ export class Pg {
   @Prop() public user: string = undefined;
   @Prop() public classLevels: ClassLevel[] = undefined;
   @Prop() public domainLevels: DomainLevel[] = undefined;
+  @Prop() public rulebooks: string[] = undefined;
+  @Prop() public schools: string[] = undefined;
 }
 
 export const PgSchema = SchemaFactory.createForClass(Pg);

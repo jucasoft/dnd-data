@@ -6,13 +6,14 @@ export class Pg {
   public _id?: string = undefined;
   public name: string = undefined;
   public user: string = undefined;
+  public rulebooks: string[] = undefined;
+  public schools: string[] = undefined;
   public classLevels: ClassLevel[] = undefined;
   // mappa locale key/val => class/level
   public classLevelsMap: Dictionary<number> = undefined;
   public domainLevels: DomainLevel[] = undefined;
   // mappa locale key/val => domain/level
   public domainLevelsMap: Dictionary<number> = undefined;
-
 
   static classLevelsToMap = (values: ClassLevel[]) => {
     return values ? values.reduce((prev, curr: ClassLevel) => {

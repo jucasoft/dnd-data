@@ -18,18 +18,22 @@ import {select} from '@ngrx/store';
 export class PgEditComponent extends PopUpBaseComponent<Pg> {
 
   form: FormGroup;
-  _id: FormControl;
   name: FormControl;
   classLevels: FormControl;
   domainLevels: FormControl;
   rulebooks: FormControl;
+  schools: FormControl;
   keys: string[];
+
+  lastItem: Pg;
 
   public classLevelsDP$: Observable<ClassLevel[]> = undefined;
   public domainLevelsDP$: Observable<DomainLevel[]> = undefined;
   public rulebooksDP$: Observable<string[]> = undefined;
+  public schoolsDP$: Observable<string[]> = undefined;
 
   setItemPerform(value: Pg): void {
+    this.lastItem = value;
     this.makeFrom();
     this.form.reset(value);
   }
@@ -47,22 +51,27 @@ export class PgEditComponent extends PopUpBaseComponent<Pg> {
       select(SpellStoreSelectors.selectAllRulebooks)
     )
 
-    this._id = this.fb.control({value: '', disabled: true});
+    this.schoolsDP$ = this.store$.pipe(
+      select(SpellStoreSelectors.selectAllSchools)
+    )
+
     this.name = this.fb.control('', Validators.required);
     this.classLevels = this.fb.control('', Validators.required);
     this.domainLevels = this.fb.control({value: ''}, Validators.required);
     this.rulebooks = this.fb.control({value: ''});
+    this.schools = this.fb.control({value: ''});
 
     this.form = this.fb.group({ // form
-      _id: this._id,
       name: this.name,
       classLevels: this.classLevels,
       domainLevels: this.domainLevels,
-      rulebooks: this.rulebooks
+      rulebooks: this.rulebooks,
+      schools: this.schools
     });
   }
 
-  acceptPerform(item: Pg): void {
+  acceptPerform(pg: Pg): void {
+    const item: Pg = {...this.lastItem, ...pg};
     if (Pg.selectId(item)) {
       this.store$.dispatch(PgStoreActions.EditRequest({
         item, onResult: [
