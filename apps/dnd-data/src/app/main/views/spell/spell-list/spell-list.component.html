@@ -38,7 +38,7 @@
             </ng-template>
           </p-columnFilter>
         </th>
-        <th style="width: 3rem">
+        <th style="width: 6rem">
           Score
         </th>
         <th *ngFor="let col of _selectedColumns">
@@ -61,7 +61,28 @@
           </dnd-data-qt-stepper>
         </td>
         <th class="p-text-left">
-          item.comm
+          <i class="pi pi-info-circle p-mr-4 p-text-secondary pointer"
+             (click)="show(item)"
+             pBadge
+             style="font-size: 2rem"
+             severity="warning"
+             [value]="item.info?.score">
+          </i>
+
+          <!--          <p-badge [value]="2" styleClass="p-mr-2"></p-badge>-->
+          <!--          <p-button icon="pi pi-users"-->
+          <!--                    styleClass="p-button-warning"-->
+          <!--                    [badge]="2"-->
+          <!--                    badgeClass="p-badge-danger">-->
+          <!--          </p-button>-->
+
+          <!--          <button (click)="show(item)"-->
+          <!--                  pButton-->
+          <!--                  type="button"-->
+          <!--                  icon="pi pi-minus"-->
+          <!--                  class="p-button-sm p-mr-1"-->
+          <!--                  iconPos="left">-->
+          <!--          </button>-->
         </th>
         <th *ngFor="let col of _selectedColumns" class="p-text-left ngrx-debug">
           {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}
@@ -70,7 +91,7 @@
     </ng-template>
     <ng-template pTemplate="rowexpansion" let-item>
       <tr>
-        <td [colSpan]="selectedColumns.length+2">
+        <td [colSpan]="selectedColumns.length+3">
           <div class="p-grid">
             <div class="p-col-12 p-lg-4 p-pt-0 p-pb-0">
               <div>Uame : {{item.name}}</div>

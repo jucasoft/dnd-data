@@ -22,16 +22,13 @@ import {Info} from '@models/vo/info';
       <div class="p-grid">
         <div class="p-col">
           <label for="domainLevels"><strong>Note</strong></label><br>
-          <textarea [rows]="5" [cols]="30" pInputTextarea></textarea>
+          <textarea [rows]="5" [cols]="30" pInputTextarea [formControl]="note"></textarea>
         </div>
       </div>
 
     </form>
 
-    <ng-template pTemplate="footer">
-      <button pButton class="p-button-success mr-1" [disabled]="!form.valid" label="save" (click)="submit(form.getRawValue())"></button>
-      <button pButton type="button" label="Cancel" (click)="cancel()"></button>
-    </ng-template>
+    <button pButton class="p-button-success mr-1" [disabled]="!form.valid" label="save" (click)="submit(form.getRawValue())"></button>
 
   `,
   styles: [``]
@@ -67,7 +64,7 @@ export class InfoComponent implements OnInit {
   }
 
   submit(rawValue: Info): void {
-    this.ref.close(rawValue)
+    this.ref.close({...this.item, ...rawValue})
   }
 
   cancel(): void {

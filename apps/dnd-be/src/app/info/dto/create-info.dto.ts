@@ -3,5 +3,5 @@ export class CreateInfoDto {
   public spellsDictionaryId: string = undefined;
   public user: string = undefined;
   public note: string = undefined;
-  public stars: number = undefined;
+  public score: number = undefined;
 }

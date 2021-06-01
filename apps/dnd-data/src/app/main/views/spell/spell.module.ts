@@ -32,6 +32,7 @@ import {InfoComponent} from './components/info.component';
 import {RatingModule} from 'primeng/rating';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {DynamicDialogModule} from 'primeng/dynamicdialog';
+import {BadgeModule} from 'primeng/badge';
 
 @NgModule({
   declarations: [
@@ -45,33 +46,34 @@ import {DynamicDialogModule} from 'primeng/dynamicdialog';
     QtStepperComponent,
     InfoComponent
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    SpellRoutingModule,
-    TableModule,
-    DialogModule,
-    ButtonModule,
-    InputTextModule,
-    PipesModule,
-    SearchModule,
-    NgLetModule,
-    ToolbarModule,
-    DropdownModule,
-    InputNumberModule,
-    CheckboxModule,
-    MultiSelectModule,
-    SkeletonModule,
-    PanelModule,
-    ToggleButtonModule,
-    InputSwitchModule,
-    RippleModule,
-    MenuModule,
-    RatingModule,
-    InputTextareaModule,
-    DynamicDialogModule,
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        SpellRoutingModule,
+        TableModule,
+        DialogModule,
+        ButtonModule,
+        InputTextModule,
+        PipesModule,
+        SearchModule,
+        NgLetModule,
+        ToolbarModule,
+        DropdownModule,
+        InputNumberModule,
+        CheckboxModule,
+        MultiSelectModule,
+        SkeletonModule,
+        PanelModule,
+        ToggleButtonModule,
+        InputSwitchModule,
+        RippleModule,
+        MenuModule,
+        RatingModule,
+        InputTextareaModule,
+        DynamicDialogModule,
+        BadgeModule,
+    ],
   providers: [],
   entryComponents: []
 })

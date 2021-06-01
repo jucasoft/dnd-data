@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
-import {RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
+import {InfoStoreActions, RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService, FilterService, MenuItem} from 'primeng/api';
@@ -14,6 +14,8 @@ import {Pg} from '@models/vo/pg';
 import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {selectAllDenorm} from '@root-store/spell-store/selectors';
 import {DialogService} from 'primeng/dynamicdialog';
+import {InfoComponent} from '@views/spell/components/info.component';
+import {Info} from '@models/vo/info';
 
 @Component({
   selector: 'app-spell-list',
@@ -161,12 +163,30 @@ export class SpellListComponent implements OnInit {
 
   }
 
-  show(data: SpellsInventory) {
-    // const ref = this.dialogService.open(InfoComponent, {
-    //   header: 'Choose a Car',
-    //   width: '70%',
-    //   data
-    // });
+  show(spell: Spell) {
+
+    const data = spell.info || {
+      spellsDictionaryId: spell.id,
+      user: null,
+      note: '',
+      score: 0
+    }
+
+    const ref = this.dialogService.open(InfoComponent, {
+      header: 'Info',
+      data
+    });
+
+    ref.onClose.subscribe((item: Info) => {
+      if (item) {
+        if (item._id) {
+          this.store$.dispatch(InfoStoreActions.EditRequest({item}));
+        } else {
+          this.store$.dispatch(InfoStoreActions.CreateRequest({item}));
+        }
+      }
+    });
+
   }
 
   onInput(qt: number, spell: Spell, pg: Pg): void {

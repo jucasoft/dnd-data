@@ -8,7 +8,7 @@ export class Info {
   @Prop() public spellsDictionaryId: string = undefined;
   @Prop() public user: string = undefined;
   @Prop() public note: string = undefined;
-  @Prop() public stars: number = undefined;
+  @Prop() public score: number = undefined;
 }
 
 export const InfoSchema = SchemaFactory.createForClass(Info);

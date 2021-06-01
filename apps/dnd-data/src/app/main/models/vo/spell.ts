@@ -24,7 +24,10 @@ export class Spell {
   public savingThrow: string = undefined;
   public spellResistance: string = undefined;
   public description: string = undefined;
+  // aggiunto localmente
   public spells: SpellsInventory = undefined;
+
+  // aggiunto localmente
   public info: Info = undefined;
   /**
    * metodo statico utilizzato per recuperare l'id dell'entita.
