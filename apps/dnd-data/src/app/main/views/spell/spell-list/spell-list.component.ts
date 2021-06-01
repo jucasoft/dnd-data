@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {select, Store} from '@ngrx/store';
-import {InfoStoreActions, RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions} from '@root-store/index';
+import {InfoStoreActions, RootStoreState, RouterStoreSelectors, SpellsInventoryStoreActions, SpellsInventoryStoreSelectors, SpellStoreActions, SpellStoreSelectors} from '@root-store/index';
 import {Spell} from '@models/vo/spell';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import {ConfirmationService, FilterService, MenuItem} from 'primeng/api';
@@ -12,7 +12,6 @@ import {ClassLevel} from '@models/vo/class-level';
 import {Observable} from 'rxjs';
 import {Pg} from '@models/vo/pg';
 import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
-import {selectAllDenorm} from '@root-store/spell-store/selectors';
 import {DialogService} from 'primeng/dynamicdialog';
 import {InfoComponent} from '@views/spell/components/info.component';
 import {Info} from '@models/vo/info';
@@ -25,8 +24,6 @@ import {Info} from '@models/vo/info';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SpellListComponent implements OnInit {
-  public classLevelToString = ClassLevel.toStringList
-  public rulebookToString = Rulebook.toString
 
   constructor(private store$: Store<RootStoreState.State>,
               private dialogService: DialogService,
@@ -67,6 +64,33 @@ export class SpellListComponent implements OnInit {
     this._selectedColumns = this.cols.filter(col => val.includes(col));
   }
 
+
+  public classLevelToString = ClassLevel.toStringList
+  public rulebookToString = Rulebook.toString
+
+  /**
+   * filtra e renderizza solo le classi selezioante nel PG
+   * @param values
+   * @param pg
+   */
+  public classLevelsRenderer = (values: ClassLevel[], pg: Pg): string => {
+    const result = values.filter((item: ClassLevel) => {
+        const level = pg.classLevelsMap[item.class];
+        return level === item.level;
+      }
+    );
+    return ClassLevel.toStringList(result);
+  }
+
+  /**
+   * filtra e visualizza solo i libri selezionati el PG
+   * @param values
+   * @param pg
+   */
+  public rulebooksRenderer = (item: Rulebook, pg: Pg): string => {
+    return item.rulebook;
+  }
+
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
 
@@ -75,12 +99,12 @@ export class SpellListComponent implements OnInit {
       {field: 'schools', header: 'schools', ngClass: '', renderer: null},
       {field: 'castingTime', header: 'castingTime', ngClass: '', renderer: null},
       {field: 'range', header: 'range', ngClass: '', renderer: null},
-      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: ClassLevel.toStringList},
+      {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelsRenderer.bind(this)},
+      {field: 'source', header: 'source', ngClass: '', renderer: this.rulebooksRenderer.bind(this)},
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
       {field: 'target', header: 'target', ngClass: '', renderer: null},
-      {field: 'source', header: 'source', ngClass: '', renderer: Rulebook.toString},
       {field: 'components', header: 'components', ngClass: '', renderer: null},
       {field: 'spellResistance', header: 'spellResistance', ngClass: '', renderer: null},
       {field: 'description', header: 'description', ngClass: '', renderer: null},
@@ -91,7 +115,7 @@ export class SpellListComponent implements OnInit {
       {field: 'id', header: 'id', ngClass: '', renderer: null},
     ];
 
-    this._selectedColumns = this.cols.slice(0, 5);
+    this._selectedColumns = this.cols.slice(0, 6);
 
     const pgSelectedSource$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
@@ -119,7 +143,9 @@ export class SpellListComponent implements OnInit {
     );
 
     this.collection$ = this.store$.pipe(
-      selectAllDenorm(),
+      select(SpellStoreSelectors.selectEntitiesDenorm),
+      map(values => Object.values(values)),
+      // selectAllDenorm(),
       withLatestFrom(pgSelectedSource$),
       map(([all, pg]) => {
         const spells = all.filter((item: Spell) => {
@@ -131,17 +157,18 @@ export class SpellListComponent implements OnInit {
         })
         return {spells, pg};
       }),
-      map(({spells, pg}) => {
-        return spells.map((item: Spell) => {
-          const classLevels = item.classLevels.filter(
-            (clazz: ClassLevel) => {
-              const level = pg.classLevelsMap[clazz.class];
-              return level >= clazz.level;
-            }
-          )
-          return {...item, classLevels}
-        })
-      })
+      map(value => value.spells)
+      // map(({spells, pg}) => {
+      //   return spells.map((item: Spell) => {
+      //     const classLevels = item.classLevels.filter(
+      //       (clazz: ClassLevel) => {
+      //         const level = pg.classLevelsMap[clazz.class];
+      //         return level >= clazz.level;
+      //       }
+      //     )
+      //     return {...item, classLevels}
+      //   })
+      // })
     );
 
     this.items = [

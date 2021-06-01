@@ -68,24 +68,9 @@
              severity="warning"
              [value]="item.info?.score">
           </i>
-
-          <!--          <p-badge [value]="2" styleClass="p-mr-2"></p-badge>-->
-          <!--          <p-button icon="pi pi-users"-->
-          <!--                    styleClass="p-button-warning"-->
-          <!--                    [badge]="2"-->
-          <!--                    badgeClass="p-badge-danger">-->
-          <!--          </p-button>-->
-
-          <!--          <button (click)="show(item)"-->
-          <!--                  pButton-->
-          <!--                  type="button"-->
-          <!--                  icon="pi pi-minus"-->
-          <!--                  class="p-button-sm p-mr-1"-->
-          <!--                  iconPos="left">-->
-          <!--          </button>-->
         </th>
         <th *ngFor="let col of _selectedColumns" class="p-text-left ngrx-debug">
-          {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}
+          {{col.renderer ? col.renderer(item[col.field], pgSelected) : item[col.field]}}
         </th>
       </tr>
     </ng-template>

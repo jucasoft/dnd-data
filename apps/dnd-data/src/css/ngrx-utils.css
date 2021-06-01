@@ -1,5 +1,5 @@
 .ngrx-debug {
-  animation: pulse 2s;
+  /*animation: pulse 2s;*/
 }
 
 @keyframes pulse {

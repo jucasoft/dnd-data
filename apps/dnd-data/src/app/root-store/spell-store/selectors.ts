@@ -1,4 +1,4 @@
-import {createFeatureSelector, createSelector, MemoizedSelector, select} from '@ngrx/store';
+import {createFeatureSelector, createSelector, createSelectorFactory, MemoizedProjection, MemoizedSelector, select} from '@ngrx/store';
 import {adapter, State} from './state';
 import {Names} from './names';
 import {SpellsInventoryStoreSelectors} from '@root-store/spells-inventory-store/index';
@@ -71,85 +71,102 @@ export const {
 //
 // const customMemoizer = (aFn) => defaultMemoize(aFn, isResultEqual, isArgumentsEqual);
 
-// const isEqualCheck = (a: any, b: any): boolean => {
-//   return a === b; // this is what is currently isEqualCheck is doing anyway.
-// }
-//
-// function isArgumentsChanged(
-//   args: IArguments,
-//   lastArguments: IArguments,
-//   comparator: any
-// ) {
-//   for (let i = 0; i < args.length; i++) {
-//     if (!comparator(args[i], lastArguments[i])) {
-//       return true;
-//     }
-//   }
-//   return false;
-// }
-//
-// export function customMemoize(
-//   projectionFn: any,
-//   isArgumentsEqual = isEqualCheck,
-//   isResultEqual = isEqualCheck
-// ): MemoizedProjection {
-//   let lastArguments: null | IArguments = null;
-//   // tslint:disable-next-line:no-any anything could be the result.
-//   let lastResult: any = null;
-//   let overrideResult: any;
-//
-//   function reset() {
-//     lastArguments = null;
-//     lastResult = null;
-//   }
-//
-//   function setResult(result: any = undefined) {
-//     overrideResult = {result};
-//   }
-//
-//   function clearResult() {
-//     overrideResult = undefined;
-//   }
-//
-//   // tslint:disable-next-line:no-any anything could be the result.
-//   function memoized(): any {
-//     if (overrideResult !== undefined) {
-//       return overrideResult.result;
-//     }
-//
-//     if (!lastArguments) {
-//
-//       // eslint-disable-next-line prefer-spread,prefer-rest-params
-//       lastResult = projectionFn.apply(null, arguments as any);
-//       // eslint-disable-next-line prefer-rest-params
-//       lastArguments = arguments;
-//       return lastResult;
-//     }
-//
-//     // eslint-disable-next-line prefer-rest-params
-//     if (!isArgumentsChanged(arguments, lastArguments, isArgumentsEqual)) {
-//       return lastResult;
-//     }
-//
-//     // eslint-disable-next-line prefer-spread,prefer-rest-params
-//     const newResult = projectionFn.apply(null, arguments as any);
-//     // eslint-disable-next-line prefer-rest-params
-//     lastArguments = arguments;
-//
-//     if (isResultEqual(lastResult, newResult)) {
-//       return lastResult;
-//     }
-//
-//     const keys = Object.keys(newResult)
-//     lastResult = newResult;
-//
-//     return newResult;
-//   }
-//
-//   return {memoized, reset, setResult, clearResult};
-// }
+const isEqualCheck = (a: any, b: any): boolean => {
+  return a === b; // this is what is currently isEqualCheck is doing anyway.
+}
 
-export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
+function isArgumentsChanged(
+  args: IArguments,
+  lastArguments: IArguments,
+  comparator: any
+) {
+  for (let i = 0; i < args.length; i++) {
+    if (!comparator(args[i], lastArguments[i])) {
+      return true;
+    }
+  }
+  return false;
+}
+
+export function customMemoize(
+  projectionFn: any,
+  isArgumentsEqual = isEqualCheck,
+  isResultEqual = isEqualCheck
+): MemoizedProjection {
+  let lastArguments: null | IArguments = null;
+  // tslint:disable-next-line:no-any anything could be the result.
+  let lastResult: any = null;
+  let overrideResult: any;
+
+  function reset() {
+    lastArguments = null;
+    lastResult = null;
+  }
+
+  function setResult(result: any = undefined) {
+    overrideResult = {result};
+  }
+
+  function clearResult() {
+    overrideResult = undefined;
+  }
+
+  // tslint:disable-next-line:no-any anything could be the result.
+  function memoized(): any {
+    if (overrideResult !== undefined) {
+      return overrideResult.result;
+    }
+
+    if (!lastArguments) {
+
+      // eslint-disable-next-line prefer-spread,prefer-rest-params
+      lastResult = projectionFn.apply(null, arguments as any);
+      // eslint-disable-next-line prefer-rest-params
+      lastArguments = arguments;
+      return lastResult;
+    }
+
+    // eslint-disable-next-line prefer-rest-params
+    if (!isArgumentsChanged(arguments, lastArguments, isArgumentsEqual)) {
+      return lastResult;
+    }
+
+    // eslint-disable-next-line prefer-spread,prefer-rest-params
+    const newResult = projectionFn.apply(null, arguments as any);
+    // eslint-disable-next-line prefer-rest-params
+    lastArguments = arguments;
+
+    if (isResultEqual(lastResult, newResult)) {
+      return lastResult;
+    }
+
+    const keys = Object.keys(newResult);
+
+    const newResultB = keys.reduce((prev: any, key: string) => {
+
+      const prevIten = lastResult[key];
+      const newIten = newResult[key];
+      if (
+        evalData(() => prevIten.spells === newIten.spells, false) &&
+        evalData(() => prevIten.info === newIten.info, false)
+      ) {
+        prev[key] = prevIten
+      } else {
+        prev[key] = {...newIten}
+      }
+      return prev
+    }, {})
+
+    lastResult = newResultB;
+
+    return newResultB;
+  }
+
+  return {memoized, reset, setResult, clearResult};
+}
+
+// export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelector(
+export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = createSelectorFactory(customMemoize)(
   selectEntities,
   SpellsInventoryStoreSelectors.selectAll,
   InfoStoreSelectors.selectAll,
@@ -191,33 +208,32 @@ export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = cr
   }
 );
 
-export const selectAllDenorm = () => {
-  return pipe(
-    select(selectEntitiesDenorm),
-    scan((acc, value) => {
-      const keys = Object.keys(acc);
-      const keysTemp = Object.keys(value);
-      if (keys.length === 0) {
-        return value;
-      }
-      return keys.reduce((prev: any, key: string) => {
-
-        const prevIten = acc[key];
-        const newIten = value[key];
-        if (
-          evalData(() => prevIten.spells === newIten.spells, false) &&
-          evalData(() => prevIten.info === newIten.info , false)
-        ) {
-          prev[key] = prevIten
-        } else {
-          prev[key] = {...newIten}
-        }
-        return prev
-      }, {})
-    }, {} as Dictionary<Spell>),
-    map(value => Object.values(value) as Spell[])
-  )
-};
+// export const selectAllDenorm = () => {
+//   return pipe(
+//     select(selectEntitiesDenorm),
+//     scan((acc, value) => {
+//       const keys = Object.keys(acc);
+//       if (keys.length === 0) {
+//         return value;
+//       }
+//       return keys.reduce((prev: any, key: string) => {
+//
+//         const prevIten = acc[key];
+//         const newIten = value[key];
+//         if (
+//           evalData(() => prevIten.spells === newIten.spells, false) &&
+//           evalData(() => prevIten.info === newIten.info, false)
+//         ) {
+//           prev[key] = prevIten
+//         } else {
+//           prev[key] = {...newIten}
+//         }
+//         return prev
+//       }, {})
+//     }, {} as Dictionary<Spell>),
+//     map(value => Object.values(value) as Spell[])
+//   )
+// };
 
 export const selectAllClassLevel = createSelector(
   selectAll,
