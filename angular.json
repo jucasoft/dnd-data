@@ -62,6 +62,7 @@
               "apps/dnd-data/src/css/sizing.css",
               "apps/dnd-data/src/css/colors.scss",
               "apps/dnd-data/src/css/text.css",
+              "apps/dnd-data/src/css/ngrx-utils.css",
               "apps/dnd-data/src/css/text-align.css",
               "apps/dnd-data/src/css/validator.css"
             ],

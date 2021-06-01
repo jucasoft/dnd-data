@@ -10,7 +10,7 @@ import {SpellsInventory} from '@models/vo/spells-inventory';
 import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {Observable} from 'rxjs';
-import {Png} from '@models/vo/png';
+import {Pg} from '@models/vo/pg';
 import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {selectAllDenorm} from '@root-store/spell-store/selectors';
 import {DialogService} from 'primeng/dynamicdialog';
@@ -47,7 +47,7 @@ export class SpellListComponent implements OnInit {
   }
 
   collection$: Observable<Spell[]>;
-  pngSelected$: Observable<Png>;
+  pgSelected$: Observable<Pg>;
   loadingSearch$: Observable<boolean>;
 
   public EMPTY = {qt: 0} as SpellsInventory
@@ -91,23 +91,23 @@ export class SpellListComponent implements OnInit {
 
     this._selectedColumns = this.cols.slice(0, 5);
 
-    const pngSelectedSource$ = this.store$.pipe(
+    const pgSelectedSource$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
-      filter(value => !!value && !!value.png),
-      map(value => ({...JSON.parse(atob(value.png))})),
-      map((value: Png) => {
+      filter(value => !!value && !!value.pg),
+      map(value => ({...JSON.parse(atob(value.pg))})),
+      map((value: Pg) => {
         const classLevels = value.classLevels;
-        value.classLevelsMap = Png.classLevelsToMap(value.classLevels);
-        value.domainLevelsMap = Png.domainLevelsToMap(value.domainLevels);
+        value.classLevelsMap = Pg.classLevelsToMap(value.classLevels);
+        value.domainLevelsMap = Pg.domainLevelsToMap(value.domainLevels);
         return value;
       }),
     );
 
-    this.pngSelected$ = pngSelectedSource$.pipe(
-      tap(png => {
-        const pngId = png._id;
+    this.pgSelected$ = pgSelectedSource$.pipe(
+      tap(pg => {
+        const pgId = pg._id;
         this.store$.dispatch(
-          SpellsInventoryStoreActions.SearchRequest({queryParams: {pngId}, mode: 'REFRESH'})
+          SpellsInventoryStoreActions.SearchRequest({queryParams: {pgId}, mode: 'REFRESH'})
         );
       }),
     );
@@ -118,22 +118,22 @@ export class SpellListComponent implements OnInit {
 
     this.collection$ = this.store$.pipe(
       selectAllDenorm(),
-      withLatestFrom(pngSelectedSource$),
-      map(([all, png]) => {
+      withLatestFrom(pgSelectedSource$),
+      map(([all, pg]) => {
         const spells = all.filter((item: Spell) => {
           const result = item.classLevels.find((clazz: ClassLevel) => {
-            const level = png.classLevelsMap[clazz.class];
+            const level = pg.classLevelsMap[clazz.class];
             return level >= clazz.level;
           })
           return !!result
         })
-        return {spells, png};
+        return {spells, pg};
       }),
-      map(({spells, png}) => {
+      map(({spells, pg}) => {
         return spells.map((item: Spell) => {
           const classLevels = item.classLevels.filter(
             (clazz: ClassLevel) => {
-              const level = png.classLevelsMap[clazz.class];
+              const level = pg.classLevelsMap[clazz.class];
               return level >= clazz.level;
             }
           )
@@ -169,9 +169,9 @@ export class SpellListComponent implements OnInit {
     // });
   }
 
-  onInput(qt: number, spell: Spell, png: Png): void {
-    const {_id, user} = png;
-    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, pngId: _id}
+  onInput(qt: number, spell: Spell, pg: Pg): void {
+    const {_id, user} = pg;
+    const spells = spell.spells || {...new SpellsInventory(), spellsDictionaryId: spell.id, user, pgId: _id}
     const item = {...spells, qt};
     if (!item._id) {
       this.store$.dispatch(SpellsInventoryStoreActions.CreateRequest({item}));

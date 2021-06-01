@@ -4,8 +4,8 @@ import {State} from './state';
 import {Names} from './names';
 import {SlideMenuItem} from '@models/vo/slide-menu-item';
 import {MenuItem} from 'primeng/api';
-import {PngStoreSelectors} from '@root-store/png-store/index';
-import {Png} from '@models/vo/png';
+import {PgStoreSelectors} from '@root-store/pg-store/index';
+import {Pg} from '@models/vo/pg';
 import {RouterStoreActions} from '@root-store/router-store/index';
 import * as SlideMenuStoreActions from './actions';
 
@@ -46,22 +46,22 @@ export const selectBreadcrumbRenderized: MemoizedSelector<object, string> = crea
 
 export const selectItems: MemoizedSelector<any, MenuItem[]> = createSelector(
   selectItemsA,
-  PngStoreSelectors.selectAll,
-  (menuItems: MenuItem[], allPng: Png[]): MenuItem[] => {
-    const result = allPng.map((png: Png) => {
+  PgStoreSelectors.selectAll,
+  (menuItems: MenuItem[], allPg: Pg[]): MenuItem[] => {
+    const result = allPg.map((pg: Pg) => {
       return {
-        label: png.name,
+        label: pg.name,
         icon: 'fas fa-hat-wizard',
         command: (event$) => {
           // invoco il router per cambiare pagina
-          const base64Png = btoa(JSON.stringify(png))
-          event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell', 'main', base64Png]}));
+          const base64Pg = btoa(JSON.stringify(pg))
+          event$.item.store$.dispatch(RouterStoreActions.RouterGo({path: ['spell', 'main', base64Pg]}));
 
           // salvo nello store del menù l'elemento selezionato.
           event$.item.store$.dispatch(SlideMenuStoreActions.Select({
             item: {
               data: {},
-              breadcrumb: ['Spell', png.name]
+              breadcrumb: ['Spell', pg.name]
             }
           }));
         }

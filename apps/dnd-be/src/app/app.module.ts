@@ -9,9 +9,9 @@ import {TransformInterceptor} from './core/interceptors/transform.interceptor';
 import {ServeStaticModule} from '@nestjs/serve-static';
 import {AuthzModule} from './core/authz/authz-module';
 import {SpellsInventoryModule} from './spells-inventory/spells-inventory.module';
-import {PngModule} from './png/png.module';
+import {PgModule} from './pg/pg.module';
 import {join} from 'path';
-import { CommentModule } from './comment/comment.module';
+import {CommentModule} from './comment/comment.module';
 
 console.log('__dirname', __dirname);
 
@@ -24,7 +24,7 @@ console.log('__dirname', __dirname);
     MongooseModule.forRoot(environment.MONGO_DB_SRV),
     SpellModule,
     SpellsInventoryModule,
-    PngModule,
+    PgModule,
     CommentModule],
   controllers: [AppController],
   providers: [

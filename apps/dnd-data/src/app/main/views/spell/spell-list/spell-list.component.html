@@ -1,6 +1,6 @@
 <div *ngLet="(loadingSearch$ | async) as loading">
   <p-table #dt
-           *ngLet="pngSelected$ | async  as pngSelected"
+           *ngLet="pgSelected$ | async  as pgSelected"
            dataKey="_id"
            (selectionChange)="onSelectionChange($event)"
            [columns]="selectedColumns"
@@ -38,6 +38,9 @@
             </ng-template>
           </p-columnFilter>
         </th>
+        <th style="width: 3rem">
+          Score
+        </th>
         <th *ngFor="let col of _selectedColumns">
           {{col.header}}
           <p-columnFilter type="text" [field]="col.field" display="menu"></p-columnFilter>
@@ -54,10 +57,13 @@
           <dnd-data-qt-stepper
             *ngIf="!loading"
             [spellsInventory]="item.spells || EMPTY"
-            (change)="onInput($event, item, pngSelected)">
+            (change)="onInput($event, item, pgSelected)">
           </dnd-data-qt-stepper>
         </td>
-        <th *ngFor="let col of _selectedColumns" class="p-text-left">
+        <th class="p-text-left">
+          item.comm
+        </th>
+        <th *ngFor="let col of _selectedColumns" class="p-text-left ngrx-debug">
           {{col.renderer ? col.renderer(item[col.field]) : item[col.field]}}
         </th>
       </tr>

@@ -1,22 +1,17 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {SpellMainComponent} from './spell-main/spell-main.component';
-import {SpellEditComponent} from '@views/spell/spell-edit/spell-edit.component';
+import {PgMainComponent} from './pg-main/pg-main.component';
+import {PgEditComponent} from '@views/pg/pg-edit/pg-edit.component';
 
 const routes: Routes = [
   {
-    path: 'main/:pg',
-    component: SpellMainComponent,
-    pathMatch: 'full'
-  },
-  {
     path: 'main',
-    component: SpellMainComponent,
+    component: PgMainComponent,
     pathMatch: 'full'
   },
   {
     path: 'edit',
-    component: SpellEditComponent,
+    component: PgEditComponent,
     outlet: 'popUp',
     pathMatch: 'full'
   },
@@ -38,5 +33,5 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class SpellRoutingModule {
+export class PgRoutingModule {
 }

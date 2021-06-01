@@ -20,9 +20,9 @@ export class SpellsInventoryController {
   @Get()
   @UseGuards(AuthGuard('jwt'))
   findAll(@Req() req) {
-    const pngId = req.query.pngId;
+    const pgId = req.query.pgId;
     const user = req.user.sub;
-    return this.service.findAll({pngId, user});
+    return this.service.findAll({pgId, user});
   }
 
   @Get(':id')

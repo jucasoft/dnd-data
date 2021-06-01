@@ -2,18 +2,19 @@ import {Rulebook} from '@models/vo/rulebook';
 import {ClassLevel} from '@models/vo/class-level';
 import {DomainLevel} from '@models/vo/domain-level';
 import {SpellsInventory} from '@models/vo/spells-inventory';
+import {Comment} from '@models/vo/comment';
 
 export class Spell {
   public _id: string = undefined;
   public id: string = undefined;
   public name: string = undefined;
-  public source: Rulebook = undefined;
-  public schools: string[] = undefined; // 'Enchantment'
-  public subschools: string[] = undefined; // 'Compulsion'
-  public descriptors: string[] = undefined; // 'Mind-Affecting'
-  public classLevels: ClassLevel[] = undefined;
-  public domainLevels: DomainLevel[] = undefined;
-  public components: string[] = undefined; // 'Verbal','Somatic','Divine Focus'
+  public source: Rulebook = undefined; // filtrare
+  public schools: string[] = undefined; // da filtrare
+  public subschools: string[] = undefined;
+  public descriptors: string[] = undefined;
+  public classLevels: ClassLevel[] = undefined; // da filtrare
+  public domainLevels: DomainLevel[] = undefined; // deve andare in OR
+  public components: string[] = undefined;
   public castingTime: string = undefined;
   public range: string = undefined;
   public area: string = undefined;
@@ -24,6 +25,7 @@ export class Spell {
   public spellResistance: string = undefined;
   public description: string = undefined;
   public spells: SpellsInventory = undefined;
+  public comment: Comment = undefined;
   /**
    * metodo statico utilizzato per recuperare l'id dell'entita.
    * @param item

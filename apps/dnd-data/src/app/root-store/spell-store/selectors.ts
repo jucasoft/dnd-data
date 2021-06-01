@@ -8,6 +8,8 @@ import {pipe} from 'rxjs';
 import {map, scan} from 'rxjs/operators';
 import {Dictionary} from '@ngrx/entity';
 import {evalData} from '@core/utils/j-utils';
+import {CommentStoreSelectors} from '@root-store/comment-store/index';
+import {Comment} from '@models/vo/comment';
 
 export const selectState: MemoizedSelector<any, State> = createFeatureSelector<State>(Names.NAME);
 export const {
