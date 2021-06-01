@@ -173,19 +173,14 @@ export const selectEntitiesDenorm: MemoizedSelector<any, Dictionary<Spell>> = cr
       const spell = spells[key];
       const id = spell.id;
 
-      if (spellsInventorys[id]) {
-        prev[key] = {
-          ...spell,
-          spells: spellsInventorys[id]
-        }
-      } else {
-        prev[key] = spell;
-      }
+      const spellsTemp = spellsInventorys[id];
+      const infoTemp = infInventorys[id];
 
-      if (infInventorys[id]) {
+      if (spellsTemp || infoTemp) {
         prev[key] = {
           ...spell,
-          info: infInventorys[id]
+          spells: spellsTemp,
+          info: infoTemp
         }
       } else {
         prev[key] = spell;
@@ -209,7 +204,10 @@ export const selectAllDenorm = () => {
 
         const prevIten = acc[key];
         const newIten = value[key];
-        if (evalData(() => prevIten.spells === newIten.spells || prevIten.spells.qt === newIten.spells.qt, false)) {
+        if (
+          evalData(() => prevIten.spells === newIten.spells, false) &&
+          evalData(() => prevIten.info === newIten.info , false)
+        ) {
           prev[key] = prevIten
         } else {
           prev[key] = {...newIten}
