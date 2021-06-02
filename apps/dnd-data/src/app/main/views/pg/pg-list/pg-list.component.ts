@@ -17,12 +17,12 @@ import {DomainLevel} from '@models/vo/domain-level';
 })
 export class PgListComponent implements OnInit {
 
-  public classLevelToString = ClassLevel.toStringList;
-  public domainLevelToString = DomainLevel.toStringList;
-  public join = (values: string[]) => values.join(', ');
-
   collection$: Observable<Pg[]>;
   itemsSelected$: Observable<Pg[]>;
+
+  public classLevelToString = ClassLevel.toStringList;
+  public domainLevelToString = DomainLevel.toStringList;
+  public join = (values: string[]) => values ? values.join(', ') : '';
 
   constructor(private store$: Store<RootStoreState.State>,
               private confirmationService: ConfirmationService) {

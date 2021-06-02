@@ -15,6 +15,7 @@ import {filter, map, tap, withLatestFrom} from 'rxjs/operators';
 import {DialogService} from 'primeng/dynamicdialog';
 import {InfoComponent} from '@views/spell/components/info.component';
 import {Info} from '@models/vo/info';
+import {DomainLevel} from '@models/vo/domain-level';
 
 @Component({
   selector: 'app-spell-list',
@@ -91,6 +92,21 @@ export class SpellListComponent implements OnInit {
     return item.rulebook;
   }
 
+
+  /**
+   * filtra e visualizza solo i libri selezionati el PG
+   * @param values
+   * @param pg
+   */
+  public domainLevelsRenderer = (items: DomainLevel[], pg: Pg): string => {
+    const result = items.filter((item: DomainLevel) => {
+        const level = pg.domainLevelsMap[item.domain];
+        return level === item.level;
+      }
+    );
+    return DomainLevel.toStringList(result);
+  }
+
   ngOnInit(): void {
     console.log('SpellListComponent.ngOnInit()');
 
@@ -101,6 +117,7 @@ export class SpellListComponent implements OnInit {
       {field: 'range', header: 'range', ngClass: '', renderer: null},
       {field: 'classLevels', header: 'classLevels', ngClass: '', renderer: this.classLevelsRenderer.bind(this)},
       {field: 'source', header: 'source', ngClass: '', renderer: this.rulebooksRenderer.bind(this)},
+      {field: 'domainLevels', header: 'domainLevels', ngClass: '', renderer: this.domainLevelsRenderer.bind(this)},
       {field: 'subschools', header: 'subschools', ngClass: '', renderer: null},
       {field: 'area', header: 'area', ngClass: '', renderer: null},
       {field: 'savingThrow', header: 'savingThrow', ngClass: '', renderer: null},
@@ -109,13 +126,12 @@ export class SpellListComponent implements OnInit {
       {field: 'spellResistance', header: 'spellResistance', ngClass: '', renderer: null},
       {field: 'description', header: 'description', ngClass: '', renderer: null},
       {field: 'descriptors', header: 'descriptors', ngClass: '', renderer: null},
-      {field: 'domainLevels', header: 'domainLevels', ngClass: '', renderer: null},
       {field: 'duration', header: 'duration', ngClass: '', renderer: null},
       {field: 'effect', header: 'effect', ngClass: '', renderer: null},
       {field: 'id', header: 'id', ngClass: '', renderer: null},
     ];
 
-    this._selectedColumns = this.cols.slice(0, 6);
+    this._selectedColumns = this.cols.slice(0, 7);
 
     const pgSelectedSource$ = this.store$.pipe(
       select(RouterStoreSelectors.selectRouteParams),
