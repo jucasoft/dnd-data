@@ -56,8 +56,8 @@ export class PgEditComponent extends PopUpBaseComponent<Pg> {
     )
 
     this.name = this.fb.control('', Validators.required);
-    this.classLevels = this.fb.control('', Validators.required);
-    this.domainLevels = this.fb.control({value: ''}, Validators.required);
+    this.classLevels = this.fb.control('');
+    this.domainLevels = this.fb.control({value: ''});
     this.rulebooks = this.fb.control({value: ''});
     this.schools = this.fb.control({value: ''});
 

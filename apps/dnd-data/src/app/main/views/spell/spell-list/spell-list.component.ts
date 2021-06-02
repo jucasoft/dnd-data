@@ -161,30 +161,24 @@ export class SpellListComponent implements OnInit {
     this.collection$ = this.store$.pipe(
       select(SpellStoreSelectors.selectEntitiesDenorm),
       map(values => Object.values(values)),
-      // selectAllDenorm(),
       withLatestFrom(pgSelectedSource$),
       map(([all, pg]) => {
         const spells = all.filter((item: Spell) => {
-          const result = item.classLevels.find((clazz: ClassLevel) => {
+          const resultC = item.classLevels.find((clazz: ClassLevel) => {
             const level = pg.classLevelsMap[clazz.class];
-            return level >= clazz.level;
+            return level === clazz.level;
           })
-          return !!result
+
+          const resultD = item.domainLevels.find((clazz: DomainLevel) => {
+            const level = pg.domainLevelsMap[clazz.domain];
+            return level === clazz.level;
+          })
+
+          return !!resultC || !!resultD;
         })
         return {spells, pg};
       }),
       map(value => value.spells)
-      // map(({spells, pg}) => {
-      //   return spells.map((item: Spell) => {
-      //     const classLevels = item.classLevels.filter(
-      //       (clazz: ClassLevel) => {
-      //         const level = pg.classLevelsMap[clazz.class];
-      //         return level >= clazz.level;
-      //       }
-      //     )
-      //     return {...item, classLevels}
-      //   })
-      // })
     );
 
     this.items = [
