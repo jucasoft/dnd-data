@@ -8,13 +8,12 @@ import {Observable} from 'rxjs';
   template: `
     <div *ngLet="(open$ | async) as open">
       <div class="line"></div>
-      <span class="fa-stack fa-lg p-mt-1">
+      <span class="fa-stack fa-lg p-mt-1" (click)="onShowMenu($event,open)">
         <i class="circle fa fa-circle fa-stack-2x fa-inverse"></i>
-        <i class="border fa fa-circle-o fa-stack-2x fa-inverse"></i>
-        <i class="fa fa-stack-2x"
-           [ngClass]="open ? 'fa-chevron-circle-left' : 'fa-chevron-circle-right'"
-           (click)="onShowMenu($event,open)">
+        <i class="simbol fa fa-stack-2x"
+           [ngClass]="open ? 'fa-chevron-circle-left' : 'fa-chevron-circle-right'">
         </i>
+        <i class="border fa fa-circle-o fa-stack-2x fa-inverse"></i>
       </span>
     </div>
 

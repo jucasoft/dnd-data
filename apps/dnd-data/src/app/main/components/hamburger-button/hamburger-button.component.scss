@@ -1,17 +1,18 @@
 @import "apps/dnd-data/src/css/variables";
 
 .circle{
-  color: var(--blue-800);
-}
-.border{
-  //color: var(--blue-900);
   color: $layoutmainBgColor;
 }
-
+.border{
+  color: $layoutmainBgColor;
+}
+.simbol{
+  color: $topbarMenuBgColor;
+}
 .line{
-  border-right: solid 3px $layoutmainBgColor;
+  border-right: solid 4px $layoutmainBgColor;
   //border-right: solid 2px #FFFFFF;
-  width: 21px;
+  width: 22px;
   height: 100%;
   position: absolute;
   margin: 0;
