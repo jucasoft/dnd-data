@@ -7,6 +7,12 @@ import {AuthStoreSelectors} from '@root-store/auth-store';
   selector: 'app-header',
   template: `
     <div class="p-grid p-justify-between">
+      <div class="p-col-fixed" style="width: 270px">
+        <div class="slide-header" routerLink="/">
+          <i class="fas fa-hat-wizard"></i>
+          dnd-data
+        </div>
+      </div>
       <div class="p-col">
         <div>
           <app-hamburger-button *ngIf="loggedIn$ | async as loggedIn;"></app-hamburger-button>
@@ -17,15 +23,7 @@ import {AuthStoreSelectors} from '@root-store/auth-store';
       </div>
     </div>
   `,
-  styles: [`
-    .fa-button:hover {
-      opacity: 0.5;
-      transition: transform 0.2s;
-      /*transform: scale(1.1);*/
-      cursor: pointer;
-      cursor: hand;
-    }
-  `],
+  styleUrls: [`./header.component.scss`],
   encapsulation: ViewEncapsulation.None
 })
 export class HeaderComponent implements OnInit {

@@ -1,0 +1,24 @@
+@import "apps/dnd-data/src/css/variables";
+
+.circle{
+  color: var(--blue-800);
+}
+.border{
+  //color: var(--blue-900);
+  color: $layoutmainBgColor;
+}
+
+.line{
+  border-right: solid 3px $layoutmainBgColor;
+  //border-right: solid 2px #FFFFFF;
+  width: 21px;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top:0;
+}
+
+.fa-stack{
+  cursor: pointer;
+}

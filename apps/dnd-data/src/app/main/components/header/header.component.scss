@@ -1,0 +1,20 @@
+@import "apps/dnd-data/src/css/variables";
+.slide-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $topbarBgColor;
+  color: #FFF;
+  font-size: x-large;
+}
+
+.slide-header i {
+  font-size: xx-large;
+}
+
+.fa-button:hover {
+  opacity: 0.5;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+

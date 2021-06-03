@@ -7,12 +7,19 @@ import {Observable} from 'rxjs';
   selector: 'app-hamburger-button',
   template: `
     <div *ngLet="(open$ | async) as open">
-      <em class="fas fa-2x fa-button p-1" style="color: #FFF;" [ngClass]="open ? 'fa-times' : 'fa-bars'"
-          (click)="onShowMenu($event,open)"></em>
+      <div class="line"></div>
+      <span class="fa-stack fa-lg p-mt-1">
+        <i class="circle fa fa-circle fa-stack-2x fa-inverse"></i>
+        <i class="border fa fa-circle-o fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-stack-2x"
+           [ngClass]="open ? 'fa-chevron-circle-left' : 'fa-chevron-circle-right'"
+           (click)="onShowMenu($event,open)">
+        </i>
+      </span>
     </div>
 
   `,
-  styles: [],
+  styleUrls: [`./hamburger-button.component.scss`],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 
