@@ -14,6 +14,7 @@ import {join} from 'path';
 import {InfoModule} from './info/info.module';
 import {GraphQLModule} from '@nestjs/graphql';
 import {DndDomainModule} from './dnd-domain/dnd-domain.module';
+import {TestModule} from './test/test.module';
 
 @Module({
   imports: [
@@ -35,6 +36,7 @@ import {DndDomainModule} from './dnd-domain/dnd-domain.module';
     PgModule,
     InfoModule,
     DndDomainModule,
+    TestModule
   ],
   controllers: [AppController],
   providers: [
