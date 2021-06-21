@@ -17,20 +17,23 @@ import {DndDomainModule} from './dnd-domain/dnd-domain.module';
 
 @Module({
   imports: [
-    AuthzModule,
+    // AuthzModule,
     MongooseModule.forRoot(environment.MONGO_DB_SRV),
-    SpellModule,
-    SpellsInventoryModule,
-    PgModule,
-    InfoModule,
     GraphQLModule.forRoot({
-      include: [DndDomainModule],
-      autoSchemaFile: true,
+      installSubscriptionHandlers: true,
+      autoSchemaFile: join(process.cwd(), 'apps', 'dnd-be', 'src', 'schema.gql'),
+      sortSchema: true,
+      playground: true,
+      debug: true,
     }),
     ServeStaticModule.forRoot({
       exclude: ['/graphql*'],
       rootPath: join(__dirname, '..', 'dnd-data'),
     }),
+    SpellModule,
+    SpellsInventoryModule,
+    PgModule,
+    InfoModule,
     DndDomainModule,
   ],
   controllers: [AppController],

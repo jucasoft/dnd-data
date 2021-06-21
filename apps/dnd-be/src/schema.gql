@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type DndDomain {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+type Query {
+  dndDomain(id: Int!): DndDomain
+  spell(_id: String!): [Spell!]!
+}
+
+type Spell {
+  _id: String!
+  area: String!
+}

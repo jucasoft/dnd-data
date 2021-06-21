@@ -40,3 +40,7 @@ problemi da risolvere:
       ...
     })
 ```
+
+creazione automatica dei moduli:
+```https://dev.to/lotfi/three-in-one-code-first-nestjs-graphql-mongoose-30ie
+```

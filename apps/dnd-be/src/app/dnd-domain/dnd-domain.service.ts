@@ -1,6 +1,8 @@
-import { Injectable } from '@nestjs/common';
-import { CreateDndDomainInput } from './dto/create-dnd-domain.input';
-import { UpdateDndDomainInput } from './dto/update-dnd-domain.input';
+import {Injectable} from '@nestjs/common';
+import {CreateDndDomainInput} from './dto/create-dnd-domain.input';
+import {UpdateDndDomainInput} from './dto/update-dnd-domain.input';
+import {Observable, of} from 'rxjs';
+import {DndDomain} from './entities/dnd-domain.entity';
 
 @Injectable()
 export class DndDomainService {
@@ -8,8 +10,8 @@ export class DndDomainService {
     return 'This action adds a new dndDomain';
   }
 
-  findAll() {
-    return `This action returns all dndDomain`;
+  findAll(id: number): Observable<DndDomain[]> {
+    return of([{exampleField: 1}]);
   }
 
   findOne(id: number) {

@@ -3,6 +3,7 @@ import { DndDomainService } from './dnd-domain.service';
 import { DndDomainResolver } from './dnd-domain.resolver';
 
 @Module({
-  providers: [DndDomainResolver, DndDomainService]
+  providers: [DndDomainResolver, DndDomainService],
+  exports: [DndDomainResolver, DndDomainService]
 })
 export class DndDomainModule {}
