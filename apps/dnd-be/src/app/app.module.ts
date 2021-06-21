@@ -12,20 +12,27 @@ import {SpellsInventoryModule} from './spells-inventory/spells-inventory.module'
 import {PgModule} from './pg/pg.module';
 import {join} from 'path';
 import {InfoModule} from './info/info.module';
-
-console.log('__dirname', __dirname);
+import {GraphQLModule} from '@nestjs/graphql';
+import {DndDomainModule} from './dnd-domain/dnd-domain.module';
 
 @Module({
   imports: [
     AuthzModule,
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'dnd-data'),
-    }),
     MongooseModule.forRoot(environment.MONGO_DB_SRV),
     SpellModule,
     SpellsInventoryModule,
     PgModule,
-    InfoModule],
+    InfoModule,
+    GraphQLModule.forRoot({
+      include: [DndDomainModule],
+      autoSchemaFile: true,
+    }),
+    ServeStaticModule.forRoot({
+      exclude: ['/graphql*'],
+      rootPath: join(__dirname, '..', 'dnd-data'),
+    }),
+    DndDomainModule,
+  ],
   controllers: [AppController],
   providers: [
     {

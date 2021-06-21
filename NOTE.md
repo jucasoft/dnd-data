@@ -13,3 +13,6 @@ ng generate @nestjs/schematics:resource --name=comment --path=src/app --sourceRo
 
 todo:
 filtrare le classi in base a quelle del personaggio selezionato. creare colonna aggiuntiva con le classi filtrate.
+
+creazione resource per graphQl
+ng generate @nestjs/schematics:resource --name=DndDomain --path=src/app --sourceRoot=apps/dnd-be  --dry-run

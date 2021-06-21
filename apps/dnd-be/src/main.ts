@@ -15,8 +15,8 @@ async function bootstrap() {
   app.setGlobalPrefix(globalPrefix);
 
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
+    .setTitle('DnD')
+    .setDescription('The DnD API description')
     .setVersion('1.0')
     .addTag('dnd')
     .build();
