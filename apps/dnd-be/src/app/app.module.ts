@@ -18,7 +18,7 @@ import {TestModule} from './test/test.module';
 
 @Module({
   imports: [
-    // AuthzModule,
+    AuthzModule,
     MongooseModule.forRoot(environment.MONGO_DB_SRV),
     GraphQLModule.forRoot({
       installSubscriptionHandlers: true,

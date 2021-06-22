@@ -10,9 +10,15 @@ type DndDomain {
 type Query {
   dndDomain(id: Int!): DndDomain
   spell(_id: String!): [Spell!]!
+  test(id: Int!): Test!
 }
 
 type Spell {
   _id: String!
   area: String!
+}
+
+type Test {
+  """Example field (placeholder)"""
+  exampleField: Int!
 }

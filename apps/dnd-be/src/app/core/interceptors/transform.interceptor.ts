@@ -9,8 +9,12 @@ export interface Response<T> {
 
 @Injectable()
 export class TransformInterceptor<T> implements NestInterceptor<T, Response<T>> {
-
   intercept(context: ExecutionContext, next: CallHandler): Observable<Response<T>> {
-    return next.handle().pipe(map(data => ({data})));
+    //TODO: escludo dalla rotta graphql la trasformazione della risposta.
+    if ((context as any).contextType === 'graphql') {
+      return next.handle();
+    } else {
+      return next.handle().pipe(map(data => ({data})));
+    }
   }
 }
