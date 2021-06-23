@@ -1,0 +1,10845 @@
+[
+  {
+    "_id": 11,
+    "dndDomain": 2,
+    "dndSpell": 17,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 2,
+    "dndDomain": 1,
+    "dndSpell": 3,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 54,
+    "dndDomain": 2,
+    "dndSpell": 91,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 63,
+    "dndDomain": 4,
+    "dndSpell": 105,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 82,
+    "dndDomain": 17,
+    "dndSpell": 166,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 102,
+    "dndDomain": 13,
+    "dndSpell": 223,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 120,
+    "dndDomain": 20,
+    "dndSpell": 264,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 208,
+    "dndDomain": 34,
+    "dndSpell": 983,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 236,
+    "dndDomain": 15,
+    "dndSpell": 1150,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 243,
+    "dndDomain": 52,
+    "dndSpell": 1158,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 255,
+    "dndDomain": 53,
+    "dndSpell": 1190,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 275,
+    "dndDomain": 61,
+    "dndSpell": 1224,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 277,
+    "dndDomain": 61,
+    "dndSpell": 1226,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 290,
+    "dndDomain": 63,
+    "dndSpell": 1376,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 302,
+    "dndDomain": 64,
+    "dndSpell": 1436,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 331,
+    "dndDomain": 38,
+    "dndSpell": 1532,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 338,
+    "dndDomain": 17,
+    "dndSpell": 1543,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 351,
+    "dndDomain": 6,
+    "dndSpell": 2026,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 362,
+    "dndDomain": 76,
+    "dndSpell": 2042,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 375,
+    "dndDomain": 73,
+    "dndSpell": 2063,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 392,
+    "dndDomain": 81,
+    "dndSpell": 2101,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 394,
+    "dndDomain": 73,
+    "dndSpell": 2109,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 416,
+    "dndDomain": 92,
+    "dndSpell": 2230,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 435,
+    "dndDomain": 91,
+    "dndSpell": 2275,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 462,
+    "dndDomain": 101,
+    "dndSpell": 2337,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 510,
+    "dndDomain": 111,
+    "dndSpell": 2426,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 520,
+    "dndDomain": 109,
+    "dndSpell": 2470,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 6,
+    "dndDomain": 2,
+    "dndSpell": 8,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 14,
+    "dndDomain": 3,
+    "dndSpell": 21,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 34,
+    "dndDomain": 2,
+    "dndSpell": 60,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 88,
+    "dndDomain": 16,
+    "dndSpell": 182,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 119,
+    "dndDomain": 19,
+    "dndSpell": 263,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 140,
+    "dndDomain": 22,
+    "dndSpell": 326,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 141,
+    "dndDomain": 23,
+    "dndSpell": 327,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 149,
+    "dndDomain": 33,
+    "dndSpell": 649,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 171,
+    "dndDomain": 35,
+    "dndSpell": 710,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 173,
+    "dndDomain": 35,
+    "dndSpell": 713,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 179,
+    "dndDomain": 43,
+    "dndSpell": 921,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 188,
+    "dndDomain": 36,
+    "dndSpell": 942,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 228,
+    "dndDomain": 36,
+    "dndSpell": 1137,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 251,
+    "dndDomain": 16,
+    "dndSpell": 1170,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 269,
+    "dndDomain": 58,
+    "dndSpell": 1213,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 270,
+    "dndDomain": 59,
+    "dndSpell": 1217,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 294,
+    "dndDomain": 63,
+    "dndSpell": 1396,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 295,
+    "dndDomain": 64,
+    "dndSpell": 1422,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 301,
+    "dndDomain": 64,
+    "dndSpell": 1435,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 310,
+    "dndDomain": 65,
+    "dndSpell": 1449,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 313,
+    "dndDomain": 67,
+    "dndSpell": 1465,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 322,
+    "dndDomain": 66,
+    "dndSpell": 1479,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 323,
+    "dndDomain": 66,
+    "dndSpell": 1480,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 330,
+    "dndDomain": 38,
+    "dndSpell": 1531,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 367,
+    "dndDomain": 6,
+    "dndSpell": 2044,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 385,
+    "dndDomain": 73,
+    "dndSpell": 2090,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 388,
+    "dndDomain": 73,
+    "dndSpell": 2095,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 404,
+    "dndDomain": 87,
+    "dndSpell": 2214,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 408,
+    "dndDomain": 86,
+    "dndSpell": 2220,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 410,
+    "dndDomain": 46,
+    "dndSpell": 2222,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 444,
+    "dndDomain": 90,
+    "dndSpell": 2297,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 457,
+    "dndDomain": 100,
+    "dndSpell": 2322,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 468,
+    "dndDomain": 102,
+    "dndSpell": 2346,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 478,
+    "dndDomain": 102,
+    "dndSpell": 2362,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 498,
+    "dndDomain": 109,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 500,
+    "dndDomain": 110,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 526,
+    "dndDomain": 115,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 16,
+    "dndDomain": 2,
+    "dndSpell": 24,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 20,
+    "dndDomain": 6,
+    "dndSpell": 36,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 24,
+    "dndDomain": 2,
+    "dndSpell": 42,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 25,
+    "dndDomain": 4,
+    "dndSpell": 43,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 57,
+    "dndDomain": 10,
+    "dndSpell": 96,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 61,
+    "dndDomain": 2,
+    "dndSpell": 102,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 77,
+    "dndDomain": 15,
+    "dndSpell": 152,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 84,
+    "dndDomain": 13,
+    "dndSpell": 169,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 110,
+    "dndDomain": 16,
+    "dndSpell": 239,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 129,
+    "dndDomain": 2,
+    "dndSpell": 306,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 136,
+    "dndDomain": 25,
+    "dndSpell": 320,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 178,
+    "dndDomain": 40,
+    "dndSpell": 737,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 181,
+    "dndDomain": 43,
+    "dndSpell": 923,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 198,
+    "dndDomain": 3,
+    "dndSpell": 958,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 202,
+    "dndDomain": 45,
+    "dndSpell": 975,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 235,
+    "dndDomain": 15,
+    "dndSpell": 1149,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 252,
+    "dndDomain": 16,
+    "dndSpell": 1172,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 287,
+    "dndDomain": 63,
+    "dndSpell": 1335,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 315,
+    "dndDomain": 67,
+    "dndSpell": 1467,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 324,
+    "dndDomain": 67,
+    "dndSpell": 1497,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 325,
+    "dndDomain": 67,
+    "dndSpell": 1502,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 328,
+    "dndDomain": 36,
+    "dndSpell": 1528,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 336,
+    "dndDomain": 68,
+    "dndSpell": 1537,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 368,
+    "dndDomain": 70,
+    "dndSpell": 2044,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 400,
+    "dndDomain": 73,
+    "dndSpell": 2134,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 417,
+    "dndDomain": 90,
+    "dndSpell": 2236,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 421,
+    "dndDomain": 94,
+    "dndSpell": 2241,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 463,
+    "dndDomain": 99,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 464,
+    "dndDomain": 98,
+    "dndSpell": 2339,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 472,
+    "dndDomain": 104,
+    "dndSpell": 2349,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 483,
+    "dndDomain": 99,
+    "dndSpell": 2367,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 488,
+    "dndDomain": 104,
+    "dndSpell": 2371,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 493,
+    "dndDomain": 111,
+    "dndSpell": 2381,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 525,
+    "dndDomain": 115,
+    "dndSpell": 2494,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 7,
+    "dndDomain": 2,
+    "dndSpell": 10,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 30,
+    "dndDomain": 1,
+    "dndSpell": 51,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 46,
+    "dndDomain": 6,
+    "dndSpell": 75,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 58,
+    "dndDomain": 10,
+    "dndSpell": 97,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 65,
+    "dndDomain": 1,
+    "dndSpell": 111,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 89,
+    "dndDomain": 16,
+    "dndSpell": 183,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 96,
+    "dndDomain": 13,
+    "dndSpell": 207,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 106,
+    "dndDomain": 18,
+    "dndSpell": 233,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 139,
+    "dndDomain": 28,
+    "dndSpell": 323,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 144,
+    "dndDomain": 29,
+    "dndSpell": 634,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 154,
+    "dndDomain": 34,
+    "dndSpell": 664,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 168,
+    "dndDomain": 3,
+    "dndSpell": 697,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 175,
+    "dndDomain": 35,
+    "dndSpell": 720,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 191,
+    "dndDomain": 38,
+    "dndSpell": 948,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 195,
+    "dndDomain": 38,
+    "dndSpell": 954,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 210,
+    "dndDomain": 38,
+    "dndSpell": 985,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 258,
+    "dndDomain": 31,
+    "dndSpell": 1195,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 274,
+    "dndDomain": 61,
+    "dndSpell": 1223,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 304,
+    "dndDomain": 11,
+    "dndSpell": 1438,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 308,
+    "dndDomain": 65,
+    "dndSpell": 1446,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 319,
+    "dndDomain": 66,
+    "dndSpell": 1476,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 354,
+    "dndDomain": 72,
+    "dndSpell": 2027,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 355,
+    "dndDomain": 71,
+    "dndSpell": 2027,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 363,
+    "dndDomain": 73,
+    "dndSpell": 2042,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 369,
+    "dndDomain": 78,
+    "dndSpell": 2051,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 373,
+    "dndDomain": 73,
+    "dndSpell": 2057,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 387,
+    "dndDomain": 70,
+    "dndSpell": 2092,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 403,
+    "dndDomain": 86,
+    "dndSpell": 2213,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 414,
+    "dndDomain": 32,
+    "dndSpell": 2228,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 419,
+    "dndDomain": 94,
+    "dndSpell": 2239,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 420,
+    "dndDomain": 84,
+    "dndSpell": 2240,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 423,
+    "dndDomain": 84,
+    "dndSpell": 2256,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 436,
+    "dndDomain": 92,
+    "dndSpell": 2277,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 453,
+    "dndDomain": 101,
+    "dndSpell": 2314,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 456,
+    "dndDomain": 100,
+    "dndSpell": 2318,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 494,
+    "dndDomain": 111,
+    "dndSpell": 2383,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 504,
+    "dndDomain": 111,
+    "dndSpell": 2398,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 506,
+    "dndDomain": 107,
+    "dndSpell": 2401,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 507,
+    "dndDomain": 113,
+    "dndSpell": 2414,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 511,
+    "dndDomain": 114,
+    "dndSpell": 2435,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 17,
+    "dndDomain": 2,
+    "dndSpell": 25,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 39,
+    "dndDomain": 3,
+    "dndSpell": 66,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 128,
+    "dndDomain": 2,
+    "dndSpell": 305,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 153,
+    "dndDomain": 35,
+    "dndSpell": 659,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 183,
+    "dndDomain": 44,
+    "dndSpell": 932,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 187,
+    "dndDomain": 34,
+    "dndSpell": 940,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 193,
+    "dndDomain": 39,
+    "dndSpell": 951,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 279,
+    "dndDomain": 32,
+    "dndSpell": 1258,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 288,
+    "dndDomain": 46,
+    "dndSpell": 1337,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 306,
+    "dndDomain": 65,
+    "dndSpell": 1442,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 311,
+    "dndDomain": 11,
+    "dndSpell": 1450,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 312,
+    "dndDomain": 66,
+    "dndSpell": 1458,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 381,
+    "dndDomain": 73,
+    "dndSpell": 2087,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 384,
+    "dndDomain": 73,
+    "dndSpell": 2089,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 395,
+    "dndDomain": 82,
+    "dndSpell": 2111,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 398,
+    "dndDomain": 73,
+    "dndSpell": 2132,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 418,
+    "dndDomain": 93,
+    "dndSpell": 2237,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 427,
+    "dndDomain": 95,
+    "dndSpell": 2265,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 434,
+    "dndDomain": 85,
+    "dndSpell": 2274,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 445,
+    "dndDomain": 97,
+    "dndSpell": 2300,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 449,
+    "dndDomain": 101,
+    "dndSpell": 2307,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 454,
+    "dndDomain": 98,
+    "dndSpell": 2315,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 455,
+    "dndDomain": 105,
+    "dndSpell": 2317,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 467,
+    "dndDomain": 105,
+    "dndSpell": 2343,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 470,
+    "dndDomain": 99,
+    "dndSpell": 2347,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 474,
+    "dndDomain": 98,
+    "dndSpell": 2351,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 482,
+    "dndDomain": 98,
+    "dndSpell": 2367,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 501,
+    "dndDomain": 107,
+    "dndSpell": 2392,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 31,
+    "dndDomain": 1,
+    "dndSpell": 53,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 38,
+    "dndDomain": 2,
+    "dndSpell": 64,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 72,
+    "dndDomain": 12,
+    "dndSpell": 143,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 75,
+    "dndDomain": 15,
+    "dndSpell": 146,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 108,
+    "dndDomain": 15,
+    "dndSpell": 236,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 133,
+    "dndDomain": 26,
+    "dndSpell": 314,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 152,
+    "dndDomain": 29,
+    "dndSpell": 657,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 160,
+    "dndDomain": 38,
+    "dndSpell": 683,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 162,
+    "dndDomain": 39,
+    "dndSpell": 685,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 180,
+    "dndDomain": 43,
+    "dndSpell": 922,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 182,
+    "dndDomain": 43,
+    "dndSpell": 928,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 226,
+    "dndDomain": 48,
+    "dndSpell": 1048,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 246,
+    "dndDomain": 15,
+    "dndSpell": 1160,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 249,
+    "dndDomain": 50,
+    "dndSpell": 1165,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 291,
+    "dndDomain": 63,
+    "dndSpell": 1379,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 309,
+    "dndDomain": 65,
+    "dndSpell": 1448,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 333,
+    "dndDomain": 38,
+    "dndSpell": 1534,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 347,
+    "dndDomain": 69,
+    "dndSpell": 1841,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 377,
+    "dndDomain": 79,
+    "dndSpell": 2068,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 379,
+    "dndDomain": 80,
+    "dndSpell": 2075,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 390,
+    "dndDomain": 79,
+    "dndSpell": 2099,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 424,
+    "dndDomain": 92,
+    "dndSpell": 2258,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 486,
+    "dndDomain": 109,
+    "dndSpell": 2369,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 508,
+    "dndDomain": 110,
+    "dndSpell": 2414,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 524,
+    "dndDomain": 115,
+    "dndSpell": 2492,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 531,
+    "dndDomain": 115,
+    "dndSpell": 2504,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 23,
+    "dndDomain": 2,
+    "dndSpell": 40,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 28,
+    "dndDomain": 2,
+    "dndSpell": 49,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 35,
+    "dndDomain": 3,
+    "dndSpell": 61,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 79,
+    "dndDomain": 15,
+    "dndSpell": 155,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 109,
+    "dndDomain": 16,
+    "dndSpell": 238,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 131,
+    "dndDomain": 2,
+    "dndSpell": 311,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 135,
+    "dndDomain": 23,
+    "dndSpell": 316,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 146,
+    "dndDomain": 29,
+    "dndSpell": 645,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 157,
+    "dndDomain": 37,
+    "dndSpell": 676,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 205,
+    "dndDomain": 14,
+    "dndSpell": 980,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 218,
+    "dndDomain": 48,
+    "dndSpell": 1003,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 222,
+    "dndDomain": 39,
+    "dndSpell": 1015,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 233,
+    "dndDomain": 49,
+    "dndSpell": 1147,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 240,
+    "dndDomain": 17,
+    "dndSpell": 1155,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 253,
+    "dndDomain": 16,
+    "dndSpell": 1173,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 292,
+    "dndDomain": 46,
+    "dndSpell": 1379,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 300,
+    "dndDomain": 64,
+    "dndSpell": 1433,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 415,
+    "dndDomain": 91,
+    "dndSpell": 2229,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 437,
+    "dndDomain": 92,
+    "dndSpell": 2278,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 438,
+    "dndDomain": 90,
+    "dndSpell": 2281,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 446,
+    "dndDomain": 98,
+    "dndSpell": 2301,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 466,
+    "dndDomain": 99,
+    "dndSpell": 2343,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 485,
+    "dndDomain": 98,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 522,
+    "dndDomain": 115,
+    "dndSpell": 2479,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1,
+    "dndDomain": 1,
+    "dndSpell": 2,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 5,
+    "dndDomain": 2,
+    "dndSpell": 7,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 26,
+    "dndDomain": 4,
+    "dndSpell": 45,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 40,
+    "dndDomain": 3,
+    "dndSpell": 67,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 67,
+    "dndDomain": 7,
+    "dndSpell": 117,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 103,
+    "dndDomain": 13,
+    "dndSpell": 225,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 104,
+    "dndDomain": 17,
+    "dndSpell": 227,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 123,
+    "dndDomain": 19,
+    "dndSpell": 289,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 125,
+    "dndDomain": 22,
+    "dndSpell": 300,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 161,
+    "dndDomain": 38,
+    "dndSpell": 684,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 192,
+    "dndDomain": 38,
+    "dndSpell": 950,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 282,
+    "dndDomain": 62,
+    "dndSpell": 1300,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 293,
+    "dndDomain": 63,
+    "dndSpell": 1382,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 317,
+    "dndDomain": 66,
+    "dndSpell": 1469,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 321,
+    "dndDomain": 66,
+    "dndSpell": 1478,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 326,
+    "dndDomain": 67,
+    "dndSpell": 1503,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 353,
+    "dndDomain": 71,
+    "dndSpell": 2026,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 372,
+    "dndDomain": 74,
+    "dndSpell": 2055,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 376,
+    "dndDomain": 73,
+    "dndSpell": 2064,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 393,
+    "dndDomain": 73,
+    "dndSpell": 2104,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 412,
+    "dndDomain": 88,
+    "dndSpell": 2224,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 433,
+    "dndDomain": 85,
+    "dndSpell": 2271,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 452,
+    "dndDomain": 104,
+    "dndSpell": 2313,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 476,
+    "dndDomain": 107,
+    "dndSpell": 2357,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 479,
+    "dndDomain": 99,
+    "dndSpell": 2363,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 495,
+    "dndDomain": 111,
+    "dndSpell": 2385,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 499,
+    "dndDomain": 107,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 532,
+    "dndDomain": 112,
+    "dndSpell": 2506,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 8,
+    "dndDomain": 4,
+    "dndSpell": 13,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 18,
+    "dndDomain": 7,
+    "dndSpell": 30,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 29,
+    "dndDomain": 9,
+    "dndSpell": 50,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 43,
+    "dndDomain": 2,
+    "dndSpell": 70,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 45,
+    "dndDomain": 2,
+    "dndSpell": 73,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 66,
+    "dndDomain": 2,
+    "dndSpell": 112,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 86,
+    "dndDomain": 14,
+    "dndSpell": 177,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 130,
+    "dndDomain": 2,
+    "dndSpell": 307,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 148,
+    "dndDomain": 32,
+    "dndSpell": 648,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 159,
+    "dndDomain": 36,
+    "dndSpell": 681,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 169,
+    "dndDomain": 29,
+    "dndSpell": 702,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 209,
+    "dndDomain": 38,
+    "dndSpell": 984,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 213,
+    "dndDomain": 14,
+    "dndSpell": 988,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 214,
+    "dndDomain": 3,
+    "dndSpell": 989,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 219,
+    "dndDomain": 12,
+    "dndSpell": 1006,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 224,
+    "dndDomain": 3,
+    "dndSpell": 1017,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 231,
+    "dndDomain": 46,
+    "dndSpell": 1143,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 239,
+    "dndDomain": 49,
+    "dndSpell": 1153,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 247,
+    "dndDomain": 15,
+    "dndSpell": 1161,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 250,
+    "dndDomain": 16,
+    "dndSpell": 1169,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 256,
+    "dndDomain": 54,
+    "dndSpell": 1194,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 271,
+    "dndDomain": 55,
+    "dndSpell": 1218,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 283,
+    "dndDomain": 62,
+    "dndSpell": 1306,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 305,
+    "dndDomain": 65,
+    "dndSpell": 1441,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 316,
+    "dndDomain": 67,
+    "dndSpell": 1468,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 345,
+    "dndDomain": 69,
+    "dndSpell": 1825,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 349,
+    "dndDomain": 70,
+    "dndSpell": 2015,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 356,
+    "dndDomain": 73,
+    "dndSpell": 2028,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 365,
+    "dndDomain": 77,
+    "dndSpell": 2043,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 370,
+    "dndDomain": 70,
+    "dndSpell": 2052,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 405,
+    "dndDomain": 88,
+    "dndSpell": 2216,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 413,
+    "dndDomain": 90,
+    "dndSpell": 2227,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 448,
+    "dndDomain": 100,
+    "dndSpell": 2306,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 460,
+    "dndDomain": 103,
+    "dndSpell": 2335,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 461,
+    "dndDomain": 104,
+    "dndSpell": 2336,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 496,
+    "dndDomain": 112,
+    "dndSpell": 2388,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 502,
+    "dndDomain": 105,
+    "dndSpell": 2392,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 529,
+    "dndDomain": 115,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 37,
+    "dndDomain": 3,
+    "dndSpell": 63,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 41,
+    "dndDomain": 10,
+    "dndSpell": 67,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 51,
+    "dndDomain": 2,
+    "dndSpell": 85,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 68,
+    "dndDomain": 9,
+    "dndSpell": 120,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 137,
+    "dndDomain": 27,
+    "dndSpell": 321,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 138,
+    "dndDomain": 2,
+    "dndSpell": 322,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 143,
+    "dndDomain": 26,
+    "dndSpell": 330,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 150,
+    "dndDomain": 34,
+    "dndSpell": 650,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 156,
+    "dndDomain": 36,
+    "dndSpell": 673,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 163,
+    "dndDomain": 38,
+    "dndSpell": 687,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 164,
+    "dndDomain": 39,
+    "dndSpell": 688,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 166,
+    "dndDomain": 41,
+    "dndSpell": 693,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 211,
+    "dndDomain": 38,
+    "dndSpell": 986,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 237,
+    "dndDomain": 51,
+    "dndSpell": 1151,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 329,
+    "dndDomain": 36,
+    "dndSpell": 1530,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 341,
+    "dndDomain": 69,
+    "dndSpell": 1812,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 343,
+    "dndDomain": 69,
+    "dndSpell": 1819,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 490,
+    "dndDomain": 111,
+    "dndSpell": 2378,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 492,
+    "dndDomain": 111,
+    "dndSpell": 2380,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 515,
+    "dndDomain": 102,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 527,
+    "dndDomain": 115,
+    "dndSpell": 2498,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 533,
+    "dndDomain": 100,
+    "dndSpell": 2507,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 4,
+    "dndDomain": 3,
+    "dndSpell": 5,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 9,
+    "dndDomain": 1,
+    "dndSpell": 14,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 15,
+    "dndDomain": 6,
+    "dndSpell": 22,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 55,
+    "dndDomain": 2,
+    "dndSpell": 93,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 111,
+    "dndDomain": 11,
+    "dndSpell": 240,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 142,
+    "dndDomain": 26,
+    "dndSpell": 329,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 151,
+    "dndDomain": 33,
+    "dndSpell": 654,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 206,
+    "dndDomain": 46,
+    "dndSpell": 981,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 215,
+    "dndDomain": 3,
+    "dndSpell": 990,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 217,
+    "dndDomain": 47,
+    "dndSpell": 992,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 221,
+    "dndDomain": 39,
+    "dndSpell": 1013,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 232,
+    "dndDomain": 46,
+    "dndSpell": 1144,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 245,
+    "dndDomain": 50,
+    "dndSpell": 1159,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 272,
+    "dndDomain": 59,
+    "dndSpell": 1220,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 307,
+    "dndDomain": 65,
+    "dndSpell": 1444,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 318,
+    "dndDomain": 67,
+    "dndSpell": 1470,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 335,
+    "dndDomain": 68,
+    "dndSpell": 1536,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 348,
+    "dndDomain": 69,
+    "dndSpell": 1842,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 358,
+    "dndDomain": 6,
+    "dndSpell": 2031,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 361,
+    "dndDomain": 6,
+    "dndSpell": 2040,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 374,
+    "dndDomain": 52,
+    "dndSpell": 2061,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 382,
+    "dndDomain": 76,
+    "dndSpell": 2088,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 383,
+    "dndDomain": 73,
+    "dndSpell": 2088,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 411,
+    "dndDomain": 89,
+    "dndSpell": 2223,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 451,
+    "dndDomain": 103,
+    "dndSpell": 2312,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 475,
+    "dndDomain": 99,
+    "dndSpell": 2356,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 477,
+    "dndDomain": 99,
+    "dndSpell": 2359,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 518,
+    "dndDomain": 112,
+    "dndSpell": 2461,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 523,
+    "dndDomain": 97,
+    "dndSpell": 2480,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 21,
+    "dndDomain": 2,
+    "dndSpell": 37,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 42,
+    "dndDomain": 2,
+    "dndSpell": 68,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 49,
+    "dndDomain": 2,
+    "dndSpell": 81,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 62,
+    "dndDomain": 2,
+    "dndSpell": 103,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 80,
+    "dndDomain": 12,
+    "dndSpell": 160,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 94,
+    "dndDomain": 13,
+    "dndSpell": 198,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 145,
+    "dndDomain": 30,
+    "dndSpell": 640,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 167,
+    "dndDomain": 3,
+    "dndSpell": 694,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 186,
+    "dndDomain": 33,
+    "dndSpell": 937,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 189,
+    "dndDomain": 36,
+    "dndSpell": 944,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 242,
+    "dndDomain": 52,
+    "dndSpell": 1157,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 248,
+    "dndDomain": 17,
+    "dndSpell": 1162,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 260,
+    "dndDomain": 56,
+    "dndSpell": 1197,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 263,
+    "dndDomain": 57,
+    "dndSpell": 1205,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 285,
+    "dndDomain": 62,
+    "dndSpell": 1325,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 289,
+    "dndDomain": 63,
+    "dndSpell": 1355,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 296,
+    "dndDomain": 37,
+    "dndSpell": 1430,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 320,
+    "dndDomain": 66,
+    "dndSpell": 1477,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 327,
+    "dndDomain": 68,
+    "dndSpell": 1527,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 337,
+    "dndDomain": 17,
+    "dndSpell": 1541,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 339,
+    "dndDomain": 17,
+    "dndSpell": 1544,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 340,
+    "dndDomain": 69,
+    "dndSpell": 1809,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 352,
+    "dndDomain": 72,
+    "dndSpell": 2026,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 357,
+    "dndDomain": 74,
+    "dndSpell": 2029,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 425,
+    "dndDomain": 88,
+    "dndSpell": 2263,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 430,
+    "dndDomain": 96,
+    "dndSpell": 2268,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 447,
+    "dndDomain": 99,
+    "dndSpell": 2301,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 459,
+    "dndDomain": 102,
+    "dndSpell": 2334,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 487,
+    "dndDomain": 108,
+    "dndSpell": 2369,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 534,
+    "dndDomain": 115,
+    "dndSpell": 2520,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 36,
+    "dndDomain": 2,
+    "dndSpell": 62,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 44,
+    "dndDomain": 2,
+    "dndSpell": 72,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 56,
+    "dndDomain": 2,
+    "dndSpell": 95,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 78,
+    "dndDomain": 16,
+    "dndSpell": 153,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 97,
+    "dndDomain": 13,
+    "dndSpell": 211,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 122,
+    "dndDomain": 20,
+    "dndSpell": 272,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 127,
+    "dndDomain": 24,
+    "dndSpell": 301,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 194,
+    "dndDomain": 38,
+    "dndSpell": 952,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 200,
+    "dndDomain": 33,
+    "dndSpell": 967,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 212,
+    "dndDomain": 38,
+    "dndSpell": 987,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 229,
+    "dndDomain": 36,
+    "dndSpell": 1138,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 261,
+    "dndDomain": 14,
+    "dndSpell": 1199,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 264,
+    "dndDomain": 57,
+    "dndSpell": 1206,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 278,
+    "dndDomain": 62,
+    "dndSpell": 1248,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 303,
+    "dndDomain": 64,
+    "dndSpell": 1437,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 332,
+    "dndDomain": 17,
+    "dndSpell": 1533,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 334,
+    "dndDomain": 41,
+    "dndSpell": 1535,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 359,
+    "dndDomain": 75,
+    "dndSpell": 2033,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 360,
+    "dndDomain": 6,
+    "dndSpell": 2035,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 389,
+    "dndDomain": 73,
+    "dndSpell": 2097,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 399,
+    "dndDomain": 52,
+    "dndSpell": 2133,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 401,
+    "dndDomain": 84,
+    "dndSpell": 2211,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 406,
+    "dndDomain": 88,
+    "dndSpell": 2218,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 429,
+    "dndDomain": 96,
+    "dndSpell": 2267,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 441,
+    "dndDomain": 86,
+    "dndSpell": 2294,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 469,
+    "dndDomain": 100,
+    "dndSpell": 2347,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 484,
+    "dndDomain": 100,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 489,
+    "dndDomain": 110,
+    "dndSpell": 2372,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 497,
+    "dndDomain": 113,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 516,
+    "dndDomain": 97,
+    "dndSpell": 2453,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 530,
+    "dndDomain": 98,
+    "dndSpell": 2502,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 10,
+    "dndDomain": 2,
+    "dndSpell": 15,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 19,
+    "dndDomain": 2,
+    "dndSpell": 34,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 32,
+    "dndDomain": 6,
+    "dndSpell": 55,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 59,
+    "dndDomain": 9,
+    "dndSpell": 100,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 73,
+    "dndDomain": 13,
+    "dndSpell": 145,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 74,
+    "dndDomain": 14,
+    "dndSpell": 146,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 99,
+    "dndDomain": 17,
+    "dndSpell": 214,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 126,
+    "dndDomain": 23,
+    "dndSpell": 301,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 132,
+    "dndDomain": 25,
+    "dndSpell": 313,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 134,
+    "dndDomain": 2,
+    "dndSpell": 315,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 158,
+    "dndDomain": 36,
+    "dndSpell": 680,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 165,
+    "dndDomain": 40,
+    "dndSpell": 692,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 174,
+    "dndDomain": 33,
+    "dndSpell": 719,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 177,
+    "dndDomain": 42,
+    "dndSpell": 730,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 201,
+    "dndDomain": 45,
+    "dndSpell": 968,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 220,
+    "dndDomain": 12,
+    "dndSpell": 1008,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 230,
+    "dndDomain": 36,
+    "dndSpell": 1139,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 244,
+    "dndDomain": 17,
+    "dndSpell": 1159,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 254,
+    "dndDomain": 14,
+    "dndSpell": 1189,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 257,
+    "dndDomain": 55,
+    "dndSpell": 1194,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 268,
+    "dndDomain": 54,
+    "dndSpell": 1212,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 281,
+    "dndDomain": 62,
+    "dndSpell": 1278,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 284,
+    "dndDomain": 62,
+    "dndSpell": 1323,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 299,
+    "dndDomain": 65,
+    "dndSpell": 1432,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 344,
+    "dndDomain": 69,
+    "dndSpell": 1820,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 346,
+    "dndDomain": 69,
+    "dndSpell": 1837,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 350,
+    "dndDomain": 71,
+    "dndSpell": 2025,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 364,
+    "dndDomain": 6,
+    "dndSpell": 2043,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 366,
+    "dndDomain": 70,
+    "dndSpell": 2043,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 371,
+    "dndDomain": 71,
+    "dndSpell": 2053,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 378,
+    "dndDomain": 79,
+    "dndSpell": 2072,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 380,
+    "dndDomain": 73,
+    "dndSpell": 2084,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 439,
+    "dndDomain": 90,
+    "dndSpell": 2284,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 440,
+    "dndDomain": 96,
+    "dndSpell": 2292,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 442,
+    "dndDomain": 91,
+    "dndSpell": 2296,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 450,
+    "dndDomain": 102,
+    "dndSpell": 2311,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 481,
+    "dndDomain": 108,
+    "dndSpell": 2365,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 491,
+    "dndDomain": 111,
+    "dndSpell": 2379,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 509,
+    "dndDomain": 112,
+    "dndSpell": 2416,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 517,
+    "dndDomain": 97,
+    "dndSpell": 2457,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 528,
+    "dndDomain": 112,
+    "dndSpell": 2498,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 13,
+    "dndDomain": 2,
+    "dndSpell": 20,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 27,
+    "dndDomain": 1,
+    "dndSpell": 48,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 33,
+    "dndDomain": 4,
+    "dndSpell": 55,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 107,
+    "dndDomain": 15,
+    "dndSpell": 235,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 176,
+    "dndDomain": 33,
+    "dndSpell": 725,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 199,
+    "dndDomain": 33,
+    "dndSpell": 966,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 203,
+    "dndDomain": 45,
+    "dndSpell": 976,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 223,
+    "dndDomain": 3,
+    "dndSpell": 1016,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 238,
+    "dndDomain": 17,
+    "dndSpell": 1152,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 241,
+    "dndDomain": 51,
+    "dndSpell": 1156,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 262,
+    "dndDomain": 14,
+    "dndSpell": 1200,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 265,
+    "dndDomain": 57,
+    "dndSpell": 1207,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 266,
+    "dndDomain": 57,
+    "dndSpell": 1208,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 276,
+    "dndDomain": 53,
+    "dndSpell": 1225,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 280,
+    "dndDomain": 62,
+    "dndSpell": 1262,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 286,
+    "dndDomain": 63,
+    "dndSpell": 1334,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 298,
+    "dndDomain": 11,
+    "dndSpell": 1431,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 342,
+    "dndDomain": 69,
+    "dndSpell": 1818,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 465,
+    "dndDomain": 106,
+    "dndSpell": 2341,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 471,
+    "dndDomain": 103,
+    "dndSpell": 2348,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 473,
+    "dndDomain": 101,
+    "dndSpell": 2350,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 3,
+    "dndDomain": 2,
+    "dndSpell": 4,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 47,
+    "dndDomain": 6,
+    "dndSpell": 76,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 60,
+    "dndDomain": 2,
+    "dndSpell": 101,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 85,
+    "dndDomain": 18,
+    "dndSpell": 172,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 87,
+    "dndDomain": 14,
+    "dndSpell": 178,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 91,
+    "dndDomain": 18,
+    "dndSpell": 189,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 92,
+    "dndDomain": 18,
+    "dndSpell": 190,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 100,
+    "dndDomain": 13,
+    "dndSpell": 214,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 121,
+    "dndDomain": 19,
+    "dndSpell": 270,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 124,
+    "dndDomain": 21,
+    "dndSpell": 299,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 170,
+    "dndDomain": 29,
+    "dndSpell": 708,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 185,
+    "dndDomain": 33,
+    "dndSpell": 936,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 190,
+    "dndDomain": 36,
+    "dndSpell": 945,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 196,
+    "dndDomain": 39,
+    "dndSpell": 955,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 197,
+    "dndDomain": 3,
+    "dndSpell": 956,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 204,
+    "dndDomain": 45,
+    "dndSpell": 979,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 216,
+    "dndDomain": 46,
+    "dndSpell": 991,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 225,
+    "dndDomain": 12,
+    "dndSpell": 1030,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 234,
+    "dndDomain": 50,
+    "dndSpell": 1148,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 259,
+    "dndDomain": 31,
+    "dndSpell": 1196,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 267,
+    "dndDomain": 58,
+    "dndSpell": 1212,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 273,
+    "dndDomain": 60,
+    "dndSpell": 1221,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 297,
+    "dndDomain": 64,
+    "dndSpell": 1430,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 314,
+    "dndDomain": 67,
+    "dndSpell": 1466,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 386,
+    "dndDomain": 73,
+    "dndSpell": 2091,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 391,
+    "dndDomain": 80,
+    "dndSpell": 2100,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 402,
+    "dndDomain": 85,
+    "dndSpell": 2212,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 407,
+    "dndDomain": 88,
+    "dndSpell": 2219,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 409,
+    "dndDomain": 86,
+    "dndSpell": 2221,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 422,
+    "dndDomain": 87,
+    "dndSpell": 2252,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 426,
+    "dndDomain": 95,
+    "dndSpell": 2264,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 428,
+    "dndDomain": 87,
+    "dndSpell": 2266,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 431,
+    "dndDomain": 96,
+    "dndSpell": 2269,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 432,
+    "dndDomain": 96,
+    "dndSpell": 2270,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 443,
+    "dndDomain": 87,
+    "dndSpell": 2296,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 458,
+    "dndDomain": 103,
+    "dndSpell": 2332,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 480,
+    "dndDomain": 99,
+    "dndSpell": 2365,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 503,
+    "dndDomain": 110,
+    "dndSpell": 2393,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 505,
+    "dndDomain": 111,
+    "dndSpell": 2399,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 512,
+    "dndDomain": 101,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 513,
+    "dndDomain": 104,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 514,
+    "dndDomain": 103,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 519,
+    "dndDomain": 112,
+    "dndSpell": 2462,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 521,
+    "dndDomain": 114,
+    "dndSpell": 2471,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 535,
+    "dndDomain": 103,
+    "dndSpell": 2523,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 536,
+    "dndDomain": 100,
+    "dndSpell": 2523,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 539,
+    "dndDomain": 106,
+    "dndSpell": 2538,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 541,
+    "dndDomain": 97,
+    "dndSpell": 2555,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 544,
+    "dndDomain": 116,
+    "dndSpell": 2567,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 555,
+    "dndDomain": 110,
+    "dndSpell": 2595,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 557,
+    "dndDomain": 102,
+    "dndSpell": 2605,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 560,
+    "dndDomain": 109,
+    "dndSpell": 2608,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 568,
+    "dndDomain": 110,
+    "dndSpell": 2624,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 573,
+    "dndDomain": 107,
+    "dndSpell": 2641,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 581,
+    "dndDomain": 107,
+    "dndSpell": 2658,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 605,
+    "dndDomain": 117,
+    "dndSpell": 2745,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 611,
+    "dndDomain": 101,
+    "dndSpell": 2777,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 655,
+    "dndDomain": 119,
+    "dndSpell": 3053,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 657,
+    "dndDomain": 121,
+    "dndSpell": 3110,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 680,
+    "dndDomain": 122,
+    "dndSpell": 3167,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 698,
+    "dndDomain": 126,
+    "dndSpell": 3362,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 721,
+    "dndDomain": 129,
+    "dndSpell": 3513,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 725,
+    "dndDomain": 56,
+    "dndSpell": 2388,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 733,
+    "dndDomain": 130,
+    "dndSpell": 2618,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 748,
+    "dndDomain": 126,
+    "dndSpell": 2480,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 760,
+    "dndDomain": 62,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 764,
+    "dndDomain": 39,
+    "dndSpell": 2536,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 772,
+    "dndDomain": 48,
+    "dndSpell": 2357,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 793,
+    "dndDomain": 131,
+    "dndSpell": 2326,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 803,
+    "dndDomain": 51,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 839,
+    "dndDomain": 42,
+    "dndSpell": 2791,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 848,
+    "dndDomain": 107,
+    "dndSpell": 3789,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 868,
+    "dndDomain": 134,
+    "dndSpell": 2605,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 879,
+    "dndDomain": 67,
+    "dndSpell": 3868,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 904,
+    "dndDomain": 138,
+    "dndSpell": 4008,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 942,
+    "dndDomain": 31,
+    "dndSpell": 4459,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 944,
+    "dndDomain": 67,
+    "dndSpell": 4476,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 960,
+    "dndDomain": 138,
+    "dndSpell": 4565,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 976,
+    "dndDomain": 143,
+    "dndSpell": 4637,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 983,
+    "dndDomain": 142,
+    "dndSpell": 4749,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 999,
+    "dndDomain": 147,
+    "dndSpell": 4885,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1023,
+    "dndDomain": 136,
+    "dndSpell": 2447,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1028,
+    "dndDomain": 148,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1034,
+    "dndDomain": 136,
+    "dndSpell": 2754,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 554,
+    "dndDomain": 101,
+    "dndSpell": 2594,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 556,
+    "dndDomain": 104,
+    "dndSpell": 2604,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 564,
+    "dndDomain": 105,
+    "dndSpell": 2614,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 601,
+    "dndDomain": 118,
+    "dndSpell": 2729,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 603,
+    "dndDomain": 110,
+    "dndSpell": 2742,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 609,
+    "dndDomain": 113,
+    "dndSpell": 2772,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 625,
+    "dndDomain": 105,
+    "dndSpell": 2824,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 633,
+    "dndDomain": 106,
+    "dndSpell": 2853,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 643,
+    "dndDomain": 119,
+    "dndSpell": 3030,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 647,
+    "dndDomain": 119,
+    "dndSpell": 3042,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 653,
+    "dndDomain": 119,
+    "dndSpell": 3051,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 664,
+    "dndDomain": 123,
+    "dndSpell": 3124,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 666,
+    "dndDomain": 123,
+    "dndSpell": 3126,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 672,
+    "dndDomain": 124,
+    "dndSpell": 3145,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 677,
+    "dndDomain": 124,
+    "dndSpell": 3162,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 697,
+    "dndDomain": 126,
+    "dndSpell": 3359,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 701,
+    "dndDomain": 125,
+    "dndSpell": 3369,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 723,
+    "dndDomain": 56,
+    "dndSpell": 2441,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 737,
+    "dndDomain": 130,
+    "dndSpell": 2591,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 745,
+    "dndDomain": 31,
+    "dndSpell": 2660,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 747,
+    "dndDomain": 31,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 749,
+    "dndDomain": 125,
+    "dndSpell": 2716,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 770,
+    "dndDomain": 39,
+    "dndSpell": 2574,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 773,
+    "dndDomain": 48,
+    "dndSpell": 2835,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 775,
+    "dndDomain": 48,
+    "dndSpell": 2369,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 779,
+    "dndDomain": 3,
+    "dndSpell": 2786,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 786,
+    "dndDomain": 12,
+    "dndSpell": 2320,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 805,
+    "dndDomain": 51,
+    "dndSpell": 2533,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 820,
+    "dndDomain": 29,
+    "dndSpell": 686,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 863,
+    "dndDomain": 134,
+    "dndSpell": 2582,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 864,
+    "dndDomain": 134,
+    "dndSpell": 2494,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 875,
+    "dndDomain": 14,
+    "dndSpell": 3844,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 894,
+    "dndDomain": 135,
+    "dndSpell": 3947,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 897,
+    "dndDomain": 14,
+    "dndSpell": 3956,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 898,
+    "dndDomain": 67,
+    "dndSpell": 3959,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 905,
+    "dndDomain": 29,
+    "dndSpell": 4013,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 915,
+    "dndDomain": 140,
+    "dndSpell": 4097,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 919,
+    "dndDomain": 33,
+    "dndSpell": 4132,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 954,
+    "dndDomain": 139,
+    "dndSpell": 4522,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1006,
+    "dndDomain": 141,
+    "dndSpell": 2839,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1007,
+    "dndDomain": 141,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1033,
+    "dndDomain": 136,
+    "dndSpell": 2726,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 559,
+    "dndDomain": 117,
+    "dndSpell": 2608,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 537,
+    "dndDomain": 97,
+    "dndSpell": 2530,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 565,
+    "dndDomain": 116,
+    "dndSpell": 2614,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 592,
+    "dndDomain": 118,
+    "dndSpell": 2711,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 607,
+    "dndDomain": 118,
+    "dndSpell": 2758,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 641,
+    "dndDomain": 110,
+    "dndSpell": 2893,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 665,
+    "dndDomain": 123,
+    "dndSpell": 3125,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 695,
+    "dndDomain": 125,
+    "dndSpell": 3354,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 704,
+    "dndDomain": 128,
+    "dndSpell": 3484,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 713,
+    "dndDomain": 100,
+    "dndSpell": 3524,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 718,
+    "dndDomain": 129,
+    "dndSpell": 2388,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 728,
+    "dndDomain": 56,
+    "dndSpell": 2810,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 740,
+    "dndDomain": 130,
+    "dndSpell": 2439,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 746,
+    "dndDomain": 31,
+    "dndSpell": 2636,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 754,
+    "dndDomain": 32,
+    "dndSpell": 2624,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 780,
+    "dndDomain": 3,
+    "dndSpell": 2644,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 787,
+    "dndDomain": 12,
+    "dndSpell": 2812,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 796,
+    "dndDomain": 131,
+    "dndSpell": 2321,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 825,
+    "dndDomain": 35,
+    "dndSpell": 2760,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 828,
+    "dndDomain": 38,
+    "dndSpell": 2539,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 835,
+    "dndDomain": 42,
+    "dndSpell": 2664,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 837,
+    "dndDomain": 42,
+    "dndSpell": 2466,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 847,
+    "dndDomain": 34,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 853,
+    "dndDomain": 133,
+    "dndSpell": 2721,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 887,
+    "dndDomain": 9,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 959,
+    "dndDomain": 66,
+    "dndSpell": 4551,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 965,
+    "dndDomain": 57,
+    "dndSpell": 4581,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 971,
+    "dndDomain": 34,
+    "dndSpell": 4620,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 973,
+    "dndDomain": 140,
+    "dndSpell": 4622,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 984,
+    "dndDomain": 45,
+    "dndSpell": 4749,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 992,
+    "dndDomain": 145,
+    "dndSpell": 4809,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1010,
+    "dndDomain": 141,
+    "dndSpell": 2784,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1022,
+    "dndDomain": 148,
+    "dndSpell": 2445,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 538,
+    "dndDomain": 102,
+    "dndSpell": 2531,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 623,
+    "dndDomain": 112,
+    "dndSpell": 2816,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 671,
+    "dndDomain": 122,
+    "dndSpell": 3135,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 678,
+    "dndDomain": 122,
+    "dndSpell": 3164,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 679,
+    "dndDomain": 122,
+    "dndSpell": 3165,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 683,
+    "dndDomain": 123,
+    "dndSpell": 3183,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 688,
+    "dndDomain": 125,
+    "dndSpell": 3333,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 705,
+    "dndDomain": 128,
+    "dndSpell": 3485,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 722,
+    "dndDomain": 129,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 724,
+    "dndDomain": 56,
+    "dndSpell": 2308,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 762,
+    "dndDomain": 120,
+    "dndSpell": 2713,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 774,
+    "dndDomain": 48,
+    "dndSpell": 2520,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 810,
+    "dndDomain": 132,
+    "dndSpell": 2502,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 836,
+    "dndDomain": 42,
+    "dndSpell": 2823,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 843,
+    "dndDomain": 34,
+    "dndSpell": 2682,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 846,
+    "dndDomain": 34,
+    "dndSpell": 2406,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 852,
+    "dndDomain": 133,
+    "dndSpell": 1209,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 889,
+    "dndDomain": 9,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 907,
+    "dndDomain": 127,
+    "dndSpell": 4021,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 927,
+    "dndDomain": 36,
+    "dndSpell": 4302,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 939,
+    "dndDomain": 37,
+    "dndSpell": 4421,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 947,
+    "dndDomain": 58,
+    "dndSpell": 4478,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 953,
+    "dndDomain": 140,
+    "dndSpell": 4519,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 964,
+    "dndDomain": 57,
+    "dndSpell": 4579,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 988,
+    "dndDomain": 127,
+    "dndSpell": 4767,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 991,
+    "dndDomain": 127,
+    "dndSpell": 4784,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 997,
+    "dndDomain": 38,
+    "dndSpell": 4883,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1003,
+    "dndDomain": 141,
+    "dndSpell": 2837,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1008,
+    "dndDomain": 141,
+    "dndSpell": 2445,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1014,
+    "dndDomain": 141,
+    "dndSpell": 2362,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 546,
+    "dndDomain": 108,
+    "dndSpell": 2583,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 586,
+    "dndDomain": 106,
+    "dndSpell": 2669,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 595,
+    "dndDomain": 117,
+    "dndSpell": 2721,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 615,
+    "dndDomain": 114,
+    "dndSpell": 2794,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 690,
+    "dndDomain": 31,
+    "dndSpell": 3338,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 712,
+    "dndDomain": 100,
+    "dndSpell": 3523,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 761,
+    "dndDomain": 120,
+    "dndSpell": 2478,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 771,
+    "dndDomain": 48,
+    "dndSpell": 2834,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 784,
+    "dndDomain": 3,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 795,
+    "dndDomain": 131,
+    "dndSpell": 2403,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 799,
+    "dndDomain": 131,
+    "dndSpell": 2526,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 808,
+    "dndDomain": 51,
+    "dndSpell": 2579,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 811,
+    "dndDomain": 132,
+    "dndSpell": 2478,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 816,
+    "dndDomain": 132,
+    "dndSpell": 2513,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 833,
+    "dndDomain": 42,
+    "dndSpell": 2811,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 834,
+    "dndDomain": 42,
+    "dndSpell": 2790,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 840,
+    "dndDomain": 42,
+    "dndSpell": 2886,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 850,
+    "dndDomain": 99,
+    "dndSpell": 3790,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 855,
+    "dndDomain": 133,
+    "dndSpell": 2595,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 908,
+    "dndDomain": 43,
+    "dndSpell": 4026,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 914,
+    "dndDomain": 139,
+    "dndSpell": 4097,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 920,
+    "dndDomain": 61,
+    "dndSpell": 4213,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 930,
+    "dndDomain": 39,
+    "dndSpell": 4321,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 931,
+    "dndDomain": 29,
+    "dndSpell": 4325,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 943,
+    "dndDomain": 66,
+    "dndSpell": 4472,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 977,
+    "dndDomain": 30,
+    "dndSpell": 4642,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 980,
+    "dndDomain": 138,
+    "dndSpell": 4740,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 990,
+    "dndDomain": 67,
+    "dndSpell": 4780,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1001,
+    "dndDomain": 141,
+    "dndSpell": 2783,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1035,
+    "dndDomain": 136,
+    "dndSpell": 2758,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 612,
+    "dndDomain": 114,
+    "dndSpell": 2778,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 614,
+    "dndDomain": 108,
+    "dndSpell": 2788,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 616,
+    "dndDomain": 114,
+    "dndSpell": 2795,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 624,
+    "dndDomain": 113,
+    "dndSpell": 2819,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 658,
+    "dndDomain": 121,
+    "dndSpell": 3111,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 668,
+    "dndDomain": 89,
+    "dndSpell": 3128,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 694,
+    "dndDomain": 125,
+    "dndSpell": 3353,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 710,
+    "dndDomain": 128,
+    "dndSpell": 3500,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 741,
+    "dndDomain": 31,
+    "dndSpell": 2317,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 752,
+    "dndDomain": 32,
+    "dndSpell": 2793,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 753,
+    "dndDomain": 32,
+    "dndSpell": 2436,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 777,
+    "dndDomain": 48,
+    "dndSpell": 2546,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 794,
+    "dndDomain": 131,
+    "dndSpell": 2491,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 801,
+    "dndDomain": 122,
+    "dndSpell": 2742,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 827,
+    "dndDomain": 35,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 832,
+    "dndDomain": 38,
+    "dndSpell": 2709,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 851,
+    "dndDomain": 133,
+    "dndSpell": 2555,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 862,
+    "dndDomain": 134,
+    "dndSpell": 2485,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 865,
+    "dndDomain": 134,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 866,
+    "dndDomain": 134,
+    "dndSpell": 2520,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 881,
+    "dndDomain": 54,
+    "dndSpell": 3878,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 893,
+    "dndDomain": 41,
+    "dndSpell": 3936,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 896,
+    "dndDomain": 137,
+    "dndSpell": 3949,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 910,
+    "dndDomain": 53,
+    "dndSpell": 4028,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 912,
+    "dndDomain": 139,
+    "dndSpell": 4074,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 955,
+    "dndDomain": 143,
+    "dndSpell": 4524,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 956,
+    "dndDomain": 138,
+    "dndSpell": 4529,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 963,
+    "dndDomain": 57,
+    "dndSpell": 4578,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 967,
+    "dndDomain": 32,
+    "dndSpell": 4599,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 994,
+    "dndDomain": 146,
+    "dndSpell": 4819,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 549,
+    "dndDomain": 103,
+    "dndSpell": 2588,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 576,
+    "dndDomain": 117,
+    "dndSpell": 2646,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 584,
+    "dndDomain": 101,
+    "dndSpell": 2663,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 606,
+    "dndDomain": 117,
+    "dndSpell": 2746,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 627,
+    "dndDomain": 112,
+    "dndSpell": 2832,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 660,
+    "dndDomain": 121,
+    "dndSpell": 3115,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 714,
+    "dndDomain": 129,
+    "dndSpell": 3512,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 739,
+    "dndDomain": 130,
+    "dndSpell": 2661,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 788,
+    "dndDomain": 12,
+    "dndSpell": 2328,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 814,
+    "dndDomain": 132,
+    "dndSpell": 2481,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 824,
+    "dndDomain": 35,
+    "dndSpell": 2363,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 826,
+    "dndDomain": 35,
+    "dndSpell": 3543,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 841,
+    "dndDomain": 34,
+    "dndSpell": 2689,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 842,
+    "dndDomain": 34,
+    "dndSpell": 2376,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 857,
+    "dndDomain": 133,
+    "dndSpell": 2794,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 871,
+    "dndDomain": 56,
+    "dndSpell": 3826,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 873,
+    "dndDomain": 59,
+    "dndSpell": 3841,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 900,
+    "dndDomain": 136,
+    "dndSpell": 3979,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 925,
+    "dndDomain": 3,
+    "dndSpell": 4263,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 928,
+    "dndDomain": 38,
+    "dndSpell": 4309,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 936,
+    "dndDomain": 43,
+    "dndSpell": 4376,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 945,
+    "dndDomain": 58,
+    "dndSpell": 4477,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 961,
+    "dndDomain": 39,
+    "dndSpell": 4574,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 978,
+    "dndDomain": 36,
+    "dndSpell": 4660,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1017,
+    "dndDomain": 136,
+    "dndSpell": 2443,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1029,
+    "dndDomain": 136,
+    "dndSpell": 2773,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1031,
+    "dndDomain": 136,
+    "dndSpell": 2788,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 540,
+    "dndDomain": 97,
+    "dndSpell": 2545,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 551,
+    "dndDomain": 104,
+    "dndSpell": 2589,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 563,
+    "dndDomain": 107,
+    "dndSpell": 2611,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 566,
+    "dndDomain": 103,
+    "dndSpell": 2621,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 571,
+    "dndDomain": 100,
+    "dndSpell": 2633,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 578,
+    "dndDomain": 105,
+    "dndSpell": 2652,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 587,
+    "dndDomain": 106,
+    "dndSpell": 2676,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 596,
+    "dndDomain": 118,
+    "dndSpell": 2723,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 598,
+    "dndDomain": 104,
+    "dndSpell": 2724,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 613,
+    "dndDomain": 114,
+    "dndSpell": 2782,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 636,
+    "dndDomain": 97,
+    "dndSpell": 2870,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 648,
+    "dndDomain": 120,
+    "dndSpell": 3043,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 670,
+    "dndDomain": 124,
+    "dndSpell": 3133,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 675,
+    "dndDomain": 122,
+    "dndSpell": 3154,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 692,
+    "dndDomain": 126,
+    "dndSpell": 3346,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 719,
+    "dndDomain": 129,
+    "dndSpell": 2810,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 734,
+    "dndDomain": 130,
+    "dndSpell": 2592,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 768,
+    "dndDomain": 39,
+    "dndSpell": 2537,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 785,
+    "dndDomain": 12,
+    "dndSpell": 2829,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 806,
+    "dndDomain": 51,
+    "dndSpell": 2547,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 829,
+    "dndDomain": 38,
+    "dndSpell": 2538,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 838,
+    "dndDomain": 42,
+    "dndSpell": 2896,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 874,
+    "dndDomain": 135,
+    "dndSpell": 3843,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 924,
+    "dndDomain": 61,
+    "dndSpell": 4239,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 933,
+    "dndDomain": 35,
+    "dndSpell": 4347,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 938,
+    "dndDomain": 48,
+    "dndSpell": 4415,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 962,
+    "dndDomain": 57,
+    "dndSpell": 4575,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 969,
+    "dndDomain": 144,
+    "dndSpell": 4606,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 975,
+    "dndDomain": 33,
+    "dndSpell": 4631,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 985,
+    "dndDomain": 29,
+    "dndSpell": 4749,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 995,
+    "dndDomain": 145,
+    "dndSpell": 4822,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 996,
+    "dndDomain": 146,
+    "dndSpell": 4830,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 998,
+    "dndDomain": 147,
+    "dndSpell": 4884,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 552,
+    "dndDomain": 107,
+    "dndSpell": 2590,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 574,
+    "dndDomain": 105,
+    "dndSpell": 2644,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 575,
+    "dndDomain": 101,
+    "dndSpell": 2646,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 579,
+    "dndDomain": 105,
+    "dndSpell": 2653,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 583,
+    "dndDomain": 113,
+    "dndSpell": 2662,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 628,
+    "dndDomain": 109,
+    "dndSpell": 2836,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 630,
+    "dndDomain": 116,
+    "dndSpell": 2837,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 646,
+    "dndDomain": 120,
+    "dndSpell": 3037,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 650,
+    "dndDomain": 120,
+    "dndSpell": 3048,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 730,
+    "dndDomain": 56,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 744,
+    "dndDomain": 31,
+    "dndSpell": 2322,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 765,
+    "dndDomain": 39,
+    "dndSpell": 2548,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 776,
+    "dndDomain": 48,
+    "dndSpell": 2574,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 778,
+    "dndDomain": 3,
+    "dndSpell": 2730,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 817,
+    "dndDomain": 132,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 818,
+    "dndDomain": 132,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 821,
+    "dndDomain": 29,
+    "dndSpell": 2653,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 845,
+    "dndDomain": 34,
+    "dndSpell": 2409,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 922,
+    "dndDomain": 53,
+    "dndSpell": 4216,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 926,
+    "dndDomain": 33,
+    "dndSpell": 4276,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 951,
+    "dndDomain": 142,
+    "dndSpell": 4490,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 970,
+    "dndDomain": 33,
+    "dndSpell": 4618,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 974,
+    "dndDomain": 12,
+    "dndSpell": 4625,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 979,
+    "dndDomain": 43,
+    "dndSpell": 4721,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 993,
+    "dndDomain": 146,
+    "dndSpell": 4812,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1000,
+    "dndDomain": 141,
+    "dndSpell": 2361,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1002,
+    "dndDomain": 141,
+    "dndSpell": 2363,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1009,
+    "dndDomain": 141,
+    "dndSpell": 2588,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1019,
+    "dndDomain": 148,
+    "dndSpell": 2443,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1024,
+    "dndDomain": 144,
+    "dndSpell": 2447,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1032,
+    "dndDomain": 136,
+    "dndSpell": 2789,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 588,
+    "dndDomain": 100,
+    "dndSpell": 2686,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 640,
+    "dndDomain": 106,
+    "dndSpell": 2886,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 642,
+    "dndDomain": 119,
+    "dndSpell": 3029,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 652,
+    "dndDomain": 120,
+    "dndSpell": 3050,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 661,
+    "dndDomain": 121,
+    "dndSpell": 3116,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 662,
+    "dndDomain": 121,
+    "dndSpell": 3117,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 681,
+    "dndDomain": 123,
+    "dndSpell": 3168,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 682,
+    "dndDomain": 124,
+    "dndSpell": 3170,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 699,
+    "dndDomain": 126,
+    "dndSpell": 3363,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 720,
+    "dndDomain": 129,
+    "dndSpell": 3515,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 726,
+    "dndDomain": 56,
+    "dndSpell": 2461,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 738,
+    "dndDomain": 130,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 763,
+    "dndDomain": 120,
+    "dndSpell": 2507,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 766,
+    "dndDomain": 39,
+    "dndSpell": 2573,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 781,
+    "dndDomain": 3,
+    "dndSpell": 2621,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 807,
+    "dndDomain": 51,
+    "dndSpell": 2574,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 830,
+    "dndDomain": 38,
+    "dndSpell": 2691,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 849,
+    "dndDomain": 100,
+    "dndSpell": 3790,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 858,
+    "dndDomain": 133,
+    "dndSpell": 2742,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 869,
+    "dndDomain": 134,
+    "dndSpell": 2362,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 877,
+    "dndDomain": 67,
+    "dndSpell": 3860,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 891,
+    "dndDomain": 9,
+    "dndSpell": 2458,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 913,
+    "dndDomain": 35,
+    "dndSpell": 4089,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 932,
+    "dndDomain": 14,
+    "dndSpell": 4328,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 948,
+    "dndDomain": 66,
+    "dndSpell": 4483,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 966,
+    "dndDomain": 29,
+    "dndSpell": 4597,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 982,
+    "dndDomain": 45,
+    "dndSpell": 4746,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1018,
+    "dndDomain": 144,
+    "dndSpell": 2443,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 545,
+    "dndDomain": 116,
+    "dndSpell": 2568,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 547,
+    "dndDomain": 108,
+    "dndSpell": 2584,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 582,
+    "dndDomain": 113,
+    "dndSpell": 2661,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 591,
+    "dndDomain": 106,
+    "dndSpell": 2696,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 631,
+    "dndDomain": 116,
+    "dndSpell": 2838,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 659,
+    "dndDomain": 121,
+    "dndSpell": 3113,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 711,
+    "dndDomain": 127,
+    "dndSpell": 3501,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 831,
+    "dndDomain": 38,
+    "dndSpell": 2561,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 870,
+    "dndDomain": 134,
+    "dndSpell": 2333,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 878,
+    "dndDomain": 29,
+    "dndSpell": 3861,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 895,
+    "dndDomain": 66,
+    "dndSpell": 3949,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 949,
+    "dndDomain": 142,
+    "dndSpell": 4489,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 950,
+    "dndDomain": 35,
+    "dndSpell": 4489,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 981,
+    "dndDomain": 45,
+    "dndSpell": 4744,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1012,
+    "dndDomain": 141,
+    "dndSpell": 2447,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1020,
+    "dndDomain": 136,
+    "dndSpell": 2445,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 550,
+    "dndDomain": 116,
+    "dndSpell": 2588,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 562,
+    "dndDomain": 105,
+    "dndSpell": 2610,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 569,
+    "dndDomain": 98,
+    "dndSpell": 2625,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 577,
+    "dndDomain": 116,
+    "dndSpell": 2651,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 580,
+    "dndDomain": 104,
+    "dndSpell": 2657,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 610,
+    "dndDomain": 97,
+    "dndSpell": 2776,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 617,
+    "dndDomain": 110,
+    "dndSpell": 2796,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 621,
+    "dndDomain": 108,
+    "dndSpell": 2805,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 638,
+    "dndDomain": 109,
+    "dndSpell": 2879,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 667,
+    "dndDomain": 46,
+    "dndSpell": 3127,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 669,
+    "dndDomain": 124,
+    "dndSpell": 3130,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 674,
+    "dndDomain": 122,
+    "dndSpell": 3153,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 707,
+    "dndDomain": 128,
+    "dndSpell": 3490,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 717,
+    "dndDomain": 129,
+    "dndSpell": 3494,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 750,
+    "dndDomain": 125,
+    "dndSpell": 2391,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 755,
+    "dndDomain": 32,
+    "dndSpell": 2660,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 759,
+    "dndDomain": 62,
+    "dndSpell": 2624,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 782,
+    "dndDomain": 3,
+    "dndSpell": 2622,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 792,
+    "dndDomain": 131,
+    "dndSpell": 2342,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 812,
+    "dndDomain": 132,
+    "dndSpell": 3543,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 813,
+    "dndDomain": 132,
+    "dndSpell": 2512,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 819,
+    "dndDomain": 29,
+    "dndSpell": 695,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 822,
+    "dndDomain": 29,
+    "dndSpell": 757,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 911,
+    "dndDomain": 135,
+    "dndSpell": 4034,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 937,
+    "dndDomain": 53,
+    "dndSpell": 4396,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 989,
+    "dndDomain": 135,
+    "dndSpell": 4769,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1030,
+    "dndDomain": 136,
+    "dndSpell": 2716,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 590,
+    "dndDomain": 98,
+    "dndSpell": 2688,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 599,
+    "dndDomain": 118,
+    "dndSpell": 2726,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 622,
+    "dndDomain": 114,
+    "dndSpell": 2807,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 632,
+    "dndDomain": 114,
+    "dndSpell": 2852,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 634,
+    "dndDomain": 114,
+    "dndSpell": 2863,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 635,
+    "dndDomain": 108,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 637,
+    "dndDomain": 109,
+    "dndSpell": 2875,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 644,
+    "dndDomain": 120,
+    "dndSpell": 3033,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 693,
+    "dndDomain": 125,
+    "dndSpell": 3348,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 702,
+    "dndDomain": 127,
+    "dndSpell": 3478,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 790,
+    "dndDomain": 12,
+    "dndSpell": 2579,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 809,
+    "dndDomain": 51,
+    "dndSpell": 2546,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 876,
+    "dndDomain": 67,
+    "dndSpell": 3859,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 886,
+    "dndDomain": 9,
+    "dndSpell": 2609,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 906,
+    "dndDomain": 67,
+    "dndSpell": 4019,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 918,
+    "dndDomain": 127,
+    "dndSpell": 4123,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 923,
+    "dndDomain": 35,
+    "dndSpell": 4226,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 958,
+    "dndDomain": 66,
+    "dndSpell": 4550,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1036,
+    "dndDomain": 136,
+    "dndSpell": 2741,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 548,
+    "dndDomain": 108,
+    "dndSpell": 2586,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 561,
+    "dndDomain": 107,
+    "dndSpell": 2610,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 572,
+    "dndDomain": 102,
+    "dndSpell": 2635,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 585,
+    "dndDomain": 106,
+    "dndSpell": 2666,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 589,
+    "dndDomain": 106,
+    "dndSpell": 2686,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 594,
+    "dndDomain": 118,
+    "dndSpell": 2716,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 597,
+    "dndDomain": 118,
+    "dndSpell": 2724,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 600,
+    "dndDomain": 118,
+    "dndSpell": 2727,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 604,
+    "dndDomain": 117,
+    "dndSpell": 2743,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 619,
+    "dndDomain": 113,
+    "dndSpell": 2798,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 629,
+    "dndDomain": 108,
+    "dndSpell": 2837,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 639,
+    "dndDomain": 109,
+    "dndSpell": 2881,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 663,
+    "dndDomain": 122,
+    "dndSpell": 3121,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 684,
+    "dndDomain": 124,
+    "dndSpell": 3184,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 685,
+    "dndDomain": 124,
+    "dndSpell": 3185,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 686,
+    "dndDomain": 125,
+    "dndSpell": 3331,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 687,
+    "dndDomain": 125,
+    "dndSpell": 3332,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 691,
+    "dndDomain": 126,
+    "dndSpell": 3345,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 706,
+    "dndDomain": 128,
+    "dndSpell": 3486,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 716,
+    "dndDomain": 129,
+    "dndSpell": 1197,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 732,
+    "dndDomain": 130,
+    "dndSpell": 2318,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 742,
+    "dndDomain": 31,
+    "dndSpell": 2650,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 743,
+    "dndDomain": 31,
+    "dndSpell": 2893,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 757,
+    "dndDomain": 32,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 769,
+    "dndDomain": 39,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 791,
+    "dndDomain": 131,
+    "dndSpell": 2299,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 798,
+    "dndDomain": 131,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 802,
+    "dndDomain": 122,
+    "dndSpell": 2732,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 823,
+    "dndDomain": 35,
+    "dndSpell": 2536,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 880,
+    "dndDomain": 136,
+    "dndSpell": 3871,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 883,
+    "dndDomain": 66,
+    "dndSpell": 3903,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 884,
+    "dndDomain": 66,
+    "dndSpell": 3904,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 888,
+    "dndDomain": 9,
+    "dndSpell": 2466,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 901,
+    "dndDomain": 3,
+    "dndSpell": 3984,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 902,
+    "dndDomain": 38,
+    "dndSpell": 3985,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 903,
+    "dndDomain": 36,
+    "dndSpell": 3989,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 916,
+    "dndDomain": 67,
+    "dndSpell": 4108,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 929,
+    "dndDomain": 34,
+    "dndSpell": 4320,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 952,
+    "dndDomain": 29,
+    "dndSpell": 4505,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 972,
+    "dndDomain": 140,
+    "dndSpell": 4621,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 986,
+    "dndDomain": 48,
+    "dndSpell": 4754,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1027,
+    "dndDomain": 144,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 543,
+    "dndDomain": 116,
+    "dndSpell": 2566,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 570,
+    "dndDomain": 117,
+    "dndSpell": 2626,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 602,
+    "dndDomain": 117,
+    "dndSpell": 2741,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 620,
+    "dndDomain": 117,
+    "dndSpell": 2801,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 626,
+    "dndDomain": 109,
+    "dndSpell": 2825,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 654,
+    "dndDomain": 119,
+    "dndSpell": 3052,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 673,
+    "dndDomain": 124,
+    "dndSpell": 3151,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 676,
+    "dndDomain": 124,
+    "dndSpell": 3156,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 703,
+    "dndDomain": 127,
+    "dndSpell": 3481,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 708,
+    "dndDomain": 127,
+    "dndSpell": 3496,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 715,
+    "dndDomain": 129,
+    "dndSpell": 3514,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 727,
+    "dndDomain": 56,
+    "dndSpell": 2305,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 731,
+    "dndDomain": 115,
+    "dndSpell": 3543,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 736,
+    "dndDomain": 130,
+    "dndSpell": 2624,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 751,
+    "dndDomain": 32,
+    "dndSpell": 2717,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 756,
+    "dndDomain": 32,
+    "dndSpell": 2595,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 758,
+    "dndDomain": 32,
+    "dndSpell": 2639,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 783,
+    "dndDomain": 3,
+    "dndSpell": 2652,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 800,
+    "dndDomain": 106,
+    "dndSpell": 3783,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 804,
+    "dndDomain": 51,
+    "dndSpell": 2573,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 854,
+    "dndDomain": 133,
+    "dndSpell": 2736,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 860,
+    "dndDomain": 29,
+    "dndSpell": 3793,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 861,
+    "dndDomain": 12,
+    "dndSpell": 3794,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 882,
+    "dndDomain": 55,
+    "dndSpell": 3878,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 885,
+    "dndDomain": 28,
+    "dndSpell": 3921,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 890,
+    "dndDomain": 9,
+    "dndSpell": 2831,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 892,
+    "dndDomain": 136,
+    "dndSpell": 3929,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 899,
+    "dndDomain": 42,
+    "dndSpell": 3971,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 921,
+    "dndDomain": 61,
+    "dndSpell": 4215,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 941,
+    "dndDomain": 38,
+    "dndSpell": 4457,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 957,
+    "dndDomain": 60,
+    "dndSpell": 4548,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1025,
+    "dndDomain": 148,
+    "dndSpell": 2447,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 542,
+    "dndDomain": 102,
+    "dndSpell": 2556,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 553,
+    "dndDomain": 113,
+    "dndSpell": 2593,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 558,
+    "dndDomain": 116,
+    "dndSpell": 2607,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 567,
+    "dndDomain": 103,
+    "dndSpell": 2623,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 593,
+    "dndDomain": 112,
+    "dndSpell": 2712,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 608,
+    "dndDomain": 118,
+    "dndSpell": 2769,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 618,
+    "dndDomain": 113,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 645,
+    "dndDomain": 119,
+    "dndSpell": 3034,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 649,
+    "dndDomain": 119,
+    "dndSpell": 3047,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 651,
+    "dndDomain": 119,
+    "dndSpell": 3049,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 656,
+    "dndDomain": 120,
+    "dndSpell": 3054,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 689,
+    "dndDomain": 31,
+    "dndSpell": 3333,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 696,
+    "dndDomain": 126,
+    "dndSpell": 3357,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 700,
+    "dndDomain": 126,
+    "dndSpell": 3364,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 709,
+    "dndDomain": 128,
+    "dndSpell": 3499,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 735,
+    "dndDomain": 130,
+    "dndSpell": 2436,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 767,
+    "dndDomain": 39,
+    "dndSpell": 2547,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 789,
+    "dndDomain": 12,
+    "dndSpell": 2460,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 797,
+    "dndDomain": 131,
+    "dndSpell": 2360,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 815,
+    "dndDomain": 132,
+    "dndSpell": 2504,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 844,
+    "dndDomain": 34,
+    "dndSpell": 2375,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 856,
+    "dndDomain": 133,
+    "dndSpell": 2737,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 859,
+    "dndDomain": 133,
+    "dndSpell": 2732,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 867,
+    "dndDomain": 134,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 872,
+    "dndDomain": 59,
+    "dndSpell": 3840,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 909,
+    "dndDomain": 43,
+    "dndSpell": 4027,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 934,
+    "dndDomain": 29,
+    "dndSpell": 4356,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 935,
+    "dndDomain": 141,
+    "dndSpell": 4368,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 940,
+    "dndDomain": 12,
+    "dndSpell": 4450,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 946,
+    "dndDomain": 54,
+    "dndSpell": 4477,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 968,
+    "dndDomain": 30,
+    "dndSpell": 4600,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 987,
+    "dndDomain": 31,
+    "dndSpell": 4760,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1004,
+    "dndDomain": 141,
+    "dndSpell": 2443,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1005,
+    "dndDomain": 141,
+    "dndSpell": 2607,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1011,
+    "dndDomain": 141,
+    "dndSpell": 2426,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1013,
+    "dndDomain": 141,
+    "dndSpell": 2568,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1015,
+    "dndDomain": 141,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1016,
+    "dndDomain": 141,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1021,
+    "dndDomain": 144,
+    "dndSpell": 2445,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1026,
+    "dndDomain": 136,
+    "dndSpell": 2449,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1058,
+    "dndDomain": 148,
+    "dndSpell": 2818,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1069,
+    "dndDomain": 143,
+    "dndSpell": 2548,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1073,
+    "dndDomain": 143,
+    "dndSpell": 2312,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1105,
+    "dndDomain": 140,
+    "dndSpell": 2777,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1115,
+    "dndDomain": 138,
+    "dndSpell": 2334,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1137,
+    "dndDomain": 60,
+    "dndSpell": 2608,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1150,
+    "dndDomain": 8,
+    "dndSpell": 2569,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1154,
+    "dndDomain": 8,
+    "dndSpell": 2425,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1186,
+    "dndDomain": 37,
+    "dndSpell": 2687,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1211,
+    "dndDomain": 151,
+    "dndSpell": 2831,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1223,
+    "dndDomain": 153,
+    "dndSpell": 2529,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1243,
+    "dndDomain": 41,
+    "dndSpell": 2637,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1260,
+    "dndDomain": 54,
+    "dndSpell": 2671,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1284,
+    "dndDomain": 157,
+    "dndSpell": 2705,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1285,
+    "dndDomain": 157,
+    "dndSpell": 2682,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1299,
+    "dndDomain": 30,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1303,
+    "dndDomain": 158,
+    "dndSpell": 2419,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1321,
+    "dndDomain": 83,
+    "dndSpell": 2867,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1322,
+    "dndDomain": 83,
+    "dndSpell": 2469,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1348,
+    "dndDomain": 160,
+    "dndSpell": 2837,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1373,
+    "dndDomain": 162,
+    "dndSpell": 2517,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1400,
+    "dndDomain": 165,
+    "dndSpell": 2610,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1413,
+    "dndDomain": 89,
+    "dndSpell": 2762,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1415,
+    "dndDomain": 93,
+    "dndSpell": 2834,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1427,
+    "dndDomain": 166,
+    "dndSpell": 2867,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1434,
+    "dndDomain": 167,
+    "dndSpell": 2468,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1479,
+    "dndDomain": 170,
+    "dndSpell": 2504,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1489,
+    "dndDomain": 55,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1528,
+    "dndDomain": 7,
+    "dndSpell": 2317,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1541,
+    "dndDomain": 4,
+    "dndSpell": 2552,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1545,
+    "dndDomain": 1,
+    "dndSpell": 2353,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1549,
+    "dndDomain": 173,
+    "dndSpell": 86,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1038,
+    "dndDomain": 136,
+    "dndSpell": 2737,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1039,
+    "dndDomain": 136,
+    "dndSpell": 2626,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1051,
+    "dndDomain": 144,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1059,
+    "dndDomain": 148,
+    "dndSpell": 2494,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1060,
+    "dndDomain": 148,
+    "dndSpell": 2573,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1066,
+    "dndDomain": 148,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1071,
+    "dndDomain": 143,
+    "dndSpell": 2533,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1118,
+    "dndDomain": 138,
+    "dndSpell": 2311,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1168,
+    "dndDomain": 58,
+    "dndSpell": 2779,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1188,
+    "dndDomain": 37,
+    "dndSpell": 2568,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1235,
+    "dndDomain": 154,
+    "dndSpell": 2517,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1237,
+    "dndDomain": 154,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1263,
+    "dndDomain": 54,
+    "dndSpell": 2458,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1277,
+    "dndDomain": 156,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1287,
+    "dndDomain": 157,
+    "dndSpell": 2691,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1289,
+    "dndDomain": 157,
+    "dndSpell": 2686,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1290,
+    "dndDomain": 157,
+    "dndSpell": 2693,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1310,
+    "dndDomain": 159,
+    "dndSpell": 2494,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1328,
+    "dndDomain": 36,
+    "dndSpell": 2494,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1363,
+    "dndDomain": 161,
+    "dndSpell": 2567,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1386,
+    "dndDomain": 163,
+    "dndSpell": 2366,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1403,
+    "dndDomain": 165,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1405,
+    "dndDomain": 165,
+    "dndSpell": 2439,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1458,
+    "dndDomain": 168,
+    "dndSpell": 2733,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1467,
+    "dndDomain": 169,
+    "dndSpell": 2445,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1524,
+    "dndDomain": 6,
+    "dndSpell": 2596,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1536,
+    "dndDomain": 10,
+    "dndSpell": 2548,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1552,
+    "dndDomain": 173,
+    "dndSpell": 19,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1554,
+    "dndDomain": 173,
+    "dndSpell": 90,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1560,
+    "dndDomain": 174,
+    "dndSpell": 2648,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1582,
+    "dndDomain": 177,
+    "dndSpell": 2522,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1593,
+    "dndDomain": 147,
+    "dndSpell": 4913,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1594,
+    "dndDomain": 8,
+    "dndSpell": 4915,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1037,
+    "dndDomain": 136,
+    "dndSpell": 2729,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1044,
+    "dndDomain": 144,
+    "dndSpell": 2804,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1049,
+    "dndDomain": 144,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1052,
+    "dndDomain": 144,
+    "dndSpell": 2323,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1074,
+    "dndDomain": 143,
+    "dndSpell": 2381,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1076,
+    "dndDomain": 143,
+    "dndSpell": 2563,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1092,
+    "dndDomain": 139,
+    "dndSpell": 2589,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1108,
+    "dndDomain": 140,
+    "dndSpell": 2663,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1121,
+    "dndDomain": 138,
+    "dndSpell": 2605,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1124,
+    "dndDomain": 138,
+    "dndSpell": 2362,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1148,
+    "dndDomain": 8,
+    "dndSpell": 2529,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1153,
+    "dndDomain": 8,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1162,
+    "dndDomain": 142,
+    "dndSpell": 2507,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1167,
+    "dndDomain": 43,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1189,
+    "dndDomain": 37,
+    "dndSpell": 2709,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1253,
+    "dndDomain": 137,
+    "dndSpell": 2781,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1272,
+    "dndDomain": 155,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1279,
+    "dndDomain": 156,
+    "dndSpell": 2589,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1286,
+    "dndDomain": 157,
+    "dndSpell": 2667,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1291,
+    "dndDomain": 157,
+    "dndSpell": 2696,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1307,
+    "dndDomain": 158,
+    "dndSpell": 2579,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1309,
+    "dndDomain": 159,
+    "dndSpell": 2539,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1335,
+    "dndDomain": 57,
+    "dndSpell": 2689,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1372,
+    "dndDomain": 162,
+    "dndSpell": 2479,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1379,
+    "dndDomain": 163,
+    "dndSpell": 2560,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1392,
+    "dndDomain": 164,
+    "dndSpell": 2862,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1435,
+    "dndDomain": 167,
+    "dndSpell": 2543,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1440,
+    "dndDomain": 167,
+    "dndSpell": 2770,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1454,
+    "dndDomain": 61,
+    "dndSpell": 2377,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1465,
+    "dndDomain": 169,
+    "dndSpell": 2442,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1473,
+    "dndDomain": 170,
+    "dndSpell": 2521,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1475,
+    "dndDomain": 170,
+    "dndSpell": 2823,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1488,
+    "dndDomain": 55,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1492,
+    "dndDomain": 171,
+    "dndSpell": 2548,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1500,
+    "dndDomain": 172,
+    "dndSpell": 2604,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1513,
+    "dndDomain": 135,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1529,
+    "dndDomain": 7,
+    "dndSpell": 2783,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1556,
+    "dndDomain": 174,
+    "dndSpell": 2439,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1570,
+    "dndDomain": 38,
+    "dndSpell": 4891,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1587,
+    "dndDomain": 176,
+    "dndSpell": 4892,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1590,
+    "dndDomain": 176,
+    "dndSpell": 4909,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1065,
+    "dndDomain": 148,
+    "dndSpell": 2333,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1098,
+    "dndDomain": 140,
+    "dndSpell": 2539,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1123,
+    "dndDomain": 138,
+    "dndSpell": 2825,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1128,
+    "dndDomain": 127,
+    "dndSpell": 2310,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1158,
+    "dndDomain": 142,
+    "dndSpell": 2569,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1165,
+    "dndDomain": 43,
+    "dndSpell": 2553,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1193,
+    "dndDomain": 53,
+    "dndSpell": 2663,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1212,
+    "dndDomain": 151,
+    "dndSpell": 2653,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1213,
+    "dndDomain": 151,
+    "dndSpell": 2526,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1225,
+    "dndDomain": 153,
+    "dndSpell": 2620,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1231,
+    "dndDomain": 153,
+    "dndSpell": 2343,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1245,
+    "dndDomain": 41,
+    "dndSpell": 2356,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1256,
+    "dndDomain": 137,
+    "dndSpell": 2465,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1261,
+    "dndDomain": 54,
+    "dndSpell": 2696,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1274,
+    "dndDomain": 156,
+    "dndSpell": 2757,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1278,
+    "dndDomain": 156,
+    "dndSpell": 2321,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1281,
+    "dndDomain": 156,
+    "dndSpell": 2769,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1330,
+    "dndDomain": 36,
+    "dndSpell": 2510,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1331,
+    "dndDomain": 36,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1362,
+    "dndDomain": 161,
+    "dndSpell": 2307,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1366,
+    "dndDomain": 33,
+    "dndSpell": 2721,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1368,
+    "dndDomain": 33,
+    "dndSpell": 2742,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1375,
+    "dndDomain": 162,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1377,
+    "dndDomain": 162,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1388,
+    "dndDomain": 164,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1447,
+    "dndDomain": 59,
+    "dndSpell": 2301,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1451,
+    "dndDomain": 61,
+    "dndSpell": 2415,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1453,
+    "dndDomain": 61,
+    "dndSpell": 2402,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1461,
+    "dndDomain": 168,
+    "dndSpell": 2734,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1495,
+    "dndDomain": 171,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1561,
+    "dndDomain": 174,
+    "dndSpell": 2572,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1562,
+    "dndDomain": 174,
+    "dndSpell": 2649,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1565,
+    "dndDomain": 147,
+    "dndSpell": 4886,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1576,
+    "dndDomain": 177,
+    "dndSpell": 4904,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1047,
+    "dndDomain": 144,
+    "dndSpell": 2413,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1072,
+    "dndDomain": 143,
+    "dndSpell": 2621,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1084,
+    "dndDomain": 139,
+    "dndSpell": 2349,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1089,
+    "dndDomain": 139,
+    "dndSpell": 2313,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1110,
+    "dndDomain": 140,
+    "dndSpell": 2565,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1125,
+    "dndDomain": 138,
+    "dndSpell": 2339,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1130,
+    "dndDomain": 127,
+    "dndSpell": 2351,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1143,
+    "dndDomain": 149,
+    "dndSpell": 2533,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1152,
+    "dndDomain": 8,
+    "dndSpell": 2510,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1156,
+    "dndDomain": 8,
+    "dndSpell": 2399,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1166,
+    "dndDomain": 43,
+    "dndSpell": 2554,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1181,
+    "dndDomain": 67,
+    "dndSpell": 2769,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1183,
+    "dndDomain": 37,
+    "dndSpell": 2478,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1194,
+    "dndDomain": 53,
+    "dndSpell": 2418,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1196,
+    "dndDomain": 150,
+    "dndSpell": 2838,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1204,
+    "dndDomain": 150,
+    "dndSpell": 2390,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1232,
+    "dndDomain": 154,
+    "dndSpell": 2521,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1233,
+    "dndDomain": 154,
+    "dndSpell": 2478,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1240,
+    "dndDomain": 154,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1244,
+    "dndDomain": 41,
+    "dndSpell": 2659,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1247,
+    "dndDomain": 41,
+    "dndSpell": 2638,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1264,
+    "dndDomain": 155,
+    "dndSpell": 2836,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1288,
+    "dndDomain": 157,
+    "dndSpell": 2690,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1306,
+    "dndDomain": 158,
+    "dndSpell": 2425,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1332,
+    "dndDomain": 36,
+    "dndSpell": 2709,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1356,
+    "dndDomain": 161,
+    "dndSpell": 2641,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1367,
+    "dndDomain": 33,
+    "dndSpell": 2754,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1399,
+    "dndDomain": 165,
+    "dndSpell": 2760,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1409,
+    "dndDomain": 89,
+    "dndSpell": 2327,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1433,
+    "dndDomain": 167,
+    "dndSpell": 2766,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1476,
+    "dndDomain": 170,
+    "dndSpell": 2322,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1506,
+    "dndDomain": 172,
+    "dndSpell": 2723,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1508,
+    "dndDomain": 8,
+    "dndSpell": 38,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1540,
+    "dndDomain": 10,
+    "dndSpell": 2668,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1041,
+    "dndDomain": 144,
+    "dndSpell": 2832,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1079,
+    "dndDomain": 143,
+    "dndSpell": 2653,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1085,
+    "dndDomain": 139,
+    "dndSpell": 2336,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1106,
+    "dndDomain": 140,
+    "dndSpell": 2561,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1111,
+    "dndDomain": 140,
+    "dndSpell": 2870,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1112,
+    "dndDomain": 138,
+    "dndSpell": 2536,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1149,
+    "dndDomain": 8,
+    "dndSpell": 2517,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1173,
+    "dndDomain": 58,
+    "dndSpell": 2406,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1184,
+    "dndDomain": 37,
+    "dndSpell": 2543,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1201,
+    "dndDomain": 150,
+    "dndSpell": 2518,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1202,
+    "dndDomain": 150,
+    "dndSpell": 2605,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1210,
+    "dndDomain": 151,
+    "dndSpell": 2498,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1214,
+    "dndDomain": 152,
+    "dndSpell": 2666,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1219,
+    "dndDomain": 152,
+    "dndSpell": 2752,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1230,
+    "dndDomain": 153,
+    "dndSpell": 2351,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1257,
+    "dndDomain": 54,
+    "dndSpell": 2705,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1297,
+    "dndDomain": 30,
+    "dndSpell": 2316,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1319,
+    "dndDomain": 83,
+    "dndSpell": 2824,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1327,
+    "dndDomain": 36,
+    "dndSpell": 2482,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1339,
+    "dndDomain": 45,
+    "dndSpell": 2651,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1365,
+    "dndDomain": 33,
+    "dndSpell": 2459,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1393,
+    "dndDomain": 164,
+    "dndSpell": 2304,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1396,
+    "dndDomain": 164,
+    "dndSpell": 2323,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1412,
+    "dndDomain": 89,
+    "dndSpell": 2389,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1426,
+    "dndDomain": 166,
+    "dndSpell": 2754,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1428,
+    "dndDomain": 166,
+    "dndSpell": 2391,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1430,
+    "dndDomain": 166,
+    "dndSpell": 2729,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1436,
+    "dndDomain": 167,
+    "dndSpell": 2873,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1459,
+    "dndDomain": 168,
+    "dndSpell": 2549,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1471,
+    "dndDomain": 169,
+    "dndSpell": 2418,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1472,
+    "dndDomain": 169,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1482,
+    "dndDomain": 55,
+    "dndSpell": 2843,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1487,
+    "dndDomain": 55,
+    "dndSpell": 2411,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1539,
+    "dndDomain": 10,
+    "dndSpell": 2537,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1547,
+    "dndDomain": 173,
+    "dndSpell": 2731,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1558,
+    "dndDomain": 174,
+    "dndSpell": 2788,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1574,
+    "dndDomain": 176,
+    "dndSpell": 4900,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1588,
+    "dndDomain": 176,
+    "dndSpell": 4895,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1589,
+    "dndDomain": 176,
+    "dndSpell": 4814,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1040,
+    "dndDomain": 144,
+    "dndSpell": 2317,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1050,
+    "dndDomain": 144,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1057,
+    "dndDomain": 148,
+    "dndSpell": 2817,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1078,
+    "dndDomain": 143,
+    "dndSpell": 2623,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1087,
+    "dndDomain": 139,
+    "dndSpell": 2657,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1095,
+    "dndDomain": 139,
+    "dndSpell": 2770,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1099,
+    "dndDomain": 140,
+    "dndSpell": 2350,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1100,
+    "dndDomain": 140,
+    "dndSpell": 2318,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1102,
+    "dndDomain": 140,
+    "dndSpell": 2594,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1139,
+    "dndDomain": 149,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1160,
+    "dndDomain": 142,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1192,
+    "dndDomain": 53,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1198,
+    "dndDomain": 150,
+    "dndSpell": 2783,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1200,
+    "dndDomain": 150,
+    "dndSpell": 2812,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1228,
+    "dndDomain": 153,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1238,
+    "dndDomain": 154,
+    "dndSpell": 2522,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1255,
+    "dndDomain": 137,
+    "dndSpell": 2882,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1269,
+    "dndDomain": 155,
+    "dndSpell": 2845,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1283,
+    "dndDomain": 66,
+    "dndSpell": 2732,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1296,
+    "dndDomain": 30,
+    "dndSpell": 2306,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1298,
+    "dndDomain": 30,
+    "dndSpell": 2425,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1357,
+    "dndDomain": 161,
+    "dndSpell": 2569,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1407,
+    "dndDomain": 89,
+    "dndSpell": 2869,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1410,
+    "dndDomain": 89,
+    "dndSpell": 2319,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1429,
+    "dndDomain": 166,
+    "dndSpell": 2889,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1442,
+    "dndDomain": 59,
+    "dndSpell": 2405,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1463,
+    "dndDomain": 168,
+    "dndSpell": 2742,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1485,
+    "dndDomain": 55,
+    "dndSpell": 2812,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1494,
+    "dndDomain": 171,
+    "dndSpell": 2736,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1496,
+    "dndDomain": 171,
+    "dndSpell": 2586,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1511,
+    "dndDomain": 135,
+    "dndSpell": 2592,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1525,
+    "dndDomain": 6,
+    "dndSpell": 2419,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1571,
+    "dndDomain": 38,
+    "dndSpell": 4897,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1584,
+    "dndDomain": 177,
+    "dndSpell": 4887,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1591,
+    "dndDomain": 176,
+    "dndSpell": 4910,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1103,
+    "dndDomain": 140,
+    "dndSpell": 2781,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1104,
+    "dndDomain": 140,
+    "dndSpell": 2314,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1170,
+    "dndDomain": 58,
+    "dndSpell": 2881,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1172,
+    "dndDomain": 58,
+    "dndSpell": 2470,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1179,
+    "dndDomain": 14,
+    "dndSpell": 2566,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1195,
+    "dndDomain": 53,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1199,
+    "dndDomain": 150,
+    "dndSpell": 2326,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1218,
+    "dndDomain": 152,
+    "dndSpell": 2540,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1222,
+    "dndDomain": 152,
+    "dndSpell": 2902,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1224,
+    "dndDomain": 153,
+    "dndSpell": 2363,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1249,
+    "dndDomain": 137,
+    "dndSpell": 2822,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1258,
+    "dndDomain": 54,
+    "dndSpell": 2682,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1301,
+    "dndDomain": 158,
+    "dndSpell": 2676,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1305,
+    "dndDomain": 158,
+    "dndSpell": 2576,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1320,
+    "dndDomain": 83,
+    "dndSpell": 2828,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1338,
+    "dndDomain": 45,
+    "dndSpell": 2606,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1343,
+    "dndDomain": 45,
+    "dndSpell": 2623,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1347,
+    "dndDomain": 160,
+    "dndSpell": 2548,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1353,
+    "dndDomain": 160,
+    "dndSpell": 2544,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1355,
+    "dndDomain": 161,
+    "dndSpell": 2716,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1369,
+    "dndDomain": 56,
+    "dndSpell": 2407,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1384,
+    "dndDomain": 163,
+    "dndSpell": 2861,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1385,
+    "dndDomain": 163,
+    "dndSpell": 2321,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1402,
+    "dndDomain": 165,
+    "dndSpell": 2305,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1414,
+    "dndDomain": 89,
+    "dndSpell": 2463,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1420,
+    "dndDomain": 93,
+    "dndSpell": 2734,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1423,
+    "dndDomain": 93,
+    "dndSpell": 2870,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1443,
+    "dndDomain": 59,
+    "dndSpell": 2704,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1457,
+    "dndDomain": 168,
+    "dndSpell": 2713,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1460,
+    "dndDomain": 168,
+    "dndSpell": 2741,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1483,
+    "dndDomain": 55,
+    "dndSpell": 2803,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1504,
+    "dndDomain": 172,
+    "dndSpell": 2724,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1510,
+    "dndDomain": 135,
+    "dndSpell": 2414,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1530,
+    "dndDomain": 7,
+    "dndSpell": 2369,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1550,
+    "dndDomain": 173,
+    "dndSpell": 79,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1567,
+    "dndDomain": 47,
+    "dndSpell": 4888,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1568,
+    "dndDomain": 118,
+    "dndSpell": 4889,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1578,
+    "dndDomain": 177,
+    "dndSpell": 2838,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1061,
+    "dndDomain": 148,
+    "dndSpell": 2367,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1064,
+    "dndDomain": 148,
+    "dndSpell": 2544,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1067,
+    "dndDomain": 143,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1075,
+    "dndDomain": 143,
+    "dndSpell": 2498,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1082,
+    "dndDomain": 143,
+    "dndSpell": 2507,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1086,
+    "dndDomain": 139,
+    "dndSpell": 2721,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1109,
+    "dndDomain": 140,
+    "dndSpell": 2307,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1122,
+    "dndDomain": 138,
+    "dndSpell": 2559,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1126,
+    "dndDomain": 127,
+    "dndSpell": 2840,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1132,
+    "dndDomain": 60,
+    "dndSpell": 2600,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1138,
+    "dndDomain": 60,
+    "dndSpell": 2333,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1169,
+    "dndDomain": 58,
+    "dndSpell": 2897,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1182,
+    "dndDomain": 37,
+    "dndSpell": 2571,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1190,
+    "dndDomain": 53,
+    "dndSpell": 2479,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1208,
+    "dndDomain": 151,
+    "dndSpell": 2466,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1259,
+    "dndDomain": 54,
+    "dndSpell": 2409,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1268,
+    "dndDomain": 155,
+    "dndSpell": 2410,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1341,
+    "dndDomain": 45,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1352,
+    "dndDomain": 160,
+    "dndSpell": 2356,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1387,
+    "dndDomain": 163,
+    "dndSpell": 2534,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1418,
+    "dndDomain": 93,
+    "dndSpell": 2754,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1419,
+    "dndDomain": 93,
+    "dndSpell": 2775,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1448,
+    "dndDomain": 59,
+    "dndSpell": 2339,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1462,
+    "dndDomain": 168,
+    "dndSpell": 2764,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1464,
+    "dndDomain": 169,
+    "dndSpell": 2441,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1470,
+    "dndDomain": 169,
+    "dndSpell": 2419,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1478,
+    "dndDomain": 170,
+    "dndSpell": 2597,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1481,
+    "dndDomain": 170,
+    "dndSpell": 2886,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1505,
+    "dndDomain": 172,
+    "dndSpell": 2722,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1514,
+    "dndDomain": 135,
+    "dndSpell": 2661,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1526,
+    "dndDomain": 6,
+    "dndSpell": 2332,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1527,
+    "dndDomain": 6,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1537,
+    "dndDomain": 10,
+    "dndSpell": 2519,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1544,
+    "dndDomain": 4,
+    "dndSpell": 2565,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1557,
+    "dndDomain": 174,
+    "dndSpell": 4110,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1583,
+    "dndDomain": 177,
+    "dndSpell": 2608,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1585,
+    "dndDomain": 147,
+    "dndSpell": 4908,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1586,
+    "dndDomain": 177,
+    "dndSpell": 4908,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1043,
+    "dndDomain": 144,
+    "dndSpell": 2803,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1053,
+    "dndDomain": 148,
+    "dndSpell": 2527,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1090,
+    "dndDomain": 139,
+    "dndSpell": 2563,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1097,
+    "dndDomain": 139,
+    "dndSpell": 2394,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1140,
+    "dndDomain": 149,
+    "dndSpell": 2531,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1144,
+    "dndDomain": 149,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1146,
+    "dndDomain": 149,
+    "dndSpell": 2544,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1164,
+    "dndDomain": 43,
+    "dndSpell": 2523,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1187,
+    "dndDomain": 37,
+    "dndSpell": 2513,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1205,
+    "dndDomain": 151,
+    "dndSpell": 2521,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1250,
+    "dndDomain": 137,
+    "dndSpell": 2726,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1267,
+    "dndDomain": 155,
+    "dndSpell": 2322,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1273,
+    "dndDomain": 156,
+    "dndSpell": 2731,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1276,
+    "dndDomain": 156,
+    "dndSpell": 2570,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1316,
+    "dndDomain": 159,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1342,
+    "dndDomain": 45,
+    "dndSpell": 2589,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1345,
+    "dndDomain": 45,
+    "dndSpell": 2371,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1364,
+    "dndDomain": 33,
+    "dndSpell": 2731,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1397,
+    "dndDomain": 165,
+    "dndSpell": 2361,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1398,
+    "dndDomain": 165,
+    "dndSpell": 2783,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1408,
+    "dndDomain": 89,
+    "dndSpell": 2326,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1411,
+    "dndDomain": 89,
+    "dndSpell": 2422,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1417,
+    "dndDomain": 93,
+    "dndSpell": 2835,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1424,
+    "dndDomain": 166,
+    "dndSpell": 2396,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1452,
+    "dndDomain": 61,
+    "dndSpell": 2820,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1466,
+    "dndDomain": 169,
+    "dndSpell": 2443,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1480,
+    "dndDomain": 170,
+    "dndSpell": 2500,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1499,
+    "dndDomain": 172,
+    "dndSpell": 2495,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1542,
+    "dndDomain": 4,
+    "dndSpell": 2554,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1548,
+    "dndDomain": 173,
+    "dndSpell": 107,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1551,
+    "dndDomain": 173,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1566,
+    "dndDomain": 147,
+    "dndSpell": 4887,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1579,
+    "dndDomain": 177,
+    "dndSpell": 2523,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1046,
+    "dndDomain": 144,
+    "dndSpell": 2554,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1077,
+    "dndDomain": 143,
+    "dndSpell": 2797,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1080,
+    "dndDomain": 143,
+    "dndSpell": 2332,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1107,
+    "dndDomain": 140,
+    "dndSpell": 2572,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1114,
+    "dndDomain": 138,
+    "dndSpell": 2531,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1117,
+    "dndDomain": 138,
+    "dndSpell": 2635,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1131,
+    "dndDomain": 60,
+    "dndSpell": 2492,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1135,
+    "dndDomain": 60,
+    "dndSpell": 2851,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1141,
+    "dndDomain": 149,
+    "dndSpell": 2573,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1145,
+    "dndDomain": 149,
+    "dndSpell": 2561,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1185,
+    "dndDomain": 37,
+    "dndSpell": 2691,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1221,
+    "dndDomain": 152,
+    "dndSpell": 2706,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1227,
+    "dndDomain": 153,
+    "dndSpell": 2510,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1280,
+    "dndDomain": 156,
+    "dndSpell": 2526,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1282,
+    "dndDomain": 66,
+    "dndSpell": 2733,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1292,
+    "dndDomain": 157,
+    "dndSpell": 2709,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1295,
+    "dndDomain": 30,
+    "dndSpell": 2322,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1302,
+    "dndDomain": 158,
+    "dndSpell": 2479,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1312,
+    "dndDomain": 159,
+    "dndSpell": 2564,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1325,
+    "dndDomain": 83,
+    "dndSpell": 2825,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1326,
+    "dndDomain": 83,
+    "dndSpell": 2354,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1329,
+    "dndDomain": 36,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1334,
+    "dndDomain": 57,
+    "dndSpell": 2736,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1349,
+    "dndDomain": 160,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1350,
+    "dndDomain": 160,
+    "dndSpell": 2537,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1371,
+    "dndDomain": 162,
+    "dndSpell": 2478,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1382,
+    "dndDomain": 163,
+    "dndSpell": 2554,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1432,
+    "dndDomain": 166,
+    "dndSpell": 2626,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1437,
+    "dndDomain": 167,
+    "dndSpell": 2577,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1455,
+    "dndDomain": 168,
+    "dndSpell": 2527,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1502,
+    "dndDomain": 172,
+    "dndSpell": 2727,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1553,
+    "dndDomain": 173,
+    "dndSpell": 83,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1559,
+    "dndDomain": 174,
+    "dndSpell": 2570,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1580,
+    "dndDomain": 177,
+    "dndSpell": 2553,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1056,
+    "dndDomain": 148,
+    "dndSpell": 2602,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1091,
+    "dndDomain": 139,
+    "dndSpell": 2771,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1133,
+    "dndDomain": 60,
+    "dndSpell": 2841,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1157,
+    "dndDomain": 142,
+    "dndSpell": 2353,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1159,
+    "dndDomain": 142,
+    "dndSpell": 2607,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1171,
+    "dndDomain": 58,
+    "dndSpell": 2409,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1203,
+    "dndDomain": 150,
+    "dndSpell": 2351,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1209,
+    "dndDomain": 151,
+    "dndSpell": 2480,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1239,
+    "dndDomain": 154,
+    "dndSpell": 2338,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1242,
+    "dndDomain": 41,
+    "dndSpell": 2631,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1266,
+    "dndDomain": 155,
+    "dndSpell": 2837,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1314,
+    "dndDomain": 159,
+    "dndSpell": 2510,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1336,
+    "dndDomain": 57,
+    "dndSpell": 2561,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1344,
+    "dndDomain": 45,
+    "dndSpell": 2332,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1358,
+    "dndDomain": 161,
+    "dndSpell": 2607,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1361,
+    "dndDomain": 161,
+    "dndSpell": 2589,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1391,
+    "dndDomain": 164,
+    "dndSpell": 2428,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1416,
+    "dndDomain": 93,
+    "dndSpell": 2525,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1439,
+    "dndDomain": 167,
+    "dndSpell": 2703,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1441,
+    "dndDomain": 167,
+    "dndSpell": 2712,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1450,
+    "dndDomain": 61,
+    "dndSpell": 2459,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1493,
+    "dndDomain": 171,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1497,
+    "dndDomain": 171,
+    "dndSpell": 2534,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1498,
+    "dndDomain": 171,
+    "dndSpell": 2546,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1501,
+    "dndDomain": 172,
+    "dndSpell": 2711,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1503,
+    "dndDomain": 172,
+    "dndSpell": 2718,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1512,
+    "dndDomain": 135,
+    "dndSpell": 2624,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1555,
+    "dndDomain": 173,
+    "dndSpell": 2439,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1083,
+    "dndDomain": 139,
+    "dndSpell": 2731,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1093,
+    "dndDomain": 139,
+    "dndSpell": 2423,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1096,
+    "dndDomain": 139,
+    "dndSpell": 2732,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1116,
+    "dndDomain": 138,
+    "dndSpell": 2496,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1147,
+    "dndDomain": 149,
+    "dndSpell": 2546,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1176,
+    "dndDomain": 14,
+    "dndSpell": 2715,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1180,
+    "dndDomain": 14,
+    "dndSpell": 2567,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1191,
+    "dndDomain": 53,
+    "dndSpell": 2573,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1270,
+    "dndDomain": 155,
+    "dndSpell": 2703,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1318,
+    "dndDomain": 83,
+    "dndSpell": 2838,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1354,
+    "dndDomain": 160,
+    "dndSpell": 2439,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1378,
+    "dndDomain": 162,
+    "dndSpell": 2886,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1380,
+    "dndDomain": 163,
+    "dndSpell": 2803,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1390,
+    "dndDomain": 164,
+    "dndSpell": 2431,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1395,
+    "dndDomain": 164,
+    "dndSpell": 2853,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1401,
+    "dndDomain": 165,
+    "dndSpell": 2753,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1421,
+    "dndDomain": 93,
+    "dndSpell": 2377,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1422,
+    "dndDomain": 93,
+    "dndSpell": 2776,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1456,
+    "dndDomain": 168,
+    "dndSpell": 2783,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1477,
+    "dndDomain": 170,
+    "dndSpell": 2900,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1490,
+    "dndDomain": 171,
+    "dndSpell": 2536,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1507,
+    "dndDomain": 172,
+    "dndSpell": 2732,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1534,
+    "dndDomain": 7,
+    "dndSpell": 2825,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1538,
+    "dndDomain": 10,
+    "dndSpell": 2645,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1572,
+    "dndDomain": 175,
+    "dndSpell": 4898,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1575,
+    "dndDomain": 176,
+    "dndSpell": 4901,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1581,
+    "dndDomain": 177,
+    "dndSpell": 2554,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1062,
+    "dndDomain": 148,
+    "dndSpell": 2547,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1068,
+    "dndDomain": 143,
+    "dndSpell": 2348,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1081,
+    "dndDomain": 143,
+    "dndSpell": 2399,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1088,
+    "dndDomain": 139,
+    "dndSpell": 2540,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1101,
+    "dndDomain": 140,
+    "dndSpell": 2337,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1113,
+    "dndDomain": 138,
+    "dndSpell": 2346,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1127,
+    "dndDomain": 127,
+    "dndSpell": 2531,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1142,
+    "dndDomain": 149,
+    "dndSpell": 2552,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1174,
+    "dndDomain": 58,
+    "dndSpell": 2617,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1175,
+    "dndDomain": 14,
+    "dndSpell": 2414,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1178,
+    "dndDomain": 14,
+    "dndSpell": 2687,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1207,
+    "dndDomain": 151,
+    "dndSpell": 2874,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1220,
+    "dndDomain": 152,
+    "dndSpell": 2899,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1229,
+    "dndDomain": 153,
+    "dndSpell": 2425,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1234,
+    "dndDomain": 154,
+    "dndSpell": 2713,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1246,
+    "dndDomain": 41,
+    "dndSpell": 2617,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1262,
+    "dndDomain": 54,
+    "dndSpell": 2565,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1293,
+    "dndDomain": 30,
+    "dndSpell": 2370,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1300,
+    "dndDomain": 158,
+    "dndSpell": 2535,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1308,
+    "dndDomain": 158,
+    "dndSpell": 2465,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1324,
+    "dndDomain": 83,
+    "dndSpell": 2887,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1337,
+    "dndDomain": 57,
+    "dndSpell": 2776,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1340,
+    "dndDomain": 45,
+    "dndSpell": 4764,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1359,
+    "dndDomain": 161,
+    "dndSpell": 2508,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1376,
+    "dndDomain": 162,
+    "dndSpell": 2513,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1406,
+    "dndDomain": 89,
+    "dndSpell": 2808,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1486,
+    "dndDomain": 55,
+    "dndSpell": 2520,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1535,
+    "dndDomain": 10,
+    "dndSpell": 2482,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1546,
+    "dndDomain": 1,
+    "dndSpell": 2804,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1592,
+    "dndDomain": 176,
+    "dndSpell": 4911,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1045,
+    "dndDomain": 144,
+    "dndSpell": 2553,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1048,
+    "dndDomain": 144,
+    "dndSpell": 2306,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1054,
+    "dndDomain": 148,
+    "dndSpell": 2666,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1063,
+    "dndDomain": 148,
+    "dndSpell": 2356,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1070,
+    "dndDomain": 143,
+    "dndSpell": 2335,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1119,
+    "dndDomain": 138,
+    "dndSpell": 2753,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1129,
+    "dndDomain": 127,
+    "dndSpell": 2305,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1134,
+    "dndDomain": 60,
+    "dndSpell": 2404,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1136,
+    "dndDomain": 60,
+    "dndSpell": 2498,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1151,
+    "dndDomain": 8,
+    "dndSpell": 2519,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1155,
+    "dndDomain": 8,
+    "dndSpell": 2411,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1161,
+    "dndDomain": 142,
+    "dndSpell": 2426,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1163,
+    "dndDomain": 43,
+    "dndSpell": 2353,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1177,
+    "dndDomain": 14,
+    "dndSpell": 2508,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1197,
+    "dndDomain": 150,
+    "dndSpell": 2839,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1206,
+    "dndDomain": 151,
+    "dndSpell": 2790,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1216,
+    "dndDomain": 152,
+    "dndSpell": 2581,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1217,
+    "dndDomain": 152,
+    "dndSpell": 2768,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1226,
+    "dndDomain": 153,
+    "dndSpell": 2625,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1236,
+    "dndDomain": 154,
+    "dndSpell": 2753,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1254,
+    "dndDomain": 137,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1271,
+    "dndDomain": 155,
+    "dndSpell": 2473,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1294,
+    "dndDomain": 30,
+    "dndSpell": 2570,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1315,
+    "dndDomain": 159,
+    "dndSpell": 2526,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1333,
+    "dndDomain": 57,
+    "dndSpell": 2609,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1346,
+    "dndDomain": 160,
+    "dndSpell": 2606,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1351,
+    "dndDomain": 160,
+    "dndSpell": 2551,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1360,
+    "dndDomain": 161,
+    "dndSpell": 2734,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1370,
+    "dndDomain": 162,
+    "dndSpell": 2728,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1374,
+    "dndDomain": 162,
+    "dndSpell": 2491,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1381,
+    "dndDomain": 163,
+    "dndSpell": 2553,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1383,
+    "dndDomain": 163,
+    "dndSpell": 2607,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1389,
+    "dndDomain": 164,
+    "dndSpell": 2432,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1404,
+    "dndDomain": 165,
+    "dndSpell": 2497,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1425,
+    "dndDomain": 166,
+    "dndSpell": 2408,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1444,
+    "dndDomain": 59,
+    "dndSpell": 2858,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1468,
+    "dndDomain": 169,
+    "dndSpell": 2447,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1484,
+    "dndDomain": 55,
+    "dndSpell": 2645,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1509,
+    "dndDomain": 8,
+    "dndSpell": 2579,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1532,
+    "dndDomain": 7,
+    "dndSpell": 2324,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1569,
+    "dndDomain": 47,
+    "dndSpell": 4890,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1573,
+    "dndDomain": 175,
+    "dndSpell": 4899,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1042,
+    "dndDomain": 144,
+    "dndSpell": 2523,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1055,
+    "dndDomain": 148,
+    "dndSpell": 2600,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1094,
+    "dndDomain": 139,
+    "dndSpell": 2371,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1120,
+    "dndDomain": 138,
+    "dndSpell": 2556,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1215,
+    "dndDomain": 152,
+    "dndSpell": 2755,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1241,
+    "dndDomain": 41,
+    "dndSpell": 2405,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1248,
+    "dndDomain": 41,
+    "dndSpell": 2584,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1251,
+    "dndDomain": 137,
+    "dndSpell": 2375,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1252,
+    "dndDomain": 137,
+    "dndSpell": 2768,
+    "extra": "",
+    "level": 4
+  },
+  {
+    "_id": 1265,
+    "dndDomain": 155,
+    "dndSpell": 2790,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1275,
+    "dndDomain": 156,
+    "dndSpell": 2713,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1304,
+    "dndDomain": 158,
+    "dndSpell": 2512,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1311,
+    "dndDomain": 159,
+    "dndSpell": 2479,
+    "extra": "",
+    "level": 3
+  },
+  {
+    "_id": 1313,
+    "dndDomain": 159,
+    "dndSpell": 2563,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1317,
+    "dndDomain": 159,
+    "dndSpell": 2712,
+    "extra": "",
+    "level": 9
+  },
+  {
+    "_id": 1323,
+    "dndDomain": 83,
+    "dndSpell": 2588,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1394,
+    "dndDomain": 164,
+    "dndSpell": 2400,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1431,
+    "dndDomain": 166,
+    "dndSpell": 2566,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1438,
+    "dndDomain": 167,
+    "dndSpell": 2771,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1445,
+    "dndDomain": 59,
+    "dndSpell": 2306,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1446,
+    "dndDomain": 59,
+    "dndSpell": 2899,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1449,
+    "dndDomain": 61,
+    "dndSpell": 2877,
+    "extra": "",
+    "level": 1
+  },
+  {
+    "_id": 1469,
+    "dndDomain": 169,
+    "dndSpell": 2417,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1474,
+    "dndDomain": 170,
+    "dndSpell": 2738,
+    "extra": "",
+    "level": 2
+  },
+  {
+    "_id": 1491,
+    "dndDomain": 171,
+    "dndSpell": 2537,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1531,
+    "dndDomain": 7,
+    "dndSpell": 2784,
+    "extra": "",
+    "level": 6
+  },
+  {
+    "_id": 1533,
+    "dndDomain": 7,
+    "dndSpell": 2368,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1543,
+    "dndDomain": 4,
+    "dndSpell": 2579,
+    "extra": "",
+    "level": 8
+  },
+  {
+    "_id": 1563,
+    "dndDomain": 174,
+    "dndSpell": 2885,
+    "extra": "",
+    "level": 7
+  },
+  {
+    "_id": 1564,
+    "dndDomain": 174,
+    "dndSpell": 2865,
+    "extra": "",
+    "level": 5
+  },
+  {
+    "_id": 1577,
+    "dndDomain": 176,
+    "dndSpell": 4906,
+    "extra": "",
+    "level": 9
+  }
+]

@@ -1,0 +1,7345 @@
+[
+  {
+    "_id": 27,
+    "dndFeat": 168,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 8,
+    "dndFeat": 61,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 32,
+    "dndFeat": 185,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 42,
+    "dndFeat": 228,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 58,
+    "dndFeat": 292,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 74,
+    "dndFeat": 371,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 75,
+    "dndFeat": 372,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 82,
+    "dndFeat": 382,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 84,
+    "dndFeat": 388,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 106,
+    "dndFeat": 501,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 131,
+    "dndFeat": 597,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 146,
+    "dndFeat": 643,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 165,
+    "dndFeat": 704,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 175,
+    "dndFeat": 734,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 185,
+    "dndFeat": 789,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 219,
+    "dndFeat": 926,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 241,
+    "dndFeat": 1037,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 244,
+    "dndFeat": 1060,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 252,
+    "dndFeat": 1100,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 258,
+    "dndFeat": 1125,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 287,
+    "dndFeat": 1232,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 304,
+    "dndFeat": 1284,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 308,
+    "dndFeat": 1311,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 321,
+    "dndFeat": 1396,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 333,
+    "dndFeat": 1447,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 350,
+    "dndFeat": 1518,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 353,
+    "dndFeat": 1522,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 357,
+    "dndFeat": 1541,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 377,
+    "dndFeat": 1593,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 401,
+    "dndFeat": 1709,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 435,
+    "dndFeat": 1845,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 436,
+    "dndFeat": 1846,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 437,
+    "dndFeat": 1880,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 444,
+    "dndFeat": 1935,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 448,
+    "dndFeat": 1942,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 452,
+    "dndFeat": 1955,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 460,
+    "dndFeat": 2005,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 468,
+    "dndFeat": 2012,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 482,
+    "dndFeat": 2052,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 485,
+    "dndFeat": 2080,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 493,
+    "dndFeat": 2090,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 506,
+    "dndFeat": 2117,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 533,
+    "dndFeat": 2210,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "12",
+    "value2": ""
+  },
+  {
+    "_id": 12,
+    "dndFeat": 88,
+    "dndSpecialFeatPrerequisite": 29,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 49,
+    "dndFeat": 255,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 60,
+    "dndFeat": 310,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 97,
+    "dndFeat": 453,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 104,
+    "dndFeat": 498,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 112,
+    "dndFeat": 527,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 117,
+    "dndFeat": 545,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 141,
+    "dndFeat": 637,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 153,
+    "dndFeat": 663,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 159,
+    "dndFeat": 676,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 183,
+    "dndFeat": 786,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 195,
+    "dndFeat": 798,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 199,
+    "dndFeat": 802,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 214,
+    "dndFeat": 912,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 246,
+    "dndFeat": 1062,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 254,
+    "dndFeat": 1106,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 260,
+    "dndFeat": 1132,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 269,
+    "dndFeat": 1144,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 284,
+    "dndFeat": 1212,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 293,
+    "dndFeat": 1266,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 313,
+    "dndFeat": 1344,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 327,
+    "dndFeat": 1411,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 346,
+    "dndFeat": 1506,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 352,
+    "dndFeat": 1519,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 356,
+    "dndFeat": 1527,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 381,
+    "dndFeat": 1599,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 388,
+    "dndFeat": 1655,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 441,
+    "dndFeat": 1921,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 459,
+    "dndFeat": 2004,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 466,
+    "dndFeat": 2011,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 479,
+    "dndFeat": 2047,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 504,
+    "dndFeat": 2115,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "20",
+    "value2": ""
+  },
+  {
+    "_id": 539,
+    "dndFeat": 2220,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "28",
+    "value2": ""
+  },
+  {
+    "_id": 541,
+    "dndFeat": 2235,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 25,
+    "dndFeat": 166,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 37,
+    "dndFeat": 194,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 40,
+    "dndFeat": 213,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 31,
+    "dndFeat": 184,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 56,
+    "dndFeat": 280,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 57,
+    "dndFeat": 283,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 85,
+    "dndFeat": 392,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 90,
+    "dndFeat": 395,
+    "dndSpecialFeatPrerequisite": 29,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 120,
+    "dndFeat": 556,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 133,
+    "dndFeat": 600,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 166,
+    "dndFeat": 715,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 173,
+    "dndFeat": 732,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 197,
+    "dndFeat": 800,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 202,
+    "dndFeat": 832,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 213,
+    "dndFeat": 911,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 218,
+    "dndFeat": 922,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 226,
+    "dndFeat": 974,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 227,
+    "dndFeat": 974,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 273,
+    "dndFeat": 1148,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 277,
+    "dndFeat": 1175,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 283,
+    "dndFeat": 1201,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 288,
+    "dndFeat": 1237,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 300,
+    "dndFeat": 1282,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 306,
+    "dndFeat": 1295,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 316,
+    "dndFeat": 1364,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 348,
+    "dndFeat": 1508,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 365,
+    "dndFeat": 1566,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 414,
+    "dndFeat": 1750,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 455,
+    "dndFeat": 1975,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 463,
+    "dndFeat": 2008,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 477,
+    "dndFeat": 2045,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 530,
+    "dndFeat": 2204,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 540,
+    "dndFeat": 2229,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 542,
+    "dndFeat": 2237,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 39,
+    "dndFeat": 205,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 66,
+    "dndFeat": 351,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 80,
+    "dndFeat": 375,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 91,
+    "dndFeat": 396,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 93,
+    "dndFeat": 405,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 94,
+    "dndFeat": 406,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 105,
+    "dndFeat": 500,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 113,
+    "dndFeat": 528,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 134,
+    "dndFeat": 601,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 188,
+    "dndFeat": 793,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 194,
+    "dndFeat": 797,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 201,
+    "dndFeat": 826,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 233,
+    "dndFeat": 995,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 235,
+    "dndFeat": 996,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 265,
+    "dndFeat": 1138,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 292,
+    "dndFeat": 1258,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 307,
+    "dndFeat": 1308,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 326,
+    "dndFeat": 1410,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 341,
+    "dndFeat": 1476,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 342,
+    "dndFeat": 1477,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 349,
+    "dndFeat": 1513,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 364,
+    "dndFeat": 1565,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 380,
+    "dndFeat": 1599,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 390,
+    "dndFeat": 1665,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 398,
+    "dndFeat": 1707,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 403,
+    "dndFeat": 1712,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 424,
+    "dndFeat": 1774,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 472,
+    "dndFeat": 2025,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 478,
+    "dndFeat": 2046,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 494,
+    "dndFeat": 2091,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 502,
+    "dndFeat": 2111,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 508,
+    "dndFeat": 2128,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 525,
+    "dndFeat": 2175,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 528,
+    "dndFeat": 2199,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 3,
+    "dndFeat": 23,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 14,
+    "dndFeat": 110,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 64,
+    "dndFeat": 316,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 71,
+    "dndFeat": 366,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 81,
+    "dndFeat": 381,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 116,
+    "dndFeat": 537,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 125,
+    "dndFeat": 560,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 136,
+    "dndFeat": 608,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 172,
+    "dndFeat": 731,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 184,
+    "dndFeat": 787,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 190,
+    "dndFeat": 795,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 238,
+    "dndFeat": 1016,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 243,
+    "dndFeat": 1048,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 253,
+    "dndFeat": 1105,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 256,
+    "dndFeat": 1124,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 279,
+    "dndFeat": 1185,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 295,
+    "dndFeat": 1268,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 317,
+    "dndFeat": 1368,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 328,
+    "dndFeat": 1423,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 329,
+    "dndFeat": 1444,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 330,
+    "dndFeat": 1444,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 386,
+    "dndFeat": 1616,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 407,
+    "dndFeat": 1722,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 430,
+    "dndFeat": 1830,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 443,
+    "dndFeat": 1924,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 451,
+    "dndFeat": 1945,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 475,
+    "dndFeat": 2033,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 495,
+    "dndFeat": 2092,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 510,
+    "dndFeat": 2130,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 512,
+    "dndFeat": 2132,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 43,
+    "dndFeat": 230,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 46,
+    "dndFeat": 249,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 68,
+    "dndFeat": 354,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 72,
+    "dndFeat": 367,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 135,
+    "dndFeat": 603,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 138,
+    "dndFeat": 620,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 151,
+    "dndFeat": 662,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 169,
+    "dndFeat": 725,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 178,
+    "dndFeat": 765,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 186,
+    "dndFeat": 791,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 193,
+    "dndFeat": 796,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 205,
+    "dndFeat": 859,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 215,
+    "dndFeat": 918,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 221,
+    "dndFeat": 941,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 224,
+    "dndFeat": 966,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 257,
+    "dndFeat": 1124,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 275,
+    "dndFeat": 1168,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 281,
+    "dndFeat": 1196,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 294,
+    "dndFeat": 1267,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 302,
+    "dndFeat": 1283,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 332,
+    "dndFeat": 1446,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 359,
+    "dndFeat": 1544,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 371,
+    "dndFeat": 1576,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 378,
+    "dndFeat": 1596,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 385,
+    "dndFeat": 1613,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 387,
+    "dndFeat": 1654,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 412,
+    "dndFeat": 1748,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 467,
+    "dndFeat": 2012,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 469,
+    "dndFeat": 2017,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 470,
+    "dndFeat": 2017,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 483,
+    "dndFeat": 2061,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 484,
+    "dndFeat": 2080,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 491,
+    "dndFeat": 2088,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 496,
+    "dndFeat": 2093,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 497,
+    "dndFeat": 2096,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 23,
+    "dndFeat": 157,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 36,
+    "dndFeat": 192,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 59,
+    "dndFeat": 303,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 73,
+    "dndFeat": 370,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 76,
+    "dndFeat": 372,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 89,
+    "dndFeat": 394,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 111,
+    "dndFeat": 524,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 163,
+    "dndFeat": 702,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 180,
+    "dndFeat": 781,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 217,
+    "dndFeat": 921,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 230,
+    "dndFeat": 989,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 232,
+    "dndFeat": 994,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 237,
+    "dndFeat": 1015,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 272,
+    "dndFeat": 1147,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 312,
+    "dndFeat": 1339,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 319,
+    "dndFeat": 1375,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 320,
+    "dndFeat": 1376,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 323,
+    "dndFeat": 1399,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 347,
+    "dndFeat": 1507,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 360,
+    "dndFeat": 1549,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 379,
+    "dndFeat": 1597,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 382,
+    "dndFeat": 1603,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 389,
+    "dndFeat": 1657,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 396,
+    "dndFeat": 1697,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 422,
+    "dndFeat": 1768,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 434,
+    "dndFeat": 1845,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 449,
+    "dndFeat": 1944,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 503,
+    "dndFeat": 2112,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 513,
+    "dndFeat": 2133,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 522,
+    "dndFeat": 2174,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 535,
+    "dndFeat": 2213,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 2,
+    "dndFeat": 23,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 17,
+    "dndFeat": 142,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 44,
+    "dndFeat": 239,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 54,
+    "dndFeat": 276,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 86,
+    "dndFeat": 392,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 88,
+    "dndFeat": 393,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 107,
+    "dndFeat": 510,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 137,
+    "dndFeat": 609,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 149,
+    "dndFeat": 654,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 164,
+    "dndFeat": 703,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 167,
+    "dndFeat": 722,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 177,
+    "dndFeat": 750,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 220,
+    "dndFeat": 932,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 222,
+    "dndFeat": 953,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 223,
+    "dndFeat": 959,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 225,
+    "dndFeat": 970,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 239,
+    "dndFeat": 1019,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 261,
+    "dndFeat": 1134,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 331,
+    "dndFeat": 1445,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 345,
+    "dndFeat": 1491,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 384,
+    "dndFeat": 1606,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 413,
+    "dndFeat": 1749,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 418,
+    "dndFeat": 1757,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 423,
+    "dndFeat": 1769,
+    "dndSpecialFeatPrerequisite": 16,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 425,
+    "dndFeat": 1775,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 433,
+    "dndFeat": 1843,
+    "dndSpecialFeatPrerequisite": 16,
+    "value1": "7",
+    "value2": ""
+  },
+  {
+    "_id": 456,
+    "dndFeat": 1978,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 457,
+    "dndFeat": 1979,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 473,
+    "dndFeat": 2028,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 490,
+    "dndFeat": 2087,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 498,
+    "dndFeat": 2103,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 499,
+    "dndFeat": 2108,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 511,
+    "dndFeat": 2131,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 4,
+    "dndFeat": 30,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 19,
+    "dndFeat": 144,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 38,
+    "dndFeat": 203,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 52,
+    "dndFeat": 271,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 61,
+    "dndFeat": 311,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 69,
+    "dndFeat": 361,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 109,
+    "dndFeat": 516,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 127,
+    "dndFeat": 573,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 128,
+    "dndFeat": 574,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 140,
+    "dndFeat": 624,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 154,
+    "dndFeat": 663,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 157,
+    "dndFeat": 667,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 168,
+    "dndFeat": 724,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 249,
+    "dndFeat": 1081,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 266,
+    "dndFeat": 1139,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 268,
+    "dndFeat": 1143,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 299,
+    "dndFeat": 1280,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 324,
+    "dndFeat": 1400,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 351,
+    "dndFeat": 1519,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 408,
+    "dndFeat": 1725,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 411,
+    "dndFeat": 1746,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 446,
+    "dndFeat": 1940,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 450,
+    "dndFeat": 1945,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 464,
+    "dndFeat": 2009,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 505,
+    "dndFeat": 2116,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1,
+    "dndFeat": 17,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 34,
+    "dndFeat": 190,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 41,
+    "dndFeat": 225,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 45,
+    "dndFeat": 240,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "20",
+    "value2": ""
+  },
+  {
+    "_id": 48,
+    "dndFeat": 251,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 92,
+    "dndFeat": 404,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 143,
+    "dndFeat": 640,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 181,
+    "dndFeat": 781,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 211,
+    "dndFeat": 909,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 250,
+    "dndFeat": 1082,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 259,
+    "dndFeat": 1125,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 264,
+    "dndFeat": 1137,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 311,
+    "dndFeat": 1335,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 315,
+    "dndFeat": 1357,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 335,
+    "dndFeat": 1451,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 343,
+    "dndFeat": 1478,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 358,
+    "dndFeat": 1542,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 392,
+    "dndFeat": 1677,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 395,
+    "dndFeat": 1695,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 400,
+    "dndFeat": 1709,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 427,
+    "dndFeat": 1794,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 458,
+    "dndFeat": 2003,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 462,
+    "dndFeat": 2007,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 481,
+    "dndFeat": 2051,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 487,
+    "dndFeat": 2081,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 500,
+    "dndFeat": 2109,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 501,
+    "dndFeat": 2110,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 507,
+    "dndFeat": 2127,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 509,
+    "dndFeat": 2129,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 516,
+    "dndFeat": 2155,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 518,
+    "dndFeat": 2159,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 524,
+    "dndFeat": 2175,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 35,
+    "dndFeat": 191,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 47,
+    "dndFeat": 250,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 62,
+    "dndFeat": 312,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 77,
+    "dndFeat": 373,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 87,
+    "dndFeat": 393,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 129,
+    "dndFeat": 589,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 147,
+    "dndFeat": 652,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 170,
+    "dndFeat": 729,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "30",
+    "value2": ""
+  },
+  {
+    "_id": 176,
+    "dndFeat": 747,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 200,
+    "dndFeat": 802,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 204,
+    "dndFeat": 856,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 297,
+    "dndFeat": 1278,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 370,
+    "dndFeat": 1575,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 372,
+    "dndFeat": 1577,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 405,
+    "dndFeat": 1713,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 438,
+    "dndFeat": 1887,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 440,
+    "dndFeat": 1916,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 445,
+    "dndFeat": 1939,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 489,
+    "dndFeat": 2086,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 492,
+    "dndFeat": 2089,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 517,
+    "dndFeat": 2158,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 519,
+    "dndFeat": 2163,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 527,
+    "dndFeat": 2198,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 534,
+    "dndFeat": 2211,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 21,
+    "dndFeat": 155,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 29,
+    "dndFeat": 170,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 70,
+    "dndFeat": 365,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 162,
+    "dndFeat": 696,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 182,
+    "dndFeat": 782,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 206,
+    "dndFeat": 903,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 229,
+    "dndFeat": 985,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 242,
+    "dndFeat": 1045,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 262,
+    "dndFeat": 1136,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 296,
+    "dndFeat": 1271,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 301,
+    "dndFeat": 1282,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 309,
+    "dndFeat": 1320,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 310,
+    "dndFeat": 1334,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 354,
+    "dndFeat": 1526,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 373,
+    "dndFeat": 1578,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 375,
+    "dndFeat": 1587,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 383,
+    "dndFeat": 1605,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 394,
+    "dndFeat": 1686,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 409,
+    "dndFeat": 1740,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 426,
+    "dndFeat": 1784,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 442,
+    "dndFeat": 1923,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 453,
+    "dndFeat": 1972,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 480,
+    "dndFeat": 2050,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 486,
+    "dndFeat": 2081,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 536,
+    "dndFeat": 2214,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 16,
+    "dndFeat": 140,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 22,
+    "dndFeat": 156,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 50,
+    "dndFeat": 259,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 51,
+    "dndFeat": 262,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 114,
+    "dndFeat": 529,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 119,
+    "dndFeat": 551,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 121,
+    "dndFeat": 556,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 144,
+    "dndFeat": 640,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 161,
+    "dndFeat": 681,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 171,
+    "dndFeat": 731,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 174,
+    "dndFeat": 733,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 251,
+    "dndFeat": 1087,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 270,
+    "dndFeat": 1145,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 274,
+    "dndFeat": 1158,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 285,
+    "dndFeat": 1214,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 286,
+    "dndFeat": 1219,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 325,
+    "dndFeat": 1401,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 369,
+    "dndFeat": 1573,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 376,
+    "dndFeat": 1591,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 391,
+    "dndFeat": 1672,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 404,
+    "dndFeat": 1712,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 410,
+    "dndFeat": 1744,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 415,
+    "dndFeat": 1755,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 417,
+    "dndFeat": 1757,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 419,
+    "dndFeat": 1760,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 420,
+    "dndFeat": 1763,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 428,
+    "dndFeat": 1804,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 429,
+    "dndFeat": 1808,
+    "dndSpecialFeatPrerequisite": 29,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 461,
+    "dndFeat": 2006,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 521,
+    "dndFeat": 2166,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 523,
+    "dndFeat": 2174,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 529,
+    "dndFeat": 2203,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 55,
+    "dndFeat": 277,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 95,
+    "dndFeat": 408,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 96,
+    "dndFeat": 409,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 99,
+    "dndFeat": 470,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 110,
+    "dndFeat": 517,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 132,
+    "dndFeat": 598,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 142,
+    "dndFeat": 638,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 148,
+    "dndFeat": 654,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 179,
+    "dndFeat": 772,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 247,
+    "dndFeat": 1073,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 263,
+    "dndFeat": 1137,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 280,
+    "dndFeat": 1193,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 289,
+    "dndFeat": 1238,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 290,
+    "dndFeat": 1240,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 318,
+    "dndFeat": 1374,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 336,
+    "dndFeat": 1452,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 344,
+    "dndFeat": 1480,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 355,
+    "dndFeat": 1527,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 399,
+    "dndFeat": 1708,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 402,
+    "dndFeat": 1711,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 416,
+    "dndFeat": 1756,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 431,
+    "dndFeat": 1831,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 432,
+    "dndFeat": 1834,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "10",
+    "value2": ""
+  },
+  {
+    "_id": 447,
+    "dndFeat": 1941,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 471,
+    "dndFeat": 2022,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 474,
+    "dndFeat": 2029,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 476,
+    "dndFeat": 2036,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 515,
+    "dndFeat": 2151,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 538,
+    "dndFeat": 2219,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 11,
+    "dndFeat": 82,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 15,
+    "dndFeat": 133,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 26,
+    "dndFeat": 167,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 28,
+    "dndFeat": 169,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 30,
+    "dndFeat": 171,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 33,
+    "dndFeat": 189,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 63,
+    "dndFeat": 316,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 65,
+    "dndFeat": 346,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 78,
+    "dndFeat": 373,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 115,
+    "dndFeat": 534,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 118,
+    "dndFeat": 546,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 122,
+    "dndFeat": 557,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 123,
+    "dndFeat": 558,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 150,
+    "dndFeat": 661,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 187,
+    "dndFeat": 791,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 189,
+    "dndFeat": 793,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 196,
+    "dndFeat": 798,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 198,
+    "dndFeat": 801,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 216,
+    "dndFeat": 920,
+    "dndSpecialFeatPrerequisite": 11,
+    "value1": "4",
+    "value2": "4"
+  },
+  {
+    "_id": 231,
+    "dndFeat": 990,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 234,
+    "dndFeat": 996,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 240,
+    "dndFeat": 1020,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 245,
+    "dndFeat": 1061,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 271,
+    "dndFeat": 1146,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 282,
+    "dndFeat": 1198,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 298,
+    "dndFeat": 1279,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 303,
+    "dndFeat": 1284,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 322,
+    "dndFeat": 1397,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 337,
+    "dndFeat": 1457,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 340,
+    "dndFeat": 1468,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 363,
+    "dndFeat": 1563,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 368,
+    "dndFeat": 1573,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 406,
+    "dndFeat": 1721,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 421,
+    "dndFeat": 1764,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 439,
+    "dndFeat": 1916,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 488,
+    "dndFeat": 2085,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 514,
+    "dndFeat": 2150,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 520,
+    "dndFeat": 2163,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 10,
+    "dndFeat": 77,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 13,
+    "dndFeat": 95,
+    "dndSpecialFeatPrerequisite": 13,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 20,
+    "dndFeat": 154,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 24,
+    "dndFeat": 158,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 79,
+    "dndFeat": 374,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 83,
+    "dndFeat": 382,
+    "dndSpecialFeatPrerequisite": 13,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 126,
+    "dndFeat": 572,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 130,
+    "dndFeat": 594,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 145,
+    "dndFeat": 641,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 152,
+    "dndFeat": 662,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 158,
+    "dndFeat": 668,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 191,
+    "dndFeat": 795,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 192,
+    "dndFeat": 796,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 207,
+    "dndFeat": 905,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 212,
+    "dndFeat": 910,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 276,
+    "dndFeat": 1171,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 305,
+    "dndFeat": 1292,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 314,
+    "dndFeat": 1356,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 393,
+    "dndFeat": 1685,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "20",
+    "value2": ""
+  },
+  {
+    "_id": 465,
+    "dndFeat": 2011,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 532,
+    "dndFeat": 2208,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 560,
+    "dndFeat": 2286,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 549,
+    "dndFeat": 2258,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 564,
+    "dndFeat": 2293,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 567,
+    "dndFeat": 2301,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 590,
+    "dndFeat": 2388,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "28",
+    "value2": ""
+  },
+  {
+    "_id": 602,
+    "dndFeat": 2423,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 604,
+    "dndFeat": 2424,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 605,
+    "dndFeat": 2446,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 614,
+    "dndFeat": 2501,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 618,
+    "dndFeat": 2514,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 646,
+    "dndFeat": 2636,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 666,
+    "dndFeat": 2747,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 708,
+    "dndFeat": 2939,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 709,
+    "dndFeat": 2950,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "22",
+    "value2": ""
+  },
+  {
+    "_id": 794,
+    "dndFeat": 2750,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 825,
+    "dndFeat": 3221,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 828,
+    "dndFeat": 3224,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 834,
+    "dndFeat": 3235,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 848,
+    "dndFeat": 3254,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 850,
+    "dndFeat": 3256,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 853,
+    "dndFeat": 3258,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 902,
+    "dndFeat": 3393,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 931,
+    "dndFeat": 3459,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 941,
+    "dndFeat": 3476,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 944,
+    "dndFeat": 3480,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 963,
+    "dndFeat": 3516,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 968,
+    "dndFeat": 3521,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 971,
+    "dndFeat": 3532,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 986,
+    "dndFeat": 3568,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 999,
+    "dndFeat": 3592,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1004,
+    "dndFeat": 3609,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1005,
+    "dndFeat": 3610,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1035,
+    "dndFeat": 3641,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1043,
+    "dndFeat": 3650,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 1060,
+    "dndFeat": 3679,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1095,
+    "dndFeat": 3147,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1110,
+    "dndFeat": 1349,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 554,
+    "dndFeat": 2276,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 583,
+    "dndFeat": 2373,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 585,
+    "dndFeat": 2377,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 594,
+    "dndFeat": 2410,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 608,
+    "dndFeat": 2467,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 627,
+    "dndFeat": 2544,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "30",
+    "value2": ""
+  },
+  {
+    "_id": 647,
+    "dndFeat": 2653,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 659,
+    "dndFeat": 2690,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 686,
+    "dndFeat": 2802,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 701,
+    "dndFeat": 2903,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "22",
+    "value2": ""
+  },
+  {
+    "_id": 741,
+    "dndFeat": 3113,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 756,
+    "dndFeat": 3179,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 768,
+    "dndFeat": 1560,
+    "dndSpecialFeatPrerequisite": 11,
+    "value1": "2",
+    "value2": "1"
+  },
+  {
+    "_id": 780,
+    "dndFeat": 3189,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15+",
+    "value2": ""
+  },
+  {
+    "_id": 832,
+    "dndFeat": 3228,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 839,
+    "dndFeat": 3240,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 854,
+    "dndFeat": 3260,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 901,
+    "dndFeat": 3389,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 915,
+    "dndFeat": 3417,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15+",
+    "value2": ""
+  },
+  {
+    "_id": 923,
+    "dndFeat": 3448,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 934,
+    "dndFeat": 3462,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 953,
+    "dndFeat": 3494,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "4th",
+    "value2": ""
+  },
+  {
+    "_id": 957,
+    "dndFeat": 3506,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 985,
+    "dndFeat": 3567,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 994,
+    "dndFeat": 3585,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 1056,
+    "dndFeat": 3673,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15+",
+    "value2": ""
+  },
+  {
+    "_id": 1070,
+    "dndFeat": 3692,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 1111,
+    "dndFeat": 1985,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1114,
+    "dndFeat": 2773,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 544,
+    "dndFeat": 2249,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 545,
+    "dndFeat": 2250,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 568,
+    "dndFeat": 2304,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 579,
+    "dndFeat": 2361,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 633,
+    "dndFeat": 2575,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 644,
+    "dndFeat": 2629,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 679,
+    "dndFeat": 2777,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 700,
+    "dndFeat": 2876,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 719,
+    "dndFeat": 3001,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 745,
+    "dndFeat": 3128,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 788,
+    "dndFeat": 508,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 795,
+    "dndFeat": 2916,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 809,
+    "dndFeat": 3202,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 815,
+    "dndFeat": 3209,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 818,
+    "dndFeat": 3212,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 855,
+    "dndFeat": 3260,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "10",
+    "value2": ""
+  },
+  {
+    "_id": 895,
+    "dndFeat": 3382,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 907,
+    "dndFeat": 3402,
+    "dndSpecialFeatPrerequisite": 30,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 911,
+    "dndFeat": 3409,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 930,
+    "dndFeat": 3458,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 940,
+    "dndFeat": 3474,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 946,
+    "dndFeat": 3483,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 954,
+    "dndFeat": 3497,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 987,
+    "dndFeat": 3569,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 991,
+    "dndFeat": 3578,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 998,
+    "dndFeat": 3588,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 1002,
+    "dndFeat": 3603,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1014,
+    "dndFeat": 1115,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1019,
+    "dndFeat": 2066,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1022,
+    "dndFeat": 3631,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "3rd+",
+    "value2": ""
+  },
+  {
+    "_id": 1064,
+    "dndFeat": 3684,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1099,
+    "dndFeat": 1326,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 1103,
+    "dndFeat": 268,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1119,
+    "dndFeat": 3764,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 562,
+    "dndFeat": 2290,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 565,
+    "dndFeat": 2294,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 600,
+    "dndFeat": 2421,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 611,
+    "dndFeat": 2473,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 621,
+    "dndFeat": 2523,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 669,
+    "dndFeat": 2750,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 721,
+    "dndFeat": 3006,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 729,
+    "dndFeat": 3047,
+    "dndSpecialFeatPrerequisite": 29,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 746,
+    "dndFeat": 3128,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 747,
+    "dndFeat": 3133,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 753,
+    "dndFeat": 3168,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 758,
+    "dndFeat": 2868,
+    "dndSpecialFeatPrerequisite": 11,
+    "value1": "1",
+    "value2": "1"
+  },
+  {
+    "_id": 771,
+    "dndFeat": 1456,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 777,
+    "dndFeat": 2379,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "+6",
+    "value2": ""
+  },
+  {
+    "_id": 789,
+    "dndFeat": 1842,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 806,
+    "dndFeat": 3193,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 807,
+    "dndFeat": 3140,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 808,
+    "dndFeat": 3198,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 824,
+    "dndFeat": 3220,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 837,
+    "dndFeat": 3238,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 844,
+    "dndFeat": 3250,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 857,
+    "dndFeat": 3262,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 860,
+    "dndFeat": 413,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 861,
+    "dndFeat": 1102,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 873,
+    "dndFeat": 3342,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 897,
+    "dndFeat": 3388,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 899,
+    "dndFeat": 3390,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 903,
+    "dndFeat": 3398,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 924,
+    "dndFeat": 3449,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 950,
+    "dndFeat": 3491,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 952,
+    "dndFeat": 3493,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 965,
+    "dndFeat": 3518,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 970,
+    "dndFeat": 3531,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 995,
+    "dndFeat": 3586,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 1006,
+    "dndFeat": 3611,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 1009,
+    "dndFeat": 3617,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1075,
+    "dndFeat": 3721,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1082,
+    "dndFeat": 3743,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1094,
+    "dndFeat": 3762,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 571,
+    "dndFeat": 2312,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 552,
+    "dndFeat": 2274,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 619,
+    "dndFeat": 2515,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 653,
+    "dndFeat": 2680,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 655,
+    "dndFeat": 2681,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 658,
+    "dndFeat": 2689,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 663,
+    "dndFeat": 2722,
+    "dndSpecialFeatPrerequisite": 29,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 671,
+    "dndFeat": 2754,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 706,
+    "dndFeat": 2923,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 712,
+    "dndFeat": 2982,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 716,
+    "dndFeat": 2999,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 736,
+    "dndFeat": 3097,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 765,
+    "dndFeat": 2692,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 802,
+    "dndFeat": 1917,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 805,
+    "dndFeat": 210,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 813,
+    "dndFeat": 3207,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 843,
+    "dndFeat": 3249,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 846,
+    "dndFeat": 3252,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 858,
+    "dndFeat": 3263,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 893,
+    "dndFeat": 3378,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 912,
+    "dndFeat": 2500,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 920,
+    "dndFeat": 3443,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "12",
+    "value2": ""
+  },
+  {
+    "_id": 922,
+    "dndFeat": 3447,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 926,
+    "dndFeat": 3455,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 927,
+    "dndFeat": 3456,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 945,
+    "dndFeat": 3481,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 978,
+    "dndFeat": 3549,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 984,
+    "dndFeat": 3566,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1012,
+    "dndFeat": 1115,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1013,
+    "dndFeat": 1115,
+    "dndSpecialFeatPrerequisite": 21,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1021,
+    "dndFeat": 3621,
+    "dndSpecialFeatPrerequisite": 36,
+    "value1": "3rd",
+    "value2": ""
+  },
+  {
+    "_id": 1031,
+    "dndFeat": 3639,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1052,
+    "dndFeat": 3670,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1066,
+    "dndFeat": 3687,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 1101,
+    "dndFeat": 1883,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1104,
+    "dndFeat": 268,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 607,
+    "dndFeat": 2457,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 629,
+    "dndFeat": 2567,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 640,
+    "dndFeat": 2618,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 656,
+    "dndFeat": 2687,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 657,
+    "dndFeat": 2688,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 681,
+    "dndFeat": 2780,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 699,
+    "dndFeat": 2870,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 713,
+    "dndFeat": 2983,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 723,
+    "dndFeat": 3014,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 733,
+    "dndFeat": 3067,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 740,
+    "dndFeat": 3111,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 798,
+    "dndFeat": 655,
+    "dndSpecialFeatPrerequisite": 33,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 803,
+    "dndFeat": 1917,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "selected weapon",
+    "value2": ""
+  },
+  {
+    "_id": 867,
+    "dndFeat": 3125,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "with selected weapon",
+    "value2": ""
+  },
+  {
+    "_id": 916,
+    "dndFeat": 3417,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 939,
+    "dndFeat": 3474,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 972,
+    "dndFeat": 3536,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 979,
+    "dndFeat": 3550,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 1003,
+    "dndFeat": 3604,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 1026,
+    "dndFeat": 3636,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1032,
+    "dndFeat": 3640,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 1045,
+    "dndFeat": 3652,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 1063,
+    "dndFeat": 3683,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1077,
+    "dndFeat": 3725,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1092,
+    "dndFeat": 3760,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "11th",
+    "value2": ""
+  },
+  {
+    "_id": 1108,
+    "dndFeat": 1349,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1122,
+    "dndFeat": 3765,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 546,
+    "dndFeat": 2251,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 578,
+    "dndFeat": 2359,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 557,
+    "dndFeat": 2281,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 559,
+    "dndFeat": 2285,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 561,
+    "dndFeat": 2289,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 570,
+    "dndFeat": 2310,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 577,
+    "dndFeat": 2355,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 584,
+    "dndFeat": 2375,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 595,
+    "dndFeat": 2411,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 599,
+    "dndFeat": 2420,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 606,
+    "dndFeat": 2450,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 609,
+    "dndFeat": 2468,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "20",
+    "value2": ""
+  },
+  {
+    "_id": 615,
+    "dndFeat": 2505,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 625,
+    "dndFeat": 2529,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 634,
+    "dndFeat": 2579,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 661,
+    "dndFeat": 2704,
+    "dndSpecialFeatPrerequisite": 13,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 665,
+    "dndFeat": 2737,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 670,
+    "dndFeat": 2753,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 693,
+    "dndFeat": 2842,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 698,
+    "dndFeat": 2862,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 703,
+    "dndFeat": 2916,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 705,
+    "dndFeat": 2922,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "30",
+    "value2": ""
+  },
+  {
+    "_id": 707,
+    "dndFeat": 2931,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 781,
+    "dndFeat": 1713,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 786,
+    "dndFeat": 488,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "Hand, heavy, or light crossbow",
+    "value2": ""
+  },
+  {
+    "_id": 791,
+    "dndFeat": 2658,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 801,
+    "dndFeat": 65,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 804,
+    "dndFeat": 128,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 821,
+    "dndFeat": 3217,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 845,
+    "dndFeat": 3251,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 872,
+    "dndFeat": 3341,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 900,
+    "dndFeat": 3390,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 917,
+    "dndFeat": 3426,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 951,
+    "dndFeat": 2067,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 973,
+    "dndFeat": 3537,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 975,
+    "dndFeat": 3539,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 976,
+    "dndFeat": 3545,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1028,
+    "dndFeat": 3638,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1039,
+    "dndFeat": 3646,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 1049,
+    "dndFeat": 3668,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "7+",
+    "value2": ""
+  },
+  {
+    "_id": 1057,
+    "dndFeat": 3674,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15+",
+    "value2": ""
+  },
+  {
+    "_id": 1073,
+    "dndFeat": 3698,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1074,
+    "dndFeat": 3711,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1081,
+    "dndFeat": 3742,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 1085,
+    "dndFeat": 3751,
+    "dndSpecialFeatPrerequisite": 38,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 1089,
+    "dndFeat": 3754,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "12",
+    "value2": ""
+  },
+  {
+    "_id": 1113,
+    "dndFeat": 2300,
+    "dndSpecialFeatPrerequisite": 38,
+    "value1": "+4",
+    "value2": ""
+  },
+  {
+    "_id": 1124,
+    "dndFeat": 1277,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 589,
+    "dndFeat": 2384,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 617,
+    "dndFeat": 2512,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 623,
+    "dndFeat": 2525,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 641,
+    "dndFeat": 2620,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 674,
+    "dndFeat": 2759,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 688,
+    "dndFeat": 2830,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 710,
+    "dndFeat": 2955,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 727,
+    "dndFeat": 3034,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 734,
+    "dndFeat": 3075,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 749,
+    "dndFeat": 3140,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 757,
+    "dndFeat": 3180,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 773,
+    "dndFeat": 778,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 779,
+    "dndFeat": 3189,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "+2",
+    "value2": ""
+  },
+  {
+    "_id": 782,
+    "dndFeat": 870,
+    "dndSpecialFeatPrerequisite": 31,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 822,
+    "dndFeat": 3218,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 836,
+    "dndFeat": 3237,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 859,
+    "dndFeat": 3269,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 892,
+    "dndFeat": 3375,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 896,
+    "dndFeat": 3387,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 918,
+    "dndFeat": 3430,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 938,
+    "dndFeat": 3470,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 967,
+    "dndFeat": 3520,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 969,
+    "dndFeat": 3522,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 977,
+    "dndFeat": 3548,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1000,
+    "dndFeat": 3596,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 1018,
+    "dndFeat": 2063,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1033,
+    "dndFeat": 3641,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 1034,
+    "dndFeat": 3641,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1046,
+    "dndFeat": 3659,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1069,
+    "dndFeat": 3692,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1071,
+    "dndFeat": 3695,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1102,
+    "dndFeat": 2265,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "10th",
+    "value2": ""
+  },
+  {
+    "_id": 1105,
+    "dndFeat": 378,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 596,
+    "dndFeat": 2412,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 620,
+    "dndFeat": 2516,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 636,
+    "dndFeat": 2585,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 643,
+    "dndFeat": 2628,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 654,
+    "dndFeat": 2680,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 667,
+    "dndFeat": 2748,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 673,
+    "dndFeat": 2758,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 682,
+    "dndFeat": 2786,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 695,
+    "dndFeat": 2853,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 715,
+    "dndFeat": 2998,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 755,
+    "dndFeat": 3178,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 784,
+    "dndFeat": 1239,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 792,
+    "dndFeat": 3192,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 829,
+    "dndFeat": 3227,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 835,
+    "dndFeat": 3236,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 879,
+    "dndFeat": 3346,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 898,
+    "dndFeat": 3389,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 908,
+    "dndFeat": 3403,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 936,
+    "dndFeat": 3464,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 992,
+    "dndFeat": 3581,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 997,
+    "dndFeat": 3588,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 1030,
+    "dndFeat": 3639,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1040,
+    "dndFeat": 3647,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 1050,
+    "dndFeat": 3669,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1051,
+    "dndFeat": 3669,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1+",
+    "value2": ""
+  },
+  {
+    "_id": 1078,
+    "dndFeat": 3725,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1090,
+    "dndFeat": 3756,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1091,
+    "dndFeat": 3759,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "5th",
+    "value2": ""
+  },
+  {
+    "_id": 1093,
+    "dndFeat": 3761,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "17th",
+    "value2": ""
+  },
+  {
+    "_id": 1097,
+    "dndFeat": 958,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "11th",
+    "value2": ""
+  },
+  {
+    "_id": 1098,
+    "dndFeat": 1207,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1107,
+    "dndFeat": 1159,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1116,
+    "dndFeat": 2773,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 543,
+    "dndFeat": 2238,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 547,
+    "dndFeat": 2251,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 556,
+    "dndFeat": 2279,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 598,
+    "dndFeat": 2417,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 635,
+    "dndFeat": 2580,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 638,
+    "dndFeat": 2609,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 662,
+    "dndFeat": 2716,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 687,
+    "dndFeat": 2802,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 711,
+    "dndFeat": 2965,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 735,
+    "dndFeat": 3075,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 752,
+    "dndFeat": 3168,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 760,
+    "dndFeat": 2865,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 763,
+    "dndFeat": 160,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "Armor Spikes",
+    "value2": ""
+  },
+  {
+    "_id": 772,
+    "dndFeat": 1712,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 787,
+    "dndFeat": 488,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 842,
+    "dndFeat": 3249,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 847,
+    "dndFeat": 3253,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 866,
+    "dndFeat": 3125,
+    "dndSpecialFeatPrerequisite": 14,
+    "value1": "18",
+    "value2": ""
+  },
+  {
+    "_id": 875,
+    "dndFeat": 3345,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 884,
+    "dndFeat": 3356,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 914,
+    "dndFeat": 3416,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "17+",
+    "value2": ""
+  },
+  {
+    "_id": 928,
+    "dndFeat": 3456,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 955,
+    "dndFeat": 2896,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 974,
+    "dndFeat": 3538,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1001,
+    "dndFeat": 3597,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1023,
+    "dndFeat": 3633,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 1054,
+    "dndFeat": 3671,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1065,
+    "dndFeat": 3686,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1079,
+    "dndFeat": 3726,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1086,
+    "dndFeat": 3751,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 580,
+    "dndFeat": 2362,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 582,
+    "dndFeat": 2368,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 592,
+    "dndFeat": 2408,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 593,
+    "dndFeat": 2409,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 601,
+    "dndFeat": 2423,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 689,
+    "dndFeat": 2830,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 764,
+    "dndFeat": 160,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "Greataxe",
+    "value2": ""
+  },
+  {
+    "_id": 770,
+    "dndFeat": 1456,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 810,
+    "dndFeat": 3203,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 811,
+    "dndFeat": 3204,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 819,
+    "dndFeat": 3215,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 830,
+    "dndFeat": 3227,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "10",
+    "value2": ""
+  },
+  {
+    "_id": 831,
+    "dndFeat": 3228,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 851,
+    "dndFeat": 3257,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 864,
+    "dndFeat": 3322,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 874,
+    "dndFeat": 3343,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 887,
+    "dndFeat": 3368,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 890,
+    "dndFeat": 3374,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 919,
+    "dndFeat": 3435,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "",
+    "value2": "15"
+  },
+  {
+    "_id": 943,
+    "dndFeat": 3480,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 948,
+    "dndFeat": 3489,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 958,
+    "dndFeat": 3507,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 990,
+    "dndFeat": 3575,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 993,
+    "dndFeat": 3582,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1007,
+    "dndFeat": 3615,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 1015,
+    "dndFeat": 2644,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "14",
+    "value2": ""
+  },
+  {
+    "_id": 1061,
+    "dndFeat": 3681,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 1076,
+    "dndFeat": 3721,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 1088,
+    "dndFeat": 3753,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1096,
+    "dndFeat": 3147,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 1112,
+    "dndFeat": 2196,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 550,
+    "dndFeat": 2268,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 551,
+    "dndFeat": 2273,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 637,
+    "dndFeat": 2600,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 649,
+    "dndFeat": 2665,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 675,
+    "dndFeat": 2774,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 696,
+    "dndFeat": 2860,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "23",
+    "value2": ""
+  },
+  {
+    "_id": 702,
+    "dndFeat": 2910,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 717,
+    "dndFeat": 3000,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 748,
+    "dndFeat": 3134,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 769,
+    "dndFeat": 2787,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 776,
+    "dndFeat": 3009,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 790,
+    "dndFeat": 1842,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 862,
+    "dndFeat": 3320,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 891,
+    "dndFeat": 3375,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 933,
+    "dndFeat": 3460,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 937,
+    "dndFeat": 3464,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 959,
+    "dndFeat": 3507,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 966,
+    "dndFeat": 3519,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 983,
+    "dndFeat": 3560,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 989,
+    "dndFeat": 3574,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 996,
+    "dndFeat": 3587,
+    "dndSpecialFeatPrerequisite": 27,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 1017,
+    "dndFeat": 1936,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1020,
+    "dndFeat": 3620,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "12th",
+    "value2": ""
+  },
+  {
+    "_id": 1024,
+    "dndFeat": 3633,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1048,
+    "dndFeat": 3660,
+    "dndSpecialFeatPrerequisite": 37,
+    "value1": "Lolth",
+    "value2": ""
+  },
+  {
+    "_id": 1080,
+    "dndFeat": 3742,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1106,
+    "dndFeat": 1159,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1109,
+    "dndFeat": 1349,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1121,
+    "dndFeat": 3765,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 548,
+    "dndFeat": 2253,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 553,
+    "dndFeat": 2275,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 563,
+    "dndFeat": 2292,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 569,
+    "dndFeat": 2304,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 586,
+    "dndFeat": 2380,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 588,
+    "dndFeat": 2383,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 628,
+    "dndFeat": 2548,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 642,
+    "dndFeat": 2621,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 652,
+    "dndFeat": 2670,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 660,
+    "dndFeat": 2691,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 664,
+    "dndFeat": 2737,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 697,
+    "dndFeat": 2861,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 704,
+    "dndFeat": 2917,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 720,
+    "dndFeat": 3005,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 726,
+    "dndFeat": 3017,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 731,
+    "dndFeat": 3061,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 739,
+    "dndFeat": 3103,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 751,
+    "dndFeat": 3163,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 754,
+    "dndFeat": 3171,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 838,
+    "dndFeat": 3239,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 840,
+    "dndFeat": 3242,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 852,
+    "dndFeat": 3258,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 870,
+    "dndFeat": 3339,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 877,
+    "dndFeat": 3346,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 881,
+    "dndFeat": 3349,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 888,
+    "dndFeat": 3371,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 906,
+    "dndFeat": 3401,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "12",
+    "value2": ""
+  },
+  {
+    "_id": 956,
+    "dndFeat": 3505,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 988,
+    "dndFeat": 3570,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1029,
+    "dndFeat": 3639,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 1038,
+    "dndFeat": 3646,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1059,
+    "dndFeat": 3679,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1067,
+    "dndFeat": 3687,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 1068,
+    "dndFeat": 3689,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1120,
+    "dndFeat": 3764,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 1123,
+    "dndFeat": 3766,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 558,
+    "dndFeat": 2284,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 572,
+    "dndFeat": 2315,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 576,
+    "dndFeat": 2353,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 581,
+    "dndFeat": 2367,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 613,
+    "dndFeat": 2498,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 616,
+    "dndFeat": 2510,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 622,
+    "dndFeat": 2524,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 650,
+    "dndFeat": 2665,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 680,
+    "dndFeat": 2778,
+    "dndSpecialFeatPrerequisite": 23,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 683,
+    "dndFeat": 2800,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 690,
+    "dndFeat": 2831,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 691,
+    "dndFeat": 2837,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 694,
+    "dndFeat": 2845,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "7",
+    "value2": ""
+  },
+  {
+    "_id": 714,
+    "dndFeat": 2996,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 722,
+    "dndFeat": 3008,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 725,
+    "dndFeat": 3016,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 730,
+    "dndFeat": 3055,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 732,
+    "dndFeat": 3066,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 750,
+    "dndFeat": 3155,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 759,
+    "dndFeat": 2865,
+    "dndSpecialFeatPrerequisite": 11,
+    "value1": "1",
+    "value2": "1"
+  },
+  {
+    "_id": 761,
+    "dndFeat": 3181,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 814,
+    "dndFeat": 3208,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 817,
+    "dndFeat": 3211,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 856,
+    "dndFeat": 3261,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 865,
+    "dndFeat": 3329,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 876,
+    "dndFeat": 3345,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 882,
+    "dndFeat": 3350,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 886,
+    "dndFeat": 3366,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 889,
+    "dndFeat": 3373,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 904,
+    "dndFeat": 3398,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "10",
+    "value2": ""
+  },
+  {
+    "_id": 929,
+    "dndFeat": 3457,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "5",
+    "value2": ""
+  },
+  {
+    "_id": 935,
+    "dndFeat": 3463,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "7",
+    "value2": ""
+  },
+  {
+    "_id": 949,
+    "dndFeat": 3490,
+    "dndSpecialFeatPrerequisite": 9,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 961,
+    "dndFeat": 3513,
+    "dndSpecialFeatPrerequisite": 22,
+    "value1": "7",
+    "value2": ""
+  },
+  {
+    "_id": 980,
+    "dndFeat": 3553,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 1008,
+    "dndFeat": 3616,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 1010,
+    "dndFeat": 3618,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 1041,
+    "dndFeat": 3647,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1058,
+    "dndFeat": 3678,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1072,
+    "dndFeat": 3696,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1087,
+    "dndFeat": 3751,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1117,
+    "dndFeat": 2803,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 555,
+    "dndFeat": 2278,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 574,
+    "dndFeat": 2317,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "1",
+    "value2": ""
+  },
+  {
+    "_id": 587,
+    "dndFeat": 2382,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 597,
+    "dndFeat": 2416,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 603,
+    "dndFeat": 2424,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "19",
+    "value2": ""
+  },
+  {
+    "_id": 610,
+    "dndFeat": 2472,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 632,
+    "dndFeat": 2574,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 645,
+    "dndFeat": 2636,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 648,
+    "dndFeat": 2664,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 651,
+    "dndFeat": 2668,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 672,
+    "dndFeat": 2756,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 678,
+    "dndFeat": 2777,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 728,
+    "dndFeat": 3035,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 737,
+    "dndFeat": 3097,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 800,
+    "dndFeat": 655,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 820,
+    "dndFeat": 3216,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 823,
+    "dndFeat": 3219,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 827,
+    "dndFeat": 3223,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 841,
+    "dndFeat": 3247,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 849,
+    "dndFeat": 3255,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 863,
+    "dndFeat": 3321,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15+",
+    "value2": ""
+  },
+  {
+    "_id": 878,
+    "dndFeat": 3346,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 880,
+    "dndFeat": 3349,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 885,
+    "dndFeat": 3362,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 894,
+    "dndFeat": 3379,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "8",
+    "value2": ""
+  },
+  {
+    "_id": 925,
+    "dndFeat": 3450,
+    "dndSpecialFeatPrerequisite": 32,
+    "value1": "",
+    "value2": ""
+  },
+  {
+    "_id": 932,
+    "dndFeat": 3460,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 947,
+    "dndFeat": 3488,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 964,
+    "dndFeat": 3517,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "11",
+    "value2": ""
+  },
+  {
+    "_id": 981,
+    "dndFeat": 3555,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1044,
+    "dndFeat": 3651,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "25",
+    "value2": ""
+  },
+  {
+    "_id": 1053,
+    "dndFeat": 3670,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "13+",
+    "value2": ""
+  },
+  {
+    "_id": 1118,
+    "dndFeat": 2803,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 575,
+    "dndFeat": 2341,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 591,
+    "dndFeat": 2400,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "6",
+    "value2": ""
+  },
+  {
+    "_id": 612,
+    "dndFeat": 2494,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 624,
+    "dndFeat": 2528,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 630,
+    "dndFeat": 2569,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 677,
+    "dndFeat": 2776,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 692,
+    "dndFeat": 2841,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 718,
+    "dndFeat": 3000,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "9",
+    "value2": ""
+  },
+  {
+    "_id": 724,
+    "dndFeat": 3015,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "21",
+    "value2": ""
+  },
+  {
+    "_id": 738,
+    "dndFeat": 3100,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 785,
+    "dndFeat": 1239,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 793,
+    "dndFeat": 2844,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 812,
+    "dndFeat": 3205,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 816,
+    "dndFeat": 3210,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 826,
+    "dndFeat": 3222,
+    "dndSpecialFeatPrerequisite": 3,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 833,
+    "dndFeat": 3232,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 871,
+    "dndFeat": 3340,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "4",
+    "value2": ""
+  },
+  {
+    "_id": 905,
+    "dndFeat": 3401,
+    "dndSpecialFeatPrerequisite": 1,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 921,
+    "dndFeat": 3446,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "3",
+    "value2": ""
+  },
+  {
+    "_id": 960,
+    "dndFeat": 3507,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 982,
+    "dndFeat": 3556,
+    "dndSpecialFeatPrerequisite": 6,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 1016,
+    "dndFeat": 2644,
+    "dndSpecialFeatPrerequisite": 12,
+    "value1": "slashing weapon",
+    "value2": ""
+  },
+  {
+    "_id": 1025,
+    "dndFeat": 3635,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1027,
+    "dndFeat": 3636,
+    "dndSpecialFeatPrerequisite": 4,
+    "value1": "13",
+    "value2": ""
+  },
+  {
+    "_id": 1042,
+    "dndFeat": 3649,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1047,
+    "dndFeat": 3660,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1055,
+    "dndFeat": 3673,
+    "dndSpecialFeatPrerequisite": 8,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1062,
+    "dndFeat": 3681,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "17",
+    "value2": ""
+  },
+  {
+    "_id": 1083,
+    "dndFeat": 3749,
+    "dndSpecialFeatPrerequisite": 7,
+    "value1": "6th",
+    "value2": ""
+  },
+  {
+    "_id": 1084,
+    "dndFeat": 3750,
+    "dndSpecialFeatPrerequisite": 5,
+    "value1": "15",
+    "value2": ""
+  },
+  {
+    "_id": 1100,
+    "dndFeat": 1835,
+    "dndSpecialFeatPrerequisite": 10,
+    "value1": "2",
+    "value2": ""
+  },
+  {
+    "_id": 1115,
+    "dndFeat": 2773,
+    "dndSpecialFeatPrerequisite": 2,
+    "value1": "15",
+    "value2": ""
+  }
+]

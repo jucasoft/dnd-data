@@ -1,0 +1,132 @@
+[
+  {
+    "_id": 15,
+    "name": "Transmutation/Divination",
+    "slug": "transmutationdivination"
+  },
+  {
+    "_id": 6,
+    "name": "Necromancy",
+    "slug": "necromancy"
+  },
+  {
+    "_id": 24,
+    "name": "Tiger Claw",
+    "slug": "tiger-claw"
+  },
+  {
+    "_id": 8,
+    "name": "Illusion",
+    "slug": "illusion"
+  },
+  {
+    "_id": 23,
+    "name": "Stone Dragon",
+    "slug": "stone-dragon"
+  },
+  {
+    "_id": 17,
+    "name": "Desert Wind",
+    "slug": "desert-wind"
+  },
+  {
+    "_id": 3,
+    "name": "Divination",
+    "slug": "divination"
+  },
+  {
+    "_id": 25,
+    "name": "White Raven",
+    "slug": "white-raven"
+  },
+  {
+    "_id": 26,
+    "name": "varied",
+    "slug": "varied"
+  },
+  {
+    "_id": 5,
+    "name": "Evocation",
+    "slug": "evocation"
+  },
+  {
+    "_id": 21,
+    "name": "Setting Sun",
+    "slug": "setting-sun"
+  },
+  {
+    "_id": 2,
+    "name": "Conjuration",
+    "slug": "conjuration"
+  },
+  {
+    "_id": 10,
+    "name": "Conjuration/Evocation",
+    "slug": "conjurationevocation"
+  },
+  {
+    "_id": 9,
+    "name": "Universal",
+    "slug": "universal"
+  },
+  {
+    "_id": 11,
+    "name": "Transmutation/Evocation",
+    "slug": "transmutationevocation"
+  },
+  {
+    "_id": 14,
+    "name": "Evocation/Transmutation",
+    "slug": "evocationtransmutation"
+  },
+  {
+    "_id": 4,
+    "name": "Enchantment",
+    "slug": "enchantment"
+  },
+  {
+    "_id": 19,
+    "name": "Diamond Mind",
+    "slug": "diamond-mind"
+  },
+  {
+    "_id": 13,
+    "name": "Divination/Evocation",
+    "slug": "divinationevocation"
+  },
+  {
+    "_id": 7,
+    "name": "Transmutation",
+    "slug": "transmutation"
+  },
+  {
+    "_id": 16,
+    "name": "Abjuration/Evocation",
+    "slug": "abjurationevocation"
+  },
+  {
+    "_id": 20,
+    "name": "Iron Heart",
+    "slug": "iron-heart"
+  },
+  {
+    "_id": 22,
+    "name": "Shadow Hand",
+    "slug": "shadow-hand"
+  },
+  {
+    "_id": 12,
+    "name": "Conjuration/Necromancy",
+    "slug": "conjurationnecromancy"
+  },
+  {
+    "_id": 1,
+    "name": "Abjuration",
+    "slug": "abjuration"
+  },
+  {
+    "_id": 18,
+    "name": "Devoted Spirit",
+    "slug": "devoted-spirit"
+  }
+]

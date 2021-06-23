@@ -1,0 +1,442 @@
+[
+  {
+    "_id": 138,
+    "dndLanguage": 11,
+    "dndRace": 1
+  },
+  {
+    "_id": 220,
+    "dndLanguage": 9,
+    "dndRace": 26
+  },
+  {
+    "_id": 101,
+    "dndLanguage": 1,
+    "dndRace": 6
+  },
+  {
+    "_id": 222,
+    "dndLanguage": 11,
+    "dndRace": 26
+  },
+  {
+    "_id": 221,
+    "dndLanguage": 26,
+    "dndRace": 26
+  },
+  {
+    "_id": 229,
+    "dndLanguage": 15,
+    "dndRace": 27
+  },
+  {
+    "_id": 83,
+    "dndLanguage": 6,
+    "dndRace": 32
+  },
+  {
+    "_id": 111,
+    "dndLanguage": 11,
+    "dndRace": 36
+  },
+  {
+    "_id": 106,
+    "dndLanguage": 16,
+    "dndRace": 6
+  },
+  {
+    "_id": 159,
+    "dndLanguage": 2,
+    "dndRace": 17
+  },
+  {
+    "_id": 161,
+    "dndLanguage": 4,
+    "dndRace": 17
+  },
+  {
+    "_id": 81,
+    "dndLanguage": 4,
+    "dndRace": 32
+  },
+  {
+    "_id": 84,
+    "dndLanguage": 22,
+    "dndRace": 33
+  },
+  {
+    "_id": 113,
+    "dndLanguage": 19,
+    "dndRace": 36
+  },
+  {
+    "_id": 190,
+    "dndLanguage": 1,
+    "dndRace": 40
+  },
+  {
+    "_id": 246,
+    "dndLanguage": 2,
+    "dndRace": 41
+  },
+  {
+    "_id": 160,
+    "dndLanguage": 3,
+    "dndRace": 17
+  },
+  {
+    "_id": 137,
+    "dndLanguage": 10,
+    "dndRace": 1
+  },
+  {
+    "_id": 212,
+    "dndLanguage": 11,
+    "dndRace": 24
+  },
+  {
+    "_id": 82,
+    "dndLanguage": 5,
+    "dndRace": 32
+  },
+  {
+    "_id": 79,
+    "dndLanguage": 24,
+    "dndRace": 32
+  },
+  {
+    "_id": 235,
+    "dndLanguage": 6,
+    "dndRace": 34
+  },
+  {
+    "_id": 163,
+    "dndLanguage": 6,
+    "dndRace": 17
+  },
+  {
+    "_id": 69,
+    "dndLanguage": 2,
+    "dndRace": 30
+  },
+  {
+    "_id": 78,
+    "dndLanguage": 22,
+    "dndRace": 31
+  },
+  {
+    "_id": 119,
+    "dndLanguage": 9,
+    "dndRace": 8
+  },
+  {
+    "_id": 105,
+    "dndLanguage": 15,
+    "dndRace": 6
+  },
+  {
+    "_id": 144,
+    "dndLanguage": 28,
+    "dndRace": 39
+  },
+  {
+    "_id": 249,
+    "dndLanguage": 10,
+    "dndRace": 41
+  },
+  {
+    "_id": 214,
+    "dndLanguage": 6,
+    "dndRace": 24
+  },
+  {
+    "_id": 211,
+    "dndLanguage": 9,
+    "dndRace": 24
+  },
+  {
+    "_id": 70,
+    "dndLanguage": 12,
+    "dndRace": 30
+  },
+  {
+    "_id": 112,
+    "dndLanguage": 10,
+    "dndRace": 36
+  },
+  {
+    "_id": 189,
+    "dndLanguage": 24,
+    "dndRace": 40
+  },
+  {
+    "_id": 139,
+    "dndLanguage": 12,
+    "dndRace": 1
+  },
+  {
+    "_id": 120,
+    "dndLanguage": 2,
+    "dndRace": 8
+  },
+  {
+    "_id": 153,
+    "dndLanguage": 3,
+    "dndRace": 20
+  },
+  {
+    "_id": 154,
+    "dndLanguage": 4,
+    "dndRace": 20
+  },
+  {
+    "_id": 228,
+    "dndLanguage": 29,
+    "dndRace": 27
+  },
+  {
+    "_id": 76,
+    "dndLanguage": 7,
+    "dndRace": 29
+  },
+  {
+    "_id": 75,
+    "dndLanguage": 14,
+    "dndRace": 29
+  },
+  {
+    "_id": 232,
+    "dndLanguage": 9,
+    "dndRace": 34
+  },
+  {
+    "_id": 248,
+    "dndLanguage": 4,
+    "dndRace": 41
+  },
+  {
+    "_id": 245,
+    "dndLanguage": 35,
+    "dndRace": 41
+  },
+  {
+    "_id": 118,
+    "dndLanguage": 24,
+    "dndRace": 8
+  },
+  {
+    "_id": 162,
+    "dndLanguage": 5,
+    "dndRace": 17
+  },
+  {
+    "_id": 213,
+    "dndLanguage": 30,
+    "dndRace": 24
+  },
+  {
+    "_id": 143,
+    "dndLanguage": 1,
+    "dndRace": 39
+  },
+  {
+    "_id": 102,
+    "dndLanguage": 4,
+    "dndRace": 6
+  },
+  {
+    "_id": 104,
+    "dndLanguage": 14,
+    "dndRace": 6
+  },
+  {
+    "_id": 230,
+    "dndLanguage": 32,
+    "dndRace": 25
+  },
+  {
+    "_id": 231,
+    "dndLanguage": 33,
+    "dndRace": 25
+  },
+  {
+    "_id": 219,
+    "dndLanguage": 15,
+    "dndRace": 28
+  },
+  {
+    "_id": 240,
+    "dndLanguage": 9,
+    "dndRace": 38
+  },
+  {
+    "_id": 193,
+    "dndLanguage": 14,
+    "dndRace": 40
+  },
+  {
+    "_id": 158,
+    "dndLanguage": 1,
+    "dndRace": 17
+  },
+  {
+    "_id": 152,
+    "dndLanguage": 2,
+    "dndRace": 20
+  },
+  {
+    "_id": 155,
+    "dndLanguage": 5,
+    "dndRace": 20
+  },
+  {
+    "_id": 156,
+    "dndLanguage": 10,
+    "dndRace": 20
+  },
+  {
+    "_id": 224,
+    "dndLanguage": 15,
+    "dndRace": 26
+  },
+  {
+    "_id": 223,
+    "dndLanguage": 29,
+    "dndRace": 26
+  },
+  {
+    "_id": 117,
+    "dndLanguage": 22,
+    "dndRace": 37
+  },
+  {
+    "_id": 247,
+    "dndLanguage": 11,
+    "dndRace": 41
+  },
+  {
+    "_id": 74,
+    "dndLanguage": 19,
+    "dndRace": 29
+  },
+  {
+    "_id": 103,
+    "dndLanguage": 11,
+    "dndRace": 6
+  },
+  {
+    "_id": 114,
+    "dndLanguage": 14,
+    "dndRace": 36
+  },
+  {
+    "_id": 243,
+    "dndLanguage": 30,
+    "dndRace": 38
+  },
+  {
+    "_id": 151,
+    "dndLanguage": 1,
+    "dndRace": 20
+  },
+  {
+    "_id": 225,
+    "dndLanguage": 9,
+    "dndRace": 27
+  },
+  {
+    "_id": 215,
+    "dndLanguage": 9,
+    "dndRace": 28
+  },
+  {
+    "_id": 157,
+    "dndLanguage": 11,
+    "dndRace": 20
+  },
+  {
+    "_id": 226,
+    "dndLanguage": 26,
+    "dndRace": 27
+  },
+  {
+    "_id": 241,
+    "dndLanguage": 11,
+    "dndRace": 38
+  },
+  {
+    "_id": 227,
+    "dndLanguage": 11,
+    "dndRace": 27
+  },
+  {
+    "_id": 216,
+    "dndLanguage": 26,
+    "dndRace": 28
+  },
+  {
+    "_id": 218,
+    "dndLanguage": 29,
+    "dndRace": 28
+  },
+  {
+    "_id": 73,
+    "dndLanguage": 1,
+    "dndRace": 29
+  },
+  {
+    "_id": 71,
+    "dndLanguage": 10,
+    "dndRace": 30
+  },
+  {
+    "_id": 234,
+    "dndLanguage": 11,
+    "dndRace": 34
+  },
+  {
+    "_id": 242,
+    "dndLanguage": 29,
+    "dndRace": 38
+  },
+  {
+    "_id": 121,
+    "dndLanguage": 11,
+    "dndRace": 8
+  },
+  {
+    "_id": 122,
+    "dndLanguage": 13,
+    "dndRace": 8
+  },
+  {
+    "_id": 217,
+    "dndLanguage": 11,
+    "dndRace": 28
+  },
+  {
+    "_id": 72,
+    "dndLanguage": 13,
+    "dndRace": 30
+  },
+  {
+    "_id": 80,
+    "dndLanguage": 3,
+    "dndRace": 32
+  },
+  {
+    "_id": 233,
+    "dndLanguage": 26,
+    "dndRace": 34
+  },
+  {
+    "_id": 191,
+    "dndLanguage": 10,
+    "dndRace": 40
+  },
+  {
+    "_id": 192,
+    "dndLanguage": 11,
+    "dndRace": 40
+  }
+]

@@ -2,6 +2,7 @@ import {ChangeDetectionStrategy, Component, HostListener, OnInit} from '@angular
 import {Store} from '@ngrx/store';
 import {InfoStoreActions, PgStoreActions, RootStoreState, SlideMenuStoreActions, SlideMenuStoreSelectors, SpellStoreActions} from '@root-store/index';
 import {Observable} from 'rxjs';
+import {LoadAppData} from '@root-store/actions';
 
 @Component({
   selector: 'app-root',
@@ -36,9 +37,12 @@ export class AppComponent implements OnInit {
       PgStoreActions.SearchRequest({queryParams: {}})
     );
 
-
     this.store$.dispatch(
       InfoStoreActions.SearchRequest({queryParams: {}})
+    );
+
+    this.store$.dispatch(
+      LoadAppData({queryParams: {}})
     );
 
     this.open$ = this.store$.select(SlideMenuStoreSelectors.selectOpen);
