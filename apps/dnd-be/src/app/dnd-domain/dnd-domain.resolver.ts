@@ -1,6 +1,7 @@
-import {Args, Int, Query, Resolver} from '@nestjs/graphql';
+import {Query, Resolver} from '@nestjs/graphql';
 import {DndDomainService} from './dnd-domain.service';
 import {DndDomain} from './entities/dnd-domain.entity';
+import {Observable, of} from 'rxjs';
 
 @Resolver(of => DndDomain)
 export class DndDomainResolver {
@@ -12,25 +13,17 @@ export class DndDomainResolver {
   //   return this.dndDomainService.create(createDndDomainInput);
   // }
 
-  @Query(() => DndDomain, {name: 'dndDomain', nullable: true})
-  findAll(@Args('id', {type: () => Int}) id: number): any {
-    const level1 = new DndDomain();
-    level1.exampleField = id;
-    return level1;
+  @Query(() => [DndDomain], {name: 'dndDomain', nullable: true})
+  findAll(): Observable<DndDomain[]> {
+    const result = new DndDomain();
+    result.name = 'name';
+    result.slug = 'slug';
+    return of([result]);
   }
 
   // @Query(() => DndDomain, { name: 'dndDomain' })
   // findOne(@Args('id', { type: () => Int }) id: number) {
   //   return this.dndDomainService.findOne(id);
   // }
-  //
-  // @Mutation(() => DndDomain)
-  // updateDndDomain(@Args('updateDndDomainInput') updateDndDomainInput: UpdateDndDomainInput) {
-  //   return this.dndDomainService.update(updateDndDomainInput.id, updateDndDomainInput);
-  // }
-  //
-  // @Mutation(() => DndDomain)
-  // removeDndDomain(@Args('id', { type: () => Int }) id: number) {
-  //   return this.dndDomainService.remove(id);
-  // }
+
 }
