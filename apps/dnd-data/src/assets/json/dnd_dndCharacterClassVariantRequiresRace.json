@@ -1,0 +1,884 @@
+[
+  {
+    "_id": 6,
+    "dndCharacterClassVariant": 378,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 23,
+    "dndCharacterClassVariant": 706,
+    "dndRace": 10,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 40,
+    "dndCharacterClassVariant": 736,
+    "dndRace": 12,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 41,
+    "dndCharacterClassVariant": 739,
+    "dndRace": 14,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 79,
+    "dndCharacterClassVariant": 664,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 27,
+    "dndCharacterClassVariant": 708,
+    "dndRace": 11,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 42,
+    "dndCharacterClassVariant": 739,
+    "dndRace": 13,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 99,
+    "dndCharacterClassVariant": 627,
+    "dndRace": 5,
+    "extra": "Scorpion",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 28,
+    "dndCharacterClassVariant": 709,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 9,
+    "dndCharacterClassVariant": 306,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 55,
+    "dndCharacterClassVariant": 596,
+    "dndRace": 18,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 63,
+    "dndCharacterClassVariant": 446,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 64,
+    "dndCharacterClassVariant": 898,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 81,
+    "dndCharacterClassVariant": 543,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 87,
+    "dndCharacterClassVariant": 773,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 90,
+    "dndCharacterClassVariant": 839,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 16,
+    "dndCharacterClassVariant": 431,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 22,
+    "dndCharacterClassVariant": 705,
+    "dndRace": 9,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 34,
+    "dndCharacterClassVariant": 728,
+    "dndRace": 13,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 52,
+    "dndCharacterClassVariant": 337,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 68,
+    "dndCharacterClassVariant": 948,
+    "dndRace": 22,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 13,
+    "dndCharacterClassVariant": 428,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 86,
+    "dndCharacterClassVariant": 773,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 35,
+    "dndCharacterClassVariant": 729,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 72,
+    "dndCharacterClassVariant": 853,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 88,
+    "dndCharacterClassVariant": 773,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 93,
+    "dndCharacterClassVariant": 717,
+    "dndRace": 39,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 92,
+    "dndCharacterClassVariant": 982,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 33,
+    "dndCharacterClassVariant": 726,
+    "dndRace": 12,
+    "extra": "",
+    "removeComma": 1,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 1,
+    "dndCharacterClassVariant": 249,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 24,
+    "dndCharacterClassVariant": 707,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 44,
+    "dndCharacterClassVariant": 742,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 29,
+    "dndCharacterClassVariant": 710,
+    "dndRace": 10,
+    "extra": "",
+    "removeComma": 1,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 48,
+    "dndCharacterClassVariant": 747,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 46,
+    "dndCharacterClassVariant": 745,
+    "dndRace": 16,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 71,
+    "dndCharacterClassVariant": 799,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 49,
+    "dndCharacterClassVariant": 748,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 97,
+    "dndCharacterClassVariant": 625,
+    "dndRace": 5,
+    "extra": "Lion",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 57,
+    "dndCharacterClassVariant": 151,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 69,
+    "dndCharacterClassVariant": 797,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 78,
+    "dndCharacterClassVariant": 894,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 91,
+    "dndCharacterClassVariant": 982,
+    "dndRace": 8,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": "Must be"
+  },
+  {
+    "_id": 4,
+    "dndCharacterClassVariant": 869,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 15,
+    "dndCharacterClassVariant": 430,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 20,
+    "dndCharacterClassVariant": 312,
+    "dndRace": 8,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 30,
+    "dndCharacterClassVariant": 314,
+    "dndRace": 12,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 37,
+    "dndCharacterClassVariant": 732,
+    "dndRace": 13,
+    "extra": "",
+    "removeComma": 1,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 43,
+    "dndCharacterClassVariant": 742,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 58,
+    "dndCharacterClassVariant": 919,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 65,
+    "dndCharacterClassVariant": 901,
+    "dndRace": 21,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 80,
+    "dndCharacterClassVariant": 666,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 85,
+    "dndCharacterClassVariant": 773,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 32,
+    "dndCharacterClassVariant": 725,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 50,
+    "dndCharacterClassVariant": 748,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 53,
+    "dndCharacterClassVariant": 335,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 59,
+    "dndCharacterClassVariant": 919,
+    "dndRace": 19,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 61,
+    "dndCharacterClassVariant": 541,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 74,
+    "dndCharacterClassVariant": 853,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 76,
+    "dndCharacterClassVariant": 886,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 77,
+    "dndCharacterClassVariant": 886,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 94,
+    "dndCharacterClassVariant": 633,
+    "dndRace": 5,
+    "extra": "Crab",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 95,
+    "dndCharacterClassVariant": 630,
+    "dndRace": 5,
+    "extra": "Crane",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 96,
+    "dndCharacterClassVariant": 639,
+    "dndRace": 5,
+    "extra": "Dragon",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 2,
+    "dndCharacterClassVariant": 249,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 5,
+    "dndCharacterClassVariant": 378,
+    "dndRace": 2,
+    "extra": "or",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 19,
+    "dndCharacterClassVariant": 312,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 38,
+    "dndCharacterClassVariant": 734,
+    "dndRace": 13,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 67,
+    "dndCharacterClassVariant": 654,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 89,
+    "dndCharacterClassVariant": 839,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 12,
+    "dndCharacterClassVariant": 427,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 39,
+    "dndCharacterClassVariant": 735,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 47,
+    "dndCharacterClassVariant": 746,
+    "dndRace": 16,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 14,
+    "dndCharacterClassVariant": 429,
+    "dndRace": 6,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 31,
+    "dndCharacterClassVariant": 711,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 56,
+    "dndCharacterClassVariant": 151,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 70,
+    "dndCharacterClassVariant": 798,
+    "dndRace": 5,
+    "extra": "Halruaan",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 82,
+    "dndCharacterClassVariant": 611,
+    "dndRace": 8,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 98,
+    "dndCharacterClassVariant": 644,
+    "dndRace": 5,
+    "extra": "Phoenix",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 7,
+    "dndCharacterClassVariant": 385,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 26,
+    "dndCharacterClassVariant": 708,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 45,
+    "dndCharacterClassVariant": 743,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 51,
+    "dndCharacterClassVariant": 315,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 75,
+    "dndCharacterClassVariant": 420,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 3,
+    "dndCharacterClassVariant": 868,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 18,
+    "dndCharacterClassVariant": 308,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 21,
+    "dndCharacterClassVariant": 705,
+    "dndRace": 5,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 54,
+    "dndCharacterClassVariant": 592,
+    "dndRace": 4,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 84,
+    "dndCharacterClassVariant": 772,
+    "dndRace": 15,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 8,
+    "dndCharacterClassVariant": 306,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 10,
+    "dndCharacterClassVariant": 391,
+    "dndRace": 5,
+    "extra": "from Thay",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 17,
+    "dndCharacterClassVariant": 308,
+    "dndRace": 2,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 25,
+    "dndCharacterClassVariant": 708,
+    "dndRace": 3,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 36,
+    "dndCharacterClassVariant": 730,
+    "dndRace": 12,
+    "extra": "",
+    "removeComma": 1,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 60,
+    "dndCharacterClassVariant": 541,
+    "dndRace": 17,
+    "extra": "",
+    "removeComma": 1,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 62,
+    "dndCharacterClassVariant": 541,
+    "dndRace": 20,
+    "extra": "home region Mulhorand",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 66,
+    "dndCharacterClassVariant": 903,
+    "dndRace": 21,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 73,
+    "dndCharacterClassVariant": 853,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  },
+  {
+    "_id": 83,
+    "dndCharacterClassVariant": 611,
+    "dndRace": 7,
+    "extra": "",
+    "removeComma": 0,
+    "textAfter": "",
+    "textBefore": ""
+  }
+]

@@ -1,0 +1,3 @@
+export class Names {
+	static NAME = 'dnd_character_class';
+}

@@ -11,7 +11,7 @@ export class DndDomainService {
   }
 
   findAll(id: number): Observable<DndDomain[]> {
-    return of([{exampleField: 1}]);
+    return of([new DndDomain()]);
   }
 
   findOne(id: number) {

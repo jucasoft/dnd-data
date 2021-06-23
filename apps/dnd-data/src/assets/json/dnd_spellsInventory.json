@@ -1,0 +1,106 @@
+[
+  {
+    "_id": {"$oid": "60b7a8b66c65fb2f530dde98"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 6,
+    "spellsDictionaryId": "2526",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60b7a8bc6c65fb2f530dde99"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 3,
+    "spellsDictionaryId": "2712",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60b7a9226c65fb2f530dde9a"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 1,
+    "spellsDictionaryId": "2480",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60b7a9236c65fb2f530dde9b"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 2,
+    "spellsDictionaryId": "4027",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60b95090af83ad0015af530e"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 4,
+    "spellsDictionaryId": "2584",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60b95098af83ad0015af530f"},
+    "__v": 0,
+    "pgId": "60b7a1556c65fb2f530dde97",
+    "qt": 2,
+    "spellsDictionaryId": "4008",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60bc0dec7006ea6a6200c273"},
+    "__v": 0,
+    "pgId": "60b79be8bdbf45001532e4cb",
+    "qt": 4,
+    "spellsDictionaryId": "2773",
+    "user": "google-oauth2|117697412610625106478"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafa8"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 1,
+    "spellsDictionaryId": "2773",
+    "user": "auth0|60adf732f6002c006e749909"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafa9"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 1,
+    "spellsDictionaryId": "2773",
+    "user": "auth0|60adf732f6002c006e749909"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafaa"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 0,
+    "spellsDictionaryId": "2773",
+    "user": "auth0|60adf732f6002c006e749909"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafab"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 1,
+    "spellsDictionaryId": "2529",
+    "user": "auth0|60adf732f6002c006e749909"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafac"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 0,
+    "spellsDictionaryId": "2529",
+    "user": "auth0|60adf732f6002c006e749909"
+  },
+  {
+    "_id": {"$oid": "60bde23d1a2a0a00152eafad"},
+    "__v": 0,
+    "pgId": "60bdcd0bb97cff00150f786a",
+    "qt": 0,
+    "spellsDictionaryId": "2590",
+    "user": "auth0|60adf732f6002c006e749909"
+  }
+]

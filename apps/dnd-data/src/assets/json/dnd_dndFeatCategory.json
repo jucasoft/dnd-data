@@ -1,0 +1,337 @@
+[
+  {
+    "_id": 15,
+    "name": "Exalted",
+    "slug": "exalted"
+  },
+  {
+    "_id": 2,
+    "name": "Abyssal Heritor",
+    "slug": "abyssal-heritor"
+  },
+  {
+    "_id": 28,
+    "name": "Metamagic",
+    "slug": "metamagic"
+  },
+  {
+    "_id": 30,
+    "name": "Metashadow",
+    "slug": "metashadow"
+  },
+  {
+    "_id": 48,
+    "name": "Fighter Bonus Feat",
+    "slug": "fighter-bonus-feat"
+  },
+  {
+    "_id": 56,
+    "name": "Ghost",
+    "slug": "ghost"
+  },
+  {
+    "_id": 22,
+    "name": "Initiate",
+    "slug": "initiate"
+  },
+  {
+    "_id": 55,
+    "name": "Monstrous",
+    "slug": "monstrous"
+  },
+  {
+    "_id": 64,
+    "name": "Background",
+    "slug": "background"
+  },
+  {
+    "_id": 25,
+    "name": "Legacy",
+    "slug": "legacy"
+  },
+  {
+    "_id": 5,
+    "name": "Breath",
+    "slug": "breath"
+  },
+  {
+    "_id": 31,
+    "name": "Monster",
+    "slug": "monster"
+  },
+  {
+    "_id": 33,
+    "name": "Racial",
+    "slug": "racial"
+  },
+  {
+    "_id": 36,
+    "name": "Ritual (pseudoFeat)",
+    "slug": "ritual-pseudofeat"
+  },
+  {
+    "_id": 49,
+    "name": "Interaction",
+    "slug": "interaction"
+  },
+  {
+    "_id": 16,
+    "name": "Faith",
+    "slug": "faith"
+  },
+  {
+    "_id": 23,
+    "name": "Item Creation",
+    "slug": "item-creation"
+  },
+  {
+    "_id": 24,
+    "name": "Leader",
+    "slug": "leader"
+  },
+  {
+    "_id": 26,
+    "name": "Luck",
+    "slug": "luck"
+  },
+  {
+    "_id": 27,
+    "name": "Metabreath",
+    "slug": "metabreath"
+  },
+  {
+    "_id": 51,
+    "name": "Mental",
+    "slug": "mental"
+  },
+  {
+    "_id": 53,
+    "name": "Skill Trick",
+    "slug": "skill-trick"
+  },
+  {
+    "_id": 59,
+    "name": "Dominator",
+    "slug": "dominator"
+  },
+  {
+    "_id": 6,
+    "name": "Ceremony",
+    "slug": "ceremony"
+  },
+  {
+    "_id": 10,
+    "name": "Divine",
+    "slug": "divine"
+  },
+  {
+    "_id": 11,
+    "name": "Domain",
+    "slug": "domain"
+  },
+  {
+    "_id": 39,
+    "name": "Special",
+    "slug": "special"
+  },
+  {
+    "_id": 13,
+    "name": "Dreamtouched",
+    "slug": "dreamtouched"
+  },
+  {
+    "_id": 14,
+    "name": "Epic",
+    "slug": "epic"
+  },
+  {
+    "_id": 19,
+    "name": "Heritage",
+    "slug": "heritage"
+  },
+  {
+    "_id": 58,
+    "name": "Corrupter",
+    "slug": "corrupter"
+  },
+  {
+    "_id": 4,
+    "name": "Bardic",
+    "slug": "bardic"
+  },
+  {
+    "_id": 8,
+    "name": "Combat Form",
+    "slug": "combat-form"
+  },
+  {
+    "_id": 12,
+    "name": "Draconic",
+    "slug": "draconic"
+  },
+  {
+    "_id": 40,
+    "name": "Spelltouched",
+    "slug": "spelltouched"
+  },
+  {
+    "_id": 45,
+    "name": "Vile",
+    "slug": "vile"
+  },
+  {
+    "_id": 63,
+    "name": "Creature",
+    "slug": "creature"
+  },
+  {
+    "_id": 66,
+    "name": "Deformity",
+    "slug": "deformity"
+  },
+  {
+    "_id": 17,
+    "name": "Flaw",
+    "slug": "flaw"
+  },
+  {
+    "_id": 21,
+    "name": "Incarnum",
+    "slug": "incarnum"
+  },
+  {
+    "_id": 46,
+    "name": "Warforged",
+    "slug": "warforged"
+  },
+  {
+    "_id": 54,
+    "name": "Bloodline",
+    "slug": "bloodline"
+  },
+  {
+    "_id": 29,
+    "name": "Metapsionic",
+    "slug": "metapsionic"
+  },
+  {
+    "_id": 20,
+    "name": "Host",
+    "slug": "host"
+  },
+  {
+    "_id": 34,
+    "name": "Regional",
+    "slug": "regional"
+  },
+  {
+    "_id": 43,
+    "name": "Tainted",
+    "slug": "tainted"
+  },
+  {
+    "_id": 62,
+    "name": "Node Magic",
+    "slug": "node-magic"
+  },
+  {
+    "_id": 65,
+    "name": "Bloodgift",
+    "slug": "bloodgift"
+  },
+  {
+    "_id": 68,
+    "name": "Ancestor",
+    "slug": "ancestor"
+  },
+  {
+    "_id": 38,
+    "name": "Shifter trait",
+    "slug": "shifter-trait"
+  },
+  {
+    "_id": 60,
+    "name": "Shaper",
+    "slug": "shaper"
+  },
+  {
+    "_id": 35,
+    "name": "Reserve",
+    "slug": "reserve"
+  },
+  {
+    "_id": 44,
+    "name": "Trait",
+    "slug": "trait"
+  },
+  {
+    "_id": 18,
+    "name": "General",
+    "slug": "general"
+  },
+  {
+    "_id": 42,
+    "name": "Tactical",
+    "slug": "tactical"
+  },
+  {
+    "_id": 47,
+    "name": "Wild",
+    "slug": "wild"
+  },
+  {
+    "_id": 3,
+    "name": "Ambush",
+    "slug": "ambush"
+  },
+  {
+    "_id": 32,
+    "name": "Psionic",
+    "slug": "psionic"
+  },
+  {
+    "_id": 41,
+    "name": "Style",
+    "slug": "style"
+  },
+  {
+    "_id": 52,
+    "name": "Movement",
+    "slug": "movement"
+  },
+  {
+    "_id": 67,
+    "name": "Poltergeist",
+    "slug": "poltergeist"
+  },
+  {
+    "_id": 1,
+    "name": "Aberrant",
+    "slug": "aberrant"
+  },
+  {
+    "_id": 9,
+    "name": "Devil-Touched",
+    "slug": "devil-touched"
+  },
+  {
+    "_id": 37,
+    "name": "Shifter",
+    "slug": "shifter"
+  },
+  {
+    "_id": 57,
+    "name": "Haunt",
+    "slug": "haunt"
+  },
+  {
+    "_id": 61,
+    "name": "Traveler",
+    "slug": "traveler"
+  },
+  {
+    "_id": 50,
+    "name": "Manipulation",
+    "slug": "manipulation"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "_id": 2,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Dwarven",
+    "slug": "dwarven"
+  },
+  {
+    "_id": 20,
+    "description": "The diopsid native tongue employs their luminous glands, allowing them to flash messages across the largest Underdark caverns without a sound. Diopsids can also create flashes of \"light\" visible only to creatures with darkvision, allowing them to \"whisper\" without tipping off their presence to creatures that rely on normal vision.\nAn observer can detect a diopsid communicating in this manner with a Spot check rather than a Listen check. While creatures that lack bioluminescence cannot \"speak\" Diopsid, they can understand and translate it.",
+    "descriptionHtml": "\t<p>The diopsid native tongue employs their luminous glands, allowing them to flash messages across the largest Underdark caverns without a sound. Diopsids can also create flashes of &quot;light&quot; visible only to creatures with darkvision, allowing them to &quot;whisper&quot; without tipping off their presence to creatures that rely on normal vision.<br />An observer can detect a diopsid communicating in this manner with a Spot check rather than a Listen check. While creatures that lack bioluminescence cannot &quot;speak&quot; Diopsid, they can understand and translate it.</p>",
+    "name": "Diopsid",
+    "slug": "diopsid"
+  },
+  {
+    "_id": 28,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Riedran",
+    "slug": "riedran"
+  },
+  {
+    "_id": 4,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Gnome",
+    "slug": "gnome"
+  },
+  {
+    "_id": 16,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Drow Sign Language",
+    "slug": "drow-sign-language"
+  },
+  {
+    "_id": 23,
+    "description": "A visual as well as verbal language consisting of words as well as growls, barks, and subtle shifts of the body. The Lupin language has no \"s,\" as lupins' long muzzles make it difficult for them to create the sound. Many of their words have only one or two syllables and begin with hard consonants. The language also tends to use the short \"o\" and short \"u\" sounds and ends many of its words with a hard \"f.\"",
+    "descriptionHtml": "\t<p>A visual as well as verbal language consisting of words as well as growls, barks, and subtle shifts of the body. The Lupin language has no &quot;s,&quot; as lupins&#39; long muzzles make it difficult for them to create the sound. Many of their words have only one or two syllables and begin with hard consonants. The language also tends to use the short &quot;o&quot; and short &quot;u&quot; sounds and ends many of its words with a hard &quot;f.&quot;</p>",
+    "name": "Lupin",
+    "slug": "lupin"
+  },
+  {
+    "_id": 34,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Vanara",
+    "slug": "vanara"
+  },
+  {
+    "_id": 35,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Drow",
+    "slug": "drow"
+  },
+  {
+    "_id": 9,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Giant",
+    "slug": "giant"
+  },
+  {
+    "_id": 5,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Halfling",
+    "slug": "halfling"
+  },
+  {
+    "_id": 14,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Abyssal",
+    "slug": "abyssal"
+  },
+  {
+    "_id": 7,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Common",
+    "slug": "common"
+  },
+  {
+    "_id": 17,
+    "description": "Diaboli speak their own language, Diabolan. Diabolan words make frequent use of harsh, guttural hisses and the unique physiologic structure of the diaboli's forked tongue. While not difficult to learn, most humanoids of the Material Plane find mastery of Diabolan impossible. Most words in Diabolan contain soft \"f\" \"s,\" \"th,\" and \"z\" sounds.",
+    "descriptionHtml": "\t<p>Diaboli speak their own language, Diabolan. Diabolan words make frequent use of harsh, guttural hisses and the unique physiologic structure of the diaboli&#39;s forked tongue. While not difficult to learn, most humanoids of the Material Plane find mastery of Diabolan impossible. Most words in Diabolan contain soft &quot;f&quot; &quot;s,&quot; &quot;th,&quot; and &quot;z&quot; sounds.</p>",
+    "name": "Diabolan",
+    "slug": "diabolan"
+  },
+  {
+    "_id": 21,
+    "description": "Dvati requires two creatures speaking simultaneously. One twin provides a description of actions, while the other supplies words and descriptions of things. The two weave together to communicate in a uniquely dvati manner. Other creatures can speak this tongue, but two Dvati-speaking creatures must work together. Otherwise, communication via this language is impossible.",
+    "descriptionHtml": "\t<p>Dvati requires two creatures speaking simultaneously. One twin provides a description of actions, while the other supplies words and descriptions of things. The two weave together to communicate in a uniquely dvati manner. Other creatures can speak this tongue, but two Dvati-speaking creatures must work together. Otherwise, communication via this language is impossible.</p>",
+    "name": "Dvati",
+    "slug": "dvati"
+  },
+  {
+    "_id": 30,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Spirit Tongue",
+    "slug": "spirit-tongue"
+  },
+  {
+    "_id": 11,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Goblin",
+    "slug": "goblin"
+  },
+  {
+    "_id": 6,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Sylvan",
+    "slug": "sylvan"
+  },
+  {
+    "_id": 27,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Quori",
+    "slug": "quori"
+  },
+  {
+    "_id": 31,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Rokugani",
+    "slug": "rokugani"
+  },
+  {
+    "_id": 12,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Terran",
+    "slug": "terran"
+  },
+  {
+    "_id": 19,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Infernal",
+    "slug": "infernal"
+  },
+  {
+    "_id": 29,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Nezumi",
+    "slug": "nezumi"
+  },
+  {
+    "_id": 10,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Orc",
+    "slug": "orc"
+  },
+  {
+    "_id": 24,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Gnoll",
+    "slug": "gnoll"
+  },
+  {
+    "_id": 13,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Undercommon",
+    "slug": "undercommon"
+  },
+  {
+    "_id": 15,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Aquan",
+    "slug": "aquan"
+  },
+  {
+    "_id": 18,
+    "description": "Many diaboli also learn to communicate simple ideas by twirling and positioning their tails in a sort of elaborate code. The purely visual diaboli tail code can convey even complicated concepts, but it takes roughly twice as long to express something in the diaboli tail code as in any spoken language. Any creature that can see a diabolus using the diaboli tail code may make a DC 10 Intelligence check to realize the diabolus is attempting to communicate. Any creature may learn diaboli tail code, although only creatures with tails of their own can \"speak\" it.",
+    "descriptionHtml": "\t<p>Many diaboli also learn to communicate simple ideas by twirling and positioning their tails in a sort of elaborate code. The purely visual diaboli tail code can convey even complicated concepts, but it takes roughly twice as long to express something in the diaboli tail code as in any spoken language. Any creature that can see a diabolus using the diaboli tail code may make a DC 10 Intelligence check to realize the diabolus is attempting to communicate. Any creature may learn diaboli tail code, although only creatures with tails of their own can &quot;speak&quot; it.</p>",
+    "name": "Diaboli Tail Code",
+    "slug": "diaboli-tail-code"
+  },
+  {
+    "_id": 1,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Draconic",
+    "slug": "draconic"
+  },
+  {
+    "_id": 22,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Any",
+    "slug": "any"
+  },
+  {
+    "_id": 26,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Hengeyokai",
+    "slug": "hengeyokai"
+  },
+  {
+    "_id": 32,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Bakemono",
+    "slug": "bakemono"
+  },
+  {
+    "_id": 3,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Elven",
+    "slug": "elven"
+  },
+  {
+    "_id": 8,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Celestial",
+    "slug": "celestial"
+  },
+  {
+    "_id": 33,
+    "description": "",
+    "descriptionHtml": "",
+    "name": "Shadowlands",
+    "slug": "shadowlands"
+  },
+  {
+    "_id": 25,
+    "description": "The Feline language, a strange combination of purrs, hisses, and empathic transfers, allows tibbits to communicate with cats of all forms. The Feline language is spoken by all tibbits and cats with an Intelligence of 3 or higher, allowing a tibbit to use the Diplomacy skill against such felines. This language is part of the felines' racial heritage. Other races cannot master it, nor can they use spells such as tongues to communicate with cats.",
+    "descriptionHtml": "\t<p>The Feline language, a strange combination of purrs, hisses, and empathic transfers, allows tibbits to communicate with cats of all forms. The Feline language is spoken by all tibbits and cats with an Intelligence of 3 or higher, allowing a tibbit to use the Diplomacy skill against such felines. This language is part of the felines&#39; racial heritage. Other races cannot master it, nor can they use spells such as tongues to communicate with cats.</p>",
+    "name": "Feline",
+    "slug": "feline"
+  }
+]

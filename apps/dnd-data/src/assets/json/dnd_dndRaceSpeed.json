@@ -1,0 +1,212 @@
+[
+  {
+    "_id": 26,
+    "dndRace": 31,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 19,
+    "dndRace": 26,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 20,
+    "dndRace": 27,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 12,
+    "dndRace": 21,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 14,
+    "dndRace": 22,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 15,
+    "dndRace": 23,
+    "dndRaceSpeedType": 9,
+    "speed": 40
+  },
+  {
+    "_id": 30,
+    "dndRace": 35,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 4,
+    "dndRace": 5,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 3,
+    "dndRace": 4,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 28,
+    "dndRace": 33,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 5,
+    "dndRace": 7,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 33,
+    "dndRace": 39,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 6,
+    "dndRace": 8,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 10,
+    "dndRace": 17,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 9,
+    "dndRace": 1,
+    "dndRaceSpeedType": 9,
+    "speed": 40
+  },
+  {
+    "_id": 13,
+    "dndRace": 21,
+    "dndRaceSpeedType": 8,
+    "speed": 50
+  },
+  {
+    "_id": 22,
+    "dndRace": 28,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 27,
+    "dndRace": 32,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 24,
+    "dndRace": 29,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 29,
+    "dndRace": 34,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 32,
+    "dndRace": 38,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 11,
+    "dndRace": 20,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 17,
+    "dndRace": 24,
+    "dndRaceSpeedType": 2,
+    "speed": 20
+  },
+  {
+    "_id": 31,
+    "dndRace": 36,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 7,
+    "dndRace": 12,
+    "dndRaceSpeedType": 9,
+    "speed": 20
+  },
+  {
+    "_id": 34,
+    "dndRace": 40,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 1,
+    "dndRace": 2,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 2,
+    "dndRace": 3,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 25,
+    "dndRace": 30,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 8,
+    "dndRace": 6,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 16,
+    "dndRace": 24,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  },
+  {
+    "_id": 18,
+    "dndRace": 25,
+    "dndRaceSpeedType": 9,
+    "speed": 40
+  },
+  {
+    "_id": 21,
+    "dndRace": 27,
+    "dndRaceSpeedType": 8,
+    "speed": 30
+  },
+  {
+    "_id": 23,
+    "dndRace": 28,
+    "dndRaceSpeedType": 8,
+    "speed": 30
+  },
+  {
+    "_id": 35,
+    "dndRace": 41,
+    "dndRaceSpeedType": 9,
+    "speed": 30
+  }
+]
