@@ -1,0 +1,207 @@
+[
+  {
+    "_id": "7",
+    "description": "A cowering creature is frozen in fear or awe, unable to take actions. It takes a -2 penalty to AC and loses its Dexterity bonus (in all applications).",
+    "name": "Cowering"
+  },
+  {
+    "_id": "3",
+    "description": "A blinded creature can't see. It takes a -2 penalty to Armor Class, is denied its Dexterity bonus to AC, moves at half speed, and takes a -4 penalty on Search checks and on most Strength- and Dexterity-based skill checks. All checks and activities that rely on vision (such as reading and Spot checks) fail. All opponents are considered to have total concealment against the blinded creature. A blinded creature pinpoints targets and deals damage to them as if those targets were invisible. Blinded creatures are immune to gaze attacks and other attacks that require the target to be able to see in order to be affected.",
+    "name": "Blinded"
+  },
+  {
+    "_id": "19",
+    "description": "A fatigued creature can neither run nor charge and takes a -2 penalty to Strength and Dexterity. Doing anything that would normally cause fatigue causes a fatigued creature to become exhausted. After 8 hours of complete rest, a fatigued creature is no longer fatigued.",
+    "name": "Fatigued"
+  },
+  {
+    "_id": "31",
+    "description": "A petrified creature has been turned to stone and is considered unconscious. If a petrified creature cracks or breaks, but the broken pieces are joined with the body as it returns to flesh, the creature is unharmed. If the creature's petrified body is incomplete when it returns to flesh, the body is likewise incomplete. The DM must then decide whether the creature is subject to permanent hit point loss and/or some form of debilitation.",
+    "name": "Petrified"
+  },
+  {
+    "_id": "8",
+    "description": "A dazed creature is unable to act normally. It can take no actions but has no penalty to AC. A dazed condition typically lasts for 1 round.",
+    "name": "Dazed"
+  },
+  {
+    "_id": "17",
+    "description": "An exhausted creature can neither run nor charge, and it takes a -6 penalty to Strength and Dexterity. It can move at only half speed. After 1 hour of complete rest, an exhausted creature becomes fatigued.",
+    "name": "Exhausted"
+  },
+  {
+    "_id": "24",
+    "description": "An immobilized creature can't move out of the space it was in when it became immobilized. It otherwise functions normally unless it's flying. Immobilized flying creatures that have the ability to hover can maintain their initial altitude. All other flying creatures subjected to this condition descend at a rate of 20 feet per round until they reach the ground, taking no falling damage.",
+    "name": "Immobilized"
+  },
+  {
+    "_id": "18",
+    "description": "A fascinated creature is entranced by a magical effect. The creature stands or sits quietly, taking no actions other than to pay attention to the fascinating effect, for as long as that effect lasts. A fascinated creature takes a -4 penalty on skill checks made as reactions, such as Listen and Spot checks. Any potential threat, such as a hostile creature approaching, allows the fascinated creature a new saving throw against the fascinating effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at a fascinated creature, automatically breaks the effect. Another creature that uses a standard action to do so can free a fascinated creature from this condition.",
+    "name": "Fascinated"
+  },
+  {
+    "_id": "40",
+    "description": "A turned creature has been affected by a turning attempt. A turned creature flees for 10 rounds (1 minute) by the best and fastest means available to it. If it can't flee, it cowers.",
+    "name": "Turned"
+  },
+  {
+    "_id": "33",
+    "description": "A prone creature is lying flat on the ground. Any creature, even a limbless one such as a snake, that can flatten itself on the ground can choose to be prone, even if it can't reasonably be tripped or knocked down. An attacker that is prone takes a -4 penalty on melee attack rolls and can't use ranged weapons aside from crossbows and shuriken. A defender that is prone gains a +4 bonus to Armor Class against ranged attacks, but takes a -4 penalty to AC against melee attacks.\n\nStanding up is a move action that provokes attacks of opportunity.",
+    "name": "Prone"
+  },
+  {
+    "_id": "38",
+    "description": "A staggered creature is one whose nonlethal damage exactly equals its current hit points. A staggered creature can take a single move action or standard action each round (but not both, nor can it take full-round actions). A creature whose nonlethal damage exceeds its current hit points becomes unconscious.",
+    "name": "Staggered"
+  },
+  {
+    "_id": "11",
+    "description": "A deafened creature can't hear. It takes a -4 penalty on initiative checks, automatically fails Listen checks, and has a 20% chance of spell failure when casting spells that have verbal components.",
+    "name": "Deafened"
+  },
+  {
+    "_id": "16",
+    "description": "An entangled creature is ensnared. Being entangled impedes movement, but doesn't entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, can't run or charge, and takes a -2 penalty on attack rolls and a -4 penalty to Dexterity. Casting a spell while entangled requires a Concentration check (DC 15 + the spell's level).",
+    "name": "Entangled"
+  },
+  {
+    "_id": "32",
+    "description": "A pinned creature is held stationary (but not helpless) for 1 round. It can't take any actions the pinning creature doesn't allow, even speaking. A pinned creature takes a -4 penalty to AC against opponents other than the pinning creature. It can't move, so its Dexterity is considered to be 0 for the purpose of determining AC (-5 modifier). It is also subject to attacks, such as sneak attacks, that rely on a defender's being denied its Dexterity bonus to AC.",
+    "name": "Pinned"
+  },
+  {
+    "_id": "39",
+    "description": "A stunned creature drops everything it was holding, can't take actions, takes a -2 penalty to AC, and is denied its Dexterity bonus to AC.",
+    "name": "Stunned"
+  },
+  {
+    "_id": "9",
+    "description": "A dazzled creature is unable to see well because of overstimulation of the eyes. It takes a -1 penalty on attack rolls, Search checks, and Spot checks.",
+    "name": "Dazzled"
+  },
+  {
+    "_id": "1",
+    "description": "The character has temporarily lost 1 or more ability score points. If, during a 24-hour period, a creature gets a full 8 hours of sleep or equivalent rest (depending on the creature's race), that creature recovers 1 ability score point per damaged ability score. Any significant interruption, such as combat, during the rest prevents healing. Complete bed rest for the entire 24 hours doubles this rate. Undertaking even light activity during a 24-hour period prevents this additional healing. \n\nSomeone who has the Heal skill can help another creature double its recovery of ability score points by succeeding on a DC 15 Heal check. A healer can tend up to six patients. Providing this sort of care is light activity and requires medical supplies. You can?t give longterm care to yourself.\n\nA character with Strength 0 falls to the ground and is helpless. A character with Dexterity 0 is paralyzed. A character with Constitution 0 is dead. A character with Intelligence, Wisdom, or Charisma 0 is unconscious. Ability damage is different from penalties to ability scores, which go away when the conditions causing them go away.",
+    "name": "Ability Damaged"
+  },
+  {
+    "_id": "23",
+    "description": "A helpless creature is paralyzed, held, bound, sleeping, unconscious, or otherwise completely at an opponent's mercy. It is treated as having a Dexterity of 0 (-5 modifier) and takes a -4 penalty to AC against melee attacks. A helpless creature is subject to attacks that rely on a target's being denied its Dexterity bonus to AC. As a full-round action, an enemy can use a melee weapon to deliver a coup de grace to a helpless target.",
+    "name": "Helpless"
+  },
+  {
+    "_id": "15",
+    "description": "The character gains one or more negative levels, which might permanently drain the character's levels. If the subject has at least as many negative levels as Hit Dice, he dies. Each negative level gives a creature the following penalties: -1 penalty on attack rolls, saving throws, skill checks, ability checks; loss of 5 hit points; and -1 to effective level (for determining the power, duration, DC, and other details of spells or special abilities). In addition, a spellcaster loses one spell or spell slot from the highest spell level castable.\n\nNegative levels remain for 24 hours or until removed with magic. After 24 hours, the victim must attempt a Fortitude save for each negative level gained.",
+    "name": "Energy Drained"
+  },
+  {
+    "_id": "28",
+    "description": "A nauseated creature is experiencing overwhelming physical discomfort. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a creature can take on its turn is a single move action. This condition affects only living creatures (any not of the construct, deathless, or undead types).",
+    "name": "Nauseated"
+  },
+  {
+    "_id": "5",
+    "description": "A checked creature is prevented from achieving forward motion by an applied force, such as wind. Checked creatures that are on the ground merely stop. Checked creatures that are flying move back a distance specified in the description of the effect.",
+    "name": "Checked"
+  },
+  {
+    "_id": "21",
+    "description": "Frightened creatures take penalties as if shaken, and they flee from the source of their fear as quickly as they can. They can choose the path of their flight. Frightened creatures can use special abilities, including spells, to flee; indeed, a frightened creature must use such means if they are the only way to escape. Other than these stipulations, once frightened creatures can't sense the source of their fear, they can act as they want. However, if the duration of their fear continues, creatures can be forced to flee once more if the source of their fear presents itself again. Frightened creatures that are unable to flee can fight.",
+    "name": "Frightened"
+  },
+  {
+    "_id": "10",
+    "description": "A creature becomes dead when its current hit points are reduced to -10, its Constitution drops to 0, or it's killed outright by massive damage or some other death-dealing effect. The creature's soul leaves its body. Dead creatures can't benefit from normal or magical healing, but they can be restored to life by magic. When spellcasters die, all prepared spells stored in their mind are wiped away. A dead body decays normally unless magically preserved, but magic that restores a dead creature to life also restores the body to some degree.",
+    "name": "Dead"
+  },
+  {
+    "_id": "26",
+    "description": "Visually undetectable. An invisible creature gains a +2 bonus on attack rolls against sighted opponents, and ignores its opponents' Dexterity bonuses to AC (if any).\nIf a creature tries to attack an invisible target whose location has been pinpointed, the attack resolves normally, but the invisible target benefits from total concealment. If a creature tries to attack an invisible target whose location hasn't been pinpointed, the attacker chooses the space where the attack is directed.",
+    "name": "Invisible"
+  },
+  {
+    "_id": "37",
+    "description": "Another creature can keep a dying one from losing any more hit points with a DC 15 Heal check, making the dying creature stable. If any sort of healing cures a dying creature of even 1 point of damage, that creature stops losing hit points and becomes stable. \n\nHealing that raises a dying creature's hit points to 0 makes it conscious and disabled. Healing that raises its hit points to 1 or more makes it fully functional again. \n\nA stable creature that has been tended by a healer or that has been magically healed eventually regains consciousness and recovers hit points naturally. If the creature has no one to tend it, however, its life is still in danger.",
+    "name": "Stable"
+  },
+  {
+    "_id": "41",
+    "description": "An unconscious creature is knocked out and helpless.",
+    "name": "Unconscious"
+  },
+  {
+    "_id": "4",
+    "description": "Depending on its size, a creature can be blown away by winds of high velocity. Each round a creature on the ground that is blown away is knocked down and rolls 1d4 \u009E 10 feet, taking 1d4 points of nonlethal damage per 10 feet. In each round when a flying creature is blown away, it is blown back 2d6 \u009E 10 feet and takes 2d6 points of nonlethal damage due to battering and buffering.",
+    "name": "Blown Away"
+  },
+  {
+    "_id": "6",
+    "description": "A confused creature's activities are determined by rolling d% at the beginning of his turn: 01-10, attack caster with melee or ranged weapons (or close with caster if attacking isn't possible); 11-20, act normally; 21-50, do nothing but babble incoherently; 51-70, flee away from caster at top possible speed; 71-100, attack nearest creature (for this purpose, a familiar counts as part of the subject?s self). A confused character that can't carry out the indicated action does nothing but babble incoherently. Attackers gain no special advantage when attacking a confused character. Any confused character that is attacked always retaliates against its attackers on its next turn, as long as it's still confused when its turn comes. A confused creature doesn't make attacks of opportunity against any creature that it isn't already devoted to attacking (either because of its most recent attack or because it has just been attacked).",
+    "name": "Confused"
+  },
+  {
+    "_id": "22",
+    "description": "A grappling creature is engaged in some form of hand-to-hand struggle with one or more attackers. Its actions are limited. see page 60 (Rules Compendium). It doesn't threaten any squares, and it's denied its Dexterity bonus to AC against opponents it isn't grappling.",
+    "name": "Grappling"
+  },
+  {
+    "_id": "29",
+    "description": "Panicked creatures take penalties as if shaken, and they flee from the source of their fear as quickly as they can. Their path is random. They flee from all other dangers that confront them rather than facing those dangers. Panicked creatures cower if they?re prevented from fleeing.",
+    "name": "Panicked"
+  },
+  {
+    "_id": "12",
+    "description": "Creatures that have taken nonlethal damage from lack of water are considered dehydrated and become fatigued. In addition, if a dehydrated creature would take nonlethal damage from hot conditions (see page 155), that dam age instead becomes lethal damage.",
+    "name": "Dehydratated"
+  },
+  {
+    "_id": "14",
+    "description": "A dying creature has -1 to -9 current hit points. It's unconscious and can take no actions. On that creature's initiative count each round, starting with the round in which the creature dropped below 0 hit points, it rolls d% to see whether it becomes stable. It has a 10% chance to become stable. If not, it loses 1 hit point. If a dying creature reaches -10 hit points, it's dead.",
+    "name": "Dying"
+  },
+  {
+    "_id": "27",
+    "description": "Depending on their size, creatures can be knocked down by winds of high velocity. Creatures on the ground are knocked prone by the force of the wind. Flying creatures are instead blown back 1d6\u009E10 feet.",
+    "name": "Knocked Down"
+  },
+  {
+    "_id": "2",
+    "description": "The character has permanently lost 1 or more ability score points. The character can regain drained points only through magical means.\n \nA character with Strength 0 falls to the ground and is helpless. A character with Dexterity 0 is paralyzed. A character with Constitution 0 is dead. A character with Intelligence, Wisdom, or Charisma 0 is unconscious.",
+    "name": "Ability Drained"
+  },
+  {
+    "_id": "30",
+    "description": "A paralyzed creature is frozen in place and helpless. Such a creature has effective Dexterity and Strength scores of 0, but it can still undertake purely mental activities. A winged creature flying in the air at the time that it becomes paralyzed can't flap its wings and falls. A paralyzed swimmer can't swim and might drown.",
+    "name": "Paralyzed"
+  },
+  {
+    "_id": "13",
+    "description": "A creature that has 0 current hit points, or one that has negative current hit points but has become stable and conscious, is disabled. A disabled creature can take a single move action or standard action each round, but not both. It can't take full-round actions. It moves at half speed. Taking move actions doesn?t cause further injury, but performing any standard action, or any other act the DM deems strenuous, deals 1 point of damage after the completion of that act. Unless the act increased the disabled creature's hit points, it now has negative hit points and is dying.\n\nCreatures that are not living (such as constructs, undead, and death less) are destroyed when reduced to 0 hit points.",
+    "name": "Disabled"
+  },
+  {
+    "_id": "20",
+    "description": "A creature that hasn't yet taken an action during combat is flat-footed, not yet able to react normally to the situation. A flat-footed creature is denied its Dexterity bonus to AC and can't make attacks of opportunity.",
+    "name": "Flat-Footed"
+  },
+  {
+    "_id": "25",
+    "description": "An incorporeal creature has no physical body. Incorporeal creatures are immune to all nonmagical attack forms. They can be harmed only by other incorporeal creatures, +1 or better magic weapons, spells, spell-like effects, or supernatural effects. See page 64 (Rules Compendium).",
+    "name": "Incorporeal"
+  },
+  {
+    "_id": "34",
+    "description": "A rebuked creature has been affected by a turning attempt to rebuke. Rebuked creatures cower in awe for 10 rounds.",
+    "name": "Rebuked"
+  },
+  {
+    "_id": "35",
+    "description": "Shaken creatures take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.",
+    "name": "Shaken"
+  },
+  {
+    "_id": "36",
+    "description": "A sickened creature is experiencing physical discomfort. The creature takes a -2 penalty on attack rolls, damage rolls, saving throws, skill checks, and ability checks. This condition affects only living creatures (any not of the construct, deathless, or undead types).",
+    "name": "Sickened"
+  }
+]

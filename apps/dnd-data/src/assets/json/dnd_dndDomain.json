@@ -1,0 +1,887 @@
+[
+  {
+    "_id": 4,
+    "name": "Joy",
+    "slug": "joy"
+  },
+  {
+    "_id": 66,
+    "name": "Hunger",
+    "slug": "hunger"
+  },
+  {
+    "_id": 68,
+    "name": "Vile darkness",
+    "slug": "vile-darkness"
+  },
+  {
+    "_id": 88,
+    "name": "Initiate of lathander",
+    "slug": "initiate-of-lathander"
+  },
+  {
+    "_id": 103,
+    "name": "Good",
+    "slug": "good"
+  },
+  {
+    "_id": 142,
+    "name": "Competition",
+    "slug": "competition"
+  },
+  {
+    "_id": 155,
+    "name": "Halfling",
+    "slug": "halfling"
+  },
+  {
+    "_id": 27,
+    "name": "Initiate of anhur",
+    "slug": "initiate-of-anhur"
+  },
+  {
+    "_id": 90,
+    "name": "Initiate of nature",
+    "slug": "initiate-of-nature"
+  },
+  {
+    "_id": 92,
+    "name": "Initiate of bane",
+    "slug": "initiate-of-bane"
+  },
+  {
+    "_id": 97,
+    "name": "Animal",
+    "slug": "animal"
+  },
+  {
+    "_id": 108,
+    "name": "Strength",
+    "slug": "strength"
+  },
+  {
+    "_id": 116,
+    "name": "War",
+    "slug": "war"
+  },
+  {
+    "_id": 122,
+    "name": "Thirst",
+    "slug": "thirst"
+  },
+  {
+    "_id": 150,
+    "name": "Dwarf",
+    "slug": "dwarf"
+  },
+  {
+    "_id": 156,
+    "name": "Hatred",
+    "slug": "hatred"
+  },
+  {
+    "_id": 157,
+    "name": "Illusion",
+    "slug": "illusion"
+  },
+  {
+    "_id": 168,
+    "name": "Suffering",
+    "slug": "suffering"
+  },
+  {
+    "_id": 16,
+    "name": "Diabolic",
+    "slug": "diabolic"
+  },
+  {
+    "_id": 19,
+    "name": "Initiate of gruumsh",
+    "slug": "initiate-of-gruumsh"
+  },
+  {
+    "_id": 20,
+    "name": "Initiate of ghaunadaur",
+    "slug": "initiate-of-ghaunadaur"
+  },
+  {
+    "_id": 25,
+    "name": "Initiate of horus-re",
+    "slug": "initiate-of-horus-re"
+  },
+  {
+    "_id": 32,
+    "name": "Cold",
+    "slug": "cold"
+  },
+  {
+    "_id": 36,
+    "name": "Mind",
+    "slug": "mind"
+  },
+  {
+    "_id": 45,
+    "name": "Mysticism",
+    "slug": "mysticism"
+  },
+  {
+    "_id": 47,
+    "name": "Artifice",
+    "slug": "artifice"
+  },
+  {
+    "_id": 85,
+    "name": "Initiate of ilmater",
+    "slug": "initiate-of-ilmater"
+  },
+  {
+    "_id": 99,
+    "name": "Protection",
+    "slug": "protection"
+  },
+  {
+    "_id": 109,
+    "name": "Earth",
+    "slug": "earth"
+  },
+  {
+    "_id": 131,
+    "name": "Wealth",
+    "slug": "wealth"
+  },
+  {
+    "_id": 152,
+    "name": "Envy",
+    "slug": "envy"
+  },
+  {
+    "_id": 8,
+    "name": "Community",
+    "slug": "community"
+  },
+  {
+    "_id": 17,
+    "name": "Corruption",
+    "slug": "corruption"
+  },
+  {
+    "_id": 43,
+    "name": "Courage",
+    "slug": "courage"
+  },
+  {
+    "_id": 51,
+    "name": "Temptation",
+    "slug": "temptation"
+  },
+  {
+    "_id": 67,
+    "name": "Deathbound",
+    "slug": "deathbound"
+  },
+  {
+    "_id": 76,
+    "name": "Grave",
+    "slug": "grave"
+  },
+  {
+    "_id": 96,
+    "name": "Initiate of cyric",
+    "slug": "initiate-of-cyric"
+  },
+  {
+    "_id": 101,
+    "name": "Chaos",
+    "slug": "chaos"
+  },
+  {
+    "_id": 115,
+    "name": "Knowledge",
+    "slug": "knowledge"
+  },
+  {
+    "_id": 128,
+    "name": "Watery death",
+    "slug": "watery-death"
+  },
+  {
+    "_id": 138,
+    "name": "Mechanus",
+    "slug": "mechanus"
+  },
+  {
+    "_id": 164,
+    "name": "Renewal",
+    "slug": "renewal"
+  },
+  {
+    "_id": 3,
+    "name": "Glory",
+    "slug": "glory"
+  },
+  {
+    "_id": 10,
+    "name": "Herald",
+    "slug": "herald"
+  },
+  {
+    "_id": 31,
+    "name": "Ocean",
+    "slug": "ocean"
+  },
+  {
+    "_id": 37,
+    "name": "Dream",
+    "slug": "dream"
+  },
+  {
+    "_id": 63,
+    "name": "Ghost",
+    "slug": "ghost"
+  },
+  {
+    "_id": 71,
+    "name": "Guardian",
+    "slug": "guardian"
+  },
+  {
+    "_id": 81,
+    "name": "Wood",
+    "slug": "wood"
+  },
+  {
+    "_id": 107,
+    "name": "Fire",
+    "slug": "fire"
+  },
+  {
+    "_id": 158,
+    "name": "Lust",
+    "slug": "lust"
+  },
+  {
+    "_id": 159,
+    "name": "Mentalism",
+    "slug": "mentalism"
+  },
+  {
+    "_id": 170,
+    "name": "Time",
+    "slug": "time"
+  },
+  {
+    "_id": 172,
+    "name": "Undeath",
+    "slug": "undeath"
+  },
+  {
+    "_id": 177,
+    "name": "Revered Ancestor",
+    "slug": "revered-ancestor"
+  },
+  {
+    "_id": 5,
+    "name": "Wrath",
+    "slug": "wrath"
+  },
+  {
+    "_id": 34,
+    "name": "Creation",
+    "slug": "creation"
+  },
+  {
+    "_id": 42,
+    "name": "Celerity",
+    "slug": "celerity"
+  },
+  {
+    "_id": 59,
+    "name": "Spell",
+    "slug": "spell"
+  },
+  {
+    "_id": 78,
+    "name": "Brahmin",
+    "slug": "brahmin"
+  },
+  {
+    "_id": 84,
+    "name": "Initiate of helm",
+    "slug": "initiate-of-helm"
+  },
+  {
+    "_id": 111,
+    "name": "Healing",
+    "slug": "healing"
+  },
+  {
+    "_id": 121,
+    "name": "Sky",
+    "slug": "sky"
+  },
+  {
+    "_id": 123,
+    "name": "Summer",
+    "slug": "summer"
+  },
+  {
+    "_id": 130,
+    "name": "Storm",
+    "slug": "storm"
+  },
+  {
+    "_id": 140,
+    "name": "Limbo",
+    "slug": "limbo"
+  },
+  {
+    "_id": 141,
+    "name": "Celestia",
+    "slug": "celestia"
+  },
+  {
+    "_id": 148,
+    "name": "Baator",
+    "slug": "baator"
+  },
+  {
+    "_id": 175,
+    "name": "Feast",
+    "slug": "feast"
+  },
+  {
+    "_id": 23,
+    "name": "Initiate of the holy realm",
+    "slug": "initiate-of-the-holy-realm"
+  },
+  {
+    "_id": 6,
+    "name": "Celestial",
+    "slug": "celestial"
+  },
+  {
+    "_id": 28,
+    "name": "Initiate of baravar cloakshadow",
+    "slug": "initiate-of-baravar-cloakshadow"
+  },
+  {
+    "_id": 29,
+    "name": "Purification",
+    "slug": "purification"
+  },
+  {
+    "_id": 38,
+    "name": "Madness",
+    "slug": "madness"
+  },
+  {
+    "_id": 74,
+    "name": "Ancestor",
+    "slug": "ancestor"
+  },
+  {
+    "_id": 75,
+    "name": "Stone",
+    "slug": "stone"
+  },
+  {
+    "_id": 176,
+    "name": "Warforged",
+    "slug": "warforged"
+  },
+  {
+    "_id": 39,
+    "name": "Domination",
+    "slug": "domination"
+  },
+  {
+    "_id": 52,
+    "name": "Fury",
+    "slug": "fury"
+  },
+  {
+    "_id": 64,
+    "name": "Oneiromancy",
+    "slug": "oneiromancy"
+  },
+  {
+    "_id": 93,
+    "name": "Scalykind",
+    "slug": "scalykind"
+  },
+  {
+    "_id": 114,
+    "name": "Plant",
+    "slug": "plant"
+  },
+  {
+    "_id": 126,
+    "name": "Seafolk",
+    "slug": "seafolk"
+  },
+  {
+    "_id": 134,
+    "name": "Inquisition",
+    "slug": "inquisition"
+  },
+  {
+    "_id": 145,
+    "name": "Transformation",
+    "slug": "transformation"
+  },
+  {
+    "_id": 173,
+    "name": "Wrath (BE)",
+    "slug": "wrath-be"
+  },
+  {
+    "_id": 1,
+    "name": "Pleasure",
+    "slug": "pleasure"
+  },
+  {
+    "_id": 7,
+    "name": "Endurance",
+    "slug": "endurance"
+  },
+  {
+    "_id": 91,
+    "name": "Initiate of malar",
+    "slug": "initiate-of-malar"
+  },
+  {
+    "_id": 119,
+    "name": "City",
+    "slug": "city"
+  },
+  {
+    "_id": 135,
+    "name": "Windstorm",
+    "slug": "windstorm"
+  },
+  {
+    "_id": 151,
+    "name": "Elf",
+    "slug": "elf"
+  },
+  {
+    "_id": 161,
+    "name": "Orc",
+    "slug": "orc"
+  },
+  {
+    "_id": 163,
+    "name": "Pride",
+    "slug": "pride"
+  },
+  {
+    "_id": 166,
+    "name": "Slime",
+    "slug": "slime"
+  },
+  {
+    "_id": 171,
+    "name": "Tyranny",
+    "slug": "tyranny"
+  },
+  {
+    "_id": 13,
+    "name": "Pain",
+    "slug": "pain"
+  },
+  {
+    "_id": 18,
+    "name": "Bestial",
+    "slug": "bestial"
+  },
+  {
+    "_id": 40,
+    "name": "Weather",
+    "slug": "weather"
+  },
+  {
+    "_id": 53,
+    "name": "Drow",
+    "slug": "drow"
+  },
+  {
+    "_id": 56,
+    "name": "Portal",
+    "slug": "portal"
+  },
+  {
+    "_id": 57,
+    "name": "Moon",
+    "slug": "moon"
+  },
+  {
+    "_id": 62,
+    "name": "Winter",
+    "slug": "winter"
+  },
+  {
+    "_id": 73,
+    "name": "Maho",
+    "slug": "maho"
+  },
+  {
+    "_id": 80,
+    "name": "River",
+    "slug": "river"
+  },
+  {
+    "_id": 83,
+    "name": "Metal",
+    "slug": "metal"
+  },
+  {
+    "_id": 105,
+    "name": "Sun",
+    "slug": "sun"
+  },
+  {
+    "_id": 110,
+    "name": "Water",
+    "slug": "water"
+  },
+  {
+    "_id": 125,
+    "name": "Blackwater",
+    "slug": "blackwater"
+  },
+  {
+    "_id": 154,
+    "name": "Fate",
+    "slug": "fate"
+  },
+  {
+    "_id": 21,
+    "name": "Initiate of milil",
+    "slug": "initiate-of-milil"
+  },
+  {
+    "_id": 58,
+    "name": "Craft",
+    "slug": "craft"
+  },
+  {
+    "_id": 77,
+    "name": "Divination",
+    "slug": "divination"
+  },
+  {
+    "_id": 79,
+    "name": "Flame",
+    "slug": "flame"
+  },
+  {
+    "_id": 86,
+    "name": "Initiate of mystra",
+    "slug": "initiate-of-mystra"
+  },
+  {
+    "_id": 106,
+    "name": "Trickery",
+    "slug": "trickery"
+  },
+  {
+    "_id": 129,
+    "name": "Portal (Alternative)",
+    "slug": "portal-alternative"
+  },
+  {
+    "_id": 144,
+    "name": "Arborea",
+    "slug": "arborea"
+  },
+  {
+    "_id": 146,
+    "name": "Truth",
+    "slug": "truth"
+  },
+  {
+    "_id": 165,
+    "name": "Retribution",
+    "slug": "retribution"
+  },
+  {
+    "_id": 174,
+    "name": "Wrath (SpC)",
+    "slug": "wrath-spc"
+  },
+  {
+    "_id": 12,
+    "name": "Greed",
+    "slug": "greed"
+  },
+  {
+    "_id": 49,
+    "name": "Entropy",
+    "slug": "entropy"
+  },
+  {
+    "_id": 60,
+    "name": "Cavern",
+    "slug": "cavern"
+  },
+  {
+    "_id": 65,
+    "name": "Spite",
+    "slug": "spite"
+  },
+  {
+    "_id": 87,
+    "name": "Initiate of sel�ne",
+    "slug": "initiate-of-selune"
+  },
+  {
+    "_id": 98,
+    "name": "Magic",
+    "slug": "magic"
+  },
+  {
+    "_id": 104,
+    "name": "Evil",
+    "slug": "evil"
+  },
+  {
+    "_id": 147,
+    "name": "Deathless",
+    "slug": "deathless"
+  },
+  {
+    "_id": 2,
+    "name": "Sanctified",
+    "slug": "sanctified"
+  },
+  {
+    "_id": 55,
+    "name": "Trade",
+    "slug": "trade"
+  },
+  {
+    "_id": 33,
+    "name": "Pestilence",
+    "slug": "pestilence"
+  },
+  {
+    "_id": 41,
+    "name": "Force",
+    "slug": "force"
+  },
+  {
+    "_id": 44,
+    "name": "Exorcism",
+    "slug": "exorcism"
+  },
+  {
+    "_id": 48,
+    "name": "Dragon",
+    "slug": "dragon"
+  },
+  {
+    "_id": 69,
+    "name": "Incarnum",
+    "slug": "incarnum"
+  },
+  {
+    "_id": 89,
+    "name": "Rune",
+    "slug": "rune"
+  },
+  {
+    "_id": 102,
+    "name": "Law",
+    "slug": "law"
+  },
+  {
+    "_id": 113,
+    "name": "Air",
+    "slug": "air"
+  },
+  {
+    "_id": 117,
+    "name": "Destruction",
+    "slug": "destruction"
+  },
+  {
+    "_id": 124,
+    "name": "Sand",
+    "slug": "sand"
+  },
+  {
+    "_id": 133,
+    "name": "Blightbringer",
+    "slug": "blightbringer"
+  },
+  {
+    "_id": 136,
+    "name": "Abyss",
+    "slug": "abyss"
+  },
+  {
+    "_id": 139,
+    "name": "Hades",
+    "slug": "hades"
+  },
+  {
+    "_id": 153,
+    "name": "Family",
+    "slug": "family"
+  },
+  {
+    "_id": 160,
+    "name": "Nobility",
+    "slug": "nobility"
+  },
+  {
+    "_id": 61,
+    "name": "Spider",
+    "slug": "spider"
+  },
+  {
+    "_id": 100,
+    "name": "Luck",
+    "slug": "luck"
+  },
+  {
+    "_id": 9,
+    "name": "Fey",
+    "slug": "fey"
+  },
+  {
+    "_id": 11,
+    "name": "Corrupt",
+    "slug": "corrupt"
+  },
+  {
+    "_id": 14,
+    "name": "Darkness",
+    "slug": "darkness"
+  },
+  {
+    "_id": 15,
+    "name": "Demonic",
+    "slug": "demonic"
+  },
+  {
+    "_id": 22,
+    "name": "Initiate of tymora",
+    "slug": "initiate-of-tymora"
+  },
+  {
+    "_id": 30,
+    "name": "Liberation",
+    "slug": "liberation"
+  },
+  {
+    "_id": 35,
+    "name": "Pact",
+    "slug": "pact"
+  },
+  {
+    "_id": 46,
+    "name": "Repose",
+    "slug": "repose"
+  },
+  {
+    "_id": 82,
+    "name": "Hero",
+    "slug": "hero"
+  },
+  {
+    "_id": 95,
+    "name": "Initiate of tyr",
+    "slug": "initiate-of-tyr"
+  },
+  {
+    "_id": 112,
+    "name": "Travel",
+    "slug": "travel"
+  },
+  {
+    "_id": 127,
+    "name": "Balance",
+    "slug": "balance"
+  },
+  {
+    "_id": 132,
+    "name": "Oracle",
+    "slug": "oracle"
+  },
+  {
+    "_id": 137,
+    "name": "Gluttony",
+    "slug": "gluttony"
+  },
+  {
+    "_id": 143,
+    "name": "Elysium",
+    "slug": "elysium"
+  },
+  {
+    "_id": 162,
+    "name": "Planning",
+    "slug": "planning"
+  },
+  {
+    "_id": 167,
+    "name": "Sloth",
+    "slug": "sloth"
+  },
+  {
+    "_id": 169,
+    "name": "Summoner",
+    "slug": "summoner"
+  },
+  {
+    "_id": 24,
+    "name": "Initiate of nobanion",
+    "slug": "initiate-of-nobanion"
+  },
+  {
+    "_id": 26,
+    "name": "Initiate of eilistraee",
+    "slug": "initiate-of-eilistraee"
+  },
+  {
+    "_id": 50,
+    "name": "Ooze",
+    "slug": "ooze"
+  },
+  {
+    "_id": 54,
+    "name": "Gnome",
+    "slug": "gnome"
+  },
+  {
+    "_id": 70,
+    "name": "Nature",
+    "slug": "nature"
+  },
+  {
+    "_id": 72,
+    "name": "Fortune",
+    "slug": "fortune"
+  },
+  {
+    "_id": 94,
+    "name": "Initiate of gond",
+    "slug": "initiate-of-gond"
+  },
+  {
+    "_id": 118,
+    "name": "Death",
+    "slug": "death"
+  },
+  {
+    "_id": 120,
+    "name": "Destiny",
+    "slug": "destiny"
+  },
+  {
+    "_id": 149,
+    "name": "Charm",
+    "slug": "charm"
+  }
+]

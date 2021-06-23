@@ -1,0 +1,102 @@
+[
+  {
+    "_id": 5,
+    "name": "Compulsion",
+    "slug": "compulsion"
+  },
+  {
+    "_id": 22,
+    "name": "Boost",
+    "slug": "boost"
+  },
+  {
+    "_id": 1,
+    "name": "Summoning",
+    "slug": "summoning"
+  },
+  {
+    "_id": 14,
+    "name": "Pattern",
+    "slug": "pattern"
+  },
+  {
+    "_id": 24,
+    "name": "Strike",
+    "slug": "strike"
+  },
+  {
+    "_id": 9,
+    "name": "Shadow",
+    "slug": "shadow"
+  },
+  {
+    "_id": 23,
+    "name": "Counter",
+    "slug": "counter"
+  },
+  {
+    "_id": 3,
+    "name": "Calling",
+    "slug": "calling"
+  },
+  {
+    "_id": 10,
+    "name": "Scrying",
+    "slug": "scrying"
+  },
+  {
+    "_id": 21,
+    "name": "Figment and Glamer",
+    "slug": "figment-and-glamer"
+  },
+  {
+    "_id": 2,
+    "name": "Creation",
+    "slug": "creation"
+  },
+  {
+    "_id": 8,
+    "name": "Teleportation",
+    "slug": "teleportation"
+  },
+  {
+    "_id": 7,
+    "name": "Glamer",
+    "slug": "glamer"
+  },
+  {
+    "_id": 11,
+    "name": "Charm",
+    "slug": "charm"
+  },
+  {
+    "_id": 4,
+    "name": "Healing",
+    "slug": "healing"
+  },
+  {
+    "_id": 6,
+    "name": "Phantasm",
+    "slug": "phantasm"
+  },
+  {
+    "_id": 16,
+    "name": "Polymorph",
+    "slug": "polymorph"
+  },
+  {
+    "_id": 20,
+    "name": "Creation or Calling",
+    "slug": "creation-or-calling"
+  },
+  {
+    "_id": 25,
+    "name": "Stance",
+    "slug": "stance"
+  },
+  {
+    "_id": 12,
+    "name": "Figment",
+    "slug": "figment"
+  }
+]

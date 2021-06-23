@@ -1,0 +1,152 @@
+[
+  {
+    "_id": 6,
+    "name": "Cha",
+    "printFormat": "CHA %s"
+  },
+  {
+    "_id": 23,
+    "name": "Base Fortitude save +%s",
+    "printFormat": "Base Fortitude save +%s"
+  },
+  {
+    "_id": 32,
+    "name": "Ability to turn or rebuke undead",
+    "printFormat": "Ability to turn or rebuke undead"
+  },
+  {
+    "_id": 11,
+    "name": "Skirmish +Xd6/+Y AC",
+    "printFormat": "Skirmish +%sd6/+%s AC"
+  },
+  {
+    "_id": 3,
+    "name": "Con",
+    "printFormat": "CON %s"
+  },
+  {
+    "_id": 31,
+    "name": "Abjurer level X",
+    "printFormat": "Abjurer level %s"
+  },
+  {
+    "_id": 4,
+    "name": "Int",
+    "printFormat": "INT %s"
+  },
+  {
+    "_id": 38,
+    "name": "Will save bonus",
+    "printFormat": "Will save bonus +%s"
+  },
+  {
+    "_id": 12,
+    "name": "Weapon Proficiency",
+    "printFormat": "Weapon Proficiency with %s"
+  },
+  {
+    "_id": 5,
+    "name": "Wis",
+    "printFormat": "WIS %s"
+  },
+  {
+    "_id": 9,
+    "name": "Spellcaster Level",
+    "printFormat": "Spellcaster Level %s"
+  },
+  {
+    "_id": 8,
+    "name": "BAB +x",
+    "printFormat": "Base attack bonus +%s"
+  },
+  {
+    "_id": 10,
+    "name": "Sneak attack Xd6",
+    "printFormat": "Sneak attack +%sd6"
+  },
+  {
+    "_id": 7,
+    "name": "Character Level",
+    "printFormat": "Character Level %s"
+  },
+  {
+    "_id": 22,
+    "name": "Will",
+    "printFormat": "Base Will save +%s"
+  },
+  {
+    "_id": 13,
+    "name": "Wizard lvl",
+    "printFormat": "Wizard level %s"
+  },
+  {
+    "_id": 34,
+    "name": "Ability to cast arcane spells without preparation",
+    "printFormat": "Ability to cast arcane spells without preparation"
+  },
+  {
+    "_id": 14,
+    "name": "Fighter lvl",
+    "printFormat": "Fighter level %s"
+  },
+  {
+    "_id": 21,
+    "name": "Reflex",
+    "printFormat": "Base Reflex save +%s"
+  },
+  {
+    "_id": 33,
+    "name": "Divine caster level X",
+    "printFormat": "Divine caster level %s"
+  },
+  {
+    "_id": 16,
+    "name": "Monk lvl",
+    "printFormat": "Monk level %s"
+  },
+  {
+    "_id": 27,
+    "name": "Sorcerer level X",
+    "printFormat": "Sorcerer level %s"
+  },
+  {
+    "_id": 19,
+    "name": "Cast level arcane spells spontaneously",
+    "printFormat": "ability to spontaneously cast %s-level arcane spells"
+  },
+  {
+    "_id": 28,
+    "name": "Able to cast X level spells",
+    "printFormat": "able to cast level %s spells"
+  },
+  {
+    "_id": 29,
+    "name": "Arcane caster level X",
+    "printFormat": "arcane caster level %s"
+  },
+  {
+    "_id": 30,
+    "name": "Flurry of Blows Class Feature",
+    "printFormat": "Flurry of Blows Class Feature"
+  },
+  {
+    "_id": 36,
+    "name": "Cleric level",
+    "printFormat": "Cleric level"
+  },
+  {
+    "_id": 37,
+    "name": "Patron Deity",
+    "printFormat": "Patron Deity"
+  },
+  {
+    "_id": 1,
+    "name": "Str",
+    "printFormat": "STR %s"
+  },
+  {
+    "_id": 2,
+    "name": "Dex",
+    "printFormat": "DEX %s"
+  }
+]
