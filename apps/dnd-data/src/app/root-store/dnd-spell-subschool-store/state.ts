@@ -5,7 +5,6 @@ export const adapter: EntityCrudAdapter<DndSpellSubschool> = createCrudEntityAda
 	selectId: model => DndSpellSubschool.selectId(model),
 });
 
-export interface State extends EntityCrudState<DndSpellSubschool> {
-};
+export type State = EntityCrudState<DndSpellSubschool>;
 
 export const initialState: State = adapter.getInitialCrudState();

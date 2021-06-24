@@ -5,7 +5,6 @@ export const adapter: EntityCrudAdapter<DndSkill> = createCrudEntityAdapter<DndS
 	selectId: model => DndSkill.selectId(model),
 });
 
-export interface State extends EntityCrudState<DndSkill> {
-};
+export type State = EntityCrudState<DndSkill>;
 
 export const initialState: State = adapter.getInitialCrudState();

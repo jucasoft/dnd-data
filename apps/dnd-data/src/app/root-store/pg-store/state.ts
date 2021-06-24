@@ -5,7 +5,6 @@ export const adapter: EntityCrudAdapter<Pg> = createCrudEntityAdapter<Pg>({
 	selectId: model => Pg.selectId(model),
 });
 
-export interface State extends EntityCrudState<Pg> {
-};
+export type State = EntityCrudState<Pg>;
 
 export const initialState: State = adapter.getInitialCrudState();

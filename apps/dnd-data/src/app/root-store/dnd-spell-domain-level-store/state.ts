@@ -5,7 +5,6 @@ export const adapter: EntityCrudAdapter<DndSpellDomainLevel> = createCrudEntityA
 	selectId: model => DndSpellDomainLevel.selectId(model),
 });
 
-export interface State extends EntityCrudState<DndSpellDomainLevel> {
-};
+export type State = EntityCrudState<DndSpellDomainLevel>;
 
 export const initialState: State = adapter.getInitialCrudState();
